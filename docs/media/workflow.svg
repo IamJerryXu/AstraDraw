@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Astra Figure Workflow</title>
+  <desc id="desc">Paper and method, visual priors, image exploration, scientific review, editable PowerPoint, and selected-object refinement. Local feedback returns to the editable figure.</desc>
+  <rect width="1200" height="300" rx="16" fill="#F6F8FA"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="42" y="48" font-size="16" font-weight="700" letter-spacing="2" fill="#42697A">THE FIGURE WORKFLOW</text>
+    <text x="42" y="83" font-size="24" fill="#253640">Scientific meaning stays grounded in the paper.</text>
+    <path d="M125 161H1080" stroke="#B6C3C8" stroke-width="2" fill="none"/>
+    <g fill="#6F848D"><path d="m223 155 9 6-9 6z"/><path d="m407 155 9 6-9 6z"/><path d="m591 155 9 6-9 6z"/><path d="m775 155 9 6-9 6z"/><path d="m959 155 9 6-9 6z"/></g>
+    <g text-anchor="middle">
+      <g transform="translate(126 161)"><circle r="30" fill="#DBEAF3"/><text y="8" font-size="23" fill="#336887">01</text><text y="61" font-size="19" font-weight="700" fill="#253640">Paper &amp; method</text><text y="87" font-size="15" fill="#586D77">Inputs, outputs, meaning</text></g>
+      <g transform="translate(310 161)"><circle r="30" fill="#E1EBD9"/><text y="8" font-size="23" fill="#577449">02</text><text y="61" font-size="19" font-weight="700" fill="#253640">Visual priors</text><text y="87" font-size="15" fill="#586D77">References with a role</text></g>
+      <g transform="translate(494 161)"><circle r="30" fill="#F8E7D5"/><text y="8" font-size="23" fill="#A46B32">03</text><text y="61" font-size="19" font-weight="700" fill="#253640">Image exploration</text><text y="87" font-size="15" fill="#586D77">Layout candidates</text></g>
+      <g transform="translate(678 161)"><circle r="30" fill="#EAE3F0"/><text y="8" font-size="23" fill="#77608C">04</text><text y="61" font-size="19" font-weight="700" fill="#253640">Scientific review</text><text y="87" font-size="15" fill="#586D77">Check every relation</text></g>
+      <g transform="translate(862 161)"><circle r="30" fill="#D9ECE7"/><text y="8" font-size="23" fill="#467C6D">05</text><text y="61" font-size="19" font-weight="700" fill="#253640">Editable PPTX</text><text y="87" font-size="15" fill="#586D77">Named native objects</text></g>
+      <g transform="translate(1046 161)"><circle r="30" fill="#F2DFE0"/><text y="8" font-size="23" fill="#A45D64">06</text><text y="61" font-size="19" font-weight="700" fill="#253640">Selected edits</text><text y="87" font-size="15" fill="#586D77">Protect the rest</text></g>
+    </g>
+    <path d="M1046 265v12H862v-10" stroke="#A45D64" stroke-width="1.6" fill="none"/>
+    <path d="m857 270 5-8 5 8" stroke="#A45D64" stroke-width="1.6" fill="none"/>
+  </g>
+</svg>

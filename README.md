@@ -1,160 +1,165 @@
+<div align="center">
+
 # Astra Figure Workflow
 
-从**已有论文与方法**出发，使用素材库提供视觉参考，制作可编辑科研图，并按选中对象进行局部修改。论文决定科学含义；参考图帮助选择构图、字体、配色和表达方式，不替论文补充机制。
+### 基于论文与视觉参考的可编辑科研绘图工作流
 
-这是面向 Astra 在 Codex 中使用的绘图工作流与本地辅助脚本。核心是把论文里的机制变成读者能看懂的视觉关系，并让参考选择、构图判断和局部修改彼此衔接。项目以工作流、脚本和示例的形式提供，不是独立应用。
+<p>
+  <img alt="Editable PPTX and SVG" src="https://img.shields.io/badge/Editable-PPTX%20%2B%20SVG-467C6D?style=flat-square">
+  <img alt="Selected-object refinement" src="https://img.shields.io/badge/Refinement-Selected%20objects-A45D64?style=flat-square">
+  <img alt="Comic, Roman and Modern styles" src="https://img.shields.io/badge/Styles-Comic%20%2F%20Roman%20%2F%20Modern-77608C?style=flat-square">
+</p>
 
-## 绘图的核心
+[查看 Demo](#demo) · [快速开始](#quickstart) · [局部修改](#selected-edit) · [使用文档](docs/usage.md)
 
-**论文 → 视觉主线 → 素材先验与构图选择 → 生图探索 → 科学复核与可编辑重建 → 局部批注 → 最终尺寸检查。** 已有可编辑图的小改动直接进入局部修改。
+</div>
 
-| 环节 | 需要做出的判断 | 留下什么 |
-| --- | --- | --- |
-| 理解方法 | 哪个变化最值得看，哪些只是背景；什么不能省略 | 有来源的对象和关系、读者要回答的问题 |
-| 使用素材库 | 每张参考借什么、不借什么、用在哪；图片先验还是可编辑组件 | 少量实际查看过的图片及各自职责 |
-| 决定构图 | 总览＋展开、直接流程或前后对照，哪种适合这篇论文 | 推荐方案、取舍和有用的替代方案 |
-| 形成候选 | 主次面积、连线含义、文字量、配色是否共同服务主线 | 包含具体设计决定和真实图片的生图输入 |
-| 可编辑重建 | 保留认可的外观，纠正生成图的科学错误 | 可单独修改的文字、形状、概率格和连接 |
-| 局部修改 | 用户选中了什么，问题来自什么，哪些必须保持 | 有明确范围的新版本与前后对比 |
+从已有论文和方法出发，让素材库提供构图、字体与配色参考，结合生图探索，再重建为可编辑的 PPT。后续可以选中具体对象提出修改，保留已经确认的其他部分。
 
-具体判断见 [从方法到画法](references/art-direction.md)。例如，“太空”可能是容器过大，也可能是机制没有展开；两者不能都靠放大字号解决。“矩阵重复”应考虑带索引的局部行列，而不是删掉所有概率关系。Comic、Roman、Modern 分别协调字体、数学符号、线条和边界，不只是替换字体。
+**论文决定科学含义，参考图帮助选择表达方式。** 项目面向 Astra 在 Codex 中协作使用，也要求助手根据当前环境确认可用工具。它不是独立应用，也不把生图到 PPT 的过程包装成无需检查的一键转换。
 
-设计方案已经接入实际生图提示，不只存在说明文档里。[可运行示例](references/design-plan.md)演示同一机制选择两种不同构图，每次只准备其中一种。脚本不会自行读懂论文或判断美观；这些判断由助手结合原始资料、参考图和用户反馈完成。
+<a id="demo"></a>
 
-## 怎样使用
+## Demo：二维分布与三维网格
 
-把这个项目路径或后续 GitHub 链接交给助手，并说明：
+下面是工作流制作的实际可编辑示意。下载 PPT 后，标签、样本点、网格与路径均为独立对象。
 
-> 使用 Astra Figure Workflow。论文和方法在……，素材库在……。制作输入到输出的方法图，文字少一些，使用 Comic / Roman / Modern 风格，交付可编辑 PPT。之后按我选中的局部修改，其他区域保持不变。
+<table>
+<tr>
+<th width="50%">二维分布输运</th>
+<th width="50%">曲面上的输运</th>
+</tr>
+<tr>
+<td><img src="output/showcase/spatial-flow-previews/planar-transport.png" alt="二维示意：桃色分布轮廓、样本点与连接两端的输运路径" width="100%"></td>
+<td><img src="output/showcase/spatial-flow-previews/manifold-transport.png" alt="三维示意：浅灰曲面网格、两端点簇与沿曲面的路径" width="100%"></td>
+</tr>
+<tr>
+<td>用轮廓、样本与路径表达分布变化。</td>
+<td>用固定视角的网格与曲面路径表达空间关系。</td>
+</tr>
+</table>
 
-继续同一张图时，让助手读取已保存的绘图记录，无需重新描述每次修改。助手负责理解论文和操作当前可用工具；脚本保存版本并检查文件对应关系。它们不会自行调用付费 API、监听 PowerPoint 或自动发布材料。
+**[下载两页可编辑 PPT](output/showcase/spatial-flow.pptx)** · [二维场景](examples/showcase/planar.scene.json) · [三维场景](examples/showcase/manifold.scene.json) · [示例说明](examples/showcase/README.md)
 
-具体运行与恢复说明见 [绘图记录和选区流程](references/workflow-session.md)。
+这些是通用几何示意，不是实验结果或训练输出。三维图是可编辑的二维投影，不是可旋转的三维模型；分布色块也不代表测量得到的置信区间。原始私人参考不包含在仓库中。
 
-## 当前能做什么
+## 绘图流程
 
-- 检索原创组件和已索引的私人 PPTX 素材。私人库按已有文本和标签检索，不是 OCR 或自动图像语义检索。
-- 准备生图输入：科学要求、风格说明、**真实参考图片路径**、文件指纹和来源限制。实际生图仍需调用当前环境可用的图像工具，并遵循其技能说明。
-- 将所选构图的区域安排、节点画法、科学连线、无箭头放大关系、字体配色和参考职责写入实际提示。设计不再匹配科学说明时，拒绝沿用旧输入。
-- 从场景文件导出原生 PPTX：文字、线条和形状分别可编辑，不用整页截图替代。
-- 根据稳定对象名称处理选区；修改被选对象，必要时只同步关联连线端点，并记录前后变化。
-- 提供 Comic、Roman、Modern 三套风格，协调字体、线条和配色。
-- 保存每次绘图的来源、当前文件、用户认可和检查记录；文件改变后，旧检查不会继续算作有效。
-- 登记已认可、待选和已拒绝素材；指定主参考准备生图输入，保留真实图片和来源限制。
-- 多页导出保留透明色块、虚线、斜体，以及绑定到该版本的对象对应表；已有输出不会被覆盖。
+![论文、素材先验、生图探索、科学复核、可编辑重建与局部修改的关系](docs/media/workflow.svg)
 
-仓库包含 ODE、SDE、Flow Matching × 三种风格，共 **9 个基础演示组件**，用于功能测试，不作为默认审美参考。二维分布和三维网格的设计原则见 [参考与设计取舍](references/vector-field-priors.md)。私人论文、参考图片和实际案例不随仓库分发。
+| 环节 | 助手需要做出的判断 |
+| --- | --- |
+| 读懂方法 | 哪条关系是主线，哪些输入、状态与输出不能省略 |
+| 选择参考 | 借用哪种构图、字体或配色，哪些内容不能迁移 |
+| 探索画法 | 生成候选，用有限文字和明确连线呈现机制 |
+| 核对并重建 | 按论文纠正候选，再拆成独立文字、形状和连接 |
+| 接收局部反馈 | 定位选中对象，只修改指定范围及必要的关联连线 |
+| 检查成品 | 查看实际 PPT 和最终尺寸，保留来源与修改记录 |
 
-## 建议使用顺序
+已有可编辑图的小改动可以直接进入局部修改，不必每次重新生图。
 
-1. 读取论文方法和公式，确定视觉主线，记录必须出现、不得出现，以及仅为示意的内容。
-2. 检索并实际查看少量素材，明确参考职责；比较有必要的不同构图，并给出推荐理由。
-3. 将选定方案写进生图输入；简单局部修改直接编辑现有场景。
-4. 根据确认方案重建可编辑对象，不能直接复制生成图里的科学错误。
-5. 用对象选择或截图批注明确修改范围，保留已经确认的其他区域。
-6. 检查最终尺寸下的图和实际 PPTX；嵌入论文时另外检查所在页与相邻页。
+<a id="selected-edit"></a>
 
-技能入口是 [SKILL.md](SKILL.md)。对象格式见 [scene-format.md](references/scene-format.md)，选区规则见 [local-editing.md](references/local-editing.md)。
+## 局部修改：选中哪里，修改哪里
 
-## 本地使用
+**演示请求：把三维图右上角的 p₁ 标签下移 8 px，其他部分保持不变。**
 
-以下命令均从项目目录运行。检索、准备输入、定位对象及局部编辑入口已做实际测试。输出目录和文件请选择新的版本名。
+![同一曲面局部的修改前后对比，仅目标标签向下移动](docs/media/selection-detail.svg)
 
-### 检索与准备生图输入
+这是由修改前后场景生成的局部放大对比，不是模拟软件操作的截图。两份实际 PPT 可下载核对：
 
-从论文整理完设计后，可以不依赖旧演示组件：
+[修改前](output/showcase/spatial-flow.pptx) · [修改后](output/showcase/spatial-flow-edited.pptx) · [选区请求](examples/showcase/move-label.json)
 
-```sh
-python3 scripts/afw.py priors --brief examples/design-brief.json --design examples/design-plan.json --layout stacked --output-dir .local/runs/design-stacked-v1
+- 第一页保持不变，第二页只改变指定标签的位置。
+- 标签仍然是文字对象，网格与路径仍可单独编辑。
+- 修改后的版本需要重新审阅，不会自动沿用旧版的认可记录。
+
+在支持对象批注的环境中，可以选中 PPT 对象提出要求。通过截图反馈时，助手需要先确认截图对应的对象。项目不自动监听 PowerPoint 选区，也不支持任意手工修改后的 PPT 自动同步回场景文件。
+
+## 字体与风格可以变化
+
+Comic 适合较轻松的机制说明，Roman 强调数学排版，Modern 适合清晰简洁的结构图。风格同时影响字体、边框和线条，不应改变科学含义。
+
+<details>
+<summary><strong>展开查看同一 ODE 基础组件的三种风格</strong></summary>
+
+<table>
+<tr><th>Comic</th><th>Roman</th><th>Modern</th></tr>
+<tr>
+<td><img src="output/previews/ode-comic.png" alt="Comic 风格 ODE 基础示意" width="100%"></td>
+<td><img src="output/previews/ode-roman.png" alt="Roman 风格 ODE 基础示意" width="100%"></td>
+<td><img src="output/previews/ode-modern.png" alt="Modern 风格 ODE 基础示意" width="100%"></td>
+</tr>
+</table>
+
+[下载九个基础组件](output/components.pptx) · [组件目录](components/README.md)
+
+这些基础示例用于展示格式与功能，不作为所有论文的默认视觉模板。示意轨迹不是数值求解结果。
+
+</details>
+
+<a id="quickstart"></a>
+
+## 快速开始
+
+将仓库链接、论文和素材路径交给助手：
+
+```text
+使用 https://github.com/IamJerryXu/astra-figure-workflow
+
+论文与方法：……
+参考素材：……
+目标：输入到输出的方法图，少文字，保留必要的数学关系。
+风格：Comic / Roman / Modern，或以我提供的参考为准。
+交付：可编辑 PPT、预览和场景源文件。
+修改时：只改我选中的部分，保留其他已确认区域。
 ```
 
-这个原创教学示例不含私人论文或素材。真实方法图应替换为从当前论文整理的说明和设计，不能照搬示例机制。加入参考图片时，为每张图填写借用职责；字段和双布局例子见 [设计方案格式](references/design-plan.md)。
+继续同一张图时，让助手读取已有绘图记录和当前版本。素材库既可以提供生图先验，也可以提供可复用组件；私人参考默认保留在本地。
 
-优先使用登记素材，不必选择旧组件：
-
-```sh
-python3 scripts/reference_registry.py register --id my-reference-v1 --path .local/references/my-reference.png --private --license unknown --status user-approved --approval-evidence '用户实际选择这张图的原话'
-python3 scripts/afw.py search flow --include-private
-python3 scripts/afw.py priors --brief .local/brief.json --reference-id my-reference-v1 --allow-private --output-dir .local/runs/my-figure/priors
-```
-
-多个 `--reference-id` 按顺序使用，第一张为主参考。已实际查看的新候选可以显式使用 `--allow-candidate-references`，但仍保留“候选”身份；已拒绝素材不会进入输入。不要为通过检查而编造用户认可。
-
-原有演示命令继续保留：
+<details>
+<summary><strong>运行一个不含私人论文的输入准备示例</strong></summary>
 
 ```sh
-python3 scripts/afw.py search ODE --style roman
-python3 scripts/afw.py search "flow matching" --include-private
-python3 scripts/afw.py priors --brief examples/ode-brief.json --component ode --style roman --output-dir .local/runs/ode-roman-v1
+git clone https://github.com/IamJerryXu/astra-figure-workflow.git
+cd astra-figure-workflow
+python3 scripts/afw.py priors \
+  --brief examples/design-brief.json \
+  --design examples/design-plan.json \
+  --layout stacked \
+  --output-dir .local/runs/my-first-figure
 ```
 
-`priors` 生成 `prompt.txt`、`image-tool-input.json` 和 `manifest.json`，不会自行调用模型。检查其中每张参考图后，再使用图像工具支持的真实图片附件方式；仅在提示词里写文件名不算传入参考图。
+这一步生成设计提示和输入记录，不会自行调用生图服务。实际生成由助手使用当前可用的图像工具完成。
 
-`examples/ode-brief.json` 使用 `dx/dt = -x`。基础 ODE 组件中的一般轨迹**不代表这个具体方程的解**；目标图需要单调趋近平衡，不能照搬参考中的转向曲线。脚本不会自动判断这种科学冲突。
+完整命令、私人素材索引与 PPT 导出说明见 [使用文档](docs/usage.md)。
 
-### 索引私人素材
+</details>
 
-```sh
-python3 scripts/index_library.py --input /absolute/path/library.pptx --output-dir .local/library
-```
+## 文档导航
 
-索引和提取素材仅保存在 `.local/`，不修改原 PPTX。提取出的位图不是原生可编辑机制组件。索引不包含自动机制理解、母版继承元素重建或整页视觉分析。
+| 想做什么 | 对应文档 |
+| --- | --- |
+| 把论文方法转成画法 | [构图与视觉叙述](references/art-direction.md) |
+| 用素材库提供生图先验 | [参考职责与输入准备](references/design-and-priors.md) |
+| 恢复未完成的图，按选区继续修改 | [会话与选区流程](references/workflow-session.md) |
+| 调整具体对象并保护其他区域 | [局部编辑规则](references/local-editing.md) |
+| 理解源文件及可编辑元素 | [场景格式](references/scene-format.md) |
+| 设计网格、向量场和分布图 | [空间表达原则](references/vector-field-priors.md) |
+| 核对素材来源与公开范围 | [来源和使用限制](references/provenance.md) |
 
-默认私人检索读取 `.local/library/catalog.json`。原素材许可未知，不得直接公开或当作原创资产；上传到生图服务也应先确认授权。为生图输入显式选择私人图片时，需要同时使用 `--private-asset <索引中的资产ID>` 和 `--allow-private-references`，且输出仍须位于 `.local/`。
+## 运行条件与边界
 
-### 选中两个对象进行修改
-
-完整绘图会话可根据真实对象名称自动准备选区请求并保留修改记录，见 [完整示例](references/workflow-session.md#selected-region-feedback)。下面是独立编辑器的低层入口：
-
-```sh
-python3 scripts/afw.py inspect-pptx --pptx output/components.pptx --slide 1
-python3 scripts/selection_edit.py --scene components/ode/ode-comic.json --request examples/selection-request.json --output .local/ode-comic-v1.json
-python3 scripts/build_components.py --scene .local/ode-comic-v1.json --output .local/ode-comic-v1.svg
-```
-
-示例请求只将 `initial-label` 和 `terminal-label` 下移 15。编辑器保留源文件，生成新场景和 `.audit.json`；已有输出会被拒绝。实际使用建议加入源文件的 `expected_sha256`，避免对过期版本执行批注。
-
-对象名称需要先核对，不能把应用批注编号直接当成 PPTX 文件编号。截图选区仍需人工或模型识别到准确对象。文字修改会标记需要科学复核；改变科学语义颜色必须明确允许。
-
-### 导出可编辑 PPTX
-
-读取当前环境的 presentations 技能后，在依赖齐全的环境运行：
-
-```sh
-node scripts/export_components.mjs --scene .local/ode-comic-v1.json --output .local/exports/ode-comic-v1.pptx --build-dir .local/build
-```
-
-重复 `--scene` 可把相同画布尺寸的多张图放进同一个 PPT。输出包括对象名称映射和预览；验证记录位于私人构建目录。对象映射同时记录场景与最终 PPT 的文件指纹。导出器会拒绝覆盖现有成品与副产物。
-
-输出和构建目录分别保存。独立试用时显式指定同一试用目录下的 `output/` 与 `build/`，避免把临时检查文件混进交付目录。
-
-基础演示目录仅在明确选择 `--rebuild-catalog` 时生成，且不覆盖已有文件。日常修改使用 `--scene`；不要把旧演示生成器用于替换已经确认或手工修改的图。
-
-## 环境与依赖
-
-Python 辅助脚本使用标准库，建议 Python 3.10 或更新版本。PPTX 导出依赖 Node.js、`@oai/artifact-tool` 以及 Codex presentations 技能中的检查与导出支持；这些依赖不是本项目自动安装的公共应用运行时。
-
-导出脚本会尝试当前环境的模块，再使用 Codex 本机缓存路径。其他环境需要明确提供：
-
-| 变量 | 内容 |
-|---|---|
-| `RUNTIME_NODE_MODULES` | 包含 `@oai/artifact-tool` 的 `node_modules` 目录 |
-| `RUNTIME_NODE` | 相应 Node.js 可执行文件 |
-| `RUNTIME_PYTHON` | presentations 检查脚本使用的 Python |
-| `PRESENTATIONS_SKILL_DIR` | 包含 `container_tools/` 的 presentations 技能目录 |
-
-字体还需要在目标环境中可用。不能仅凭本机成功就承诺其他电脑上的字体和排版一致；也不能只看场景文件便声称 PPTX 已完成视觉检查。
-
-## 验证与边界
+Python 辅助脚本以标准库为主。PPT 导出需要 Node.js、`@oai/artifact-tool` 和 Codex 的 Presentations 支持，具体配置见 [环境与依赖](docs/usage.md#环境与依赖)。项目不自动安装这些依赖，也不承诺任意电脑的字体与排版完全一致。
 
 ```sh
 python3 -m unittest discover -s tests -v
 ```
 
-自动测试覆盖参考输入准备、PPTX 对象定位、选择保护、无覆盖写入、来源指纹、私人素材限制、会话恢复及异常输入。修改后的版本需要重新检查，不会自动继承原版的用户认可。依赖当前环境的检查可能被跳过，应以实际测试输出为准。
+自动测试检查文件、版本、选区保护及异常输入，不能替代对科学含义和视觉质量的判断。图中关联连线可按记录随局部编辑更新，但不能保证在 PowerPoint 中任意拖动模块时自动跟随。
 
-测试**不证明所有论文机制正确，也不代表用户已认可图形美观程度**。实际交付仍需检查科学含义、最终尺寸和导出的 PPTX，并对局部修改前后未选区域进行比较。私人案例与试用报告不包含在公开仓库中。
+公开仓库不包含私人论文、原始参考库或账户信息。项目目前尚未指定整体开源许可证，第三方素材适用各自条款。
 
-目前不支持任意手工修改后的 PPTX 自动双向同步，不监听 PowerPoint 选区，也不自动理解截图范围。箭头尖可以作为独立原生形状编辑，但不应声称在 PowerPoint 中拖动任意模块时所有连线都会自动跟随。
+---
 
-来源与公开限制见 [provenance.md](references/provenance.md)。私人素材、用户论文和本地记录不得随项目发布；发布工作流不等于获准发布使用它制作的私人案例。社交平台展示需要另行授权。
+<sub>Independent workflow for research-figure authoring. Not an official OpenAI or Microsoft product.</sub>

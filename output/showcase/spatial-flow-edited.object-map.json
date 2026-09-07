@@ -1,0 +1,1633 @@
+[
+  {
+    "scene_id": "planar-transport",
+    "slide_id": "q83dll",
+    "objects": [
+      {
+        "scene_object_id": "transport-corridor",
+        "pptx_shape_name": "transport-corridor",
+        "artifact_object_id": "1",
+        "object_type": "polyline",
+        "role": "transport-region",
+        "group": "planar-background",
+        "pptx_shape_id": "72"
+      },
+      {
+        "scene_object_id": "distribution-0-outer",
+        "pptx_shape_name": "distribution-0-outer",
+        "artifact_object_id": "2",
+        "object_type": "polyline",
+        "role": "distribution-region",
+        "group": "distribution-0",
+        "pptx_shape_id": "2"
+      },
+      {
+        "scene_object_id": "distribution-0-inner",
+        "pptx_shape_name": "distribution-0-inner",
+        "artifact_object_id": "3",
+        "object_type": "polyline",
+        "role": "distribution-region",
+        "group": "distribution-0",
+        "pptx_shape_id": "3"
+      },
+      {
+        "scene_object_id": "distribution-0-contour-0",
+        "pptx_shape_name": "distribution-0-contour-0",
+        "artifact_object_id": "4",
+        "object_type": "polyline",
+        "role": "schematic-contour",
+        "group": "distribution-0",
+        "pptx_shape_id": "4"
+      },
+      {
+        "scene_object_id": "distribution-0-contour-1",
+        "pptx_shape_name": "distribution-0-contour-1",
+        "artifact_object_id": "5",
+        "object_type": "polyline",
+        "role": "schematic-contour",
+        "group": "distribution-0",
+        "pptx_shape_id": "5"
+      },
+      {
+        "scene_object_id": "distribution-0-contour-2",
+        "pptx_shape_name": "distribution-0-contour-2",
+        "artifact_object_id": "6",
+        "object_type": "polyline",
+        "role": "schematic-contour",
+        "group": "distribution-0",
+        "pptx_shape_id": "6"
+      },
+      {
+        "scene_object_id": "distribution-1-outer",
+        "pptx_shape_name": "distribution-1-outer",
+        "artifact_object_id": "7",
+        "object_type": "polyline",
+        "role": "distribution-region",
+        "group": "distribution-1",
+        "pptx_shape_id": "7"
+      },
+      {
+        "scene_object_id": "distribution-1-inner",
+        "pptx_shape_name": "distribution-1-inner",
+        "artifact_object_id": "8",
+        "object_type": "polyline",
+        "role": "distribution-region",
+        "group": "distribution-1",
+        "pptx_shape_id": "8"
+      },
+      {
+        "scene_object_id": "distribution-1-contour-0",
+        "pptx_shape_name": "distribution-1-contour-0",
+        "artifact_object_id": "9",
+        "object_type": "polyline",
+        "role": "schematic-contour",
+        "group": "distribution-1",
+        "pptx_shape_id": "9"
+      },
+      {
+        "scene_object_id": "distribution-1-contour-1",
+        "pptx_shape_name": "distribution-1-contour-1",
+        "artifact_object_id": "10",
+        "object_type": "polyline",
+        "role": "schematic-contour",
+        "group": "distribution-1",
+        "pptx_shape_id": "10"
+      },
+      {
+        "scene_object_id": "distribution-1-contour-2",
+        "pptx_shape_name": "distribution-1-contour-2",
+        "artifact_object_id": "11",
+        "object_type": "polyline",
+        "role": "schematic-contour",
+        "group": "distribution-1",
+        "pptx_shape_id": "11"
+      },
+      {
+        "scene_object_id": "planar-path-0",
+        "pptx_shape_name": "planar-path-0",
+        "artifact_object_id": "12",
+        "object_type": "polyline",
+        "role": "trajectory",
+        "group": "planar-path-0",
+        "pptx_shape_id": "12"
+      },
+      {
+        "scene_object_id": "planar-path-0--arrow",
+        "pptx_shape_name": "planar-path-0--arrow",
+        "artifact_object_id": "13",
+        "object_type": "polyline",
+        "role": "arrowhead",
+        "group": "planar-path-0",
+        "pptx_shape_id": "13"
+      },
+      {
+        "scene_object_id": "planar-local-direction-0",
+        "pptx_shape_name": "planar-local-direction-0",
+        "artifact_object_id": "14",
+        "object_type": "polyline",
+        "role": "local-direction",
+        "group": "planar-path-0",
+        "pptx_shape_id": "14"
+      },
+      {
+        "scene_object_id": "planar-local-direction-0--arrow",
+        "pptx_shape_name": "planar-local-direction-0--arrow",
+        "artifact_object_id": "15",
+        "object_type": "polyline",
+        "role": "arrowhead",
+        "group": "planar-path-0",
+        "pptx_shape_id": "15"
+      },
+      {
+        "scene_object_id": "planar-path-1",
+        "pptx_shape_name": "planar-path-1",
+        "artifact_object_id": "16",
+        "object_type": "polyline",
+        "role": "trajectory",
+        "group": "planar-path-1",
+        "pptx_shape_id": "16"
+      },
+      {
+        "scene_object_id": "planar-path-1--arrow",
+        "pptx_shape_name": "planar-path-1--arrow",
+        "artifact_object_id": "17",
+        "object_type": "polyline",
+        "role": "arrowhead",
+        "group": "planar-path-1",
+        "pptx_shape_id": "17"
+      },
+      {
+        "scene_object_id": "planar-local-direction-1",
+        "pptx_shape_name": "planar-local-direction-1",
+        "artifact_object_id": "18",
+        "object_type": "polyline",
+        "role": "local-direction",
+        "group": "planar-path-1",
+        "pptx_shape_id": "18"
+      },
+      {
+        "scene_object_id": "planar-local-direction-1--arrow",
+        "pptx_shape_name": "planar-local-direction-1--arrow",
+        "artifact_object_id": "19",
+        "object_type": "polyline",
+        "role": "arrowhead",
+        "group": "planar-path-1",
+        "pptx_shape_id": "19"
+      },
+      {
+        "scene_object_id": "planar-path-2",
+        "pptx_shape_name": "planar-path-2",
+        "artifact_object_id": "20",
+        "object_type": "polyline",
+        "role": "trajectory",
+        "group": "planar-path-2",
+        "pptx_shape_id": "20"
+      },
+      {
+        "scene_object_id": "planar-path-2--arrow",
+        "pptx_shape_name": "planar-path-2--arrow",
+        "artifact_object_id": "21",
+        "object_type": "polyline",
+        "role": "arrowhead",
+        "group": "planar-path-2",
+        "pptx_shape_id": "21"
+      },
+      {
+        "scene_object_id": "planar-local-direction-2",
+        "pptx_shape_name": "planar-local-direction-2",
+        "artifact_object_id": "22",
+        "object_type": "polyline",
+        "role": "local-direction",
+        "group": "planar-path-2",
+        "pptx_shape_id": "22"
+      },
+      {
+        "scene_object_id": "planar-local-direction-2--arrow",
+        "pptx_shape_name": "planar-local-direction-2--arrow",
+        "artifact_object_id": "23",
+        "object_type": "polyline",
+        "role": "arrowhead",
+        "group": "planar-path-2",
+        "pptx_shape_id": "23"
+      },
+      {
+        "scene_object_id": "source-sample-0",
+        "pptx_shape_name": "source-sample-0",
+        "artifact_object_id": "24",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "source-samples",
+        "pptx_shape_id": "24"
+      },
+      {
+        "scene_object_id": "target-sample-0",
+        "pptx_shape_name": "target-sample-0",
+        "artifact_object_id": "25",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "target-samples",
+        "pptx_shape_id": "25"
+      },
+      {
+        "scene_object_id": "source-sample-1",
+        "pptx_shape_name": "source-sample-1",
+        "artifact_object_id": "26",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "source-samples",
+        "pptx_shape_id": "26"
+      },
+      {
+        "scene_object_id": "target-sample-1",
+        "pptx_shape_name": "target-sample-1",
+        "artifact_object_id": "27",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "target-samples",
+        "pptx_shape_id": "27"
+      },
+      {
+        "scene_object_id": "source-sample-2",
+        "pptx_shape_name": "source-sample-2",
+        "artifact_object_id": "28",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "source-samples",
+        "pptx_shape_id": "28"
+      },
+      {
+        "scene_object_id": "target-sample-2",
+        "pptx_shape_name": "target-sample-2",
+        "artifact_object_id": "29",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "target-samples",
+        "pptx_shape_id": "29"
+      },
+      {
+        "scene_object_id": "source-sample-3",
+        "pptx_shape_name": "source-sample-3",
+        "artifact_object_id": "30",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "source-samples",
+        "pptx_shape_id": "30"
+      },
+      {
+        "scene_object_id": "target-sample-3",
+        "pptx_shape_name": "target-sample-3",
+        "artifact_object_id": "31",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "target-samples",
+        "pptx_shape_id": "31"
+      },
+      {
+        "scene_object_id": "source-sample-4",
+        "pptx_shape_name": "source-sample-4",
+        "artifact_object_id": "32",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "source-samples",
+        "pptx_shape_id": "32"
+      },
+      {
+        "scene_object_id": "target-sample-4",
+        "pptx_shape_name": "target-sample-4",
+        "artifact_object_id": "33",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "target-samples",
+        "pptx_shape_id": "33"
+      },
+      {
+        "scene_object_id": "source-sample-5",
+        "pptx_shape_name": "source-sample-5",
+        "artifact_object_id": "34",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "source-samples",
+        "pptx_shape_id": "34"
+      },
+      {
+        "scene_object_id": "target-sample-5",
+        "pptx_shape_name": "target-sample-5",
+        "artifact_object_id": "35",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "target-samples",
+        "pptx_shape_id": "35"
+      },
+      {
+        "scene_object_id": "source-sample-6",
+        "pptx_shape_name": "source-sample-6",
+        "artifact_object_id": "36",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "source-samples",
+        "pptx_shape_id": "36"
+      },
+      {
+        "scene_object_id": "target-sample-6",
+        "pptx_shape_name": "target-sample-6",
+        "artifact_object_id": "37",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "target-samples",
+        "pptx_shape_id": "37"
+      },
+      {
+        "scene_object_id": "source-sample-7",
+        "pptx_shape_name": "source-sample-7",
+        "artifact_object_id": "38",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "source-samples",
+        "pptx_shape_id": "38"
+      },
+      {
+        "scene_object_id": "target-sample-7",
+        "pptx_shape_name": "target-sample-7",
+        "artifact_object_id": "39",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "target-samples",
+        "pptx_shape_id": "39"
+      },
+      {
+        "scene_object_id": "source-sample-8",
+        "pptx_shape_name": "source-sample-8",
+        "artifact_object_id": "40",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "source-samples",
+        "pptx_shape_id": "40"
+      },
+      {
+        "scene_object_id": "target-sample-8",
+        "pptx_shape_name": "target-sample-8",
+        "artifact_object_id": "41",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "target-samples",
+        "pptx_shape_id": "41"
+      },
+      {
+        "scene_object_id": "source-sample-9",
+        "pptx_shape_name": "source-sample-9",
+        "artifact_object_id": "42",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "source-samples",
+        "pptx_shape_id": "42"
+      },
+      {
+        "scene_object_id": "target-sample-9",
+        "pptx_shape_name": "target-sample-9",
+        "artifact_object_id": "43",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "target-samples",
+        "pptx_shape_id": "43"
+      },
+      {
+        "scene_object_id": "source-sample-10",
+        "pptx_shape_name": "source-sample-10",
+        "artifact_object_id": "44",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "source-samples",
+        "pptx_shape_id": "44"
+      },
+      {
+        "scene_object_id": "target-sample-10",
+        "pptx_shape_name": "target-sample-10",
+        "artifact_object_id": "45",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "target-samples",
+        "pptx_shape_id": "45"
+      },
+      {
+        "scene_object_id": "source-sample-11",
+        "pptx_shape_name": "source-sample-11",
+        "artifact_object_id": "46",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "source-samples",
+        "pptx_shape_id": "46"
+      },
+      {
+        "scene_object_id": "target-sample-11",
+        "pptx_shape_name": "target-sample-11",
+        "artifact_object_id": "47",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "target-samples",
+        "pptx_shape_id": "47"
+      },
+      {
+        "scene_object_id": "source-sample-12",
+        "pptx_shape_name": "source-sample-12",
+        "artifact_object_id": "48",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "source-samples",
+        "pptx_shape_id": "48"
+      },
+      {
+        "scene_object_id": "target-sample-12",
+        "pptx_shape_name": "target-sample-12",
+        "artifact_object_id": "49",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "target-samples",
+        "pptx_shape_id": "49"
+      },
+      {
+        "scene_object_id": "source-sample-13",
+        "pptx_shape_name": "source-sample-13",
+        "artifact_object_id": "50",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "source-samples",
+        "pptx_shape_id": "50"
+      },
+      {
+        "scene_object_id": "target-sample-13",
+        "pptx_shape_name": "target-sample-13",
+        "artifact_object_id": "51",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "target-samples",
+        "pptx_shape_id": "51"
+      },
+      {
+        "scene_object_id": "source-sample-14",
+        "pptx_shape_name": "source-sample-14",
+        "artifact_object_id": "52",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "source-samples",
+        "pptx_shape_id": "52"
+      },
+      {
+        "scene_object_id": "target-sample-14",
+        "pptx_shape_name": "target-sample-14",
+        "artifact_object_id": "53",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "target-samples",
+        "pptx_shape_id": "53"
+      },
+      {
+        "scene_object_id": "source-sample-15",
+        "pptx_shape_name": "source-sample-15",
+        "artifact_object_id": "54",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "source-samples",
+        "pptx_shape_id": "54"
+      },
+      {
+        "scene_object_id": "target-sample-15",
+        "pptx_shape_name": "target-sample-15",
+        "artifact_object_id": "55",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "target-samples",
+        "pptx_shape_id": "55"
+      },
+      {
+        "scene_object_id": "source-sample-16",
+        "pptx_shape_name": "source-sample-16",
+        "artifact_object_id": "56",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "source-samples",
+        "pptx_shape_id": "56"
+      },
+      {
+        "scene_object_id": "target-sample-16",
+        "pptx_shape_name": "target-sample-16",
+        "artifact_object_id": "57",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "target-samples",
+        "pptx_shape_id": "57"
+      },
+      {
+        "scene_object_id": "source-sample-17",
+        "pptx_shape_name": "source-sample-17",
+        "artifact_object_id": "58",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "source-samples",
+        "pptx_shape_id": "58"
+      },
+      {
+        "scene_object_id": "target-sample-17",
+        "pptx_shape_name": "target-sample-17",
+        "artifact_object_id": "59",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "target-samples",
+        "pptx_shape_id": "59"
+      },
+      {
+        "scene_object_id": "source-sample-18",
+        "pptx_shape_name": "source-sample-18",
+        "artifact_object_id": "60",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "source-samples",
+        "pptx_shape_id": "60"
+      },
+      {
+        "scene_object_id": "target-sample-18",
+        "pptx_shape_name": "target-sample-18",
+        "artifact_object_id": "61",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "target-samples",
+        "pptx_shape_id": "61"
+      },
+      {
+        "scene_object_id": "source-sample-19",
+        "pptx_shape_name": "source-sample-19",
+        "artifact_object_id": "62",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "source-samples",
+        "pptx_shape_id": "62"
+      },
+      {
+        "scene_object_id": "target-sample-19",
+        "pptx_shape_name": "target-sample-19",
+        "artifact_object_id": "63",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "target-samples",
+        "pptx_shape_id": "63"
+      },
+      {
+        "scene_object_id": "source-sample-20",
+        "pptx_shape_name": "source-sample-20",
+        "artifact_object_id": "64",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "source-samples",
+        "pptx_shape_id": "64"
+      },
+      {
+        "scene_object_id": "target-sample-20",
+        "pptx_shape_name": "target-sample-20",
+        "artifact_object_id": "65",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "target-samples",
+        "pptx_shape_id": "65"
+      },
+      {
+        "scene_object_id": "source-sample-21",
+        "pptx_shape_name": "source-sample-21",
+        "artifact_object_id": "66",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "source-samples",
+        "pptx_shape_id": "66"
+      },
+      {
+        "scene_object_id": "target-sample-21",
+        "pptx_shape_name": "target-sample-21",
+        "artifact_object_id": "67",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "target-samples",
+        "pptx_shape_id": "67"
+      },
+      {
+        "scene_object_id": "source-sample-22",
+        "pptx_shape_name": "source-sample-22",
+        "artifact_object_id": "68",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "source-samples",
+        "pptx_shape_id": "68"
+      },
+      {
+        "scene_object_id": "target-sample-22",
+        "pptx_shape_name": "target-sample-22",
+        "artifact_object_id": "69",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "target-samples",
+        "pptx_shape_id": "69"
+      },
+      {
+        "scene_object_id": "source-label",
+        "pptx_shape_name": "source-label",
+        "artifact_object_id": "70",
+        "object_type": "text",
+        "role": "label",
+        "group": null,
+        "pptx_shape_id": "70"
+      },
+      {
+        "scene_object_id": "target-label",
+        "pptx_shape_name": "target-label",
+        "artifact_object_id": "71",
+        "object_type": "text",
+        "role": "label",
+        "group": null,
+        "pptx_shape_id": "71"
+      }
+    ],
+    "source_scene_path": "examples/showcase/planar.scene.json",
+    "scene_sha256": "4c3f48e1727b7d6cf4992218a0d7b9ae03b8e3621889bbf36ad86c07a97c51db",
+    "slide_number": 1,
+    "pptx_sha256": "1ee486641cd32b79e456fdaf628ad4073ccd8541ca1e6f08906f3e79a60f0b30"
+  },
+  {
+    "scene_id": "manifold-transport",
+    "slide_id": "jr2eya",
+    "objects": [
+      {
+        "scene_object_id": "surface-boundary",
+        "pptx_shape_name": "surface-boundary",
+        "artifact_object_id": "1",
+        "object_type": "polyline",
+        "role": "surface-boundary",
+        "group": "surface-mesh",
+        "pptx_shape_id": "109"
+      },
+      {
+        "scene_object_id": "surface-distribution-0-outer",
+        "pptx_shape_name": "surface-distribution-0-outer",
+        "artifact_object_id": "2",
+        "object_type": "polyline",
+        "role": "distribution-region",
+        "group": "surface-distribution-0",
+        "pptx_shape_id": "2"
+      },
+      {
+        "scene_object_id": "surface-distribution-0-inner",
+        "pptx_shape_name": "surface-distribution-0-inner",
+        "artifact_object_id": "3",
+        "object_type": "polyline",
+        "role": "distribution-region",
+        "group": "surface-distribution-0",
+        "pptx_shape_id": "3"
+      },
+      {
+        "scene_object_id": "surface-distribution-1-outer",
+        "pptx_shape_name": "surface-distribution-1-outer",
+        "artifact_object_id": "4",
+        "object_type": "polyline",
+        "role": "distribution-region",
+        "group": "surface-distribution-1",
+        "pptx_shape_id": "4"
+      },
+      {
+        "scene_object_id": "surface-distribution-1-inner",
+        "pptx_shape_name": "surface-distribution-1-inner",
+        "artifact_object_id": "5",
+        "object_type": "polyline",
+        "role": "distribution-region",
+        "group": "surface-distribution-1",
+        "pptx_shape_id": "5"
+      },
+      {
+        "scene_object_id": "mesh-u-00",
+        "pptx_shape_name": "mesh-u-00",
+        "artifact_object_id": "6",
+        "object_type": "polyline",
+        "role": "mesh-line",
+        "group": "surface-mesh",
+        "pptx_shape_id": "6"
+      },
+      {
+        "scene_object_id": "mesh-u-01",
+        "pptx_shape_name": "mesh-u-01",
+        "artifact_object_id": "7",
+        "object_type": "polyline",
+        "role": "mesh-line",
+        "group": "surface-mesh",
+        "pptx_shape_id": "7"
+      },
+      {
+        "scene_object_id": "mesh-u-02",
+        "pptx_shape_name": "mesh-u-02",
+        "artifact_object_id": "8",
+        "object_type": "polyline",
+        "role": "mesh-line",
+        "group": "surface-mesh",
+        "pptx_shape_id": "8"
+      },
+      {
+        "scene_object_id": "mesh-u-03",
+        "pptx_shape_name": "mesh-u-03",
+        "artifact_object_id": "9",
+        "object_type": "polyline",
+        "role": "mesh-line",
+        "group": "surface-mesh",
+        "pptx_shape_id": "9"
+      },
+      {
+        "scene_object_id": "mesh-u-04",
+        "pptx_shape_name": "mesh-u-04",
+        "artifact_object_id": "10",
+        "object_type": "polyline",
+        "role": "mesh-line",
+        "group": "surface-mesh",
+        "pptx_shape_id": "10"
+      },
+      {
+        "scene_object_id": "mesh-u-05",
+        "pptx_shape_name": "mesh-u-05",
+        "artifact_object_id": "11",
+        "object_type": "polyline",
+        "role": "mesh-line",
+        "group": "surface-mesh",
+        "pptx_shape_id": "11"
+      },
+      {
+        "scene_object_id": "mesh-u-06",
+        "pptx_shape_name": "mesh-u-06",
+        "artifact_object_id": "12",
+        "object_type": "polyline",
+        "role": "mesh-line",
+        "group": "surface-mesh",
+        "pptx_shape_id": "12"
+      },
+      {
+        "scene_object_id": "mesh-u-07",
+        "pptx_shape_name": "mesh-u-07",
+        "artifact_object_id": "13",
+        "object_type": "polyline",
+        "role": "mesh-line",
+        "group": "surface-mesh",
+        "pptx_shape_id": "13"
+      },
+      {
+        "scene_object_id": "mesh-u-08",
+        "pptx_shape_name": "mesh-u-08",
+        "artifact_object_id": "14",
+        "object_type": "polyline",
+        "role": "mesh-line",
+        "group": "surface-mesh",
+        "pptx_shape_id": "14"
+      },
+      {
+        "scene_object_id": "mesh-u-09",
+        "pptx_shape_name": "mesh-u-09",
+        "artifact_object_id": "15",
+        "object_type": "polyline",
+        "role": "mesh-line",
+        "group": "surface-mesh",
+        "pptx_shape_id": "15"
+      },
+      {
+        "scene_object_id": "mesh-u-10",
+        "pptx_shape_name": "mesh-u-10",
+        "artifact_object_id": "16",
+        "object_type": "polyline",
+        "role": "mesh-line",
+        "group": "surface-mesh",
+        "pptx_shape_id": "16"
+      },
+      {
+        "scene_object_id": "mesh-u-11",
+        "pptx_shape_name": "mesh-u-11",
+        "artifact_object_id": "17",
+        "object_type": "polyline",
+        "role": "mesh-line",
+        "group": "surface-mesh",
+        "pptx_shape_id": "17"
+      },
+      {
+        "scene_object_id": "mesh-u-12",
+        "pptx_shape_name": "mesh-u-12",
+        "artifact_object_id": "18",
+        "object_type": "polyline",
+        "role": "mesh-line",
+        "group": "surface-mesh",
+        "pptx_shape_id": "18"
+      },
+      {
+        "scene_object_id": "mesh-u-13",
+        "pptx_shape_name": "mesh-u-13",
+        "artifact_object_id": "19",
+        "object_type": "polyline",
+        "role": "mesh-line",
+        "group": "surface-mesh",
+        "pptx_shape_id": "19"
+      },
+      {
+        "scene_object_id": "mesh-u-14",
+        "pptx_shape_name": "mesh-u-14",
+        "artifact_object_id": "20",
+        "object_type": "polyline",
+        "role": "mesh-line",
+        "group": "surface-mesh",
+        "pptx_shape_id": "20"
+      },
+      {
+        "scene_object_id": "mesh-u-15",
+        "pptx_shape_name": "mesh-u-15",
+        "artifact_object_id": "21",
+        "object_type": "polyline",
+        "role": "mesh-line",
+        "group": "surface-mesh",
+        "pptx_shape_id": "21"
+      },
+      {
+        "scene_object_id": "mesh-u-16",
+        "pptx_shape_name": "mesh-u-16",
+        "artifact_object_id": "22",
+        "object_type": "polyline",
+        "role": "mesh-line",
+        "group": "surface-mesh",
+        "pptx_shape_id": "22"
+      },
+      {
+        "scene_object_id": "mesh-u-17",
+        "pptx_shape_name": "mesh-u-17",
+        "artifact_object_id": "23",
+        "object_type": "polyline",
+        "role": "mesh-line",
+        "group": "surface-mesh",
+        "pptx_shape_id": "23"
+      },
+      {
+        "scene_object_id": "mesh-u-18",
+        "pptx_shape_name": "mesh-u-18",
+        "artifact_object_id": "24",
+        "object_type": "polyline",
+        "role": "mesh-line",
+        "group": "surface-mesh",
+        "pptx_shape_id": "24"
+      },
+      {
+        "scene_object_id": "mesh-u-19",
+        "pptx_shape_name": "mesh-u-19",
+        "artifact_object_id": "25",
+        "object_type": "polyline",
+        "role": "mesh-line",
+        "group": "surface-mesh",
+        "pptx_shape_id": "25"
+      },
+      {
+        "scene_object_id": "mesh-u-20",
+        "pptx_shape_name": "mesh-u-20",
+        "artifact_object_id": "26",
+        "object_type": "polyline",
+        "role": "mesh-line",
+        "group": "surface-mesh",
+        "pptx_shape_id": "26"
+      },
+      {
+        "scene_object_id": "mesh-u-21",
+        "pptx_shape_name": "mesh-u-21",
+        "artifact_object_id": "27",
+        "object_type": "polyline",
+        "role": "mesh-line",
+        "group": "surface-mesh",
+        "pptx_shape_id": "27"
+      },
+      {
+        "scene_object_id": "mesh-u-22",
+        "pptx_shape_name": "mesh-u-22",
+        "artifact_object_id": "28",
+        "object_type": "polyline",
+        "role": "mesh-line",
+        "group": "surface-mesh",
+        "pptx_shape_id": "28"
+      },
+      {
+        "scene_object_id": "mesh-v-00",
+        "pptx_shape_name": "mesh-v-00",
+        "artifact_object_id": "29",
+        "object_type": "polyline",
+        "role": "mesh-line",
+        "group": "surface-mesh",
+        "pptx_shape_id": "29"
+      },
+      {
+        "scene_object_id": "mesh-v-01",
+        "pptx_shape_name": "mesh-v-01",
+        "artifact_object_id": "30",
+        "object_type": "polyline",
+        "role": "mesh-line",
+        "group": "surface-mesh",
+        "pptx_shape_id": "30"
+      },
+      {
+        "scene_object_id": "mesh-v-02",
+        "pptx_shape_name": "mesh-v-02",
+        "artifact_object_id": "31",
+        "object_type": "polyline",
+        "role": "mesh-line",
+        "group": "surface-mesh",
+        "pptx_shape_id": "31"
+      },
+      {
+        "scene_object_id": "mesh-v-03",
+        "pptx_shape_name": "mesh-v-03",
+        "artifact_object_id": "32",
+        "object_type": "polyline",
+        "role": "mesh-line",
+        "group": "surface-mesh",
+        "pptx_shape_id": "32"
+      },
+      {
+        "scene_object_id": "mesh-v-04",
+        "pptx_shape_name": "mesh-v-04",
+        "artifact_object_id": "33",
+        "object_type": "polyline",
+        "role": "mesh-line",
+        "group": "surface-mesh",
+        "pptx_shape_id": "33"
+      },
+      {
+        "scene_object_id": "mesh-v-05",
+        "pptx_shape_name": "mesh-v-05",
+        "artifact_object_id": "34",
+        "object_type": "polyline",
+        "role": "mesh-line",
+        "group": "surface-mesh",
+        "pptx_shape_id": "34"
+      },
+      {
+        "scene_object_id": "mesh-v-06",
+        "pptx_shape_name": "mesh-v-06",
+        "artifact_object_id": "35",
+        "object_type": "polyline",
+        "role": "mesh-line",
+        "group": "surface-mesh",
+        "pptx_shape_id": "35"
+      },
+      {
+        "scene_object_id": "mesh-v-07",
+        "pptx_shape_name": "mesh-v-07",
+        "artifact_object_id": "36",
+        "object_type": "polyline",
+        "role": "mesh-line",
+        "group": "surface-mesh",
+        "pptx_shape_id": "36"
+      },
+      {
+        "scene_object_id": "mesh-v-08",
+        "pptx_shape_name": "mesh-v-08",
+        "artifact_object_id": "37",
+        "object_type": "polyline",
+        "role": "mesh-line",
+        "group": "surface-mesh",
+        "pptx_shape_id": "37"
+      },
+      {
+        "scene_object_id": "mesh-v-09",
+        "pptx_shape_name": "mesh-v-09",
+        "artifact_object_id": "38",
+        "object_type": "polyline",
+        "role": "mesh-line",
+        "group": "surface-mesh",
+        "pptx_shape_id": "38"
+      },
+      {
+        "scene_object_id": "mesh-v-10",
+        "pptx_shape_name": "mesh-v-10",
+        "artifact_object_id": "39",
+        "object_type": "polyline",
+        "role": "mesh-line",
+        "group": "surface-mesh",
+        "pptx_shape_id": "39"
+      },
+      {
+        "scene_object_id": "mesh-v-11",
+        "pptx_shape_name": "mesh-v-11",
+        "artifact_object_id": "40",
+        "object_type": "polyline",
+        "role": "mesh-line",
+        "group": "surface-mesh",
+        "pptx_shape_id": "40"
+      },
+      {
+        "scene_object_id": "mesh-v-12",
+        "pptx_shape_name": "mesh-v-12",
+        "artifact_object_id": "41",
+        "object_type": "polyline",
+        "role": "mesh-line",
+        "group": "surface-mesh",
+        "pptx_shape_id": "41"
+      },
+      {
+        "scene_object_id": "mesh-v-13",
+        "pptx_shape_name": "mesh-v-13",
+        "artifact_object_id": "42",
+        "object_type": "polyline",
+        "role": "mesh-line",
+        "group": "surface-mesh",
+        "pptx_shape_id": "42"
+      },
+      {
+        "scene_object_id": "mesh-v-14",
+        "pptx_shape_name": "mesh-v-14",
+        "artifact_object_id": "43",
+        "object_type": "polyline",
+        "role": "mesh-line",
+        "group": "surface-mesh",
+        "pptx_shape_id": "43"
+      },
+      {
+        "scene_object_id": "mesh-v-15",
+        "pptx_shape_name": "mesh-v-15",
+        "artifact_object_id": "44",
+        "object_type": "polyline",
+        "role": "mesh-line",
+        "group": "surface-mesh",
+        "pptx_shape_id": "44"
+      },
+      {
+        "scene_object_id": "surface-path-0",
+        "pptx_shape_name": "surface-path-0",
+        "artifact_object_id": "45",
+        "object_type": "polyline",
+        "role": "surface-trajectory",
+        "group": "surface-path-0",
+        "pptx_shape_id": "45"
+      },
+      {
+        "scene_object_id": "surface-path-0--arrow",
+        "pptx_shape_name": "surface-path-0--arrow",
+        "artifact_object_id": "46",
+        "object_type": "polyline",
+        "role": "arrowhead",
+        "group": "surface-path-0",
+        "pptx_shape_id": "46"
+      },
+      {
+        "scene_object_id": "surface-path-1",
+        "pptx_shape_name": "surface-path-1",
+        "artifact_object_id": "47",
+        "object_type": "polyline",
+        "role": "surface-trajectory",
+        "group": "surface-path-1",
+        "pptx_shape_id": "47"
+      },
+      {
+        "scene_object_id": "surface-path-1--arrow",
+        "pptx_shape_name": "surface-path-1--arrow",
+        "artifact_object_id": "48",
+        "object_type": "polyline",
+        "role": "arrowhead",
+        "group": "surface-path-1",
+        "pptx_shape_id": "48"
+      },
+      {
+        "scene_object_id": "surface-path-2",
+        "pptx_shape_name": "surface-path-2",
+        "artifact_object_id": "49",
+        "object_type": "polyline",
+        "role": "surface-trajectory",
+        "group": "surface-path-2",
+        "pptx_shape_id": "49"
+      },
+      {
+        "scene_object_id": "surface-path-2--arrow",
+        "pptx_shape_name": "surface-path-2--arrow",
+        "artifact_object_id": "50",
+        "object_type": "polyline",
+        "role": "arrowhead",
+        "group": "surface-path-2",
+        "pptx_shape_id": "50"
+      },
+      {
+        "scene_object_id": "surface-source-sample-0",
+        "pptx_shape_name": "surface-source-sample-0",
+        "artifact_object_id": "51",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "surface-source-samples",
+        "pptx_shape_id": "51"
+      },
+      {
+        "scene_object_id": "surface-target-sample-0",
+        "pptx_shape_name": "surface-target-sample-0",
+        "artifact_object_id": "52",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "surface-target-samples",
+        "pptx_shape_id": "52"
+      },
+      {
+        "scene_object_id": "surface-source-sample-1",
+        "pptx_shape_name": "surface-source-sample-1",
+        "artifact_object_id": "53",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "surface-source-samples",
+        "pptx_shape_id": "53"
+      },
+      {
+        "scene_object_id": "surface-target-sample-1",
+        "pptx_shape_name": "surface-target-sample-1",
+        "artifact_object_id": "54",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "surface-target-samples",
+        "pptx_shape_id": "54"
+      },
+      {
+        "scene_object_id": "surface-source-sample-2",
+        "pptx_shape_name": "surface-source-sample-2",
+        "artifact_object_id": "55",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "surface-source-samples",
+        "pptx_shape_id": "55"
+      },
+      {
+        "scene_object_id": "surface-target-sample-2",
+        "pptx_shape_name": "surface-target-sample-2",
+        "artifact_object_id": "56",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "surface-target-samples",
+        "pptx_shape_id": "56"
+      },
+      {
+        "scene_object_id": "surface-source-sample-3",
+        "pptx_shape_name": "surface-source-sample-3",
+        "artifact_object_id": "57",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "surface-source-samples",
+        "pptx_shape_id": "57"
+      },
+      {
+        "scene_object_id": "surface-target-sample-3",
+        "pptx_shape_name": "surface-target-sample-3",
+        "artifact_object_id": "58",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "surface-target-samples",
+        "pptx_shape_id": "58"
+      },
+      {
+        "scene_object_id": "surface-source-sample-4",
+        "pptx_shape_name": "surface-source-sample-4",
+        "artifact_object_id": "59",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "surface-source-samples",
+        "pptx_shape_id": "59"
+      },
+      {
+        "scene_object_id": "surface-target-sample-4",
+        "pptx_shape_name": "surface-target-sample-4",
+        "artifact_object_id": "60",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "surface-target-samples",
+        "pptx_shape_id": "60"
+      },
+      {
+        "scene_object_id": "surface-source-sample-5",
+        "pptx_shape_name": "surface-source-sample-5",
+        "artifact_object_id": "61",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "surface-source-samples",
+        "pptx_shape_id": "61"
+      },
+      {
+        "scene_object_id": "surface-target-sample-5",
+        "pptx_shape_name": "surface-target-sample-5",
+        "artifact_object_id": "62",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "surface-target-samples",
+        "pptx_shape_id": "62"
+      },
+      {
+        "scene_object_id": "surface-source-sample-6",
+        "pptx_shape_name": "surface-source-sample-6",
+        "artifact_object_id": "63",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "surface-source-samples",
+        "pptx_shape_id": "63"
+      },
+      {
+        "scene_object_id": "surface-target-sample-6",
+        "pptx_shape_name": "surface-target-sample-6",
+        "artifact_object_id": "64",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "surface-target-samples",
+        "pptx_shape_id": "64"
+      },
+      {
+        "scene_object_id": "surface-source-sample-7",
+        "pptx_shape_name": "surface-source-sample-7",
+        "artifact_object_id": "65",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "surface-source-samples",
+        "pptx_shape_id": "65"
+      },
+      {
+        "scene_object_id": "surface-target-sample-7",
+        "pptx_shape_name": "surface-target-sample-7",
+        "artifact_object_id": "66",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "surface-target-samples",
+        "pptx_shape_id": "66"
+      },
+      {
+        "scene_object_id": "surface-source-sample-8",
+        "pptx_shape_name": "surface-source-sample-8",
+        "artifact_object_id": "67",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "surface-source-samples",
+        "pptx_shape_id": "67"
+      },
+      {
+        "scene_object_id": "surface-target-sample-8",
+        "pptx_shape_name": "surface-target-sample-8",
+        "artifact_object_id": "68",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "surface-target-samples",
+        "pptx_shape_id": "68"
+      },
+      {
+        "scene_object_id": "surface-source-sample-9",
+        "pptx_shape_name": "surface-source-sample-9",
+        "artifact_object_id": "69",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "surface-source-samples",
+        "pptx_shape_id": "69"
+      },
+      {
+        "scene_object_id": "surface-target-sample-9",
+        "pptx_shape_name": "surface-target-sample-9",
+        "artifact_object_id": "70",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "surface-target-samples",
+        "pptx_shape_id": "70"
+      },
+      {
+        "scene_object_id": "surface-source-sample-10",
+        "pptx_shape_name": "surface-source-sample-10",
+        "artifact_object_id": "71",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "surface-source-samples",
+        "pptx_shape_id": "71"
+      },
+      {
+        "scene_object_id": "surface-target-sample-10",
+        "pptx_shape_name": "surface-target-sample-10",
+        "artifact_object_id": "72",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "surface-target-samples",
+        "pptx_shape_id": "72"
+      },
+      {
+        "scene_object_id": "surface-source-sample-11",
+        "pptx_shape_name": "surface-source-sample-11",
+        "artifact_object_id": "73",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "surface-source-samples",
+        "pptx_shape_id": "73"
+      },
+      {
+        "scene_object_id": "surface-target-sample-11",
+        "pptx_shape_name": "surface-target-sample-11",
+        "artifact_object_id": "74",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "surface-target-samples",
+        "pptx_shape_id": "74"
+      },
+      {
+        "scene_object_id": "surface-source-sample-12",
+        "pptx_shape_name": "surface-source-sample-12",
+        "artifact_object_id": "75",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "surface-source-samples",
+        "pptx_shape_id": "75"
+      },
+      {
+        "scene_object_id": "surface-target-sample-12",
+        "pptx_shape_name": "surface-target-sample-12",
+        "artifact_object_id": "76",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "surface-target-samples",
+        "pptx_shape_id": "76"
+      },
+      {
+        "scene_object_id": "surface-source-sample-13",
+        "pptx_shape_name": "surface-source-sample-13",
+        "artifact_object_id": "77",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "surface-source-samples",
+        "pptx_shape_id": "77"
+      },
+      {
+        "scene_object_id": "surface-target-sample-13",
+        "pptx_shape_name": "surface-target-sample-13",
+        "artifact_object_id": "78",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "surface-target-samples",
+        "pptx_shape_id": "78"
+      },
+      {
+        "scene_object_id": "surface-source-sample-14",
+        "pptx_shape_name": "surface-source-sample-14",
+        "artifact_object_id": "79",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "surface-source-samples",
+        "pptx_shape_id": "79"
+      },
+      {
+        "scene_object_id": "surface-target-sample-14",
+        "pptx_shape_name": "surface-target-sample-14",
+        "artifact_object_id": "80",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "surface-target-samples",
+        "pptx_shape_id": "80"
+      },
+      {
+        "scene_object_id": "surface-source-sample-15",
+        "pptx_shape_name": "surface-source-sample-15",
+        "artifact_object_id": "81",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "surface-source-samples",
+        "pptx_shape_id": "81"
+      },
+      {
+        "scene_object_id": "surface-target-sample-15",
+        "pptx_shape_name": "surface-target-sample-15",
+        "artifact_object_id": "82",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "surface-target-samples",
+        "pptx_shape_id": "82"
+      },
+      {
+        "scene_object_id": "surface-source-sample-16",
+        "pptx_shape_name": "surface-source-sample-16",
+        "artifact_object_id": "83",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "surface-source-samples",
+        "pptx_shape_id": "83"
+      },
+      {
+        "scene_object_id": "surface-target-sample-16",
+        "pptx_shape_name": "surface-target-sample-16",
+        "artifact_object_id": "84",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "surface-target-samples",
+        "pptx_shape_id": "84"
+      },
+      {
+        "scene_object_id": "surface-source-sample-17",
+        "pptx_shape_name": "surface-source-sample-17",
+        "artifact_object_id": "85",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "surface-source-samples",
+        "pptx_shape_id": "85"
+      },
+      {
+        "scene_object_id": "surface-target-sample-17",
+        "pptx_shape_name": "surface-target-sample-17",
+        "artifact_object_id": "86",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "surface-target-samples",
+        "pptx_shape_id": "86"
+      },
+      {
+        "scene_object_id": "surface-source-sample-18",
+        "pptx_shape_name": "surface-source-sample-18",
+        "artifact_object_id": "87",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "surface-source-samples",
+        "pptx_shape_id": "87"
+      },
+      {
+        "scene_object_id": "surface-target-sample-18",
+        "pptx_shape_name": "surface-target-sample-18",
+        "artifact_object_id": "88",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "surface-target-samples",
+        "pptx_shape_id": "88"
+      },
+      {
+        "scene_object_id": "surface-source-sample-19",
+        "pptx_shape_name": "surface-source-sample-19",
+        "artifact_object_id": "89",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "surface-source-samples",
+        "pptx_shape_id": "89"
+      },
+      {
+        "scene_object_id": "surface-target-sample-19",
+        "pptx_shape_name": "surface-target-sample-19",
+        "artifact_object_id": "90",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "surface-target-samples",
+        "pptx_shape_id": "90"
+      },
+      {
+        "scene_object_id": "surface-source-sample-20",
+        "pptx_shape_name": "surface-source-sample-20",
+        "artifact_object_id": "91",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "surface-source-samples",
+        "pptx_shape_id": "91"
+      },
+      {
+        "scene_object_id": "surface-target-sample-20",
+        "pptx_shape_name": "surface-target-sample-20",
+        "artifact_object_id": "92",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "surface-target-samples",
+        "pptx_shape_id": "92"
+      },
+      {
+        "scene_object_id": "surface-source-sample-21",
+        "pptx_shape_name": "surface-source-sample-21",
+        "artifact_object_id": "93",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "surface-source-samples",
+        "pptx_shape_id": "93"
+      },
+      {
+        "scene_object_id": "surface-target-sample-21",
+        "pptx_shape_name": "surface-target-sample-21",
+        "artifact_object_id": "94",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "surface-target-samples",
+        "pptx_shape_id": "94"
+      },
+      {
+        "scene_object_id": "surface-source-sample-22",
+        "pptx_shape_name": "surface-source-sample-22",
+        "artifact_object_id": "95",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "surface-source-samples",
+        "pptx_shape_id": "95"
+      },
+      {
+        "scene_object_id": "surface-target-sample-22",
+        "pptx_shape_name": "surface-target-sample-22",
+        "artifact_object_id": "96",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "surface-target-samples",
+        "pptx_shape_id": "96"
+      },
+      {
+        "scene_object_id": "surface-source-sample-23",
+        "pptx_shape_name": "surface-source-sample-23",
+        "artifact_object_id": "97",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "surface-source-samples",
+        "pptx_shape_id": "97"
+      },
+      {
+        "scene_object_id": "surface-target-sample-23",
+        "pptx_shape_name": "surface-target-sample-23",
+        "artifact_object_id": "98",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "surface-target-samples",
+        "pptx_shape_id": "98"
+      },
+      {
+        "scene_object_id": "surface-source-sample-24",
+        "pptx_shape_name": "surface-source-sample-24",
+        "artifact_object_id": "99",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "surface-source-samples",
+        "pptx_shape_id": "99"
+      },
+      {
+        "scene_object_id": "surface-target-sample-24",
+        "pptx_shape_name": "surface-target-sample-24",
+        "artifact_object_id": "100",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "surface-target-samples",
+        "pptx_shape_id": "100"
+      },
+      {
+        "scene_object_id": "surface-source-sample-25",
+        "pptx_shape_name": "surface-source-sample-25",
+        "artifact_object_id": "101",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "surface-source-samples",
+        "pptx_shape_id": "101"
+      },
+      {
+        "scene_object_id": "surface-target-sample-25",
+        "pptx_shape_name": "surface-target-sample-25",
+        "artifact_object_id": "102",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "surface-target-samples",
+        "pptx_shape_id": "102"
+      },
+      {
+        "scene_object_id": "surface-source-sample-26",
+        "pptx_shape_name": "surface-source-sample-26",
+        "artifact_object_id": "103",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "surface-source-samples",
+        "pptx_shape_id": "103"
+      },
+      {
+        "scene_object_id": "surface-target-sample-26",
+        "pptx_shape_name": "surface-target-sample-26",
+        "artifact_object_id": "104",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "surface-target-samples",
+        "pptx_shape_id": "104"
+      },
+      {
+        "scene_object_id": "surface-source-sample-27",
+        "pptx_shape_name": "surface-source-sample-27",
+        "artifact_object_id": "105",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "surface-source-samples",
+        "pptx_shape_id": "105"
+      },
+      {
+        "scene_object_id": "surface-target-sample-27",
+        "pptx_shape_name": "surface-target-sample-27",
+        "artifact_object_id": "106",
+        "object_type": "ellipse",
+        "role": "sample",
+        "group": "surface-target-samples",
+        "pptx_shape_id": "106"
+      },
+      {
+        "scene_object_id": "surface-source-label",
+        "pptx_shape_name": "surface-source-label",
+        "artifact_object_id": "107",
+        "object_type": "text",
+        "role": "label",
+        "group": null,
+        "pptx_shape_id": "107"
+      },
+      {
+        "scene_object_id": "surface-target-label",
+        "pptx_shape_name": "surface-target-label",
+        "artifact_object_id": "108",
+        "object_type": "text",
+        "role": "label",
+        "group": null,
+        "pptx_shape_id": "108"
+      }
+    ],
+    "source_scene_path": "examples/showcase/manifold-edited.scene.json",
+    "scene_sha256": "a30533f43c0013a2671121080fa5e7c74fd22d6d2c563a4e116bd9dc34891cc7",
+    "slide_number": 2,
+    "pptx_sha256": "1ee486641cd32b79e456fdaf628ad4073ccd8541ca1e6f08906f3e79a60f0b30"
+  }
+]

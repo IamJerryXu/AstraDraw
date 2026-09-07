@@ -1,0 +1,5 @@
+{
+  "scene_id": "manifold-transport",
+  "selected_ids": ["surface-target-label"],
+  "operations": [{"op": "move", "dx": 0, "dy": 8}]
+}
