@@ -20,11 +20,7 @@
 
 <a id="demo"></a>
 
-## 完整方法图：两种构图
-
-同一视频分割方法，分别采用横向总览与三栏纵向展开。两张图都提供可编辑文件，可比较整体流程、机制展开和图例的组织方式。
-
-### 论文成图：三栏纵向布局
+## 完整方法图：论文最终成图
 
 左栏串联视频输入与输出，中栏展开两步推理，右栏展示候选形成与状态写入。保留论文最终图的字体、配色、矩阵及局部细节。
 
@@ -33,16 +29,6 @@
 **[下载可编辑 PPT](output/paper-method/method.pptx)** · [矢量图](output/paper-method/method.svg) · [案例与素材来源](examples/paper-method/README.md)
 
 照片与分割覆盖来自 DAVIS 视频及真实标注，仅用于解释方法，不代表模型预测。素材署名及非商业使用限制见案例说明。
-
-### 方法图：横向总览与局部展开
-
-从视频输入、候选关联到验证与输出，在同一张图中呈现整体方法和关键机制展开。标签、矩阵单元、模块及连线均可独立编辑。
-
-![横向总览与局部机制展开的方法图](output/posreasoner/method-previews/posreasoner-method.png)
-
-**[下载可编辑 PPT](output/posreasoner/method.pptx)** · [矢量图](output/posreasoner/method.svg) · [编辑源文件](examples/posreasoner/method.scene.json) · [案例与来源](examples/posreasoner/README.md)
-
-方法图经作者授权公开。公开版以示意输入和掩码替换数据集照片，不包含论文全文，也不把示意结果作为模型预测。
 
 ## 空间组件：二维分布与三维网格
 
