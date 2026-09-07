@@ -1,6 +1,9 @@
 [
   {
     "id": "ode-comic",
+    "aesthetic_status": "rejected",
+    "lifecycle": "retired",
+    "retirement_reason": "User rejected this legacy font-variation ODE demo; retained only for historical compatibility, not for display or visual priors.",
     "component": "ode",
     "style": "comic",
     "tags": [
@@ -22,6 +25,9 @@
   },
   {
     "id": "ode-roman",
+    "aesthetic_status": "rejected",
+    "lifecycle": "retired",
+    "retirement_reason": "User rejected this legacy font-variation ODE demo; retained only for historical compatibility, not for display or visual priors.",
     "component": "ode",
     "style": "roman",
     "tags": [
@@ -43,6 +49,9 @@
   },
   {
     "id": "ode-modern",
+    "aesthetic_status": "rejected",
+    "lifecycle": "retired",
+    "retirement_reason": "User rejected this legacy font-variation ODE demo; retained only for historical compatibility, not for display or visual priors.",
     "component": "ode",
     "style": "modern",
     "tags": [

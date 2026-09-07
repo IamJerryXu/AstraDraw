@@ -94,6 +94,38 @@ class AfwTests(unittest.TestCase):
             self.assertIn(phrase, tool["prompt"])
         self.assertIn("not an instruction", tool["prompt"])
 
+    def test_rejected_or_retired_components_are_excluded_and_cannot_be_selected(self):
+        catalog = afw.read_json(self.root / "components/catalog.json")
+        for flag in ({"aesthetic_status": "rejected"}, {"lifecycle": "retired"}):
+            with self.subTest(flag=flag):
+                self.write("components/catalog.json", [{**catalog[0], **flag}])
+                self.assertEqual(afw.search("ODE", root=self.root), [])
+                with self.assertRaisesRegex(ValueError, "rejected or retired"):
+                    self.pack()
+                self.assertFalse((self.root / "pack").exists())
+
+    def test_search_preserves_component_review_status(self):
+        catalog = afw.read_json(self.root / "components/catalog.json")
+        self.write("components/catalog.json", [{**catalog[0], "aesthetic_status": "user-approved"}])
+        self.assertEqual(afw.search("ODE", root=self.root)[0]["aesthetic_status"], "user-approved")
+
+    def test_project_retires_only_legacy_ode_font_demos(self):
+        catalog = afw.read_json(PROJECT / "components/catalog.json")
+        retired = {x["id"] for x in catalog if not afw.component_available(x)}
+        self.assertEqual(retired, {"ode-comic", "ode-roman", "ode-modern"})
+        results = {x["id"] for x in afw.search("", root=PROJECT)}
+        self.assertFalse(results & retired)
+        self.assertIn("sde-comic", results)
+        self.assertIn("flow-matching-roman", results)
+        for item in catalog:
+            if item["id"] in retired:
+                self.assertTrue((PROJECT / item["scene"]).is_file())
+                self.assertTrue((PROJECT / item["svg"]).is_file())
+                with self.assertRaisesRegex(ValueError, "rejected or retired"):
+                    afw.make_priors(self.root / "brief.json", "ode", item["style"],
+                                    self.root / "pack", root=PROJECT)
+                self.assertFalse((self.root / "pack").exists())
+
     def test_scientific_brief_missing_fields_rejected_without_output(self):
         for key in self.brief:
             with self.subTest(field=key):

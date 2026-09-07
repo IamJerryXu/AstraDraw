@@ -72,6 +72,23 @@ class NativePreflightTests(unittest.TestCase):
         self.assertEqual(data['previewDir'],str(self.directory/'new-previews'))
         self.assertFalse(self.output.exists())
 
+    def test_default_catalog_excludes_retired_font_demos(self):
+        args=['--output',str(self.output)]
+        result=self.run_js('console.log(JSON.stringify(await preflight(parseArguments('+json.dumps(args)+'))));')
+        self.assertEqual(result.returncode,0,result.stderr)
+        ids={s['id'] for s in json.loads(result.stdout)['scenes']}
+        self.assertFalse(ids & {'ode-comic','ode-roman','ode-modern'})
+        self.assertIn('sde-comic',ids)
+        self.assertIn('flow-matching-modern',ids)
+        self.assertFalse(self.output.exists())
+
+    def test_explicit_historical_scene_remains_available(self):
+        args=['--scene',str(ROOT/'components/ode/ode-comic.json'),'--output',str(self.output)]
+        result=self.run_js('console.log(JSON.stringify(await preflight(parseArguments('+json.dumps(args)+'))));')
+        self.assertEqual(result.returncode,0,result.stderr)
+        self.assertEqual([s['id'] for s in json.loads(result.stdout)['scenes']],['ode-comic'])
+        self.assertFalse(self.output.exists())
+
     def test_repeat_scene_preserves_page_order(self):
         other=scene();other['id']='second';p=self.directory/'b.json';p.write_text(json.dumps(other))
         result=self.preflight(['--scene',str(p)]);self.assertEqual(result.returncode,0,result.stderr)

@@ -20,7 +20,29 @@
 
 <a id="demo"></a>
 
-## Demo：二维分布与三维网格
+## 完整方法图与框架图
+
+### POSReasoner：输入到输出的方法图
+
+从视频输入、候选关联到验证与输出，在同一张图中呈现整体方法和关键机制展开。标签、矩阵单元、模块及连线均可独立编辑。
+
+![POSReasoner 完整方法图](output/posreasoner/method-previews/posreasoner-method.png)
+
+**[下载可编辑 PPT](output/posreasoner/method.pptx)** · [矢量图](output/posreasoner/method.svg) · [编辑源文件](examples/posreasoner/method.scene.json) · [案例与来源](examples/posreasoner/README.md)
+
+方法图经作者授权公开。公开版以示意输入和掩码替换数据集照片，不包含论文全文，也不把示意结果作为模型预测。
+
+### Conditional Flow Matching：训练与推理框架
+
+把训练监督和推理过程分开呈现，展示配对样本、插值状态、速度预测及采样输出。
+
+![Conditional Flow Matching 的训练与推理框架](output/framework/conditional-flow-previews/conditional-flow.png)
+
+**[下载可编辑 PPT](output/framework/conditional-flow.pptx)** · [矢量图](output/framework/conditional-flow.svg) · [编辑源文件](examples/framework/conditional-flow.scene.json) · [示意范围与来源](examples/framework/README.md)
+
+图中的样本和轨迹用于解释机制，不是训练或实验结果。条件训练直线路径与推理积分轨迹分别表达，不暗示学习到的轨迹必然为直线。
+
+## 空间组件：二维分布与三维网格
 
 下面是工作流制作的实际可编辑示意。下载 PPT 后，标签、样本点、网格与路径均为独立对象。
 
@@ -75,28 +97,6 @@
 - 修改后的版本需要重新审阅，不会自动沿用旧版的认可记录。
 
 在支持对象批注的环境中，可以选中 PPT 对象提出要求。通过截图反馈时，助手需要先确认截图对应的对象。项目不自动监听 PowerPoint 选区，也不支持任意手工修改后的 PPT 自动同步回场景文件。
-
-## 字体与风格可以变化
-
-Comic 适合较轻松的机制说明，Roman 强调数学排版，Modern 适合清晰简洁的结构图。风格同时影响字体、边框和线条，不应改变科学含义。
-
-<details>
-<summary><strong>展开查看同一 ODE 基础组件的三种风格</strong></summary>
-
-<table>
-<tr><th>Comic</th><th>Roman</th><th>Modern</th></tr>
-<tr>
-<td><img src="output/previews/ode-comic.png" alt="Comic 风格 ODE 基础示意" width="100%"></td>
-<td><img src="output/previews/ode-roman.png" alt="Roman 风格 ODE 基础示意" width="100%"></td>
-<td><img src="output/previews/ode-modern.png" alt="Modern 风格 ODE 基础示意" width="100%"></td>
-</tr>
-</table>
-
-[下载九个基础组件](output/components.pptx) · [组件目录](components/README.md)
-
-这些基础示例用于展示格式与功能，不作为所有论文的默认视觉模板。示意轨迹不是数值求解结果。
-
-</details>
 
 <a id="quickstart"></a>
 
@@ -158,7 +158,7 @@ python3 -m unittest discover -s tests -v
 
 自动测试检查文件、版本、选区保护及异常输入，不能替代对科学含义和视觉质量的判断。图中关联连线可按记录随局部编辑更新，但不能保证在 PowerPoint 中任意拖动模块时自动跟随。
 
-公开仓库不包含私人论文、原始参考库或账户信息。项目目前尚未指定整体开源许可证，第三方素材适用各自条款。
+公开仓库只包含获准展示的案例，不包含私人论文全文、原始参考库或账户信息。项目目前尚未指定整体开源许可证，第三方素材适用各自条款。
 
 ---
 

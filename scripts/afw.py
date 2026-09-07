@@ -31,6 +31,11 @@ def contained(root, value):
     return result
 
 
+def component_available(item):
+    """Retired visual examples remain on disk, but are never suggested as priors."""
+    return item.get("aesthetic_status") != "rejected" and item.get("lifecycle") != "retired"
+
+
 def search(query, style=None, include_private=False, root=ROOT):
     tokens = re.findall(r"\w+", query.lower())
     root = Path(root).resolve()
@@ -38,9 +43,10 @@ def search(query, style=None, include_private=False, root=ROOT):
     items = [{**x, "kind": "registered-reference"}
              for x in reference_registry.list_references(root, include_private)
              if x["aesthetic_status"] != "rejected"]
-    items += [{**x, "kind": "original-component", "usage": "editable-and-reference",
-               "aesthetic_status": "candidate"}
-              for x in (read_json(catalog) if catalog.exists() else [])]
+    items += [{"aesthetic_status": "candidate", **x, "kind": "original-component",
+               "usage": "editable-and-reference"}
+              for x in (read_json(catalog) if catalog.exists() else [])
+              if component_available(x)]
     if include_private:
         private = root / ".local/library/catalog.json"
         if private.exists():
@@ -113,13 +119,15 @@ def make_priors(brief_path, component=None, style=None, output_dir=None, private
         if len(matches) != 1:
             raise ValueError("Choose one existing component/style pair")
         item = matches[0]
+        if not component_available(item):
+            raise ValueError(f"Component {item['id']} is rejected or retired; choose a current reference or design plan")
         preview = contained(root, item["preview"])
         if not preview.is_file():
             raise ValueError("Missing rendered preview; export the component first")
         refs.append({"id": item["id"], "path": str(preview), "sha256": digest(preview),
                      "role": "layout-and-style-reference", "usage": "reference",
                      "license": item["license"], "private": False,
-                     "aesthetic_status": "candidate", "selection": "explicit-legacy-component",
+                     "aesthetic_status": item.get("aesthetic_status", "candidate"), "selection": "explicit-legacy-component",
                      "priority": "supporting" if registered else "primary",
                      "limits": "Original demo, not a user-approved aesthetic target. Schematic geometry, not measured data or authority for the target method"})
     if private_assets:

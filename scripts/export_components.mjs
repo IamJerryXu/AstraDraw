@@ -47,7 +47,8 @@ async function assertAbsent(target){
 }
 
 export async function preflight(options){
-  const sources=options.scenes.length?options.scenes:JSON.parse(await fs.readFile(path.join(ROOT,'components/catalog.json'),'utf8')).map(x=>path.join(ROOT,x.scene));
+  const sources=options.scenes.length?options.scenes:JSON.parse(await fs.readFile(path.join(ROOT,'components/catalog.json'),'utf8'))
+    .filter(x=>x.aesthetic_status!=='rejected'&&x.lifecycle!=='retired').map(x=>path.join(ROOT,x.scene));
   const bytes=await Promise.all(sources.map(p=>fs.readFile(p)));
   const scenes=bytes.map(b=>JSON.parse(b.toString('utf8')));
   if(!scenes.length)throw Error('At least one scene is required');
@@ -76,7 +77,7 @@ export async function preflight(options){
 
 export async function main(args=process.argv.slice(2)){
   const options=parseArguments(args);
-  if(options.help){console.log('Usage: export_components.mjs [--scene file.json ...] --output new.pptx [--build-dir private-directory]\nOmit --scene to export the original demo catalog. Existing outputs and sidecars are always rejected.');return;}
+  if(options.help){console.log('Usage: export_components.mjs [--scene file.json ...] --output new.pptx [--build-dir private-directory]\nOmit --scene to export active catalog entries only; rejected and retired entries are excluded. Explicit --scene paths remain available for historical files. Existing outputs and sidecars are always rejected.');return;}
   const {scenes,sources,sourceHashes,output,mapPath,previewDir}=await preflight(options);
   const cache=path.join(os.homedir(),'.cache/codex-runtimes/codex-primary-runtime/dependencies');
   const modules=process.env.RUNTIME_NODE_MODULES||path.join(cache,'node/node_modules');

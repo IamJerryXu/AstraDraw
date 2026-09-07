@@ -50,6 +50,9 @@ or manufactures user approval. Small one-off edits need not create an elaborate 
    Register explicitly chosen image references with `scripts/reference_registry.py`.
    Search user-approved references before unapproved demos. Use `afw.py priors
    --reference-id ...` to avoid automatically injecting the old curve components.
+   The retired `ode-comic`, `ode-roman`, and `ode-modern` font demos are not visual
+   priors or showcase material; retain them only for historical compatibility.
+   This does not prohibit ODE mechanisms or new mesh/vector-field designs.
    Aesthetic acceptance is not scientific validation or publication permission.
 3. Use image generation for visual exploration when it adds value, not for every native
    edit. If an image-generation skill/tool is available, follow it. Pass actual inspected
@@ -76,9 +79,9 @@ Run from this skill folder. Python helpers use the standard library.
 python3 scripts/afw.py search "flow matching" --style comic
 python3 scripts/index_library.py --input /absolute/library.pptx --output-dir .local/library
 python3 scripts/afw.py search "ODE" --include-private
-python3 scripts/afw.py priors --brief examples/ode-brief.json --component ode --style comic --output-dir .local/runs/ode-comic
-python3 scripts/selection_edit.py --scene components/ode/ode-comic.json --request examples/selection-request.json --output .local/edited.scene.json
-python3 scripts/afw.py inspect-pptx --pptx output/components.pptx --slide 1
+python3 scripts/afw.py priors --brief examples/design-brief.json --design examples/design-plan.json --output-dir .local/runs/column-selection
+python3 scripts/selection_edit.py --scene examples/showcase/manifold.scene.json --request examples/showcase/move-label.json --output .local/edited.scene.json
+python3 scripts/afw.py inspect-pptx --pptx output/showcase/spatial-flow.pptx --slide 2
 python3 scripts/workflow.py status --run .local/runs/my-figure
 ```
 

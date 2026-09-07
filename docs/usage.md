@@ -22,17 +22,9 @@ python3 scripts/afw.py priors --brief .local/brief.json --reference-id my-refere
 
 多个 `--reference-id` 按顺序使用，第一张为主参考。已实际查看的新候选可以显式使用 `--allow-candidate-references`，但仍保留“候选”身份；已拒绝素材不会进入输入。不要为通过检查而编造用户认可。
 
-原有演示命令继续保留：
-
-```sh
-python3 scripts/afw.py search ODE --style roman
-python3 scripts/afw.py search "flow matching" --include-private
-python3 scripts/afw.py priors --brief examples/ode-brief.json --component ode --style roman --output-dir .local/runs/ode-roman-v1
-```
-
 `priors` 生成 `prompt.txt`、`image-tool-input.json` 和 `manifest.json`，不会自行调用模型。检查其中每张参考图后，再使用图像工具支持的真实图片附件方式；仅在提示词里写文件名不算传入参考图。
 
-`examples/ode-brief.json` 使用 `dx/dt = -x`。基础 ODE 组件中的一般轨迹**不代表这个具体方程的解**；目标图需要单调趋近平衡，不能照搬参考中的转向曲线。脚本不会自动判断这种科学冲突。
+旧版三种字体的 ODE 组件已退出展示和参考选择。历史文件仅用于已有记录的复查，不作为新的绘图先验；需要空间表达时，参考当前的二维分布、三维网格及完整框架示例。
 
 ### 索引私人素材
 
@@ -44,17 +36,17 @@ python3 scripts/index_library.py --input /absolute/path/library.pptx --output-di
 
 默认私人检索读取 `.local/library/catalog.json`。原素材许可未知，不得直接公开或当作原创资产；上传到生图服务也应先确认授权。为生图输入显式选择私人图片时，需要同时使用 `--private-asset <索引中的资产ID>` 和 `--allow-private-references`，且输出仍须位于 `.local/`。
 
-### 选中两个对象进行修改
+### 选中一个对象进行修改
 
 完整绘图会话可根据真实对象名称自动准备选区请求并保留修改记录，见 [完整示例](../references/workflow-session.md#selected-region-feedback)。下面是独立编辑器的低层入口：
 
 ```sh
-python3 scripts/afw.py inspect-pptx --pptx output/components.pptx --slide 1
-python3 scripts/selection_edit.py --scene components/ode/ode-comic.json --request examples/selection-request.json --output .local/ode-comic-v1.json
-python3 scripts/build_components.py --scene .local/ode-comic-v1.json --output .local/ode-comic-v1.svg
+python3 scripts/afw.py inspect-pptx --pptx output/showcase/spatial-flow.pptx --slide 2
+python3 scripts/selection_edit.py --scene examples/showcase/manifold.scene.json --request examples/showcase/move-label.json --output .local/manifold-edited-v1.json
+python3 scripts/build_components.py --scene .local/manifold-edited-v1.json --output .local/manifold-edited-v1.svg
 ```
 
-示例请求只将 `initial-label` 和 `terminal-label` 下移 15。编辑器保留源文件，生成新场景和 `.audit.json`；已有输出会被拒绝。实际使用建议加入源文件的 `expected_sha256`，避免对过期版本执行批注。
+示例请求只将 `surface-target-label` 下移 8 px。编辑器保留源文件，生成新场景和 `.audit.json`；已有输出会被拒绝。实际使用建议加入源文件的 `expected_sha256`，避免对过期版本执行批注。
 
 对象名称需要先核对，不能把应用批注编号直接当成 PPTX 文件编号。截图选区仍需人工或模型识别到准确对象。文字修改会标记需要科学复核；改变科学语义颜色必须明确允许。
 
@@ -63,7 +55,7 @@ python3 scripts/build_components.py --scene .local/ode-comic-v1.json --output .l
 读取当前环境的 presentations 技能后，在依赖齐全的环境运行：
 
 ```sh
-node scripts/export_components.mjs --scene .local/ode-comic-v1.json --output .local/exports/ode-comic-v1.pptx --build-dir .local/build
+node scripts/export_components.mjs --scene .local/manifold-edited-v1.json --output .local/exports/manifold-edited-v1.pptx --build-dir .local/build
 ```
 
 重复 `--scene` 可把相同画布尺寸的多张图放进同一个 PPT。输出包括对象名称映射和预览；验证记录位于私人构建目录。对象映射同时记录场景与最终 PPT 的文件指纹。导出器会拒绝覆盖现有成品与副产物。

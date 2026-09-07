@@ -1,6 +1,8 @@
 # 原创可编辑组件 v0.1
 
-本目录包含 ODE、SDE、Flow Matching 各三种风格，共 9 个场景。每个场景的 JSON 是编辑源，SVG 保留文本与对象 ID，PPTX 中各条轨迹、箭头、状态点和文字均为原生可编辑对象。
+本目录保留早期 ODE、SDE、Flow Matching 各三种风格，共 9 个场景。其中 `ode-comic`、`ode-roman`、`ode-modern` 已按用户反馈停用，仅为历史文件和测试兼容保留，不再展示、推荐或作为生图视觉先验。检索会排除这三个版本，参考包也拒绝选用它们。此决定不影响 ODE 的数学含义，也不排除新的网格、向量场或分布传输设计。
+
+当前完整示例与空间流图见[项目展示](../README.md)和[空间流图示例](../examples/showcase/README.md)。每个场景的 JSON 是编辑源，SVG 保留文本与对象 ID，PPTX 中各条轨迹、箭头、状态点和文字均为原生可编辑对象。
 
 ## 科学含义
 
@@ -10,14 +12,9 @@
 
 每个场景的 `scientific_notes` 和 PPTX 备注保存适用范围。三种风格不改变文字、对象数量或科学含义。它们实际改变字体、配色和线宽。圆角参数供包含模块框的后续组件使用，本批开放流图未强行增加框体。
 
-## 重建与局部修改
+## 局部修改
 
-```sh
-python3 scripts/build_components.py
-node scripts/export_components.mjs
-```
-
-生成全部场景会覆盖本目录的派生版本。局部编辑应另存 JSON，并单独导出，避免覆盖确认过的修改：
+局部编辑应另存 JSON，并单独导出；脚本拒绝覆盖已有输出。不传 `--scene` 时默认导出会跳过停用项；显式指定历史场景仍可用于回溯，不代表重新推荐。不要批量重建停用的旧 ODE 展示：
 
 ```sh
 python3 scripts/build_components.py --scene edited.json --output edited.svg

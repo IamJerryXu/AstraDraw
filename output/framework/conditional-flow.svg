@@ -1,0 +1,352 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="950" viewBox="0 0 1600 950">
+<rect width="100%" height="100%" fill="white"/>
+<text id="title" data-role="label" x="54" y="56.599999999999994" dominant-baseline="central" font-family="Arial" font-size="38" font-weight="700" font-style="normal" fill="#24344F">Conditional Flow Matching</text>
+<text id="train-label" data-role="label" x="54" y="125.6" dominant-baseline="central" font-family="Arial" font-size="28" font-weight="700" font-style="normal" fill="#24344F">(a)  Training</text>
+<text id="training-subtitle" data-role="label" x="266" y="126.4" dominant-baseline="central" font-family="Arial" font-size="22" font-weight="400" font-style="normal" fill="#67758C">Match a velocity field to paired endpoint displacements</text>
+<ellipse id="noise-0" data-role="state" cx="139.0" cy="243.0" rx="3.7" ry="3.7" fill="#4575AA" stroke="none" stroke-width="0"/>
+<ellipse id="noise-1" data-role="state" cx="118.8334495090021" cy="251.3592218625225" rx="3.95" ry="3.95" fill="#4575AA" stroke="none" stroke-width="0"/>
+<ellipse id="noise-2" data-role="state" cx="132.7502054568301" cy="228.04187422319686" rx="4.2" ry="4.2" fill="#4575AA" stroke="none" stroke-width="0"/>
+<ellipse id="noise-3" data-role="state" cx="144.82538528218078" cy="256.52430378212136" rx="3.7" ry="3.7" fill="#4575AA" stroke="none" stroke-width="0"/>
+<ellipse id="noise-4" data-role="state" cx="106.38210661312502" cy="239.73432695746232" rx="3.95" ry="3.95" fill="#4575AA" stroke="none" stroke-width="0"/>
+<ellipse id="noise-5" data-role="state" cx="153.7867089403044" cy="232.12833308121404" rx="4.2" ry="4.2" fill="#4575AA" stroke="none" stroke-width="0"/>
+<ellipse id="noise-6" data-role="state" cx="123.51857121434203" cy="263.874520136839" rx="3.7" ry="3.7" fill="#4575AA" stroke="none" stroke-width="0"/>
+<ellipse id="noise-7" data-role="state" cx="116.94684648963427" cy="222.70725269266455" rx="3.95" ry="3.95" fill="#4575AA" stroke="none" stroke-width="0"/>
+<ellipse id="noise-8" data-role="state" cx="161.09766994117425" cy="251.2430545677049" rx="4.2" ry="4.2" fill="#4575AA" stroke="none" stroke-width="0"/>
+<ellipse id="noise-9" data-role="state" cx="100.03479542805029" cy="252.58727982913996" rx="3.7" ry="3.7" fill="#4575AA" stroke="none" stroke-width="0"/>
+<ellipse id="noise-10" data-role="state" cx="145.7824567678271" cy="219.30606801941158" rx="3.95" ry="3.95" fill="#4575AA" stroke="none" stroke-width="0"/>
+<ellipse id="noise-11" data-role="state" cx="141.83270215905952" cy="268.89904899170165" rx="4.2" ry="4.2" fill="#4575AA" stroke="none" stroke-width="0"/>
+<ellipse id="noise-12" data-role="state" cx="98.60155651536876" cy="228.91958781922781" rx="3.7" ry="3.7" fill="#4575AA" stroke="none" stroke-width="0"/>
+<ellipse id="noise-13" data-role="state" cx="168.7454216805588" cy="236.7750851382371" rx="3.95" ry="3.95" fill="#4575AA" stroke="none" stroke-width="0"/>
+<ellipse id="noise-14" data-role="state" cx="108.10897007698992" cy="267.4224479001722" rx="4.2" ry="4.2" fill="#4575AA" stroke="none" stroke-width="0"/>
+<ellipse id="noise-15" data-role="state" cx="125.73933052907947" cy="212.56440218857878" rx="3.7" ry="3.7" fill="#4575AA" stroke="none" stroke-width="0"/>
+<ellipse id="noise-16" data-role="state" cx="163.11665645960466" cy="263.2988352509165" rx="3.95" ry="3.95" fill="#4575AA" stroke="none" stroke-width="0"/>
+<ellipse id="noise-17" data-role="state" cx="87.99045919981583" cy="244.33570878122015" rx="4.2" ry="4.2" fill="#4575AA" stroke="none" stroke-width="0"/>
+<ellipse id="noise-18" data-role="state" cx="162.23095074123256" cy="219.6880641580027" rx="3.7" ry="3.7" fill="#4575AA" stroke="none" stroke-width="0"/>
+<ellipse id="noise-19" data-role="state" cx="128.92180732939505" cy="276.7520113696099" rx="3.95" ry="3.95" fill="#4575AA" stroke="none" stroke-width="0"/>
+<ellipse id="noise-20" data-role="state" cx="101.51666846195161" cy="216.5053155547226" rx="4.2" ry="4.2" fill="#4575AA" stroke="none" stroke-width="0"/>
+<ellipse id="noise-21" data-role="state" cx="177.53300995941407" cy="247.69330312572868" rx="3.7" ry="3.7" fill="#4575AA" stroke="none" stroke-width="0"/>
+<ellipse id="noise-22" data-role="state" cx="91.70865748451952" cy="263.50652719258653" rx="3.95" ry="3.95" fill="#4575AA" stroke="none" stroke-width="0"/>
+<ellipse id="noise-23" data-role="state" cx="141.69938002550222" cy="207.3177589792873" rx="4.2" ry="4.2" fill="#4575AA" stroke="none" stroke-width="0"/>
+<ellipse id="data-0" data-role="state" cx="105.52" cy="403.0" rx="3.7" ry="3.7" fill="#D98870" stroke="none" stroke-width="0"/>
+<ellipse id="data-1" data-role="state" cx="154.64671778396092" cy="374.4613582835147" rx="3.95" ry="3.95" fill="#D98870" stroke="none" stroke-width="0"/>
+<ellipse id="data-2" data-role="state" cx="102.77009040100525" cy="393.2273578258219" rx="4.2" ry="4.2" fill="#D98870" stroke="none" stroke-width="0"/>
+<ellipse id="data-3" data-role="state" cx="166.08316952415953" cy="377.83587847098596" rx="3.7" ry="3.7" fill="#D98870" stroke="none" stroke-width="0"/>
+<ellipse id="data-4" data-role="state" cx="91.16812690977501" cy="400.86642694554206" rx="3.95" ry="3.95" fill="#D98870" stroke="none" stroke-width="0"/>
+<ellipse id="data-5" data-role="state" cx="170.02615193373396" cy="361.89717761305985" rx="4.2" ry="4.2" fill="#D98870" stroke="none" stroke-width="0"/>
+<ellipse id="data-6" data-role="state" cx="98.70817133431049" cy="416.6380198227348" rx="3.7" ry="3.7" fill="#D98870" stroke="none" stroke-width="0"/>
+<ellipse id="data-7" data-role="state" cx="153.81661245543907" cy="355.74207175920753" rx="3.95" ry="3.95" fill="#D98870" stroke="none" stroke-width="0"/>
+<ellipse id="data-8" data-role="state" cx="115.24297477411668" cy="408.3854623175672" rx="4.2" ry="4.2" fill="#D98870" stroke="none" stroke-width="0"/>
+<ellipse id="data-9" data-role="state" cx="146.3753099883421" cy="375.2636894883714" rx="3.7" ry="3.7" fill="#D98870" stroke="none" stroke-width="0"/>
+<ellipse id="data-10" data-role="state" cx="108.50428097784393" cy="387.5199644393489" rx="3.95" ry="3.95" fill="#D98870" stroke="none" stroke-width="0"/>
+<ellipse id="data-11" data-role="state" cx="164.76638894998618" cy="385.92071200791173" rx="4.2" ry="4.2" fill="#D98870" stroke="none" stroke-width="0"/>
+<ellipse id="data-12" data-role="state" cx="87.74468486676226" cy="393.80079737522885" rx="3.7" ry="3.7" fill="#D98870" stroke="none" stroke-width="0"/>
+<ellipse id="data-13" data-role="state" cx="176.60798553944585" cy="364.9330556236483" rx="3.95" ry="3.95" fill="#D98870" stroke="none" stroke-width="0"/>
+<ellipse id="data-14" data-role="state" cx="91.92794683387555" cy="418.9559992947792" rx="4.2" ry="4.2" fill="#D98870" stroke="none" stroke-width="0"/>
+<ellipse id="data-15" data-role="state" cx="157.68530543279496" cy="349.1154094298715" rx="3.7" ry="3.7" fill="#D98870" stroke="none" stroke-width="0"/>
+<ellipse id="data-16" data-role="state" cx="116.13132884222605" cy="416.26190569726543" rx="3.95" ry="3.95" fill="#D98870" stroke="none" stroke-width="0"/>
+<ellipse id="data-17" data-role="state" cx="141.07580204791896" cy="369.87266307039715" rx="4.2" ry="4.2" fill="#D98870" stroke="none" stroke-width="0"/>
+<ellipse id="data-18" data-role="state" cx="115.74161832614232" cy="387.7695352498951" rx="3.7" ry="3.7" fill="#D98870" stroke="none" stroke-width="0"/>
+<ellipse id="data-19" data-role="state" cx="159.08559522493383" cy="391.0513140948118" rx="3.95" ry="3.95" fill="#D98870" stroke="none" stroke-width="0"/>
+<ellipse id="data-20" data-role="state" cx="89.0273341232587" cy="385.69013949575213" rx="4.2" ry="4.2" fill="#D98870" stroke="none" stroke-width="0"/>
+<ellipse id="data-21" data-role="state" cx="180.4745243821422" cy="372.06629137547606" rx="3.7" ry="3.7" fill="#D98870" stroke="none" stroke-width="0"/>
+<ellipse id="data-22" data-role="state" cx="84.7118092931886" cy="416.3975977658232" rx="3.95" ry="3.95" fill="#D98870" stroke="none" stroke-width="0"/>
+<ellipse id="data-23" data-role="state" cx="164.70772721122097" cy="345.6876025331344" rx="4.2" ry="4.2" fill="#D98870" stroke="none" stroke-width="0"/>
+<text id="noise-label" data-role="label" x="58" y="183.8" dominant-baseline="central" font-family="Arial" font-size="24" font-weight="700" font-style="normal" fill="#4575AA">Noise  x₀</text>
+<text id="data-label" data-role="label" x="58" y="435.8" dominant-baseline="central" font-family="Arial" font-size="24" font-weight="700" font-style="normal" fill="#D98870">Data  x₁ ∣ c</text>
+<polyline id="noise-to-path" data-role="data-flow" points="193.000,242.000 235.000,242.000 235.000,294.000 287.000,294.000" fill="none" stroke="#24344F" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="noise-to-path--arrow" points="287.000,294.000 274.500,288.625 274.500,299.375" fill="#24344F"/>
+<polyline id="data-to-path" data-role="data-flow" points="193.000,385.000 235.000,385.000 235.000,317.000 287.000,317.000" fill="none" stroke="#24344F" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="data-to-path--arrow" points="287.000,317.000 274.500,311.625 274.500,322.375" fill="#24344F"/>
+<text id="interpolation-label" data-role="label" x="302" y="182.8" dominant-baseline="central" font-family="Arial" font-size="24" font-weight="700" font-style="normal" fill="#24344F">Sample an intermediate state</text>
+<rect id="path-ground" data-role="mechanism-boundary" x="295" y="213" width="355" height="184" rx="0" fill="#F7F8FB" stroke="none" stroke-width="1.5"/>
+<polyline id="pair-0" data-role="line" points="327.000,239.000 610.000,249.000" fill="none" stroke="#BBC5D5" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse id="pair-noise-0" data-role="state" cx="327.0" cy="239.0" rx="5.5" ry="5.5" fill="#4575AA" stroke="none" stroke-width="0"/>
+<ellipse id="pair-data-0" data-role="state" cx="610.0" cy="249.0" rx="5.5" ry="5.5" fill="#D98870" stroke="none" stroke-width="0"/>
+<ellipse id="intermediate-0" data-role="state" cx="462.84000000000003" cy="243.8" rx="6.5" ry="6.5" fill="#7968B0" stroke="#FFFFFF" stroke-width="1.2"/>
+<polyline id="pair-1" data-role="line" points="342.000,269.000 602.000,277.000" fill="none" stroke="#BBC5D5" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse id="pair-noise-1" data-role="state" cx="342.0" cy="269.0" rx="5.5" ry="5.5" fill="#4575AA" stroke="none" stroke-width="0"/>
+<ellipse id="pair-data-1" data-role="state" cx="602.0" cy="277.0" rx="5.5" ry="5.5" fill="#D98870" stroke="none" stroke-width="0"/>
+<ellipse id="intermediate-1" data-role="state" cx="466.79999999999995" cy="272.84000000000003" rx="6.5" ry="6.5" fill="#7968B0" stroke="#FFFFFF" stroke-width="1.2"/>
+<polyline id="pair-2" data-role="line" points="327.000,299.000 594.000,305.000" fill="none" stroke="#BBC5D5" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse id="pair-noise-2" data-role="state" cx="327.0" cy="299.0" rx="5.5" ry="5.5" fill="#4575AA" stroke="none" stroke-width="0"/>
+<ellipse id="pair-data-2" data-role="state" cx="594.0" cy="305.0" rx="5.5" ry="5.5" fill="#D98870" stroke="none" stroke-width="0"/>
+<ellipse id="intermediate-2" data-role="state" cx="455.15999999999997" cy="301.88" rx="6.5" ry="6.5" fill="#7968B0" stroke="#FFFFFF" stroke-width="1.2"/>
+<polyline id="pair-3" data-role="line" points="342.000,329.000 610.000,333.000" fill="none" stroke="#BBC5D5" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse id="pair-noise-3" data-role="state" cx="342.0" cy="329.0" rx="5.5" ry="5.5" fill="#4575AA" stroke="none" stroke-width="0"/>
+<ellipse id="pair-data-3" data-role="state" cx="610.0" cy="333.0" rx="5.5" ry="5.5" fill="#D98870" stroke="none" stroke-width="0"/>
+<ellipse id="intermediate-3" data-role="state" cx="470.64" cy="330.92" rx="6.5" ry="6.5" fill="#7968B0" stroke="#FFFFFF" stroke-width="1.2"/>
+<polyline id="pair-4" data-role="line" points="327.000,359.000 602.000,361.000" fill="none" stroke="#BBC5D5" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse id="pair-noise-4" data-role="state" cx="327.0" cy="359.0" rx="5.5" ry="5.5" fill="#4575AA" stroke="none" stroke-width="0"/>
+<ellipse id="pair-data-4" data-role="state" cx="602.0" cy="361.0" rx="5.5" ry="5.5" fill="#D98870" stroke="none" stroke-width="0"/>
+<ellipse id="intermediate-4" data-role="state" cx="459.0" cy="359.96000000000004" rx="6.5" ry="6.5" fill="#7968B0" stroke="#FFFFFF" stroke-width="1.2"/>
+<text id="path-equation" data-role="label" x="310" y="432.2" dominant-baseline="central" font-family="Arial" font-size="26" font-weight="400" font-style="normal" fill="#24344F">x<tspan font-size="70%" baseline-shift="sub">t</tspan> = (1 − t)x₀ + tx₁</text>
+<polyline id="state-to-field" data-role="data-flow" points="650.000,306.000 747.000,306.000" fill="none" stroke="#24344F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="state-to-field--arrow" points="747.000,306.000 734.400,300.582 734.400,311.418" fill="#24344F"/>
+<text id="state-arrow-label" data-role="label" x="677" y="285.9" dominant-baseline="central" font-family="Arial" font-size="27" font-weight="700" font-style="normal" fill="#7968B0">x<tspan font-size="70%" baseline-shift="sub">t</tspan></text>
+<rect id="velocity-network" data-role="mechanism-boundary" x="754" y="214" width="291" height="185" rx="14" fill="#EAE5F4" stroke="#7968B0" stroke-width="2"/>
+<polyline id="network-edge-0-0-0" data-role="line" points="787.000,264.000 846.000,244.000" fill="none" stroke="#B6ACCE" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline id="network-edge-0-0-2" data-role="line" points="787.000,264.000 846.000,326.000" fill="none" stroke="#B6ACCE" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline id="network-edge-0-1-1" data-role="line" points="787.000,306.000 846.000,285.000" fill="none" stroke="#B6ACCE" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline id="network-edge-0-1-3" data-role="line" points="787.000,306.000 846.000,367.000" fill="none" stroke="#B6ACCE" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline id="network-edge-0-2-0" data-role="line" points="787.000,348.000 846.000,244.000" fill="none" stroke="#B6ACCE" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline id="network-edge-0-2-2" data-role="line" points="787.000,348.000 846.000,326.000" fill="none" stroke="#B6ACCE" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline id="network-edge-1-0-0" data-role="line" points="846.000,244.000 909.000,244.000" fill="none" stroke="#B6ACCE" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline id="network-edge-1-0-2" data-role="line" points="846.000,244.000 909.000,326.000" fill="none" stroke="#B6ACCE" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline id="network-edge-1-1-1" data-role="line" points="846.000,285.000 909.000,285.000" fill="none" stroke="#B6ACCE" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline id="network-edge-1-1-3" data-role="line" points="846.000,285.000 909.000,367.000" fill="none" stroke="#B6ACCE" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline id="network-edge-1-2-0" data-role="line" points="846.000,326.000 909.000,244.000" fill="none" stroke="#B6ACCE" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline id="network-edge-1-2-2" data-role="line" points="846.000,326.000 909.000,326.000" fill="none" stroke="#B6ACCE" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline id="network-edge-1-3-1" data-role="line" points="846.000,367.000 909.000,285.000" fill="none" stroke="#B6ACCE" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline id="network-edge-1-3-3" data-role="line" points="846.000,367.000 909.000,367.000" fill="none" stroke="#B6ACCE" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline id="network-edge-2-0-0" data-role="line" points="909.000,244.000 969.000,265.000" fill="none" stroke="#B6ACCE" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline id="network-edge-2-0-2" data-role="line" points="909.000,244.000 969.000,347.000" fill="none" stroke="#B6ACCE" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline id="network-edge-2-1-1" data-role="line" points="909.000,285.000 969.000,306.000" fill="none" stroke="#B6ACCE" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline id="network-edge-2-2-0" data-role="line" points="909.000,326.000 969.000,265.000" fill="none" stroke="#B6ACCE" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline id="network-edge-2-2-2" data-role="line" points="909.000,326.000 969.000,347.000" fill="none" stroke="#B6ACCE" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline id="network-edge-2-3-1" data-role="line" points="909.000,367.000 969.000,306.000" fill="none" stroke="#B6ACCE" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse id="network-unit-0-0" data-role="state" cx="787.0" cy="264.0" rx="7.5" ry="7.5" fill="#FFFFFF" stroke="#7968B0" stroke-width="1.6"/>
+<ellipse id="network-unit-0-1" data-role="state" cx="787.0" cy="306.0" rx="7.5" ry="7.5" fill="#FFFFFF" stroke="#7968B0" stroke-width="1.6"/>
+<ellipse id="network-unit-0-2" data-role="state" cx="787.0" cy="348.0" rx="7.5" ry="7.5" fill="#FFFFFF" stroke="#7968B0" stroke-width="1.6"/>
+<ellipse id="network-unit-1-0" data-role="state" cx="846.0" cy="244.0" rx="7.5" ry="7.5" fill="#7968B0" stroke="#7968B0" stroke-width="1.6"/>
+<ellipse id="network-unit-1-1" data-role="state" cx="846.0" cy="285.0" rx="7.5" ry="7.5" fill="#7968B0" stroke="#7968B0" stroke-width="1.6"/>
+<ellipse id="network-unit-1-2" data-role="state" cx="846.0" cy="326.0" rx="7.5" ry="7.5" fill="#7968B0" stroke="#7968B0" stroke-width="1.6"/>
+<ellipse id="network-unit-1-3" data-role="state" cx="846.0" cy="367.0" rx="7.5" ry="7.5" fill="#7968B0" stroke="#7968B0" stroke-width="1.6"/>
+<ellipse id="network-unit-2-0" data-role="state" cx="909.0" cy="244.0" rx="7.5" ry="7.5" fill="#7968B0" stroke="#7968B0" stroke-width="1.6"/>
+<ellipse id="network-unit-2-1" data-role="state" cx="909.0" cy="285.0" rx="7.5" ry="7.5" fill="#7968B0" stroke="#7968B0" stroke-width="1.6"/>
+<ellipse id="network-unit-2-2" data-role="state" cx="909.0" cy="326.0" rx="7.5" ry="7.5" fill="#7968B0" stroke="#7968B0" stroke-width="1.6"/>
+<ellipse id="network-unit-2-3" data-role="state" cx="909.0" cy="367.0" rx="7.5" ry="7.5" fill="#7968B0" stroke="#7968B0" stroke-width="1.6"/>
+<ellipse id="network-unit-3-0" data-role="state" cx="969.0" cy="265.0" rx="7.5" ry="7.5" fill="#7968B0" stroke="#7968B0" stroke-width="1.6"/>
+<ellipse id="network-unit-3-1" data-role="state" cx="969.0" cy="306.0" rx="7.5" ry="7.5" fill="#7968B0" stroke="#7968B0" stroke-width="1.6"/>
+<ellipse id="network-unit-3-2" data-role="state" cx="969.0" cy="347.0" rx="7.5" ry="7.5" fill="#7968B0" stroke="#7968B0" stroke-width="1.6"/>
+<text id="velocity-label" data-role="label" x="775" y="429.6" dominant-baseline="central" font-family="Arial" font-size="28" font-weight="700" font-style="normal" fill="#7968B0">vθ(x<tspan font-size="70%" baseline-shift="sub">t</tspan>, t, c)</text>
+<text id="condition-label" data-role="label" x="814" y="180.1" dominant-baseline="central" font-family="Arial" font-size="23" font-weight="400" font-style="normal" fill="#67758C">Time t, condition c</text>
+<polyline id="condition-input" data-role="data-flow" points="893.000,201.000 893.000,214.000" fill="none" stroke="#67758C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8 7"/>
+<polygon id="condition-input--arrow" points="893.000,214.000 898.160,202.000 887.840,202.000" fill="#67758C"/>
+<polyline id="prediction-output" data-role="data-flow" points="1045.000,306.000 1106.000,306.000" fill="none" stroke="#24344F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="prediction-output--arrow" points="1106.000,306.000 1093.400,300.582 1093.400,311.418" fill="#24344F"/>
+<text id="predicted-label" data-role="label" x="1092" y="357.4" dominant-baseline="central" font-family="Arial" font-size="22" font-weight="400" font-style="normal" fill="#7968B0">Predicted velocity</text>
+<ellipse id="predicted-start" data-role="state" cx="1138.0" cy="320.0" rx="4.0" ry="4.0" fill="#7968B0" stroke="none" stroke-width="0"/>
+<polyline id="predicted-vector" data-role="data-flow" points="1138.000,320.000 1220.000,284.000" fill="none" stroke="#7968B0" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="predicted-vector--arrow" points="1220.000,284.000 1204.761,284.116 1209.601,295.140" fill="#7968B0"/>
+<text id="target-label" data-role="label" x="1100" y="182.8" dominant-baseline="central" font-family="Arial" font-size="24" font-weight="700" font-style="normal" fill="#D98870">Target  x₁ − x₀</text>
+<ellipse id="target-start" data-role="state" cx="1138.0" cy="238.0" rx="4.0" ry="4.0" fill="#D98870" stroke="none" stroke-width="0"/>
+<polyline id="target-vector" data-role="data-flow" points="1138.000,238.000 1220.000,214.000" fill="none" stroke="#D98870" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="target-vector--arrow" points="1220.000,214.000 1204.873,212.155 1208.255,223.710" fill="#D98870"/>
+<rect id="loss-boundary" data-role="mechanism-boundary" x="1334" y="227" width="194" height="114" rx="10" fill="#F8F4F1" stroke="#DBC0B5" stroke-width="1.6"/>
+<text id="loss-label" data-role="label" x="1360" y="263.8" dominant-baseline="central" font-family="Arial" font-size="24" font-weight="700" font-style="normal" fill="#24344F">Velocity loss</text>
+<text id="loss-operator" data-role="label" x="1372" y="298.2" dominant-baseline="central" font-family="Arial" font-size="26" font-weight="400" font-style="normal" fill="#24344F">‖vθ − u<tspan font-size="70%" baseline-shift="sub">t</tspan>‖²</text>
+<polyline id="predicted-to-loss" data-role="data-flow" points="1241.000,305.000 1334.000,305.000" fill="none" stroke="#7968B0" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="predicted-to-loss--arrow" points="1334.000,305.000 1321.700,299.711 1321.700,310.289" fill="#7968B0"/>
+<polyline id="target-to-loss" data-role="data-flow" points="1241.000,226.000 1290.000,226.000 1290.000,252.000 1334.000,252.000" fill="none" stroke="#D98870" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="target-to-loss--arrow" points="1334.000,252.000 1321.700,246.711 1321.700,257.289" fill="#D98870"/>
+<text id="target-definition" data-role="label" x="1097" y="425.5" dominant-baseline="central" font-family="Arial" font-size="25" font-weight="400" font-style="normal" fill="#D98870">u<tspan font-size="70%" baseline-shift="sub">t</tspan> = x₁ − x₀</text>
+<polyline id="section-rule" data-role="line" points="54.000,483.000 1544.000,483.000" fill="none" stroke="#D4DBE5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text id="sampling-label" data-role="label" x="54" y="528.6" dominant-baseline="central" font-family="Arial" font-size="28" font-weight="700" font-style="normal" fill="#24344F">(b)  Conditional generation</text>
+<text id="sampling-subtitle" data-role="label" x="449" y="529.4" dominant-baseline="central" font-family="Arial" font-size="22" font-weight="400" font-style="normal" fill="#67758C">Integrate the learned field from fresh noise</text>
+<ellipse id="fresh-noise-0" data-role="state" cx="141.0" cy="733.0" rx="3.7" ry="3.7" fill="#4575AA" stroke="none" stroke-width="0"/>
+<ellipse id="fresh-noise-1" data-role="state" cx="120.8334495090021" cy="741.3592218625225" rx="3.95" ry="3.95" fill="#4575AA" stroke="none" stroke-width="0"/>
+<ellipse id="fresh-noise-2" data-role="state" cx="134.7502054568301" cy="718.0418742231968" rx="4.2" ry="4.2" fill="#4575AA" stroke="none" stroke-width="0"/>
+<ellipse id="fresh-noise-3" data-role="state" cx="146.82538528218078" cy="746.5243037821214" rx="3.7" ry="3.7" fill="#4575AA" stroke="none" stroke-width="0"/>
+<ellipse id="fresh-noise-4" data-role="state" cx="108.38210661312502" cy="729.7343269574624" rx="3.95" ry="3.95" fill="#4575AA" stroke="none" stroke-width="0"/>
+<ellipse id="fresh-noise-5" data-role="state" cx="155.7867089403044" cy="722.128333081214" rx="4.2" ry="4.2" fill="#4575AA" stroke="none" stroke-width="0"/>
+<ellipse id="fresh-noise-6" data-role="state" cx="125.51857121434203" cy="753.874520136839" rx="3.7" ry="3.7" fill="#4575AA" stroke="none" stroke-width="0"/>
+<ellipse id="fresh-noise-7" data-role="state" cx="118.94684648963427" cy="712.7072526926645" rx="3.95" ry="3.95" fill="#4575AA" stroke="none" stroke-width="0"/>
+<ellipse id="fresh-noise-8" data-role="state" cx="163.09766994117425" cy="741.2430545677049" rx="4.2" ry="4.2" fill="#4575AA" stroke="none" stroke-width="0"/>
+<ellipse id="fresh-noise-9" data-role="state" cx="102.03479542805029" cy="742.5872798291399" rx="3.7" ry="3.7" fill="#4575AA" stroke="none" stroke-width="0"/>
+<ellipse id="fresh-noise-10" data-role="state" cx="147.7824567678271" cy="709.3060680194116" rx="3.95" ry="3.95" fill="#4575AA" stroke="none" stroke-width="0"/>
+<ellipse id="fresh-noise-11" data-role="state" cx="143.83270215905952" cy="758.8990489917016" rx="4.2" ry="4.2" fill="#4575AA" stroke="none" stroke-width="0"/>
+<ellipse id="fresh-noise-12" data-role="state" cx="100.60155651536876" cy="718.9195878192278" rx="3.7" ry="3.7" fill="#4575AA" stroke="none" stroke-width="0"/>
+<ellipse id="fresh-noise-13" data-role="state" cx="170.7454216805588" cy="726.7750851382372" rx="3.95" ry="3.95" fill="#4575AA" stroke="none" stroke-width="0"/>
+<ellipse id="fresh-noise-14" data-role="state" cx="110.10897007698992" cy="757.4224479001722" rx="4.2" ry="4.2" fill="#4575AA" stroke="none" stroke-width="0"/>
+<ellipse id="fresh-noise-15" data-role="state" cx="127.73933052907947" cy="702.5644021885788" rx="3.7" ry="3.7" fill="#4575AA" stroke="none" stroke-width="0"/>
+<ellipse id="fresh-noise-16" data-role="state" cx="165.11665645960466" cy="753.2988352509165" rx="3.95" ry="3.95" fill="#4575AA" stroke="none" stroke-width="0"/>
+<ellipse id="fresh-noise-17" data-role="state" cx="89.99045919981583" cy="734.3357087812201" rx="4.2" ry="4.2" fill="#4575AA" stroke="none" stroke-width="0"/>
+<ellipse id="fresh-noise-18" data-role="state" cx="164.23095074123256" cy="709.6880641580027" rx="3.7" ry="3.7" fill="#4575AA" stroke="none" stroke-width="0"/>
+<ellipse id="fresh-noise-19" data-role="state" cx="130.92180732939505" cy="766.7520113696098" rx="3.95" ry="3.95" fill="#4575AA" stroke="none" stroke-width="0"/>
+<ellipse id="fresh-noise-20" data-role="state" cx="103.51666846195161" cy="706.5053155547226" rx="4.2" ry="4.2" fill="#4575AA" stroke="none" stroke-width="0"/>
+<ellipse id="fresh-noise-21" data-role="state" cx="179.53300995941407" cy="737.6933031257287" rx="3.7" ry="3.7" fill="#4575AA" stroke="none" stroke-width="0"/>
+<ellipse id="fresh-noise-22" data-role="state" cx="93.70865748451952" cy="753.5065271925865" rx="3.95" ry="3.95" fill="#4575AA" stroke="none" stroke-width="0"/>
+<ellipse id="fresh-noise-23" data-role="state" cx="143.69938002550222" cy="697.3177589792873" rx="4.2" ry="4.2" fill="#4575AA" stroke="none" stroke-width="0"/>
+<text id="fresh-noise-label" data-role="label" x="54" y="641.8" dominant-baseline="central" font-family="Arial" font-size="24" font-weight="700" font-style="normal" fill="#4575AA">Fresh noise</text>
+<text id="fresh-noise-math" data-role="label" x="116" y="818.2" dominant-baseline="central" font-family="Arial" font-size="26" font-weight="700" font-style="normal" fill="#4575AA">x₀</text>
+<polyline id="noise-to-integrator" data-role="data-flow" points="196.000,733.000 294.000,733.000" fill="none" stroke="#24344F" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="noise-to-integrator--arrow" points="294.000,733.000 281.500,727.625 281.500,738.375" fill="#24344F"/>
+<rect id="sampling-domain" data-role="mechanism-boundary" x="301" y="617" width="848" height="211" rx="0" fill="#F9FAFC" stroke="none" stroke-width="1.5"/>
+<polyline id="grid-v-0" data-role="line" points="325.000,628.000 325.000,815.000" fill="none" stroke="#E6EAF0" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline id="grid-v-1" data-role="line" points="387.000,628.000 387.000,815.000" fill="none" stroke="#E6EAF0" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline id="grid-v-2" data-role="line" points="449.000,628.000 449.000,815.000" fill="none" stroke="#E6EAF0" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline id="grid-v-3" data-role="line" points="511.000,628.000 511.000,815.000" fill="none" stroke="#E6EAF0" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline id="grid-v-4" data-role="line" points="573.000,628.000 573.000,815.000" fill="none" stroke="#E6EAF0" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline id="grid-v-5" data-role="line" points="635.000,628.000 635.000,815.000" fill="none" stroke="#E6EAF0" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline id="grid-v-6" data-role="line" points="697.000,628.000 697.000,815.000" fill="none" stroke="#E6EAF0" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline id="grid-v-7" data-role="line" points="759.000,628.000 759.000,815.000" fill="none" stroke="#E6EAF0" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline id="grid-v-8" data-role="line" points="821.000,628.000 821.000,815.000" fill="none" stroke="#E6EAF0" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline id="grid-v-9" data-role="line" points="883.000,628.000 883.000,815.000" fill="none" stroke="#E6EAF0" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline id="grid-v-10" data-role="line" points="945.000,628.000 945.000,815.000" fill="none" stroke="#E6EAF0" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline id="grid-v-11" data-role="line" points="1007.000,628.000 1007.000,815.000" fill="none" stroke="#E6EAF0" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline id="grid-v-12" data-role="line" points="1069.000,628.000 1069.000,815.000" fill="none" stroke="#E6EAF0" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline id="grid-v-13" data-role="line" points="1131.000,628.000 1131.000,815.000" fill="none" stroke="#E6EAF0" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline id="grid-h-0" data-role="line" points="314.000,630.000 1136.000,630.000" fill="none" stroke="#E6EAF0" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline id="grid-h-1" data-role="line" points="314.000,674.000 1136.000,674.000" fill="none" stroke="#E6EAF0" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline id="grid-h-2" data-role="line" points="314.000,718.000 1136.000,718.000" fill="none" stroke="#E6EAF0" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline id="grid-h-3" data-role="line" points="314.000,762.000 1136.000,762.000" fill="none" stroke="#E6EAF0" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline id="grid-h-4" data-role="line" points="314.000,806.000 1136.000,806.000" fill="none" stroke="#E6EAF0" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline id="sample-trajectory-0" data-role="line" points="337.000,658.000 348.057,658.089 359.114,658.171 370.171,658.239 381.229,658.288 392.286,658.311 403.343,658.302 414.400,658.255 425.457,658.165 436.514,658.027 447.571,657.837 458.629,657.590 469.686,657.283 480.743,656.915 491.800,656.481 502.857,655.982 513.914,655.417 524.971,654.785 536.029,654.086 547.086,653.324 558.143,652.499 569.200,651.614 580.257,650.674 591.314,649.681 602.371,648.642 613.429,647.561 624.486,646.444 635.543,645.298 646.600,644.130 657.657,642.948 668.714,641.758 679.771,640.570 690.829,639.392 701.886,638.231 712.943,637.098 724.000,636.000 735.057,634.946 746.114,633.946 757.171,633.007 768.229,632.137 779.286,631.345 790.343,630.638 801.400,630.023 812.457,629.508 823.514,629.097 834.571,628.797 845.629,628.612 856.686,628.547 867.743,628.605 878.800,628.789 889.857,629.101 900.914,629.541 911.971,630.111 923.029,630.809 934.086,631.634 945.143,632.584 956.200,633.656 967.257,634.846 978.314,636.149 989.371,637.560 1000.429,639.073 1011.486,640.680 1022.543,642.374 1033.600,644.148 1044.657,645.992 1055.714,647.898 1066.771,649.855 1077.829,651.854 1088.886,653.885 1099.943,655.937 1111.000,658.000" fill="none" stroke="#ACA0C8" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse id="initial-state-0" data-role="state" cx="337.0" cy="658.0" rx="5.5" ry="5.5" fill="#4575AA" stroke="none" stroke-width="0"/>
+<ellipse id="final-state-0" data-role="state" cx="1111.0" cy="658.0" rx="5.5" ry="5.5" fill="#D98870" stroke="none" stroke-width="0"/>
+<polyline id="trajectory-direction-0" data-role="data-flow" points="801.400,630.023 823.514,629.097" fill="none" stroke="#ACA0C8" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="trajectory-direction-0--arrow" points="823.514,629.097 810.902,624.289 811.348,634.943" fill="#ACA0C8"/>
+<polyline id="sample-trajectory-1" data-role="line" points="337.000,690.000 348.057,690.582 359.114,691.157 370.171,691.716 381.229,692.252 392.286,692.759 403.343,693.228 414.400,693.654 425.457,694.030 436.514,694.350 447.571,694.609 458.629,694.802 469.686,694.925 480.743,694.974 491.800,694.947 502.857,694.841 513.914,694.654 524.971,694.386 536.029,694.037 547.086,693.608 558.143,693.099 569.200,692.513 580.257,691.854 591.314,691.124 602.371,690.328 613.429,689.471 624.486,688.559 635.543,687.597 646.600,686.592 657.657,685.551 668.714,684.482 679.771,683.393 690.829,682.292 701.886,681.187 712.943,680.087 724.000,679.000 735.057,677.935 746.114,676.902 757.171,675.907 768.229,674.960 779.286,674.069 790.343,673.242 801.400,672.485 812.457,671.806 823.514,671.212 834.571,670.707 845.629,670.299 856.686,669.990 867.743,669.785 878.800,669.688 889.857,669.701 900.914,669.825 911.971,670.061 923.029,670.410 934.086,670.871 945.143,671.442 956.200,672.122 967.257,672.906 978.314,673.791 989.371,674.773 1000.429,675.845 1011.486,677.003 1022.543,678.240 1033.600,679.547 1044.657,680.919 1055.714,682.346 1066.771,683.819 1077.829,685.331 1088.886,686.871 1099.943,688.431 1111.000,690.000" fill="none" stroke="#ACA0C8" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse id="initial-state-1" data-role="state" cx="337.0" cy="690.0" rx="5.5" ry="5.5" fill="#4575AA" stroke="none" stroke-width="0"/>
+<ellipse id="final-state-1" data-role="state" cx="1111.0" cy="690.0" rx="5.5" ry="5.5" fill="#D98870" stroke="none" stroke-width="0"/>
+<polyline id="trajectory-direction-1" data-role="data-flow" points="801.400,672.485 823.514,671.212" fill="none" stroke="#ACA0C8" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="trajectory-direction-1--arrow" points="823.514,671.212 810.828,666.601 811.441,677.248" fill="#ACA0C8"/>
+<polyline id="sample-trajectory-2" data-role="line" points="337.000,722.000 348.057,723.076 359.114,724.143 370.171,725.192 381.229,726.216 392.286,727.207 403.343,728.155 414.400,729.053 425.457,729.895 436.514,730.674 447.571,731.382 458.629,732.015 469.686,732.567 480.743,733.034 491.800,733.413 502.857,733.699 513.914,733.891 524.971,733.988 536.029,733.988 547.086,733.891 558.143,733.699 569.200,733.413 580.257,733.034 591.314,732.567 602.371,732.015 613.429,731.382 624.486,730.674 635.543,729.895 646.600,729.053 657.657,728.155 668.714,727.207 679.771,726.216 690.829,725.192 701.886,724.143 712.943,723.076 724.000,722.000 735.057,720.924 746.114,719.857 757.171,718.808 768.229,717.784 779.286,716.793 790.343,715.845 801.400,714.947 812.457,714.105 823.514,713.326 834.571,712.618 845.629,711.985 856.686,711.433 867.743,710.966 878.800,710.587 889.857,710.301 900.914,710.109 911.971,710.012 923.029,710.012 934.086,710.109 945.143,710.301 956.200,710.587 967.257,710.966 978.314,711.433 989.371,711.985 1000.429,712.618 1011.486,713.326 1022.543,714.105 1033.600,714.947 1044.657,715.845 1055.714,716.793 1066.771,717.784 1077.829,718.808 1088.886,719.857 1099.943,720.924 1111.000,722.000" fill="none" stroke="#7968B0" stroke-width="3.8" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse id="initial-state-2" data-role="state" cx="337.0" cy="722.0" rx="5.5" ry="5.5" fill="#4575AA" stroke="none" stroke-width="0"/>
+<ellipse id="final-state-2" data-role="state" cx="1111.0" cy="722.0" rx="5.5" ry="5.5" fill="#D98870" stroke="none" stroke-width="0"/>
+<polyline id="trajectory-direction-2" data-role="data-flow" points="801.400,714.947 823.514,713.326" fill="none" stroke="#7968B0" stroke-width="3.8" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="trajectory-direction-2--arrow" points="823.514,713.326 809.318,708.417 810.185,720.253" fill="#7968B0"/>
+<polyline id="sample-trajectory-3" data-role="line" points="337.000,754.000 348.057,755.569 359.114,757.129 370.171,758.669 381.229,760.181 392.286,761.654 403.343,763.081 414.400,764.453 425.457,765.760 436.514,766.997 447.571,768.155 458.629,769.227 469.686,770.209 480.743,771.094 491.800,771.878 502.857,772.558 513.914,773.129 524.971,773.590 536.029,773.939 547.086,774.175 558.143,774.299 569.200,774.312 580.257,774.215 591.314,774.010 602.371,773.701 613.429,773.293 624.486,772.788 635.543,772.194 646.600,771.515 657.657,770.758 668.714,769.931 679.771,769.040 690.829,768.093 701.886,767.098 712.943,766.065 724.000,765.000 735.057,763.913 746.114,762.813 757.171,761.708 768.229,760.607 779.286,759.518 790.343,758.449 801.400,757.408 812.457,756.403 823.514,755.441 834.571,754.529 845.629,753.672 856.686,752.876 867.743,752.146 878.800,751.487 889.857,750.901 900.914,750.392 911.971,749.963 923.029,749.614 934.086,749.346 945.143,749.159 956.200,749.053 967.257,749.026 978.314,749.075 989.371,749.198 1000.429,749.391 1011.486,749.650 1022.543,749.970 1033.600,750.346 1044.657,750.772 1055.714,751.241 1066.771,751.748 1077.829,752.284 1088.886,752.843 1099.943,753.418 1111.000,754.000" fill="none" stroke="#ACA0C8" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse id="initial-state-3" data-role="state" cx="337.0" cy="754.0" rx="5.5" ry="5.5" fill="#4575AA" stroke="none" stroke-width="0"/>
+<ellipse id="final-state-3" data-role="state" cx="1111.0" cy="754.0" rx="5.5" ry="5.5" fill="#D98870" stroke="none" stroke-width="0"/>
+<polyline id="trajectory-direction-3" data-role="data-flow" points="801.400,757.408 823.514,755.441" fill="none" stroke="#ACA0C8" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="trajectory-direction-3--arrow" points="823.514,755.441 810.691,751.229 811.635,761.851" fill="#ACA0C8"/>
+<polyline id="sample-trajectory-4" data-role="line" points="337.000,786.000 348.057,788.063 359.114,790.115 370.171,792.146 381.229,794.145 392.286,796.102 403.343,798.008 414.400,799.852 425.457,801.626 436.514,803.320 447.571,804.927 458.629,806.440 469.686,807.851 480.743,809.154 491.800,810.344 502.857,811.416 513.914,812.366 524.971,813.191 536.029,813.889 547.086,814.459 558.143,814.899 569.200,815.211 580.257,815.395 591.314,815.453 602.371,815.388 613.429,815.203 624.486,814.903 635.543,814.492 646.600,813.977 657.657,813.362 668.714,812.655 679.771,811.863 690.829,810.993 701.886,810.054 712.943,809.054 724.000,808.000 735.057,806.902 746.114,805.769 757.171,804.608 768.229,803.430 779.286,802.242 790.343,801.052 801.400,799.870 812.457,798.702 823.514,797.556 834.571,796.439 845.629,795.358 856.686,794.319 867.743,793.326 878.800,792.386 889.857,791.501 900.914,790.676 911.971,789.914 923.029,789.215 934.086,788.583 945.143,788.018 956.200,787.519 967.257,787.085 978.314,786.717 989.371,786.410 1000.429,786.163 1011.486,785.973 1022.543,785.835 1033.600,785.745 1044.657,785.698 1055.714,785.689 1066.771,785.712 1077.829,785.761 1088.886,785.829 1099.943,785.911 1111.000,786.000" fill="none" stroke="#ACA0C8" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse id="initial-state-4" data-role="state" cx="337.0" cy="786.0" rx="5.5" ry="5.5" fill="#4575AA" stroke="none" stroke-width="0"/>
+<ellipse id="final-state-4" data-role="state" cx="1111.0" cy="786.0" rx="5.5" ry="5.5" fill="#D98870" stroke="none" stroke-width="0"/>
+<polyline id="trajectory-direction-4" data-role="data-flow" points="801.400,799.870 823.514,797.556" fill="none" stroke="#ACA0C8" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="trajectory-direction-4--arrow" points="823.514,797.556 810.627,793.543 811.736,804.149" fill="#ACA0C8"/>
+<polyline id="field-arrow-0-0" data-role="data-flow" points="370.000,638.000 389.000,638.524" fill="none" stroke="#A8B6C9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="field-arrow-0-0--arrow" points="389.000,638.524 377.937,633.401 377.672,643.029" fill="#A8B6C9"/>
+<polyline id="field-arrow-0-1" data-role="data-flow" points="370.000,686.000 389.000,687.364" fill="none" stroke="#A8B6C9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="field-arrow-0-1--arrow" points="389.000,687.364 378.174,681.759 377.484,691.366" fill="#A8B6C9"/>
+<polyline id="field-arrow-0-2" data-role="data-flow" points="370.000,734.000 389.000,736.205" fill="none" stroke="#A8B6C9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="field-arrow-0-2--arrow" points="389.000,736.205 378.430,730.130 377.319,739.698" fill="#A8B6C9"/>
+<polyline id="field-arrow-0-3" data-role="data-flow" points="370.000,782.000 389.000,785.046" fill="none" stroke="#A8B6C9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="field-arrow-0-3--arrow" points="389.000,785.046 378.704,778.518 377.179,788.028" fill="#A8B6C9"/>
+<polyline id="field-arrow-1-0" data-role="data-flow" points="431.000,638.000 450.000,638.157" fill="none" stroke="#A8B6C9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="field-arrow-1-0--arrow" points="450.000,638.157 438.840,633.248 438.761,642.880" fill="#A8B6C9"/>
+<polyline id="field-arrow-1-1" data-role="data-flow" points="431.000,686.000 450.000,686.944" fill="none" stroke="#A8B6C9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="field-arrow-1-1--arrow" points="450.000,686.944 439.053,681.578 438.575,691.198" fill="#A8B6C9"/>
+<polyline id="field-arrow-1-2" data-role="data-flow" points="431.000,734.000 450.000,735.731" fill="none" stroke="#A8B6C9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="field-arrow-1-2--arrow" points="450.000,735.731 439.283,729.919 438.409,739.511" fill="#A8B6C9"/>
+<polyline id="field-arrow-1-3" data-role="data-flow" points="431.000,782.000 450.000,784.519" fill="none" stroke="#A8B6C9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="field-arrow-1-3--arrow" points="450.000,784.519 439.530,778.273 438.264,787.821" fill="#A8B6C9"/>
+<polyline id="field-arrow-2-0" data-role="data-flow" points="492.000,638.000 511.000,637.540" fill="none" stroke="#A8B6C9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="field-arrow-2-0--arrow" points="511.000,637.540 499.687,632.997 499.920,642.626" fill="#A8B6C9"/>
+<polyline id="field-arrow-2-1" data-role="data-flow" points="492.000,686.000 511.000,686.226" fill="none" stroke="#A8B6C9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="field-arrow-2-1--arrow" points="511.000,686.226 499.858,681.277 499.743,690.909" fill="#A8B6C9"/>
+<polyline id="field-arrow-2-2" data-role="data-flow" points="492.000,734.000 511.000,734.912" fill="none" stroke="#A8B6C9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="field-arrow-2-2--arrow" points="511.000,734.912 500.044,729.565 499.582,739.185" fill="#A8B6C9"/>
+<polyline id="field-arrow-2-3" data-role="data-flow" points="492.000,782.000 511.000,783.598" fill="none" stroke="#A8B6C9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="field-arrow-2-3--arrow" points="511.000,783.598 500.243,777.860 499.436,787.458" fill="#A8B6C9"/>
+<polyline id="field-arrow-3-0" data-role="data-flow" points="553.000,638.000 572.000,636.850" fill="none" stroke="#A8B6C9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="field-arrow-3-0--arrow" points="572.000,636.850 560.529,632.719 561.111,642.334" fill="#A8B6C9"/>
+<polyline id="field-arrow-3-1" data-role="data-flow" points="553.000,686.000 572.000,685.392" fill="none" stroke="#A8B6C9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="field-arrow-3-1--arrow" points="572.000,685.392 560.652,680.937 560.960,690.564" fill="#A8B6C9"/>
+<polyline id="field-arrow-3-2" data-role="data-flow" points="553.000,734.000 572.000,733.935" fill="none" stroke="#A8B6C9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="field-arrow-3-2--arrow" points="572.000,733.935 560.784,729.157 560.817,738.789" fill="#A8B6C9"/>
+<polyline id="field-arrow-3-3" data-role="data-flow" points="553.000,782.000 572.000,782.478" fill="none" stroke="#A8B6C9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="field-arrow-3-3--arrow" points="572.000,782.478 560.925,777.382 560.682,787.011" fill="#A8B6C9"/>
+<polyline id="field-arrow-4-0" data-role="data-flow" points="614.000,638.000 633.000,636.290" fill="none" stroke="#A8B6C9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="field-arrow-4-0--arrow" points="633.000,636.290 621.413,632.497 622.277,642.090" fill="#A8B6C9"/>
+<polyline id="field-arrow-4-1" data-role="data-flow" points="614.000,686.000 633.000,684.656" fill="none" stroke="#A8B6C9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="field-arrow-4-1--arrow" points="633.000,684.656 621.488,680.642 622.168,690.250" fill="#A8B6C9"/>
+<polyline id="field-arrow-4-2" data-role="data-flow" points="614.000,734.000 633.000,733.022" fill="none" stroke="#A8B6C9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="field-arrow-4-2--arrow" points="633.000,733.022 621.567,728.788 622.062,738.408" fill="#A8B6C9"/>
+<polyline id="field-arrow-4-3" data-role="data-flow" points="614.000,782.000 633.000,781.389" fill="none" stroke="#A8B6C9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="field-arrow-4-3--arrow" points="633.000,781.389 621.651,776.935 621.961,786.562" fill="#A8B6C9"/>
+<polyline id="field-arrow-5-0" data-role="data-flow" points="675.000,638.000 694.000,636.042" fill="none" stroke="#A8B6C9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="field-arrow-5-0--arrow" points="694.000,636.042 682.365,632.400 683.353,641.981" fill="#A8B6C9"/>
+<polyline id="field-arrow-5-1" data-role="data-flow" points="675.000,686.000 694.000,684.210" fill="none" stroke="#A8B6C9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="field-arrow-5-1--arrow" points="694.000,684.210 682.398,680.466 683.301,690.055" fill="#A8B6C9"/>
+<polyline id="field-arrow-5-2" data-role="data-flow" points="675.000,734.000 694.000,732.377" fill="none" stroke="#A8B6C9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="field-arrow-5-2--arrow" points="694.000,732.377 682.431,728.532 683.250,738.129" fill="#A8B6C9"/>
+<polyline id="field-arrow-5-3" data-role="data-flow" points="675.000,782.000 694.000,780.545" fill="none" stroke="#A8B6C9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="field-arrow-5-3--arrow" points="694.000,780.545 682.465,776.598 683.200,786.202" fill="#A8B6C9"/>
+<polyline id="field-arrow-6-0" data-role="data-flow" points="736.000,638.000 755.000,636.220" fill="none" stroke="#A8B6C9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="field-arrow-6-0--arrow" points="755.000,636.220 743.400,632.470 744.298,642.060" fill="#A8B6C9"/>
+<polyline id="field-arrow-6-1" data-role="data-flow" points="736.000,686.000 755.000,684.179" fill="none" stroke="#A8B6C9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="field-arrow-6-1--arrow" points="755.000,684.179 743.392,680.453 744.311,690.041" fill="#A8B6C9"/>
+<polyline id="field-arrow-6-2" data-role="data-flow" points="736.000,734.000 755.000,732.137" fill="none" stroke="#A8B6C9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="field-arrow-6-2--arrow" points="755.000,732.137 743.384,728.437 744.323,738.023" fill="#A8B6C9"/>
+<polyline id="field-arrow-6-3" data-role="data-flow" points="736.000,782.000 755.000,780.096" fill="none" stroke="#A8B6C9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="field-arrow-6-3--arrow" points="755.000,780.096 743.376,776.421 744.336,786.005" fill="#A8B6C9"/>
+<polyline id="field-arrow-7-0" data-role="data-flow" points="797.000,638.000 816.000,636.836" fill="none" stroke="#A8B6C9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="field-arrow-7-0--arrow" points="816.000,636.836 804.527,632.714 805.115,642.328" fill="#A8B6C9"/>
+<polyline id="field-arrow-7-1" data-role="data-flow" points="797.000,686.000 816.000,684.589" fill="none" stroke="#A8B6C9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="field-arrow-7-1--arrow" points="816.000,684.589 804.474,680.616 805.188,690.221" fill="#A8B6C9"/>
+<polyline id="field-arrow-7-2" data-role="data-flow" points="797.000,734.000 816.000,732.341" fill="none" stroke="#A8B6C9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="field-arrow-7-2--arrow" points="816.000,732.341 804.424,728.517 805.261,738.113" fill="#A8B6C9"/>
+<polyline id="field-arrow-7-3" data-role="data-flow" points="797.000,782.000 816.000,780.093" fill="none" stroke="#A8B6C9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="field-arrow-7-3--arrow" points="816.000,780.093 804.375,776.420 805.337,786.004" fill="#A8B6C9"/>
+<polyline id="field-arrow-8-0" data-role="data-flow" points="858.000,638.000 877.000,637.799" fill="none" stroke="#A8B6C9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="field-arrow-8-0--arrow" points="877.000,637.799 865.750,633.102 865.852,642.733" fill="#A8B6C9"/>
+<polyline id="field-arrow-8-1" data-role="data-flow" points="858.000,686.000 877.000,685.360" fill="none" stroke="#A8B6C9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="field-arrow-8-1--arrow" points="877.000,685.360 865.644,680.924 865.969,690.550" fill="#A8B6C9"/>
+<polyline id="field-arrow-8-2" data-role="data-flow" points="858.000,734.000 877.000,732.921" fill="none" stroke="#A8B6C9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="field-arrow-8-2--arrow" points="877.000,732.921 865.545,728.748 866.091,738.364" fill="#A8B6C9"/>
+<polyline id="field-arrow-8-3" data-role="data-flow" points="858.000,782.000 877.000,780.482" fill="none" stroke="#A8B6C9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="field-arrow-8-3--arrow" points="877.000,780.482 865.452,776.573 866.219,786.175" fill="#A8B6C9"/>
+<polyline id="field-arrow-9-0" data-role="data-flow" points="919.000,638.000 938.000,638.928" fill="none" stroke="#A8B6C9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="field-arrow-9-0--arrow" points="938.000,638.928 927.048,633.571 926.578,643.192" fill="#A8B6C9"/>
+<polyline id="field-arrow-9-1" data-role="data-flow" points="919.000,686.000 938.000,686.324" fill="none" stroke="#A8B6C9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="field-arrow-9-1--arrow" points="938.000,686.324 926.884,681.318 926.719,690.948" fill="#A8B6C9"/>
+<polyline id="field-arrow-9-2" data-role="data-flow" points="919.000,734.000 938.000,733.721" fill="none" stroke="#A8B6C9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="field-arrow-9-2--arrow" points="938.000,733.721 926.730,729.070 926.872,738.701" fill="#A8B6C9"/>
+<polyline id="field-arrow-9-3" data-role="data-flow" points="919.000,782.000 938.000,781.117" fill="none" stroke="#A8B6C9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="field-arrow-9-3--arrow" points="938.000,781.117 926.589,776.826 927.036,786.448" fill="#A8B6C9"/>
+<polyline id="field-arrow-10-0" data-role="data-flow" points="980.000,638.000 999.000,639.996" fill="none" stroke="#A8B6C9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="field-arrow-10-0--arrow" points="999.000,639.996 988.364,634.036 987.358,643.616" fill="#A8B6C9"/>
+<polyline id="field-arrow-10-1" data-role="data-flow" points="980.000,686.000 999.000,687.265" fill="none" stroke="#A8B6C9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="field-arrow-10-1--arrow" points="999.000,687.265 988.145,681.716 987.505,691.326" fill="#A8B6C9"/>
+<polyline id="field-arrow-10-2" data-role="data-flow" points="980.000,734.000 999.000,734.534" fill="none" stroke="#A8B6C9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="field-arrow-10-2--arrow" points="999.000,734.534 987.940,729.405 987.669,739.033" fill="#A8B6C9"/>
+<polyline id="field-arrow-10-3" data-role="data-flow" points="980.000,782.000 999.000,781.802" fill="none" stroke="#A8B6C9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="field-arrow-10-3--arrow" points="999.000,781.802 987.751,777.103 987.851,786.735" fill="#A8B6C9"/>
+<polyline id="field-arrow-11-0" data-role="data-flow" points="1041.000,638.000 1060.000,640.781" fill="none" stroke="#A8B6C9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="field-arrow-11-0--arrow" points="1060.000,640.781 1049.616,634.394 1048.221,643.924" fill="#A8B6C9"/>
+<polyline id="field-arrow-11-1" data-role="data-flow" points="1041.000,686.000 1060.000,687.967" fill="none" stroke="#A8B6C9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="field-arrow-11-1--arrow" points="1060.000,687.967 1049.356,682.023 1048.364,691.604" fill="#A8B6C9"/>
+<polyline id="field-arrow-11-2" data-role="data-flow" points="1041.000,734.000 1060.000,735.153" fill="none" stroke="#A8B6C9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="field-arrow-11-2--arrow" points="1060.000,735.153 1049.112,729.667 1048.529,739.282" fill="#A8B6C9"/>
+<polyline id="field-arrow-11-3" data-role="data-flow" points="1041.000,782.000 1060.000,782.339" fill="none" stroke="#A8B6C9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="field-arrow-11-3--arrow" points="1060.000,782.339 1048.888,777.324 1048.716,786.954" fill="#A8B6C9"/>
+<text id="integration-equation" data-role="label" x="492" y="589.6" dominant-baseline="central" font-family="Arial" font-size="28" font-weight="700" font-style="normal" fill="#7968B0">dx<tspan font-size="70%" baseline-shift="sub">t</tspan> / dt = vθ(x<tspan font-size="70%" baseline-shift="sub">t</tspan>, t, c)</text>
+<text id="learned-parameter-label" data-role="label" x="1041" y="581.0" dominant-baseline="central" font-family="Arial" font-size="20" font-weight="400" font-style="normal" fill="#67758C">learned θ</text>
+<polyline id="parameter-transfer" data-role="data-flow" points="1022.000,399.000 1022.000,617.000" fill="none" stroke="#67758C" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8 7"/>
+<polygon id="parameter-transfer--arrow" points="1022.000,617.000 1027.031,605.300 1016.969,605.300" fill="#67758C"/>
+<text id="generation-condition" data-role="label" x="318" y="586.1" dominant-baseline="central" font-family="Arial" font-size="23" font-weight="400" font-style="normal" fill="#67758C">Condition c</text>
+<polyline id="generation-condition-input" data-role="data-flow" points="400.000,604.000 400.000,617.000" fill="none" stroke="#67758C" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8 7"/>
+<polygon id="generation-condition-input--arrow" points="400.000,617.000 405.074,605.200 394.926,605.200" fill="#67758C"/>
+<text id="integration-label" data-role="label" x="558" y="859.1" dominant-baseline="central" font-family="Arial" font-size="23" font-weight="400" font-style="normal" fill="#67758C">Integrate from t = 0 to t = 1</text>
+<polyline id="integrator-to-output" data-role="data-flow" points="1149.000,733.000 1255.000,733.000" fill="none" stroke="#24344F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="integrator-to-output--arrow" points="1255.000,733.000 1242.400,727.582 1242.400,738.418" fill="#24344F"/>
+<ellipse id="generated-samples-0" data-role="state" cx="1351.52" cy="751.0" rx="3.7" ry="3.7" fill="#D98870" stroke="none" stroke-width="0"/>
+<ellipse id="generated-samples-1" data-role="state" cx="1400.6467177839609" cy="722.4613582835148" rx="3.95" ry="3.95" fill="#D98870" stroke="none" stroke-width="0"/>
+<ellipse id="generated-samples-2" data-role="state" cx="1348.7700904010053" cy="741.227357825822" rx="4.2" ry="4.2" fill="#D98870" stroke="none" stroke-width="0"/>
+<ellipse id="generated-samples-3" data-role="state" cx="1412.0831695241595" cy="725.835878470986" rx="3.7" ry="3.7" fill="#D98870" stroke="none" stroke-width="0"/>
+<ellipse id="generated-samples-4" data-role="state" cx="1337.168126909775" cy="748.866426945542" rx="3.95" ry="3.95" fill="#D98870" stroke="none" stroke-width="0"/>
+<ellipse id="generated-samples-5" data-role="state" cx="1416.026151933734" cy="709.8971776130599" rx="4.2" ry="4.2" fill="#D98870" stroke="none" stroke-width="0"/>
+<ellipse id="generated-samples-6" data-role="state" cx="1344.7081713343105" cy="764.6380198227348" rx="3.7" ry="3.7" fill="#D98870" stroke="none" stroke-width="0"/>
+<ellipse id="generated-samples-7" data-role="state" cx="1399.816612455439" cy="703.7420717592075" rx="3.95" ry="3.95" fill="#D98870" stroke="none" stroke-width="0"/>
+<ellipse id="generated-samples-8" data-role="state" cx="1361.2429747741166" cy="756.3854623175672" rx="4.2" ry="4.2" fill="#D98870" stroke="none" stroke-width="0"/>
+<ellipse id="generated-samples-9" data-role="state" cx="1392.3753099883422" cy="723.2636894883715" rx="3.7" ry="3.7" fill="#D98870" stroke="none" stroke-width="0"/>
+<ellipse id="generated-samples-10" data-role="state" cx="1354.504280977844" cy="735.5199644393489" rx="3.95" ry="3.95" fill="#D98870" stroke="none" stroke-width="0"/>
+<ellipse id="generated-samples-11" data-role="state" cx="1410.766388949986" cy="733.9207120079117" rx="4.2" ry="4.2" fill="#D98870" stroke="none" stroke-width="0"/>
+<ellipse id="generated-samples-12" data-role="state" cx="1333.7446848667623" cy="741.8007973752289" rx="3.7" ry="3.7" fill="#D98870" stroke="none" stroke-width="0"/>
+<ellipse id="generated-samples-13" data-role="state" cx="1422.607985539446" cy="712.9330556236482" rx="3.95" ry="3.95" fill="#D98870" stroke="none" stroke-width="0"/>
+<ellipse id="generated-samples-14" data-role="state" cx="1337.9279468338755" cy="766.9559992947792" rx="4.2" ry="4.2" fill="#D98870" stroke="none" stroke-width="0"/>
+<ellipse id="generated-samples-15" data-role="state" cx="1403.685305432795" cy="697.1154094298715" rx="3.7" ry="3.7" fill="#D98870" stroke="none" stroke-width="0"/>
+<ellipse id="generated-samples-16" data-role="state" cx="1362.1313288422261" cy="764.2619056972654" rx="3.95" ry="3.95" fill="#D98870" stroke="none" stroke-width="0"/>
+<ellipse id="generated-samples-17" data-role="state" cx="1387.075802047919" cy="717.8726630703972" rx="4.2" ry="4.2" fill="#D98870" stroke="none" stroke-width="0"/>
+<ellipse id="generated-samples-18" data-role="state" cx="1361.7416183261423" cy="735.7695352498951" rx="3.7" ry="3.7" fill="#D98870" stroke="none" stroke-width="0"/>
+<ellipse id="generated-samples-19" data-role="state" cx="1405.0855952249337" cy="739.0513140948118" rx="3.95" ry="3.95" fill="#D98870" stroke="none" stroke-width="0"/>
+<ellipse id="generated-samples-20" data-role="state" cx="1335.0273341232587" cy="733.6901394957521" rx="4.2" ry="4.2" fill="#D98870" stroke="none" stroke-width="0"/>
+<ellipse id="generated-samples-21" data-role="state" cx="1426.4745243821421" cy="720.0662913754761" rx="3.7" ry="3.7" fill="#D98870" stroke="none" stroke-width="0"/>
+<ellipse id="generated-samples-22" data-role="state" cx="1330.7118092931887" cy="764.3975977658232" rx="3.95" ry="3.95" fill="#D98870" stroke="none" stroke-width="0"/>
+<ellipse id="generated-samples-23" data-role="state" cx="1410.707727211221" cy="693.6876025331344" rx="4.2" ry="4.2" fill="#D98870" stroke="none" stroke-width="0"/>
+<text id="samples-title" data-role="label" x="1255" y="641.8" dominant-baseline="central" font-family="Arial" font-size="24" font-weight="700" font-style="normal" fill="#D98870">Conditional samples</text>
+<text id="samples-math" data-role="label" x="1302" y="817.5" dominant-baseline="central" font-family="Arial" font-size="25" font-weight="400" font-style="normal" fill="#D98870">x₁ ∼ pθ(x ∣ c)</text>
+<text id="schematic-disclosure" data-role="label" x="54" y="920.3" dominant-baseline="central" font-family="Arial" font-size="19" font-weight="400" font-style="normal" fill="#67758C">Teaching schematic. Point locations and field arrows illustrate the mechanism, not experimental results.</text>
+</svg>
