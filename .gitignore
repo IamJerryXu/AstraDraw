@@ -1,0 +1,18 @@
+.local/
+.build/
+.component-build-*/
+__pycache__/
+*.pyc
+node_modules/
+.DS_Store
+*.log
+# Local validation reports can include machine-specific absolute paths.
+output/*.validation.json
+# One-off smoke-test exports are not reusable examples.
+output/single-scene-test*
+# Keep credentials and local configuration out of published snapshots.
+.env
+.env.*
+!.env.example
+*.pem
+*.key

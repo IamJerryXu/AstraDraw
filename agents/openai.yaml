@@ -1,0 +1,5 @@
+interface:
+  display_name: "Astra Figure Workflow"
+  short_description: "论文方法图、视觉先验素材检索与可编辑组件设计，支持选中对象局部修改"
+  default_prompt: "使用 $astra-figure-workflow，根据我的论文方法与素材库设计可编辑方法图，并保留已确认区域。"
+

@@ -1,0 +1,8 @@
+{
+  "title": "Deterministic state evolution",
+  "scientific_source": "User-defined explanatory example: dx/dt = -x, solution x(t) = x(0) exp(-t). No experimental data.",
+  "mechanism": "Show a deterministic ODE mapping distinct initial states toward equilibrium over increasing time.",
+  "must_show": ["Time increases left to right", "A unique nonbranching trajectory for each initial state", "Initial and final state labels"],
+  "must_not_show": ["Random noise or SDE branching", "Unspecified confidence bands", "Measured-performance claims", "Trajectories meeting at finite time: nonzero initial states remain nonzero at t=1", "Nonmonotone or U-shaped trajectories: dx/dt=-x approaches zero monotonically"],
+  "allowed_labels": ["Initial states", "ODE", "Final states", "t = 0", "t = 1"]
+}

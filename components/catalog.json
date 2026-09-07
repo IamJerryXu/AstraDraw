@@ -1,0 +1,194 @@
+[
+  {
+    "id": "ode-comic",
+    "component": "ode",
+    "style": "comic",
+    "tags": [
+      "ode",
+      "comic",
+      "editable",
+      "illustrative",
+      "dynamics"
+    ],
+    "scene": "components/ode/ode-comic.json",
+    "svg": "components/ode/ode-comic.svg",
+    "preview": "output/previews/ode-comic.png",
+    "license": "original-project",
+    "scientific_notes": [
+      "Original geometric illustration, not numerical integration or empirical data.",
+      "Uniqueness requires appropriate regularity of the velocity field. The displayed trajectories do not branch or intersect at equal time.",
+      "The horizontal coordinate represents time. Vertical position is an illustrative one-dimensional state coordinate."
+    ]
+  },
+  {
+    "id": "ode-roman",
+    "component": "ode",
+    "style": "roman",
+    "tags": [
+      "ode",
+      "roman",
+      "editable",
+      "illustrative",
+      "dynamics"
+    ],
+    "scene": "components/ode/ode-roman.json",
+    "svg": "components/ode/ode-roman.svg",
+    "preview": "output/previews/ode-roman.png",
+    "license": "original-project",
+    "scientific_notes": [
+      "Original geometric illustration, not numerical integration or empirical data.",
+      "Uniqueness requires appropriate regularity of the velocity field. The displayed trajectories do not branch or intersect at equal time.",
+      "The horizontal coordinate represents time. Vertical position is an illustrative one-dimensional state coordinate."
+    ]
+  },
+  {
+    "id": "ode-modern",
+    "component": "ode",
+    "style": "modern",
+    "tags": [
+      "ode",
+      "modern",
+      "editable",
+      "illustrative",
+      "dynamics"
+    ],
+    "scene": "components/ode/ode-modern.json",
+    "svg": "components/ode/ode-modern.svg",
+    "preview": "output/previews/ode-modern.png",
+    "license": "original-project",
+    "scientific_notes": [
+      "Original geometric illustration, not numerical integration or empirical data.",
+      "Uniqueness requires appropriate regularity of the velocity field. The displayed trajectories do not branch or intersect at equal time.",
+      "The horizontal coordinate represents time. Vertical position is an illustrative one-dimensional state coordinate."
+    ]
+  },
+  {
+    "id": "sde-comic",
+    "component": "sde",
+    "style": "comic",
+    "tags": [
+      "sde",
+      "comic",
+      "editable",
+      "illustrative",
+      "dynamics"
+    ],
+    "scene": "components/sde/sde-comic.json",
+    "svg": "components/sde/sde-comic.svg",
+    "preview": "output/previews/sde-comic.png",
+    "license": "original-project",
+    "scientific_notes": [
+      "Original hand-designed noisy paths. They are illustrative and are not simulated Brownian or SDE sample paths.",
+      "A common initial state is shown under different noise realizations. Smooth baseline intuition is not a claim about the expected solution.",
+      "State-dependent drift and diffusion may produce behavior different from this example."
+    ]
+  },
+  {
+    "id": "sde-roman",
+    "component": "sde",
+    "style": "roman",
+    "tags": [
+      "sde",
+      "roman",
+      "editable",
+      "illustrative",
+      "dynamics"
+    ],
+    "scene": "components/sde/sde-roman.json",
+    "svg": "components/sde/sde-roman.svg",
+    "preview": "output/previews/sde-roman.png",
+    "license": "original-project",
+    "scientific_notes": [
+      "Original hand-designed noisy paths. They are illustrative and are not simulated Brownian or SDE sample paths.",
+      "A common initial state is shown under different noise realizations. Smooth baseline intuition is not a claim about the expected solution.",
+      "State-dependent drift and diffusion may produce behavior different from this example."
+    ]
+  },
+  {
+    "id": "sde-modern",
+    "component": "sde",
+    "style": "modern",
+    "tags": [
+      "sde",
+      "modern",
+      "editable",
+      "illustrative",
+      "dynamics"
+    ],
+    "scene": "components/sde/sde-modern.json",
+    "svg": "components/sde/sde-modern.svg",
+    "preview": "output/previews/sde-modern.png",
+    "license": "original-project",
+    "scientific_notes": [
+      "Original hand-designed noisy paths. They are illustrative and are not simulated Brownian or SDE sample paths.",
+      "A common initial state is shown under different noise realizations. Smooth baseline intuition is not a claim about the expected solution.",
+      "State-dependent drift and diffusion may produce behavior different from this example."
+    ]
+  },
+  {
+    "id": "flow-matching-comic",
+    "component": "flow-matching",
+    "style": "comic",
+    "tags": [
+      "flow-matching",
+      "comic",
+      "editable",
+      "illustrative",
+      "dynamics"
+    ],
+    "scene": "components/flow-matching/flow-matching-comic.json",
+    "svg": "components/flow-matching/flow-matching-comic.svg",
+    "preview": "output/previews/flow-matching-comic.png",
+    "license": "original-project",
+    "scientific_notes": [
+      "Original geometric illustration, not a trained model or numerical simulation.",
+      "The training example uses straight conditional interpolation between a source-target pair. This is one choice, not a universal Flow Matching path.",
+      "Target velocity x1-x0 belongs to this conditional path. The learned marginal velocity field can yield curved sampling trajectories.",
+      "The two training pairs do not assert a specific coupling algorithm. Sampling starts from the prior and does not access a paired target."
+    ]
+  },
+  {
+    "id": "flow-matching-roman",
+    "component": "flow-matching",
+    "style": "roman",
+    "tags": [
+      "flow-matching",
+      "roman",
+      "editable",
+      "illustrative",
+      "dynamics"
+    ],
+    "scene": "components/flow-matching/flow-matching-roman.json",
+    "svg": "components/flow-matching/flow-matching-roman.svg",
+    "preview": "output/previews/flow-matching-roman.png",
+    "license": "original-project",
+    "scientific_notes": [
+      "Original geometric illustration, not a trained model or numerical simulation.",
+      "The training example uses straight conditional interpolation between a source-target pair. This is one choice, not a universal Flow Matching path.",
+      "Target velocity x1-x0 belongs to this conditional path. The learned marginal velocity field can yield curved sampling trajectories.",
+      "The two training pairs do not assert a specific coupling algorithm. Sampling starts from the prior and does not access a paired target."
+    ]
+  },
+  {
+    "id": "flow-matching-modern",
+    "component": "flow-matching",
+    "style": "modern",
+    "tags": [
+      "flow-matching",
+      "modern",
+      "editable",
+      "illustrative",
+      "dynamics"
+    ],
+    "scene": "components/flow-matching/flow-matching-modern.json",
+    "svg": "components/flow-matching/flow-matching-modern.svg",
+    "preview": "output/previews/flow-matching-modern.png",
+    "license": "original-project",
+    "scientific_notes": [
+      "Original geometric illustration, not a trained model or numerical simulation.",
+      "The training example uses straight conditional interpolation between a source-target pair. This is one choice, not a universal Flow Matching path.",
+      "Target velocity x1-x0 belongs to this conditional path. The learned marginal velocity field can yield curved sampling trajectories.",
+      "The two training pairs do not assert a specific coupling algorithm. Sampling starts from the prior and does not access a paired target."
+    ]
+  }
+]

@@ -1,0 +1,5 @@
+{
+  "scene_id": "ode-comic",
+  "selected_ids": ["initial-label", "terminal-label"],
+  "operations": [{"op": "move", "dx": 0, "dy": 15}]
+}

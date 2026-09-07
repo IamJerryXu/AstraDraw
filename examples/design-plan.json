@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "reader_question": "Which columns survive selection, and in what order?",
+  "main_message": "One mask selects the first and third columns while preserving their order.",
+  "brief_sha256": "466399a7db9fafe2f9d029c79bdd10280a8d946599fb892f45b16ec59ebb9ba2",
+  "method_graph": {
+    "nodes": [
+      {"id": "input", "label": "Input matrix", "source": "Toy brief mechanism and R1", "emphasis": "context", "representation": "A three-row, four-column grid. Highlight columns one and three using the retained-column palette role; show columns two and four neutrally."},
+      {"id": "mask", "label": "Column mask", "source": "Toy brief mechanism and R1", "emphasis": "support", "representation": "A compact four-position strip labeled 1, 0, 1, 0, aligned with the four input columns."},
+      {"id": "select", "label": "Select columns", "source": "Toy brief R1 and R2", "emphasis": "primary", "representation": "In the overview use a compact selector symbol. In the detail show one three-by-four grid beside the corresponding three-by-two grid, with selected columns visibly retaining their left-to-right order. Pair the overview symbol and detail with the same A badge; they depict one operation."},
+      {"id": "output", "label": "Selected matrix", "source": "Toy brief mechanism and R2", "emphasis": "support", "representation": "A three-row, two-column grid containing the original first and third columns. Keep the retained-column colors unchanged."}
+    ],
+    "edges": [
+      {"id": "input-select", "from": "input", "to": "select", "kind": "data", "meaning": "The full matrix enters the selection operation", "source": "Toy brief R1"},
+      {"id": "mask-select", "from": "mask", "to": "select", "kind": "conditioning", "meaning": "The mask specifies which columns are retained", "source": "Toy brief mechanism and R1"},
+      {"id": "select-output", "from": "select", "to": "output", "kind": "data", "meaning": "The operation outputs the retained columns in their original order", "source": "Toy brief R2"}
+    ]
+  },
+  "layouts": [
+    {
+      "id": "stacked",
+      "name": "Compact overview above an enlarged explanation",
+      "reading_order": ["input", "select", "output"],
+      "regions": [
+        {"id": "overview", "purpose": "Locate the single selection operation in the full input-to-output path", "node_ids": ["input", "mask", "select", "output"], "placement": "across the upper quarter, with the mask above the selector", "scale_priority": "small"},
+        {"id": "detail", "purpose": "Make retained-column order visible at a glance", "node_ids": ["select"], "placement": "across the lower three quarters, centered below the overview", "scale_priority": "large"}
+      ],
+      "zoom_links": [{"source_node": "select", "target_region": "detail", "treatment": "paired-no-arrows", "meaning": "The detail enlarges the selector marked A in the overview"}],
+      "tradeoff": "The broad matrix explanation receives more space than the overall process.",
+      "reason_to_choose": "The retained-column ordering is the reader's central question."
+    },
+    {
+      "id": "side-by-side",
+      "name": "Vertical context beside a broad detail",
+      "reading_order": ["input", "select", "output"],
+      "regions": [
+        {"id": "overview", "purpose": "Locate the single selection operation in the full input-to-output path", "node_ids": ["input", "mask", "select", "output"], "placement": "in the left third, with the main path descending and the mask beside the selector", "scale_priority": "medium"},
+        {"id": "detail", "purpose": "Make retained-column order visible at a glance", "node_ids": ["select"], "placement": "in the right two thirds, aligned with the overview selector", "scale_priority": "large"}
+      ],
+      "zoom_links": [{"source_node": "select", "target_region": "detail", "treatment": "paired-no-arrows", "meaning": "The detail enlarges the selector marked A in the overview"}],
+      "tradeoff": "A taller overview leaves less horizontal space for the enlarged matrices.",
+      "reason_to_choose": "Useful when the final figure must fit a wide, shallow space."
+    }
+  ],
+  "recommendation": "stacked",
+  "reference_jobs": [],
+  "style": {
+    "profile": "modern",
+    "labels_font": "Arial",
+    "math_font": "Cambria Math",
+    "palette": [
+      {"role": "retained-column", "fill": "#E6F1F8", "stroke": "#285F8F", "meaning": "Columns retained in the output"},
+      {"role": "unselected-column", "fill": "#F2F2F2", "stroke": "#737373", "meaning": "Input columns absent from the output"},
+      {"role": "mask", "fill": "#FFF1DE", "stroke": "#8A5418", "meaning": "Selection condition, not matrix data"}
+    ],
+    "line_roles": {
+      "data": "solid dark arrows with clear arrowheads",
+      "conditioning": "thin dashed arrows labeled mask",
+      "zoom": "matching blue A badges and paired rounded outlines"
+    },
+    "text_policy": "Use the four node labels and short column numbers only; do not put sentences inside the grids.",
+    "operator_legend": []
+  },
+  "omit": [{"item": "numerical matrix entries", "reason": "Column identity and order explain the toy rule without arbitrary values", "source": "Toy brief R2"}],
+  "review_focus": [{"region": "detail", "question": "Do the retained columns preserve their original order, and is the detail clearly the same operation as the A-marked overview selector?"}]
+}

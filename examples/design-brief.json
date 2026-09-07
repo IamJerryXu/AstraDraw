@@ -1,0 +1,15 @@
+{
+  "title": "Original toy method: retain selected columns",
+  "scientific_source": "Self-contained fictional teaching example authored for this workflow. Rule R1: an input matrix and a binary column mask enter one selection operation. Rule R2: the output contains only the selected columns in their original order. No published paper or empirical result is represented.",
+  "mechanism": "The input matrix has three rows and four columns. The mask [1, 0, 1, 0] selects columns one and three. A single selection operation produces a three-row, two-column output. The overview and enlarged detail show the same operation, not two successive operations.",
+  "must_show": [
+    "Input matrix, column mask, one selection operation, and output matrix",
+    "An enlarged detail of that same selection operation, paired without arrows",
+    "The output preserves the order of columns one and three"
+  ],
+  "must_not_show": [
+    "Measured results or claims about a real paper",
+    "A second application of the selection operation",
+    "An arrow from the overview selection operation to its enlarged detail"
+  ]
+}
