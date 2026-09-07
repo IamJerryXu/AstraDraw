@@ -1,0 +1,212 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 526 744" width="4in" height="5.658in" role="img">
+  <title>Verified state transition</title>
+  <defs>
+    <marker viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto-start-reverse" id="arrow-20272D">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#20272D" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round" />
+    </marker>
+    <marker viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto-start-reverse" id="arrow-397EAA">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#397EAA" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round" />
+    </marker>
+    <marker viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto-start-reverse" id="arrow-294D69">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#294D69" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round" />
+    </marker>
+    <marker viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto-start-reverse" id="arrow-547548">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#547548" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round" />
+    </marker>
+    <marker viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto-start-reverse" id="arrow-C76E79">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#C76E79" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round" />
+    </marker>
+    <marker viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto-start-reverse" id="arrow-697B89">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#697B89" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round" />
+    </marker>
+  </defs>
+  <rect width="526" height="744" fill="white" />
+  <g transform="translate(-1080 5)">
+    <g id="transition-panel">
+      <title>standalone verified transition</title>
+      <rect x="1100" y="15" width="486" height="580" rx="16" fill="#F2F3E9" stroke="none" stroke-width="2" />
+      <text x="1343" y="43" font-family="Comic Sans MS" font-size="31" font-weight="700" text-anchor="middle" dominant-baseline="middle" fill="#547548" id="panel-c-title">Candidate formation</text>
+      <rect x="1116" y="65" width="452" height="295" rx="12" fill="#F2F7ED" stroke="#98B385" stroke-width="1.8" />
+      <text x="1149" y="94" font-family="Times New Roman" font-size="30" font-weight="400" text-anchor="middle" dominant-baseline="middle" fill="#20272D" id="verified-state-features-label" font-style="italic">h²</text>
+      <g id="verified-state-features">
+        <title>feature vector</title>
+        <rect x="1175" y="83" width="110" height="22" rx="8" fill="#F7FAFD" stroke="#397EAA" stroke-width="1.7" />
+        <rect x="1181.0" y="88" width="21.5" height="12" rx="3" fill="#397EAA" stroke="none" stroke-width="2" fill-opacity="0.8" />
+        <rect x="1206.5" y="88" width="21.5" height="12" rx="3" fill="#397EAA" stroke="none" stroke-width="2" fill-opacity="0.52" />
+        <rect x="1232.0" y="88" width="21.5" height="12" rx="3" fill="#397EAA" stroke="none" stroke-width="2" fill-opacity="0.9200000000000002" />
+        <rect x="1257.5" y="88" width="21.5" height="12" rx="3" fill="#397EAA" stroke="none" stroke-width="2" fill-opacity="0.6400000000000001" />
+      </g>
+      <text x="1398" y="94" font-family="Times New Roman" font-size="30" font-weight="400" text-anchor="middle" dominant-baseline="middle" fill="#20272D" id="matched-evidence-label" font-style="italic">ū²</text>
+      <g id="matched-evidence">
+        <title>feature vector</title>
+        <rect x="1424" y="83" width="110" height="22" rx="8" fill="#F7FAFD" stroke="#697B89" stroke-width="1.7" />
+        <rect x="1430.0" y="88" width="21.5" height="12" rx="3" fill="#697B89" stroke="none" stroke-width="2" fill-opacity="0.8" />
+        <rect x="1455.5" y="88" width="21.5" height="12" rx="3" fill="#697B89" stroke="none" stroke-width="2" fill-opacity="0.52" />
+        <rect x="1481.0" y="88" width="21.5" height="12" rx="3" fill="#697B89" stroke="none" stroke-width="2" fill-opacity="0.9200000000000002" />
+        <rect x="1506.5" y="88" width="21.5" height="12" rx="3" fill="#697B89" stroke="none" stroke-width="2" fill-opacity="0.6400000000000001" />
+      </g>
+      <g id="paired-features">
+        <title>two verified operands without assigning input/hidden roles</title>
+        <rect x="1322" y="113" width="40" height="28" rx="4" fill="#FFFFFF" stroke="#9CB4C3" stroke-width="2" />
+        <rect x="1328" y="117" width="11" height="20" rx="2" fill="#397EAA" stroke="none" stroke-width="2" />
+        <rect x="1345" y="117" width="11" height="20" rx="2" fill="#697B89" stroke="none" stroke-width="2" />
+      </g>
+      <path d="M1230 109 L1230 127 L1318 127" fill="none" stroke="#20272D" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-20272D)" id="state-to-pair" data-source="verified-state-features" data-target="paired-features" />
+      <path d="M1479 109 L1479 127 L1366 127" fill="none" stroke="#20272D" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-20272D)" id="evidence-to-pair" data-source="matched-evidence" data-target="paired-features" />
+      <g id="candidate-input-trunk">
+        <title>distributes both verified inputs</title>
+        <path d="M1133 151 H1479 M1342 141 V151" fill="none" stroke="#20272D" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" />
+        <circle cx="1342" cy="151" r="3" fill="#20272D" stroke="#20272D" stroke-width="2" />
+      </g>
+      <g id="internal-reset-gate">
+        <title>Reset</title>
+        <rect x="1152" y="168" width="133" height="42" rx="8" fill="#D3E8C7" stroke="#547548" stroke-width="1.8" />
+        <text x="1218.5" y="189.0" font-family="Comic Sans MS" font-size="28" font-weight="400" text-anchor="middle" dominant-baseline="middle" fill="#20272D" id="internal-reset-gate-label">Reset</text>
+      </g>
+      <g id="internal-update-gate">
+        <title>Update</title>
+        <rect x="1302" y="168" width="133" height="42" rx="8" fill="#D3E8C7" stroke="#547548" stroke-width="1.8" />
+        <text x="1368.5" y="189.0" font-family="Comic Sans MS" font-size="28" font-weight="400" text-anchor="middle" dominant-baseline="middle" fill="#20272D" id="internal-update-gate-label">Update</text>
+      </g>
+      <path d="M1218 151 L1218 164" fill="none" stroke="#20272D" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-20272D)" id="pair-reset" data-source="candidate-input-trunk" data-target="internal-reset-gate" />
+      <path d="M1368 151 L1368 164" fill="none" stroke="#20272D" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-20272D)" id="pair-update" data-source="candidate-input-trunk" data-target="internal-update-gate" />
+      <g id="candidate-activation">
+        <title>tanh</title>
+        <rect x="1152" y="231" width="107" height="38" rx="8" fill="#D3E8C7" stroke="#547548" stroke-width="1.8" />
+        <text x="1205.5" y="250.0" font-family="Comic Sans MS" font-size="28" font-weight="400" text-anchor="middle" dominant-baseline="middle" fill="#20272D" id="candidate-activation-label">tanh</text>
+      </g>
+      <g id="internal-carry">
+        <title>carry</title>
+        <rect x="1440" y="231" width="78" height="38" rx="8" fill="#CEE9FC" stroke="#397EAA" stroke-width="1.8" />
+        <text x="1479.0" y="250.0" font-family="Comic Sans MS" font-size="26" font-weight="400" text-anchor="middle" dominant-baseline="middle" fill="#20272D" id="internal-carry-label">carry</text>
+      </g>
+      <path d="M1133 151 L1133 250 L1148 250" fill="none" stroke="#20272D" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-20272D)" id="pair-candidate" data-source="candidate-input-trunk" data-target="candidate-activation" />
+      <path d="M1479 151 L1479 227" fill="none" stroke="#20272D" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-20272D)" id="pair-carry-selection" data-source="candidate-input-trunk" data-target="internal-carry" />
+      <path d="M1218 214 L1218 227" fill="none" stroke="#547548" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-547548)" id="reset-modulation" data-source="internal-reset-gate" data-target="candidate-activation" stroke-dasharray="6 5" />
+      <g id="internal-mixing">
+        <title>carry × beta plus activation × (1-beta)</title>
+        <g id="internal-activation-product">
+          <title>element-wise multiplication</title>
+          <g transform="translate(1187.0 277.0) scale(1.5)" fill="none" stroke="#547548" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" data-icon-source="lucide/circle-x">
+            <circle cx="12" cy="12" r="10" fill="white" />
+            <path d="m15 9-6 6" />
+            <path d="m9 9 6 6" />
+          </g>
+        </g>
+        <g id="internal-carry-product">
+          <title>element-wise multiplication</title>
+          <g transform="translate(1461.0 277.0) scale(1.5)" fill="none" stroke="#547548" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" data-icon-source="lucide/circle-x">
+            <circle cx="12" cy="12" r="10" fill="white" />
+            <path d="m15 9-6 6" />
+            <path d="m9 9 6 6" />
+          </g>
+        </g>
+        <g id="internal-blend">
+          <title>addition</title>
+          <g transform="translate(1357.0 319.0) scale(1.5)" fill="none" stroke="#547548" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" data-icon-source="lucide/circle-plus">
+            <circle cx="12" cy="12" r="10" fill="white" />
+            <path d="M8 12h8" />
+            <path d="M12 8v8" />
+          </g>
+        </g>
+      </g>
+      <g id="internal-carry-weight">
+        <title>beta denotes the internal carry coefficient</title>
+        <text x="1368" y="295" font-family="Times New Roman" font-size="30" font-weight="400" text-anchor="middle" dominant-baseline="middle" fill="#547548" id="c-beta" font-style="italic">β</text>
+      </g>
+      <g id="internal-activation-weight">
+        <title>complementary internal coefficient, computed from beta</title>
+        <text x="1149" y="295" font-family="Times New Roman" font-size="27" font-weight="400" text-anchor="middle" dominant-baseline="middle" fill="#547548" id="c-beta-complement" font-style="italic">1−β</text>
+      </g>
+      <path d="M1205 273 L1205 276" fill="none" stroke="#20272D" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-20272D)" id="activation-mixing" data-source="candidate-activation" data-target="internal-activation-product" />
+      <path d="M1479 273 L1479 276" fill="none" stroke="#20272D" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-20272D)" id="carry-mixing" data-source="internal-carry" data-target="internal-carry-product" />
+      <path d="M1368 214 L1368 274" fill="none" stroke="#547548" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-547548)" id="update-modulation" data-source="internal-update-gate" data-target="internal-carry-weight" stroke-dasharray="6 5" />
+      <path d="M1382 295 L1460 295" fill="none" stroke="#547548" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-547548)" id="internal-carry-control" data-source="internal-carry-weight" data-target="internal-carry-product" stroke-dasharray="6 5" />
+      <path d="M1172 295 L1186 295" fill="none" stroke="#547548" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-547548)" id="internal-activation-control" data-source="internal-activation-weight" data-target="internal-activation-product" stroke-dasharray="6 5" />
+      <path d="M1205 314 L1205 337 L1356 337" fill="none" stroke="#20272D" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-20272D)" id="internal-activation-sum" data-source="internal-activation-product" data-target="internal-blend" />
+      <path d="M1479 314 L1479 337 L1394 337" fill="none" stroke="#20272D" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-20272D)" id="internal-carry-sum" data-source="internal-carry-product" data-target="internal-blend" />
+      <g id="candidate-state">
+        <title>feature vector</title>
+        <rect x="1325" y="386" width="100" height="22" rx="8" fill="#F7FAFD" stroke="#547548" stroke-width="1.7" />
+        <rect x="1331.0" y="391" width="19.0" height="12" rx="3" fill="#547548" stroke="none" stroke-width="2" fill-opacity="0.8" />
+        <rect x="1354.0" y="391" width="19.0" height="12" rx="3" fill="#547548" stroke="none" stroke-width="2" fill-opacity="0.52" />
+        <rect x="1377.0" y="391" width="19.0" height="12" rx="3" fill="#547548" stroke="none" stroke-width="2" fill-opacity="0.9200000000000002" />
+        <rect x="1400.0" y="391" width="19.0" height="12" rx="3" fill="#547548" stroke="none" stroke-width="2" fill-opacity="0.6400000000000001" />
+      </g>
+      <path d="M1375 356 L1375 382" fill="none" stroke="#20272D" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-20272D)" id="mixing-candidate" data-source="internal-blend" data-target="candidate-state" />
+      <text x="1177" y="406" font-family="Comic Sans MS" font-size="28" font-weight="400" text-anchor="middle" dominant-baseline="middle" fill="#294D69" id="c-old-label">Old state</text>
+      <g id="retained-state">
+        <title>feature vector</title>
+        <rect x="1128" y="427" width="98" height="22" rx="8" fill="#F7FAFD" stroke="#397EAA" stroke-width="1.7" />
+        <rect x="1134.0" y="432" width="18.5" height="12" rx="3" fill="#397EAA" stroke="none" stroke-width="2" fill-opacity="0.8" />
+        <rect x="1156.5" y="432" width="18.5" height="12" rx="3" fill="#397EAA" stroke="none" stroke-width="2" fill-opacity="0.52" />
+        <rect x="1179.0" y="432" width="18.5" height="12" rx="3" fill="#397EAA" stroke="none" stroke-width="2" fill-opacity="0.9200000000000002" />
+        <rect x="1201.5" y="432" width="18.5" height="12" rx="3" fill="#397EAA" stroke="none" stroke-width="2" fill-opacity="0.6400000000000001" />
+      </g>
+      <g id="verified-decisions">
+        <title>P², π²</title>
+        <rect x="1440" y="386" width="120" height="34" rx="8" fill="#FFF4D4" stroke="#C3A253" stroke-width="1.8" />
+        <text x="1500.0" y="403.0" font-family="Times New Roman" font-size="27" font-weight="400" text-anchor="middle" dominant-baseline="middle" fill="#20272D" id="verified-decisions-label" font-style="italic">P², π²</text>
+      </g>
+      <g id="verified-write-gate">
+        <title>g</title>
+        <rect x="1470" y="449" width="42" height="34" rx="8" fill="#FFF4D4" stroke="#C3A253" stroke-width="1.8" />
+        <text x="1491.0" y="466.0" font-family="Times New Roman" font-size="29" font-weight="400" text-anchor="middle" dominant-baseline="middle" fill="#20272D" id="verified-write-gate-label" font-style="italic">g</text>
+      </g>
+      <g id="write-complement">
+        <title>1−g</title>
+        <rect x="1250" y="449" width="72" height="34" rx="8" fill="#FFF4D4" stroke="#C3A253" stroke-width="1.8" />
+        <text x="1286.0" y="466.0" font-family="Times New Roman" font-size="27" font-weight="400" text-anchor="middle" dominant-baseline="middle" fill="#20272D" id="write-complement-label" font-style="italic">1−g</text>
+      </g>
+      <path d="M1491 424 L1491 445" fill="none" stroke="#547548" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-547548)" id="decisions-to-gate" data-source="verified-decisions" data-target="verified-write-gate" stroke-dasharray="6 5" />
+      <g id="retention-weight">
+        <title>element-wise multiplication</title>
+        <g transform="translate(1157.8 484.8) scale(1.6)" fill="none" stroke="#20272D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" data-icon-source="lucide/circle-x">
+          <circle cx="12" cy="12" r="10" fill="white" />
+          <path d="m15 9-6 6" />
+          <path d="m9 9 6 6" />
+        </g>
+      </g>
+      <g id="candidate-weight">
+        <title>element-wise multiplication</title>
+        <g transform="translate(1355.8 484.8) scale(1.6)" fill="none" stroke="#20272D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" data-icon-source="lucide/circle-x">
+          <circle cx="12" cy="12" r="10" fill="white" />
+          <path d="m15 9-6 6" />
+          <path d="m9 9 6 6" />
+        </g>
+      </g>
+      <g id="final-blend">
+        <title>addition</title>
+        <g transform="translate(1256.8 514.8) scale(1.6)" fill="none" stroke="#20272D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" data-icon-source="lucide/circle-plus">
+          <circle cx="12" cy="12" r="10" fill="white" />
+          <path d="M8 12h8" />
+          <path d="M12 8v8" />
+        </g>
+      </g>
+      <path d="M1177 453 L1177 484" fill="none" stroke="#20272D" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-20272D)" id="old-to-weight" data-source="retained-state" data-target="retention-weight" />
+      <path d="M1375 412 L1375 484" fill="none" stroke="#20272D" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-20272D)" id="candidate-to-weight" data-source="candidate-state" data-target="candidate-weight" />
+      <path d="M1466 466 L1326 466" fill="none" stroke="white" stroke-width="6.4" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M1466 466 L1326 466" fill="none" stroke="#547548" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-547548)" id="gate-to-complement" data-source="verified-write-gate" data-target="write-complement" stroke-dasharray="6 5" />
+      <path d="M1246 466 L1221 466 L1221 504 L1197 504" fill="none" stroke="#547548" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-547548)" id="complement-to-weight" data-source="write-complement" data-target="retention-weight" stroke-dasharray="6 5" />
+      <path d="M1491 487 L1491 504 L1395 504" fill="none" stroke="#547548" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-547548)" id="gate-to-candidate-weight" data-source="verified-write-gate" data-target="candidate-weight" stroke-dasharray="6 5" />
+      <path d="M1177 524 L1177 534 L1256 534" fill="none" stroke="#20272D" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-20272D)" id="retained-to-sum" data-source="retention-weight" data-target="final-blend" />
+      <path d="M1375 524 L1375 534 L1296 534" fill="none" stroke="#20272D" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-20272D)" id="candidate-to-sum" data-source="candidate-weight" data-target="final-blend" />
+      <g id="next-state">
+        <title>feature vector</title>
+        <rect x="1231" y="566" width="90" height="20" rx="8" fill="#F7FAFD" stroke="#397EAA" stroke-width="1.7" />
+        <rect x="1237.0" y="571" width="16.5" height="10" rx="3" fill="#397EAA" stroke="none" stroke-width="2" fill-opacity="0.8" />
+        <rect x="1257.5" y="571" width="16.5" height="10" rx="3" fill="#397EAA" stroke="none" stroke-width="2" fill-opacity="0.52" />
+        <rect x="1278.0" y="571" width="16.5" height="10" rx="3" fill="#397EAA" stroke="none" stroke-width="2" fill-opacity="0.9200000000000002" />
+        <rect x="1298.5" y="571" width="16.5" height="10" rx="3" fill="#397EAA" stroke="none" stroke-width="2" fill-opacity="0.6400000000000001" />
+      </g>
+      <text x="1412" y="576" font-family="Comic Sans MS" font-size="26" font-weight="400" text-anchor="middle" dominant-baseline="middle" fill="#294D69" id="c-next-label">Next state</text>
+      <path d="M1276 554 L1276 562" fill="none" stroke="#20272D" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-20272D)" id="sum-to-next" data-source="final-blend" data-target="next-state" />
+    </g>
+  </g>
+  <text id="standalone-feature-definition" x="263" y="624" font-family="Comic Sans MS" font-size="23" fill="#243347" text-anchor="middle" dominant-baseline="middle">h²: reasoned state; ū²: matched evidence</text>
+  <text id="standalone-beta-definition" x="263" y="656" font-family="Comic Sans MS" font-size="23" fill="#243347" text-anchor="middle" dominant-baseline="middle">β: internal carry weight</text>
+  <text id="standalone-gate-definition" x="263" y="688" font-family="Comic Sans MS" font-size="23" fill="#243347" text-anchor="middle" dominant-baseline="middle">g: verified association/action gate</text>
+  <text id="standalone-internal-note" x="263" y="720" font-family="Comic Sans MS" font-size="23" fill="#243347" text-anchor="middle" dominant-baseline="middle">Internal gates are schematic.</text>
+<metadata>{"description":"Paper method illustration, public demonstration copy","source":"Author-provided final editable figure","changes":["Method display name generalized to State reasoner.","Private manuscript paths and metadata removed."],"photos":"Real DAVIS 2017 dogs-scale frames 00000, 00020, 00040; output overlay and mask thumbnail use official annotation identities 1 and 2, not model predictions.","sources":"../../examples/paper-method/SOURCES.md"}</metadata>
+</svg>

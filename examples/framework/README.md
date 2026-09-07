@@ -1,5 +1,9 @@
 # Conditional Flow Matching framework
 
+> Archived design. This draft was removed from the showcase after user feedback.
+> Retained only for traceability. Do not use it as an approved visual reference.
+> Current examples appear in the [main gallery](../../README.md#demo).
+
 An original teaching example with separate training and generation paths. The top
 half explains endpoint pairing, intermediate states and velocity supervision. The
 bottom half shows conditional generation with the learned field.

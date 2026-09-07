@@ -1,5 +1,8 @@
 # Design decisions
 
+Status: rejected visual draft, retained for historical review. Not a recommended
+composition or a user-approved reference. See the main gallery for current demos.
+
 ## Reader question
 
 How does velocity supervision during training become conditional generation?
