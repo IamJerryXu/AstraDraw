@@ -40,6 +40,12 @@
 
 把本地路径交给 Astra 就好，不需要公开上传。没有自己的库，也可以从下面的素材开始；有愿意分享的组件，欢迎一起攒～
 
+如果手头缺参考素材，可以点下面的链接到我的个人主页，加微信联系我。我可以分享自己整理的私人 PPT 素材库，给你找布局、配色和绘图灵感时多一些参考～
+
+<p><a href="https://jerrysnow.me"><img src="docs/media/brand/homepage-link.svg" alt="来我的主页逛逛：jerrysnow.me（内有微信联系方式）" width="320"></a></p>
+
+我主要关注 **图像 / 视频生成与世界模型**。对这些方向感兴趣的伙伴，也欢迎来聊想法、交流研究，一起做些有意思的工作～
+
 <p align="center"><img src="docs/media/brand/divider.svg" alt="" width="760"></p>
 
 <a id="demo"></a>

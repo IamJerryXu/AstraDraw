@@ -195,3 +195,14 @@ for label, baseline, color in zip(PAIN_LINES, (65, 114), (INK, '#39758F')):
     note += line
 note += f'<path d="M714 134q59-4 109-1" fill="none" stroke="{CORAL}" stroke-width="2.8" stroke-linecap="round"/>'
 svg('origin-note.svg', 900, 164, ' '.join(PAIN_LINES), note)
+
+# A small snowy postcard that acts as a real README hyperlink.
+link = f'<rect x="4" y="10" width="350" height="59" rx="20" fill="#C9DFE7"/><rect x="3" y="5" width="350" height="59" rx="20" fill="{PALE}" stroke="{INK}" stroke-width="1.7"/>'
+link += f'<path d="M21 28l21-14 20 14v25H21Z" fill="{CREAM}" stroke="{INK}" stroke-width="1.8" stroke-linejoin="round"/>'
+link += f'<path d="M20 31l22 13 21-13M21 53l16-13m25 13L47 40" fill="none" stroke="{INK}" stroke-width="1.6" stroke-linejoin="round"/>'
+link += snow(43, 27, 6, BLUE)
+letters, end = lettering('jerrysnow.me', 76, 43, 30)
+link += letters
+link += f'<path d="M79 51q101 6 194-1" fill="none" stroke="{CORAL}" stroke-width="2.6" stroke-linecap="round"/>'
+link += f'<path d="M314 41l15-15m-13 0h13v13" fill="none" stroke="{INK}" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>'
+svg('homepage-link.svg', 360, 76, 'Visit jerrysnow.me — say hello', link)
