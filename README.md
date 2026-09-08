@@ -20,7 +20,7 @@
 
 </div>
 
-<p align="center"><img src="docs/media/brand/origin-note.svg" alt="GPT6-Astra 已经能把图复现成可编辑的 PPT。但怎么让它画得好看，而且恰好是你喜欢的风格？" width="900"></p>
+<p align="center"><img src="docs/media/brand/origin-note-blue.svg" alt="GPT6-Astra 已经能把图复现成可编辑的 PPT。但怎么让它画得好看，而且恰好是你喜欢的风格？" width="900"></p>
 
 所以我们把论文、参考 PPT 和素材库放进同一个工作流，让 Astra 有参考地画，再通过局部修改慢慢调到满意。
 
@@ -40,9 +40,7 @@
 
 把本地路径交给 Astra 就好，不需要公开上传。没有自己的库，也可以从下面的素材开始；有愿意分享的组件，欢迎一起攒～
 
-如果手头缺参考素材，可以点下面的链接到我的个人主页，加微信联系我。我可以分享自己整理的私人 PPT 素材库，给你找布局、配色和绘图灵感时多一些参考～
-
-<p><a href="https://jerrysnow.me"><img src="docs/media/brand/homepage-link.svg" alt="来我的主页逛逛：jerrysnow.me（内有微信联系方式）" width="320"></a></p>
+如果手头缺参考素材，可以到我的主页 <a href="https://jerrysnow.me"><img src="docs/media/brand/homepage-inline.svg" alt="jerrysnow.me" height="24" align="absmiddle"></a> 加微信联系我。我可以分享自己整理的私人 PPT 素材库，给你找布局、配色和绘图灵感时多一些参考～
 
 我主要关注 **图像 / 视频生成与世界模型**。对这些方向感兴趣的伙伴，也欢迎来聊想法、交流研究，一起做些有意思的工作～
 

@@ -195,6 +195,7 @@ for label, baseline, color in zip(PAIN_LINES, (65, 114), (INK, '#39758F')):
     note += line
 note += f'<path d="M714 134q59-4 109-1" fill="none" stroke="{CORAL}" stroke-width="2.8" stroke-linecap="round"/>'
 svg('origin-note.svg', 900, 164, ' '.join(PAIN_LINES), note)
+svg('origin-note-blue.svg', 900, 164, ' '.join(PAIN_LINES), note)
 
 # A small snowy postcard that acts as a real README hyperlink.
 link = f'<rect x="4" y="10" width="350" height="59" rx="20" fill="#C9DFE7"/><rect x="3" y="5" width="350" height="59" rx="20" fill="{PALE}" stroke="{INK}" stroke-width="1.7"/>'
@@ -206,3 +207,12 @@ link += letters
 link += f'<path d="M79 51q101 6 194-1" fill="none" stroke="{CORAL}" stroke-width="2.6" stroke-linecap="round"/>'
 link += f'<path d="M314 41l15-15m-13 0h13v13" fill="none" stroke="{INK}" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>'
 svg('homepage-link.svg', 360, 76, 'Visit jerrysnow.me — say hello', link)
+
+# Compact inline link: no long button frame or detached row.
+inline = f'<path d="M2 10l10-7 11 7v14H2Z" fill="{CREAM}" stroke="{INK}" stroke-width="1.3" stroke-linejoin="round"/><path d="M2 11l10 7 11-7M2 24l8-8m13 8-8-8" fill="none" stroke="{INK}" stroke-width="1.2"/>'
+inline += '<path d="M12 6v7m-3.5-3.5h7" stroke="#5BA6C2" stroke-width="1.3" stroke-linecap="round"/>'
+letters, end = lettering('jerrysnow.me', 30, 21, 22)
+inline += letters
+inline += f'<path d="M31 26Q{(31+end)/2:.1f} 29 {end:.1f} 26" fill="none" stroke="{CORAL}" stroke-width="1.6" stroke-linecap="round"/>'
+inline += f'<path d="M{end+10:.1f} 20l8-8m-7 0h7v7" fill="none" stroke="{INK}" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>'
+svg('homepage-inline.svg', round(end+24), 32, 'jerrysnow.me', inline)
