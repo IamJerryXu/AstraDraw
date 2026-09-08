@@ -20,19 +20,13 @@
 
 <a id="demo"></a>
 
-## 完整方法图：论文最终成图
-
-左栏串联视频输入与输出，中栏展开两步推理，右栏展示候选形成与状态写入。保留论文最终图的字体、配色、矩阵及局部细节。
-
-![论文最终方法图，三栏纵向布局](output/paper-method/method.png)
-
-**[下载可编辑 PPT](output/paper-method/method.pptx)** · [矢量图](output/paper-method/method.svg) · [案例与素材来源](examples/paper-method/README.md)
-
-照片与分割覆盖来自 DAVIS 视频及真实标注，仅用于解释方法，不代表模型预测。素材署名及非商业使用限制见案例说明。
-
 ## Demo
 
-![Demo](output/role-guided-search/overview.png)
+![Demo 1](output/paper-method/method.png)
+
+**[PPT](output/paper-method/method.pptx)** · [SVG](output/paper-method/method.svg) · [素材来源与使用限制](examples/paper-method/SOURCES.md)
+
+![Demo 2](output/role-guided-search/overview.png)
 
 **[PPT](output/role-guided-search/overview.pptx)** · [SVG](output/role-guided-search/overview.svg) · [源文件](examples/role-guided-search/overview.scene.json)
 
