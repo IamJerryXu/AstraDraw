@@ -2,15 +2,13 @@
 
 <div align="center">
 
-<p><img src="docs/media/brand/wordmark.svg" alt="AstraDraw" width="600"></p>
+<p><img src="docs/media/brand/wordmark.svg" alt="AstraDraw" width="800"></p>
 
-<img src="output/kawaii/welcome-header.png" alt="戴蓝围巾的小鼠与雪花角色一起画科研图" width="720">
+<img src="output/kawaii/welcome-header.png" alt="戴蓝围巾的小鼠与雪花角色一起画科研图" width="100%">
 
 <p><img src="docs/media/brand/tagline.svg" alt="Your paper. Your references. Draw it with Astra." width="510"></p>
 
-把论文和喜欢的参考交给 Astra，画成可以继续打磨的图。
-
-<sub>可编辑 PPT · 局部慢慢改 · Comic / Roman / 你喜欢的风格</sub>
+<p><img src="docs/media/brand/intro-cn.svg" alt="把论文和喜欢的参考交给 Astra，画成可以继续打磨的图。可编辑 PPT · 局部慢慢改 · Comic / Roman / 你喜欢的风格" width="940"></p>
 
 <p>
 <a href="#demo"><img src="docs/media/brand/nav-demo.svg" alt="查看 Demo" height="40"></a>
@@ -22,13 +20,17 @@
 
 </div>
 
-论文已经写了，方法也想清楚了，但方法图怎么画都差点意思？这个仓库就是这么来的。
+<p align="center"><img src="docs/media/brand/origin-note.svg" alt="素材有了，image2 也能画出喜欢的图。可要做成能编辑的 PPT，还是得自己一点点重搭。" width="900"></p>
+
+这就是 AstraDraw 想接上的那一步：不只得到一张图，还能接着编辑、接着改。
 
 把它 git 到本地，连上你自己的素材库，再把论文、方法和喜欢的参考图交给 Astra。构图、配色、生图、做成可编辑 PPT，都可以让它来。你负责看效果、指出哪里不对，不满意就继续改～
 
 没有素材库也没关系，可以从这里公开的素材开始用。我们也可以一起攒：好看的布局、箭头、小图标、网格和曲面，慢慢积累起来，下一张就不用从零想了。
 
-### 📎 开始前，准备一本你自己的参考 PPT
+<a id="reference-ppt"></a>
+
+<p><img src="docs/media/brand/heading-prepare.svg" alt="开始前，准备一本你自己的参考 PPT" height="56"></p>
 
 看到其他论文里好看的方法图、框架图，就放进同一个 PPT。整张图可以收，喜欢的图例、箭头和局部放大设计也可以单独留一页。
 
@@ -38,11 +40,11 @@
 
 把本地路径交给 Astra 就好，不需要公开上传。没有自己的库，也可以从下面的素材开始；有愿意分享的组件，欢迎一起攒～
 
-<p align="center"><img src="docs/media/brand/divider.svg" alt="" width="540"></p>
+<p align="center"><img src="docs/media/brand/divider.svg" alt="" width="760"></p>
 
 <a id="demo"></a>
 
-## 🖼️ Demo
+<p><img src="docs/media/brand/heading-demo.svg" alt="Demo" height="56"></p>
 
 ![Demo 1](output/paper-method/method.png)
 
@@ -54,7 +56,7 @@
 
 <a id="kawaii"></a>
 
-## 🧸 Kawaii 素材
+<p><img src="docs/media/brand/heading-kawaii.svg" alt="Kawaii 素材" height="56"></p>
 
 科研图也可以可爱一点。小机器人、老师和学生、记忆盒子、视频传送带……一共 48 个，分成四组，挑喜欢的用～
 
@@ -72,7 +74,7 @@
 
 <a id="spatial"></a>
 
-## 🫧 2D / 3D，也攒了一些
+<p><img src="docs/media/brand/heading-spatial.svg" alt="2D / 3D 空间组件" height="56"></p>
 
 分布、网格、曲面、路径这些，不想每次重画。清爽一点，或带一点波纹感，都收在这里了。
 
@@ -94,7 +96,7 @@
 还收了一版清爽的平面：**[看预览](output/showcase/spatial-flow-previews/planar-transport.png)** · [下载 PPT（第 1 页）](output/showcase/spatial-flow.pptx)。文字、点、网格和线都可以分别改。
 
 <details>
-<summary>原稿、可编辑版和示意图的小区别</summary>
+<summary><picture><img src="docs/media/brand/detail-versions.svg" alt="原稿、可编辑版和示意图的小区别" height="32"></picture></summary>
 
 左边展示的是确认风格的生图原稿；PPT 是按这个方向重新搭出来的可编辑版本，细节不会逐像素相同。[这里能看 PPT 实际预览和说明](examples/showcase-comic/README.md)。不是把整张图片贴进 PPT，就说它可编辑了。
 
@@ -102,9 +104,11 @@
 
 </details>
 
-<p align="center"><img src="docs/media/brand/divider.svg" alt="" width="540"></p>
+<p align="center"><img src="docs/media/brand/divider.svg" alt="" width="760"></p>
 
-## ✏️ 我们是怎么画的？
+<a id="workflow"></a>
+
+<p><img src="docs/media/brand/heading-workflow.svg" alt="我们是怎么画的？" height="56"></p>
 
 ![读论文 → 收集参考 → 探索画法 → 核对科学关系 → 做成可编辑图 → 局部打磨；不满意再回来改](docs/media/workflow-kawaii.png)
 
@@ -118,7 +122,7 @@
 
 <a id="selected-edit"></a>
 
-## 🔎 不满意哪里，就告诉它哪里
+<p><img src="docs/media/brand/heading-edit.svg" alt="不满意哪里，就改哪里" height="56"></p>
 
 “这里的线太挤了。”“这个图例换一下。”“把右上角的 p₁ 往下移一点，其他别动。”
 
@@ -136,7 +140,7 @@
 
 <a id="quickstart"></a>
 
-## 🚀 怎么用？把仓库和材料交给 Astra 就好
+<p><img src="docs/media/brand/heading-start.svg" alt="怎么用？把仓库和材料交给 Astra 就好" height="56"></p>
 
 可以直接把下面这段发给它，换上你的论文和素材路径：
 
@@ -160,7 +164,7 @@
 这里是供 Astra 在 Codex 里使用的工作流，不是独立绘图软件。让它检查当前环境能否生图和编辑 PPT；具体用法放在 [使用文档](docs/usage.md)，需要时交给它读就行。
 
 <details>
-<summary>📚 想多了解一点？文档收在这里</summary>
+<summary><picture><img src="docs/media/brand/detail-docs.svg" alt="想多了解一点？文档收在这里" height="32"></picture></summary>
 
 | 想做什么 | 对应文档 |
 | --- | --- |
@@ -174,13 +178,15 @@
 
 </details>
 
-<p align="center"><img src="docs/media/brand/divider.svg" alt="" width="540"></p>
+<p align="center"><img src="docs/media/brand/divider.svg" alt="" width="760"></p>
+
+<a id="closing"></a>
 
 <div align="center">
 
 <img src="docs/media/closing-kawaii.png" alt="小机器人和蓝围巾小鼠坐在铅笔上，举着一起完成的图，纸飞机飞向下一张" width="580">
 
-### 下一张，一起画？
+<p><img src="docs/media/brand/heading-closing.svg" alt="下一张，一起画？" height="56"></p>
 
 一个好用的箭头、一组小图标、一个漂亮的局部布局，都值得留下。
 
@@ -191,7 +197,7 @@
 </div>
 
 <details>
-<summary>发布前的小提醒 · 素材、字体与使用范围</summary>
+<summary><picture><img src="docs/media/brand/detail-notes.svg" alt="发布前的小提醒 · 素材、字体与使用范围" height="32"></picture></summary>
 
 最后几个小提醒：方法对不对、图好不好看，还是要一起看成品；换电脑后字体和排版可能有差异，PPT 中的连线也不保证随任意拖动自动跟随。[环境说明](docs/usage.md#环境与依赖)留给需要的人。
 

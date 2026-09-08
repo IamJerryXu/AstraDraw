@@ -1,10 +1,16 @@
 # AstraDraw branding
 
-Original vector artwork for the AstraDraw repository: a snowy paper-and-pencil wordmark, five navigation chips, and a small section divider.
+Original vector artwork for the AstraDraw repository: a snowy paper-and-pencil wordmark, navigation chips, handwritten Chinese introduction, origin-story note, matching section headings, and a blue wave divider.
 
 The palette draws on the publicly visible colors of [jerrysnow.me](https://jerrysnow.me/): ink blue, icy blue, with cream and coral accents. No website images or third-party icons are copied.
 
-All visible lettering is converted to SVG paths from **Comic Neue Bold**, so the appearance does not depend on fonts installed on the reader’s device. Comic Neue is by Craig Rozynski and Hrant Papazian, distributed under the SIL Open Font License 1.1. The source font and its original license are in `fonts/`, from [Google Fonts](https://github.com/google/fonts/tree/main/ofl/comicneue).
+All visible lettering is converted to SVG paths, so the appearance does not depend on fonts installed on the reader’s device.
+
+- **Comic Neue Bold** supplies Latin lettering. It is by Craig Rozynski and Hrant Papazian, distributed under the SIL Open Font License 1.1. The source font and license are in `fonts/`, from [Google Fonts](https://github.com/google/fonts/tree/main/ofl/comicneue).
+- **LXGW WenKai Medium** supplies the Chinese introduction and section headings. Source: [LXGW WenKai](https://github.com/lxgw/LxgwWenKai/tree/50f4b182415a8c33d9a456df220b66a284e2509b/fonts/TTF), under SIL OFL 1.1 (`fonts/LXGW-OFL.txt`). The included derivative is reduced to the used characters and renamed **AstraDraw WenKai Subset**.
+- **ZCOOL KuaiLe** gives the origin-story note its more expressive lettering. Source: [Google Fonts](https://github.com/google/fonts/tree/main/ofl/zcoolkuaile), under SIL OFL 1.1 (`fonts/ZCOOL-OFL.txt`). The included derivative is reduced to the used characters and renamed **AstraDraw KuaiLe Subset**.
+
+The subsets are only for rebuilding this artwork, not general-purpose Chinese fonts. Their original copyright and license records are retained. To add new text, provide the original upstream fonts with `build_brand.py --cjk-source FONT --quote-source FONT`; this refreshes the used character sets and then rebuilds the SVGs.
 
 The SVGs contain no scripts, external resources, embedded bitmap images, or `foreignObject` content. English navigation labels keep the outlined assets compact; README links supply the surrounding Chinese context.
 

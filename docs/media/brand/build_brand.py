@@ -3,6 +3,8 @@ from pathlib import Path
 from html import escape
 from fontTools.ttLib import TTFont
 from fontTools.pens.svgPathPen import SVGPathPen
+from fontTools import subset
+import argparse
 
 ROOT = Path(__file__).resolve().parent
 FONT = TTFont(ROOT / 'fonts/ComicNeue-Bold.ttf')
@@ -10,6 +12,73 @@ GLYPHS = FONT.getGlyphSet()
 CMAP = FONT.getBestCmap()
 UNITS = FONT['head'].unitsPerEm
 INK, BLUE, PALE, CREAM, CORAL = '#31566A', '#5BA6C2', '#EAF5F8', '#FFF1D7', '#E98B79'
+
+INTRO = '把论文和喜欢的参考交给 Astra，画成可以继续打磨的图。'
+FEATURES = '可编辑 PPT · 局部慢慢改 · Comic / Roman / 你喜欢的风格'
+PAIN_LINES = ['素材有了，image2 也能画出喜欢的图。', '可要做成能编辑的 PPT，还是得自己一点点重搭。']
+HEADINGS = [
+    ('prepare', '准备一本参考 PPT', 'materials'),
+    ('demo', 'Demo', 'demo'),
+    ('kawaii', 'Kawaii 素材', 'heart'),
+    ('spatial', '2D / 3D 空间组件', 'spatial'),
+    ('workflow', '我们是怎么画的？', 'pencil'),
+    ('edit', '不满意哪里，就改哪里', 'edit'),
+    ('start', '把仓库和材料交给 Astra', 'start'),
+    ('closing', '下一张，一起画？', 'heart'),
+]
+DETAILS = [
+    ('versions', '原稿、可编辑版和示意图的小区别', 'demo'),
+    ('docs', '想多了解一点？文档收在这里', 'materials'),
+    ('notes', '发布前的小提醒', 'heart'),
+]
+
+
+def make_subset(source, target, text, family):
+    """Keep the small used character set and rename the derivative font."""
+    font = TTFont(source)
+    options = subset.Options()
+    options.name_IDs = ['*']
+    worker = subset.Subsetter(options=options)
+    worker.populate(text=text)
+    worker.subset(font)
+    names = {1: family, 2: 'Regular', 3: family + '-1.0', 4: family,
+             6: family.replace(' ', '-'), 16: family, 17: 'Regular'}
+    for record in font['name'].names:
+        if record.nameID in names:
+            record.string = names[record.nameID].encode(record.getEncoding())
+    font.save(target)
+
+
+args = argparse.ArgumentParser(description=__doc__)
+args.add_argument('--cjk-source', type=Path, help='Optional upstream LXGW WenKai Medium font to refresh the subset')
+args.add_argument('--quote-source', type=Path, help='Optional upstream ZCOOL KuaiLe font to refresh the subset')
+options = args.parse_args()
+CJK_PATH = ROOT / 'fonts/AstraDraw-WenKai-Subset.ttf'
+QUOTE_PATH = ROOT / 'fonts/AstraDraw-KuaiLe-Subset.ttf'
+if options.cjk_source:
+    make_subset(options.cjk_source, CJK_PATH,
+                INTRO + FEATURES + ''.join(x[1] for x in HEADINGS + DETAILS), 'AstraDraw WenKai Subset')
+if options.quote_source:
+    make_subset(options.quote_source, QUOTE_PATH, ''.join(PAIN_LINES), 'AstraDraw KuaiLe Subset')
+CJK = TTFont(CJK_PATH)
+QUOTE = TTFont(QUOTE_PATH)
+
+
+def mixed_lettering(s, x, baseline, size, fill=INK, chinese=CJK):
+    parts = []
+    for char in s:
+        font = FONT if ord(char) < 128 else chinese
+        scale = size / font['head'].unitsPerEm
+        glyph_name = font.getBestCmap().get(ord(char))
+        if glyph_name is None:
+            raise ValueError(f'Missing glyph: {char}')
+        glyphs = font.getGlyphSet()
+        pen = SVGPathPen(glyphs)
+        glyphs[glyph_name].draw(pen)
+        if pen.getCommands():
+            parts.append(f'<path d="{pen.getCommands()}" transform="translate({x:.3f} {baseline}) scale({scale:.6f} {-scale:.6f})" fill="{fill}"/>')
+        x += font['hmtx'][glyph_name][0] * scale
+    return ''.join(parts), x
 
 
 def lettering(s, x, baseline, size, fill=INK):
@@ -41,6 +110,8 @@ def badge_icon(kind):
         'spatial': f'<path d="M20 4L33 12V27L20 34 7 27V12Z" fill="{PALE}"/><path d="M7 12l13 8 13-8M20 20v14"/><path d="M20 4v16" stroke-dasharray="2 4"/><path d="M10 12l10-5 10 5-10 5z" fill="{CREAM}" stroke="none"/>',
         'start': f'<path d="M12 24C12 11 24 4 32 5c1 9-6 21-19 22z" fill="{CREAM}"/><path d="M13 16l-7 2-1 9 9-4M22 25l-2 9 9-2 1-11" fill="{CORAL}"/><circle cx="25" cy="12" r="3.2" fill="{PALE}"/><path d="M8 30l-3 4M12 32l-2 4" stroke="{BLUE}"/>',
         'edit': f'<path d="M7 13V7h6M25 7h6v6M31 25v6h-6M13 31H7v-6" stroke-dasharray="3 2"/><path d="M13 23l2-7L26 5l6 6-11 11z" fill="{CREAM}"/><path d="M15 16l6 6M24 7l6 6"/><path d="M13 23l5-1-4-4z" fill="{INK}" stroke="none"/>',
+        'heart': f'<path d="M20 31C14 27 4 20 6 12c2-8 11-8 14-2 4-6 13-6 15 2 2 8-9 16-15 19Z" fill="{CREAM}"/><path d="M11 13q3-4 5-1" stroke="{CORAL}"/><path d="M27 26l5 3m-4-7h6" stroke="{BLUE}"/>',
+        'pencil': f'<path d="M8 29l3-10L27 3l8 8-16 16Z" fill="{CREAM}"/><path d="M24 6l8 8" stroke="{CORAL}" stroke-width="5"/><path d="M11 19l8 8M8 29l6-2-4-4Z"/><path d="M6 34q10-5 23-1" stroke="{BLUE}"/>',
     }
     return f'<g {common}>{shapes[kind]}</g>'
 
@@ -76,9 +147,9 @@ for i, (kind, label, width) in enumerate(navs):
     content += paths
     svg('nav-'+kind+'.svg', width, 50, label, content)
 
-divider = f'<path d="M18 31Q136 13 247 29T461 29M540 29Q652 13 764 29T982 25" fill="none" stroke="#B9DCE7" stroke-width="2.2" stroke-linecap="round"/>'
-divider += snow(500, 28, 11)
-divider += f'<circle cx="472" cy="28" r="2.5" fill="{CORAL}"/><circle cx="528" cy="28" r="2.5" fill="{CORAL}"/>'
+divider = f'<path d="M18 31Q136 13 247 29T461 29M540 29Q652 13 764 29T982 25" fill="none" stroke="#548FA6" stroke-width="3.8" stroke-linecap="round"/>'
+divider += snow(500, 28, 14, '#397D98')
+divider += f'<circle cx="472" cy="28" r="3.5" fill="{CORAL}"/><circle cx="528" cy="28" r="3.5" fill="{CORAL}"/>'
 svg('divider.svg', 1000, 56, 'Snowy section divider', divider)
 
 def line_width(s, size):
@@ -91,3 +162,36 @@ second, _ = lettering(bottom, (900-line_width(bottom, 39))/2, 84, 39, BLUE)
 tagline += second
 tagline += f'<path d="M252 72l-17-6m15 16-18 2M648 72l17-6m-15 16 18 2" stroke="{CORAL}" stroke-width="2.6" stroke-linecap="round" fill="none"/>'
 svg('tagline.svg', 900, 103, 'Your paper. Your references. Draw it with Astra.', tagline)
+
+# Outlined Chinese typography: no external fonts or CSS needed in GitHub.
+intro = ''
+for label, baseline, size, color in [(INTRO, 38, 31, INK), (FEATURES, 88, 25, '#397D98')]:
+    _, length = mixed_lettering(label, 0, baseline, size)
+    line, _ = mixed_lettering(label, (1100-length)/2, baseline, size, color)
+    intro += line
+svg('intro-cn.svg', 1100, 110, INTRO + ' ' + FEATURES, intro)
+
+for name, label, icon in HEADINGS:
+    paths, end = mixed_lettering(label, 64, 42, 30)
+    width = round(end + 58)
+    body = f'<path d="M62 47Q{(62+end)/2:.1f} 40 {end:.1f} 46" fill="none" stroke="{PALE}" stroke-width="12" stroke-linecap="round"/>'
+    body += f'<path d="M8 13Q28 3 46 13L48 46Q26 55 7 45Z" fill="{CREAM}"/><g transform="translate(7 10)">{badge_icon(icon)}</g>'
+    body += paths
+    body += f'<path d="M{end+10:.1f} 38q14-8 30-3" fill="none" stroke="{BLUE}" stroke-width="2.3" stroke-linecap="round"/><circle cx="{end+42:.1f}" cy="26" r="2.4" fill="{CORAL}"/>'
+    svg('heading-'+name+'.svg', width, 64, label, body)
+
+for name, label, icon in DETAILS:
+    paths, end = mixed_lettering(label, 39, 28, 22)
+    body = f'<g transform="translate(0 4) scale(.76)">{badge_icon(icon)}</g>' + paths
+    svg('detail-'+name+'.svg', round(end+6), 40, label, body)
+
+# A separate, expressive note carries the origin story, not the normal body font.
+note = f'<path d="M17 19Q414 5 880 19L883 145Q448 156 16 145Z" fill="#FFF8E9" stroke="#BDD5DE" stroke-width="1.7"/>'
+note += '<path d="M51 5l72 3-5 25-71-3Z" fill="#D5EAF1"/><path d="M795 7l55-3 4 24-57 5Z" fill="#D5EAF1"/>'
+note += f'<path d="M43 57q-10 0-9 12h8v10H29V66q0-15 14-15M61 57q-10 0-9 12h8v10H47V66q0-15 14-15" fill="{CORAL}"/>'
+for label, baseline, color in zip(PAIN_LINES, (65, 114), (INK, '#9B5548')):
+    _, length = mixed_lettering(label, 0, baseline, 29, chinese=QUOTE)
+    line, _ = mixed_lettering(label, (900-length)/2 + 12, baseline, 29, color, chinese=QUOTE)
+    note += line
+note += f'<path d="M714 134q59-4 109-1" fill="none" stroke="{CORAL}" stroke-width="2.8" stroke-linecap="round"/>'
+svg('origin-note.svg', 900, 164, ' '.join(PAIN_LINES), note)
