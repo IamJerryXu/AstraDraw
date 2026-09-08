@@ -1,0 +1,696 @@
+[
+  {
+    "scene_id": "planar-ripple",
+    "slide_id": "8ymvod",
+    "objects": [
+      {
+        "scene_object_id": "ripple-upper-dotted",
+        "pptx_shape_name": "ripple-upper-dotted",
+        "artifact_object_id": "1",
+        "object_type": "polyline",
+        "role": "schematic contour",
+        "group": "background-ripples",
+        "pptx_shape_id": "79"
+      },
+      {
+        "scene_object_id": "ripple-upper-solid",
+        "pptx_shape_name": "ripple-upper-solid",
+        "artifact_object_id": "2",
+        "object_type": "polyline",
+        "role": "schematic contour",
+        "group": "background-ripples",
+        "pptx_shape_id": "2"
+      },
+      {
+        "scene_object_id": "ripple-lower-solid",
+        "pptx_shape_name": "ripple-lower-solid",
+        "artifact_object_id": "3",
+        "object_type": "polyline",
+        "role": "schematic contour",
+        "group": "background-ripples",
+        "pptx_shape_id": "3"
+      },
+      {
+        "scene_object_id": "ripple-lower-dotted",
+        "pptx_shape_name": "ripple-lower-dotted",
+        "artifact_object_id": "4",
+        "object_type": "polyline",
+        "role": "schematic contour",
+        "group": "background-ripples",
+        "pptx_shape_id": "4"
+      },
+      {
+        "scene_object_id": "source-support",
+        "pptx_shape_name": "source-support",
+        "artifact_object_id": "5",
+        "object_type": "polyline",
+        "role": "schematic contour",
+        "group": "source-distribution",
+        "pptx_shape_id": "5"
+      },
+      {
+        "scene_object_id": "source-support-middle",
+        "pptx_shape_name": "source-support-middle",
+        "artifact_object_id": "6",
+        "object_type": "polyline",
+        "role": "schematic contour",
+        "group": "source-distribution",
+        "pptx_shape_id": "6"
+      },
+      {
+        "scene_object_id": "source-support-inner",
+        "pptx_shape_name": "source-support-inner",
+        "artifact_object_id": "7",
+        "object_type": "polyline",
+        "role": "schematic contour",
+        "group": "source-distribution",
+        "pptx_shape_id": "7"
+      },
+      {
+        "scene_object_id": "source-support-outer",
+        "pptx_shape_name": "source-support-outer",
+        "artifact_object_id": "8",
+        "object_type": "polyline",
+        "role": "schematic contour",
+        "group": "source-distribution",
+        "pptx_shape_id": "8"
+      },
+      {
+        "scene_object_id": "target-support",
+        "pptx_shape_name": "target-support",
+        "artifact_object_id": "9",
+        "object_type": "polyline",
+        "role": "schematic contour",
+        "group": "target-distribution",
+        "pptx_shape_id": "9"
+      },
+      {
+        "scene_object_id": "target-support-middle",
+        "pptx_shape_name": "target-support-middle",
+        "artifact_object_id": "10",
+        "object_type": "polyline",
+        "role": "schematic contour",
+        "group": "target-distribution",
+        "pptx_shape_id": "10"
+      },
+      {
+        "scene_object_id": "target-support-inner",
+        "pptx_shape_name": "target-support-inner",
+        "artifact_object_id": "11",
+        "object_type": "polyline",
+        "role": "schematic contour",
+        "group": "target-distribution",
+        "pptx_shape_id": "11"
+      },
+      {
+        "scene_object_id": "target-support-outer",
+        "pptx_shape_name": "target-support-outer",
+        "artifact_object_id": "12",
+        "object_type": "polyline",
+        "role": "schematic contour",
+        "group": "target-distribution",
+        "pptx_shape_id": "12"
+      },
+      {
+        "scene_object_id": "source-sample-01",
+        "pptx_shape_name": "source-sample-01",
+        "artifact_object_id": "13",
+        "object_type": "ellipse",
+        "role": "illustrative sample, no quantitative correspondence asserted",
+        "group": "source-distribution",
+        "pptx_shape_id": "13"
+      },
+      {
+        "scene_object_id": "source-sample-02",
+        "pptx_shape_name": "source-sample-02",
+        "artifact_object_id": "14",
+        "object_type": "ellipse",
+        "role": "illustrative sample, no quantitative correspondence asserted",
+        "group": "source-distribution",
+        "pptx_shape_id": "14"
+      },
+      {
+        "scene_object_id": "source-sample-03",
+        "pptx_shape_name": "source-sample-03",
+        "artifact_object_id": "15",
+        "object_type": "ellipse",
+        "role": "illustrative sample, no quantitative correspondence asserted",
+        "group": "source-distribution",
+        "pptx_shape_id": "15"
+      },
+      {
+        "scene_object_id": "source-sample-04",
+        "pptx_shape_name": "source-sample-04",
+        "artifact_object_id": "16",
+        "object_type": "ellipse",
+        "role": "illustrative sample, no quantitative correspondence asserted",
+        "group": "source-distribution",
+        "pptx_shape_id": "16"
+      },
+      {
+        "scene_object_id": "source-sample-05",
+        "pptx_shape_name": "source-sample-05",
+        "artifact_object_id": "17",
+        "object_type": "ellipse",
+        "role": "illustrative sample, no quantitative correspondence asserted",
+        "group": "source-distribution",
+        "pptx_shape_id": "17"
+      },
+      {
+        "scene_object_id": "source-sample-06",
+        "pptx_shape_name": "source-sample-06",
+        "artifact_object_id": "18",
+        "object_type": "ellipse",
+        "role": "illustrative sample, no quantitative correspondence asserted",
+        "group": "source-distribution",
+        "pptx_shape_id": "18"
+      },
+      {
+        "scene_object_id": "source-sample-07",
+        "pptx_shape_name": "source-sample-07",
+        "artifact_object_id": "19",
+        "object_type": "ellipse",
+        "role": "illustrative sample, no quantitative correspondence asserted",
+        "group": "source-distribution",
+        "pptx_shape_id": "19"
+      },
+      {
+        "scene_object_id": "source-sample-08",
+        "pptx_shape_name": "source-sample-08",
+        "artifact_object_id": "20",
+        "object_type": "ellipse",
+        "role": "illustrative sample, no quantitative correspondence asserted",
+        "group": "source-distribution",
+        "pptx_shape_id": "20"
+      },
+      {
+        "scene_object_id": "source-sample-09",
+        "pptx_shape_name": "source-sample-09",
+        "artifact_object_id": "21",
+        "object_type": "ellipse",
+        "role": "illustrative sample, no quantitative correspondence asserted",
+        "group": "source-distribution",
+        "pptx_shape_id": "21"
+      },
+      {
+        "scene_object_id": "source-sample-10",
+        "pptx_shape_name": "source-sample-10",
+        "artifact_object_id": "22",
+        "object_type": "ellipse",
+        "role": "illustrative sample, no quantitative correspondence asserted",
+        "group": "source-distribution",
+        "pptx_shape_id": "22"
+      },
+      {
+        "scene_object_id": "source-sample-11",
+        "pptx_shape_name": "source-sample-11",
+        "artifact_object_id": "23",
+        "object_type": "ellipse",
+        "role": "illustrative sample, no quantitative correspondence asserted",
+        "group": "source-distribution",
+        "pptx_shape_id": "23"
+      },
+      {
+        "scene_object_id": "source-sample-12",
+        "pptx_shape_name": "source-sample-12",
+        "artifact_object_id": "24",
+        "object_type": "ellipse",
+        "role": "illustrative sample, no quantitative correspondence asserted",
+        "group": "source-distribution",
+        "pptx_shape_id": "24"
+      },
+      {
+        "scene_object_id": "source-sample-13",
+        "pptx_shape_name": "source-sample-13",
+        "artifact_object_id": "25",
+        "object_type": "ellipse",
+        "role": "illustrative sample, no quantitative correspondence asserted",
+        "group": "source-distribution",
+        "pptx_shape_id": "25"
+      },
+      {
+        "scene_object_id": "source-sample-14",
+        "pptx_shape_name": "source-sample-14",
+        "artifact_object_id": "26",
+        "object_type": "ellipse",
+        "role": "illustrative sample, no quantitative correspondence asserted",
+        "group": "source-distribution",
+        "pptx_shape_id": "26"
+      },
+      {
+        "scene_object_id": "source-sample-15",
+        "pptx_shape_name": "source-sample-15",
+        "artifact_object_id": "27",
+        "object_type": "ellipse",
+        "role": "illustrative sample, no quantitative correspondence asserted",
+        "group": "source-distribution",
+        "pptx_shape_id": "27"
+      },
+      {
+        "scene_object_id": "source-sample-16",
+        "pptx_shape_name": "source-sample-16",
+        "artifact_object_id": "28",
+        "object_type": "ellipse",
+        "role": "illustrative sample, no quantitative correspondence asserted",
+        "group": "source-distribution",
+        "pptx_shape_id": "28"
+      },
+      {
+        "scene_object_id": "source-sample-17",
+        "pptx_shape_name": "source-sample-17",
+        "artifact_object_id": "29",
+        "object_type": "ellipse",
+        "role": "illustrative sample, no quantitative correspondence asserted",
+        "group": "source-distribution",
+        "pptx_shape_id": "29"
+      },
+      {
+        "scene_object_id": "source-sample-18",
+        "pptx_shape_name": "source-sample-18",
+        "artifact_object_id": "30",
+        "object_type": "ellipse",
+        "role": "illustrative sample, no quantitative correspondence asserted",
+        "group": "source-distribution",
+        "pptx_shape_id": "30"
+      },
+      {
+        "scene_object_id": "source-sample-19",
+        "pptx_shape_name": "source-sample-19",
+        "artifact_object_id": "31",
+        "object_type": "ellipse",
+        "role": "illustrative sample, no quantitative correspondence asserted",
+        "group": "source-distribution",
+        "pptx_shape_id": "31"
+      },
+      {
+        "scene_object_id": "source-sample-20",
+        "pptx_shape_name": "source-sample-20",
+        "artifact_object_id": "32",
+        "object_type": "ellipse",
+        "role": "illustrative sample, no quantitative correspondence asserted",
+        "group": "source-distribution",
+        "pptx_shape_id": "32"
+      },
+      {
+        "scene_object_id": "source-sample-21",
+        "pptx_shape_name": "source-sample-21",
+        "artifact_object_id": "33",
+        "object_type": "ellipse",
+        "role": "illustrative sample, no quantitative correspondence asserted",
+        "group": "source-distribution",
+        "pptx_shape_id": "33"
+      },
+      {
+        "scene_object_id": "source-sample-22",
+        "pptx_shape_name": "source-sample-22",
+        "artifact_object_id": "34",
+        "object_type": "ellipse",
+        "role": "illustrative sample, no quantitative correspondence asserted",
+        "group": "source-distribution",
+        "pptx_shape_id": "34"
+      },
+      {
+        "scene_object_id": "source-sample-23",
+        "pptx_shape_name": "source-sample-23",
+        "artifact_object_id": "35",
+        "object_type": "ellipse",
+        "role": "illustrative sample, no quantitative correspondence asserted",
+        "group": "source-distribution",
+        "pptx_shape_id": "35"
+      },
+      {
+        "scene_object_id": "target-sample-01",
+        "pptx_shape_name": "target-sample-01",
+        "artifact_object_id": "36",
+        "object_type": "ellipse",
+        "role": "illustrative sample, no quantitative correspondence asserted",
+        "group": "target-distribution",
+        "pptx_shape_id": "36"
+      },
+      {
+        "scene_object_id": "target-sample-02",
+        "pptx_shape_name": "target-sample-02",
+        "artifact_object_id": "37",
+        "object_type": "ellipse",
+        "role": "illustrative sample, no quantitative correspondence asserted",
+        "group": "target-distribution",
+        "pptx_shape_id": "37"
+      },
+      {
+        "scene_object_id": "target-sample-03",
+        "pptx_shape_name": "target-sample-03",
+        "artifact_object_id": "38",
+        "object_type": "ellipse",
+        "role": "illustrative sample, no quantitative correspondence asserted",
+        "group": "target-distribution",
+        "pptx_shape_id": "38"
+      },
+      {
+        "scene_object_id": "target-sample-04",
+        "pptx_shape_name": "target-sample-04",
+        "artifact_object_id": "39",
+        "object_type": "ellipse",
+        "role": "illustrative sample, no quantitative correspondence asserted",
+        "group": "target-distribution",
+        "pptx_shape_id": "39"
+      },
+      {
+        "scene_object_id": "target-sample-05",
+        "pptx_shape_name": "target-sample-05",
+        "artifact_object_id": "40",
+        "object_type": "ellipse",
+        "role": "illustrative sample, no quantitative correspondence asserted",
+        "group": "target-distribution",
+        "pptx_shape_id": "40"
+      },
+      {
+        "scene_object_id": "target-sample-06",
+        "pptx_shape_name": "target-sample-06",
+        "artifact_object_id": "41",
+        "object_type": "ellipse",
+        "role": "illustrative sample, no quantitative correspondence asserted",
+        "group": "target-distribution",
+        "pptx_shape_id": "41"
+      },
+      {
+        "scene_object_id": "target-sample-07",
+        "pptx_shape_name": "target-sample-07",
+        "artifact_object_id": "42",
+        "object_type": "ellipse",
+        "role": "illustrative sample, no quantitative correspondence asserted",
+        "group": "target-distribution",
+        "pptx_shape_id": "42"
+      },
+      {
+        "scene_object_id": "target-sample-08",
+        "pptx_shape_name": "target-sample-08",
+        "artifact_object_id": "43",
+        "object_type": "ellipse",
+        "role": "illustrative sample, no quantitative correspondence asserted",
+        "group": "target-distribution",
+        "pptx_shape_id": "43"
+      },
+      {
+        "scene_object_id": "target-sample-09",
+        "pptx_shape_name": "target-sample-09",
+        "artifact_object_id": "44",
+        "object_type": "ellipse",
+        "role": "illustrative sample, no quantitative correspondence asserted",
+        "group": "target-distribution",
+        "pptx_shape_id": "44"
+      },
+      {
+        "scene_object_id": "target-sample-10",
+        "pptx_shape_name": "target-sample-10",
+        "artifact_object_id": "45",
+        "object_type": "ellipse",
+        "role": "illustrative sample, no quantitative correspondence asserted",
+        "group": "target-distribution",
+        "pptx_shape_id": "45"
+      },
+      {
+        "scene_object_id": "target-sample-11",
+        "pptx_shape_name": "target-sample-11",
+        "artifact_object_id": "46",
+        "object_type": "ellipse",
+        "role": "illustrative sample, no quantitative correspondence asserted",
+        "group": "target-distribution",
+        "pptx_shape_id": "46"
+      },
+      {
+        "scene_object_id": "target-sample-12",
+        "pptx_shape_name": "target-sample-12",
+        "artifact_object_id": "47",
+        "object_type": "ellipse",
+        "role": "illustrative sample, no quantitative correspondence asserted",
+        "group": "target-distribution",
+        "pptx_shape_id": "47"
+      },
+      {
+        "scene_object_id": "target-sample-13",
+        "pptx_shape_name": "target-sample-13",
+        "artifact_object_id": "48",
+        "object_type": "ellipse",
+        "role": "illustrative sample, no quantitative correspondence asserted",
+        "group": "target-distribution",
+        "pptx_shape_id": "48"
+      },
+      {
+        "scene_object_id": "target-sample-14",
+        "pptx_shape_name": "target-sample-14",
+        "artifact_object_id": "49",
+        "object_type": "ellipse",
+        "role": "illustrative sample, no quantitative correspondence asserted",
+        "group": "target-distribution",
+        "pptx_shape_id": "49"
+      },
+      {
+        "scene_object_id": "target-sample-15",
+        "pptx_shape_name": "target-sample-15",
+        "artifact_object_id": "50",
+        "object_type": "ellipse",
+        "role": "illustrative sample, no quantitative correspondence asserted",
+        "group": "target-distribution",
+        "pptx_shape_id": "50"
+      },
+      {
+        "scene_object_id": "target-sample-16",
+        "pptx_shape_name": "target-sample-16",
+        "artifact_object_id": "51",
+        "object_type": "ellipse",
+        "role": "illustrative sample, no quantitative correspondence asserted",
+        "group": "target-distribution",
+        "pptx_shape_id": "51"
+      },
+      {
+        "scene_object_id": "target-sample-17",
+        "pptx_shape_name": "target-sample-17",
+        "artifact_object_id": "52",
+        "object_type": "ellipse",
+        "role": "illustrative sample, no quantitative correspondence asserted",
+        "group": "target-distribution",
+        "pptx_shape_id": "52"
+      },
+      {
+        "scene_object_id": "target-sample-18",
+        "pptx_shape_name": "target-sample-18",
+        "artifact_object_id": "53",
+        "object_type": "ellipse",
+        "role": "illustrative sample, no quantitative correspondence asserted",
+        "group": "target-distribution",
+        "pptx_shape_id": "53"
+      },
+      {
+        "scene_object_id": "target-sample-19",
+        "pptx_shape_name": "target-sample-19",
+        "artifact_object_id": "54",
+        "object_type": "ellipse",
+        "role": "illustrative sample, no quantitative correspondence asserted",
+        "group": "target-distribution",
+        "pptx_shape_id": "54"
+      },
+      {
+        "scene_object_id": "target-sample-20",
+        "pptx_shape_name": "target-sample-20",
+        "artifact_object_id": "55",
+        "object_type": "ellipse",
+        "role": "illustrative sample, no quantitative correspondence asserted",
+        "group": "target-distribution",
+        "pptx_shape_id": "55"
+      },
+      {
+        "scene_object_id": "target-sample-21",
+        "pptx_shape_name": "target-sample-21",
+        "artifact_object_id": "56",
+        "object_type": "ellipse",
+        "role": "illustrative sample, no quantitative correspondence asserted",
+        "group": "target-distribution",
+        "pptx_shape_id": "56"
+      },
+      {
+        "scene_object_id": "target-sample-22",
+        "pptx_shape_name": "target-sample-22",
+        "artifact_object_id": "57",
+        "object_type": "ellipse",
+        "role": "illustrative sample, no quantitative correspondence asserted",
+        "group": "target-distribution",
+        "pptx_shape_id": "57"
+      },
+      {
+        "scene_object_id": "target-sample-23",
+        "pptx_shape_name": "target-sample-23",
+        "artifact_object_id": "58",
+        "object_type": "ellipse",
+        "role": "illustrative sample, no quantitative correspondence asserted",
+        "group": "target-distribution",
+        "pptx_shape_id": "58"
+      },
+      {
+        "scene_object_id": "transport-path-1",
+        "part": "arrowhead",
+        "pptx_shape_name": "transport-path-1--arrow",
+        "artifact_object_id": "60",
+        "pptx_shape_id": "60"
+      },
+      {
+        "scene_object_id": "transport-path-1",
+        "pptx_shape_name": "transport-path-1",
+        "artifact_object_id": "59",
+        "object_type": "polyline",
+        "role": "illustrative directed trajectory",
+        "group": "transport",
+        "pptx_shape_id": "59"
+      },
+      {
+        "scene_object_id": "transport-path-2",
+        "part": "arrowhead",
+        "pptx_shape_name": "transport-path-2--arrow",
+        "artifact_object_id": "62",
+        "pptx_shape_id": "62"
+      },
+      {
+        "scene_object_id": "transport-path-2",
+        "pptx_shape_name": "transport-path-2",
+        "artifact_object_id": "61",
+        "object_type": "polyline",
+        "role": "illustrative directed trajectory",
+        "group": "transport",
+        "pptx_shape_id": "61"
+      },
+      {
+        "scene_object_id": "transport-path-3",
+        "part": "arrowhead",
+        "pptx_shape_name": "transport-path-3--arrow",
+        "artifact_object_id": "64",
+        "pptx_shape_id": "64"
+      },
+      {
+        "scene_object_id": "transport-path-3",
+        "pptx_shape_name": "transport-path-3",
+        "artifact_object_id": "63",
+        "object_type": "polyline",
+        "role": "illustrative directed trajectory",
+        "group": "transport",
+        "pptx_shape_id": "63"
+      },
+      {
+        "scene_object_id": "local-direction-1",
+        "part": "arrowhead",
+        "pptx_shape_name": "local-direction-1--arrow",
+        "artifact_object_id": "66",
+        "pptx_shape_id": "66"
+      },
+      {
+        "scene_object_id": "local-direction-1",
+        "pptx_shape_name": "local-direction-1",
+        "artifact_object_id": "65",
+        "object_type": "polyline",
+        "role": "schematic local direction only, length not speed",
+        "group": "direction-field",
+        "pptx_shape_id": "65"
+      },
+      {
+        "scene_object_id": "local-direction-2",
+        "part": "arrowhead",
+        "pptx_shape_name": "local-direction-2--arrow",
+        "artifact_object_id": "68",
+        "pptx_shape_id": "68"
+      },
+      {
+        "scene_object_id": "local-direction-2",
+        "pptx_shape_name": "local-direction-2",
+        "artifact_object_id": "67",
+        "object_type": "polyline",
+        "role": "schematic local direction only, length not speed",
+        "group": "direction-field",
+        "pptx_shape_id": "67"
+      },
+      {
+        "scene_object_id": "local-direction-3",
+        "part": "arrowhead",
+        "pptx_shape_name": "local-direction-3--arrow",
+        "artifact_object_id": "70",
+        "pptx_shape_id": "70"
+      },
+      {
+        "scene_object_id": "local-direction-3",
+        "pptx_shape_name": "local-direction-3",
+        "artifact_object_id": "69",
+        "object_type": "polyline",
+        "role": "schematic local direction only, length not speed",
+        "group": "direction-field",
+        "pptx_shape_id": "69"
+      },
+      {
+        "scene_object_id": "local-direction-4",
+        "part": "arrowhead",
+        "pptx_shape_name": "local-direction-4--arrow",
+        "artifact_object_id": "72",
+        "pptx_shape_id": "72"
+      },
+      {
+        "scene_object_id": "local-direction-4",
+        "pptx_shape_name": "local-direction-4",
+        "artifact_object_id": "71",
+        "object_type": "polyline",
+        "role": "schematic local direction only, length not speed",
+        "group": "direction-field",
+        "pptx_shape_id": "71"
+      },
+      {
+        "scene_object_id": "local-direction-5",
+        "part": "arrowhead",
+        "pptx_shape_name": "local-direction-5--arrow",
+        "artifact_object_id": "74",
+        "pptx_shape_id": "74"
+      },
+      {
+        "scene_object_id": "local-direction-5",
+        "pptx_shape_name": "local-direction-5",
+        "artifact_object_id": "73",
+        "object_type": "polyline",
+        "role": "schematic local direction only, length not speed",
+        "group": "direction-field",
+        "pptx_shape_id": "73"
+      },
+      {
+        "scene_object_id": "local-direction-6",
+        "part": "arrowhead",
+        "pptx_shape_name": "local-direction-6--arrow",
+        "artifact_object_id": "76",
+        "pptx_shape_id": "76"
+      },
+      {
+        "scene_object_id": "local-direction-6",
+        "pptx_shape_name": "local-direction-6",
+        "artifact_object_id": "75",
+        "object_type": "polyline",
+        "role": "schematic local direction only, length not speed",
+        "group": "direction-field",
+        "pptx_shape_id": "75"
+      },
+      {
+        "scene_object_id": "source-label",
+        "pptx_shape_name": "source-label",
+        "artifact_object_id": "77",
+        "object_type": "text",
+        "role": "distribution label",
+        "group": null,
+        "pptx_shape_id": "77"
+      },
+      {
+        "scene_object_id": "target-label",
+        "pptx_shape_name": "target-label",
+        "artifact_object_id": "78",
+        "object_type": "text",
+        "role": "distribution label",
+        "group": null,
+        "pptx_shape_id": "78"
+      }
+    ],
+    "source_scene_path": "examples/showcase-comic/planar.scene.json",
+    "scene_sha256": "de172000b2d48e8fbfa72d986fc6c24b664b141de25aff02bed2b7f19a19a3dd",
+    "slide_number": 1,
+    "pptx_sha256": "7faedd593992d42ea8326e5d5c32aa60405bfa753b1787060be6f0fec9573616"
+  }
+]
