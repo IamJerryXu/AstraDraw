@@ -54,7 +54,11 @@
 
 **[PPT](output/paper-method/method.pptx)** · [SVG](output/paper-method/method.svg) · [素材来源与使用限制](examples/paper-method/SOURCES.md)
 
-![Demo 2](output/role-guided-search/overview.png)
+![Demo 2](output/self-forcing/overview-previews/self-forcing-faithful.png)
+
+**[PPT](output/self-forcing/overview.pptx)** · [源文件](examples/self-forcing/overview.scene.json) · [素材来源与使用说明](examples/self-forcing/SOURCES.md)
+
+![Demo 3](output/role-guided-search/overview.png)
 
 **[PPT](output/role-guided-search/overview.pptx)** · [SVG](output/role-guided-search/overview.svg) · [源文件](examples/role-guided-search/overview.scene.json)
 
