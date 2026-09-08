@@ -185,11 +185,11 @@ for name, label, icon in DETAILS:
     body = f'<g transform="translate(0 4) scale(.76)">{badge_icon(icon)}</g>' + paths
     svg('detail-'+name+'.svg', round(end+6), 40, label, body)
 
-# The original cream-and-tape note, with the updated visual-style introduction.
-note = f'<path d="M17 19Q414 5 880 19L883 145Q448 156 16 145Z" fill="#FFF8E9" stroke="#BDD5DE" stroke-width="1.7"/>'
-note += '<path d="M51 5l72 3-5 25-71-3Z" fill="#D5EAF1"/><path d="M795 7l55-3 4 24-57 5Z" fill="#D5EAF1"/>'
+# The original taped-paper silhouette, recolored to the site's icy-blue palette.
+note = f'<path d="M17 19Q414 5 880 19L883 145Q448 156 16 145Z" fill="#F0F7FB" stroke="#91B2C3" stroke-width="1.7"/>'
+note += '<path d="M51 5l72 3-5 25-71-3Z" fill="#BDD5E3"/><path d="M795 7l55-3 4 24-57 5Z" fill="#BDD5E3"/>'
 note += f'<path d="M43 57q-10 0-9 12h8v10H29V66q0-15 14-15M61 57q-10 0-9 12h8v10H47V66q0-15 14-15" fill="{CORAL}"/>'
-for label, baseline, color in zip(PAIN_LINES, (65, 114), (INK, '#9B5548')):
+for label, baseline, color in zip(PAIN_LINES, (65, 114), (INK, '#39758F')):
     _, length = mixed_lettering(label, 0, baseline, 29, chinese=QUOTE)
     line, _ = mixed_lettering(label, (900-length)/2 + 12, baseline, 29, color, chinese=QUOTE)
     note += line
