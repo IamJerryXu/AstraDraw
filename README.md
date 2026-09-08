@@ -30,6 +30,16 @@
 
 照片与分割覆盖来自 DAVIS 视频及真实标注，仅用于解释方法，不代表模型预测。素材署名及非商业使用限制见案例说明。
 
+## 方法 Overview：角色引导的演化搜索
+
+从双层网络输入、节点重要性与角色对齐，到共享种群、交叉变异、鲁棒评估与种子对输出。Comic 字体、蓝绿分层配色与外围渐变箭头串联两阶段流程。
+
+![角色引导的演化搜索方法图，包含双层网络、DAT 编码器、角色迁移、评估与反馈](output/role-guided-search/overview.png)
+
+**[下载可编辑 PPT](output/role-guided-search/overview.pptx)** · [矢量图](output/role-guided-search/overview.svg) · [场景源文件](examples/role-guided-search/overview.scene.json) · [案例说明](examples/role-guided-search/README.md)
+
+这是经多轮局部反馈确认的展示版本：保留 DAT 和损失函数原样，只整理交叉与角色迁移区域。图中 606 个命名元素及连接线均可编辑；节点编号、概率条和种群示例用于解释机制，不是实验结果。原论文全文与私人参考图不随案例公开。
+
 ## 空间组件：二维分布与三维网格
 
 下面是工作流制作的实际可编辑示意。下载 PPT 后，标签、样本点、网格与路径均为独立对象。

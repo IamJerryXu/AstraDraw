@@ -1,0 +1,5690 @@
+[
+  {
+    "scene_id": "rim-compact",
+    "slide_id": "9ki02l",
+    "objects": [
+      {
+        "scene_object_id": "global-prior-wash",
+        "pptx_shape_name": "global-prior-wash",
+        "artifact_object_id": "1",
+        "object_type": "rect",
+        "role": "stage-background",
+        "group": "global-style",
+        "pptx_shape_id": "639"
+      },
+      {
+        "scene_object_id": "global-search-wash",
+        "pptx_shape_name": "global-search-wash",
+        "artifact_object_id": "2",
+        "object_type": "rect",
+        "role": "stage-background",
+        "group": "global-style",
+        "pptx_shape_id": "2"
+      },
+      {
+        "scene_object_id": "learning-boundary",
+        "pptx_shape_name": "learning-boundary",
+        "artifact_object_id": "3",
+        "object_type": "rect",
+        "role": "learning-boundary",
+        "group": null,
+        "pptx_shape_id": "3"
+      },
+      {
+        "scene_object_id": "stage-learning",
+        "pptx_shape_name": "stage-learning",
+        "artifact_object_id": "4",
+        "object_type": "text",
+        "role": "stage-learning",
+        "group": null,
+        "pptx_shape_id": "4"
+      },
+      {
+        "scene_object_id": "network-title",
+        "pptx_shape_name": "network-title",
+        "artifact_object_id": "5",
+        "object_type": "text",
+        "role": "network-title",
+        "group": null,
+        "pptx_shape_id": "5"
+      },
+      {
+        "scene_object_id": "input-A-edge-0",
+        "pptx_shape_name": "input-A-edge-0",
+        "artifact_object_id": "6",
+        "object_type": "polyline",
+        "role": "input-A-edge-0",
+        "group": null,
+        "pptx_shape_id": "6"
+      },
+      {
+        "scene_object_id": "input-A-edge-1",
+        "pptx_shape_name": "input-A-edge-1",
+        "artifact_object_id": "7",
+        "object_type": "polyline",
+        "role": "input-A-edge-1",
+        "group": null,
+        "pptx_shape_id": "7"
+      },
+      {
+        "scene_object_id": "input-A-edge-2",
+        "pptx_shape_name": "input-A-edge-2",
+        "artifact_object_id": "8",
+        "object_type": "polyline",
+        "role": "input-A-edge-2",
+        "group": null,
+        "pptx_shape_id": "8"
+      },
+      {
+        "scene_object_id": "input-A-edge-3",
+        "pptx_shape_name": "input-A-edge-3",
+        "artifact_object_id": "9",
+        "object_type": "polyline",
+        "role": "input-A-edge-3",
+        "group": null,
+        "pptx_shape_id": "9"
+      },
+      {
+        "scene_object_id": "input-A-edge-4",
+        "pptx_shape_name": "input-A-edge-4",
+        "artifact_object_id": "10",
+        "object_type": "polyline",
+        "role": "input-A-edge-4",
+        "group": null,
+        "pptx_shape_id": "10"
+      },
+      {
+        "scene_object_id": "input-A-edge-5",
+        "pptx_shape_name": "input-A-edge-5",
+        "artifact_object_id": "11",
+        "object_type": "polyline",
+        "role": "input-A-edge-5",
+        "group": null,
+        "pptx_shape_id": "11"
+      },
+      {
+        "scene_object_id": "input-A-edge-6",
+        "pptx_shape_name": "input-A-edge-6",
+        "artifact_object_id": "12",
+        "object_type": "polyline",
+        "role": "input-A-edge-6",
+        "group": null,
+        "pptx_shape_id": "12"
+      },
+      {
+        "scene_object_id": "input-A-edge-7",
+        "pptx_shape_name": "input-A-edge-7",
+        "artifact_object_id": "13",
+        "object_type": "polyline",
+        "role": "input-A-edge-7",
+        "group": null,
+        "pptx_shape_id": "13"
+      },
+      {
+        "scene_object_id": "input-A-edge-8",
+        "pptx_shape_name": "input-A-edge-8",
+        "artifact_object_id": "14",
+        "object_type": "polyline",
+        "role": "input-A-edge-8",
+        "group": null,
+        "pptx_shape_id": "14"
+      },
+      {
+        "scene_object_id": "input-A-node-0",
+        "pptx_shape_name": "input-A-node-0",
+        "artifact_object_id": "15",
+        "object_type": "ellipse",
+        "role": "input-A-node-0",
+        "group": null,
+        "pptx_shape_id": "15"
+      },
+      {
+        "scene_object_id": "input-A-node-0-actor-head",
+        "pptx_shape_name": "input-A-node-0-actor-head",
+        "artifact_object_id": "16",
+        "object_type": "ellipse",
+        "role": "input-A-node-0-actor-head",
+        "group": "input-A",
+        "pptx_shape_id": "16"
+      },
+      {
+        "scene_object_id": "input-A-node-0-actor-shoulders",
+        "pptx_shape_name": "input-A-node-0-actor-shoulders",
+        "artifact_object_id": "17",
+        "object_type": "polyline",
+        "role": "input-A-node-0-actor-shoulders",
+        "group": "input-A",
+        "pptx_shape_id": "17"
+      },
+      {
+        "scene_object_id": "input-A-node-1",
+        "pptx_shape_name": "input-A-node-1",
+        "artifact_object_id": "18",
+        "object_type": "ellipse",
+        "role": "input-A-node-1",
+        "group": null,
+        "pptx_shape_id": "18"
+      },
+      {
+        "scene_object_id": "input-A-node-1-actor-head",
+        "pptx_shape_name": "input-A-node-1-actor-head",
+        "artifact_object_id": "19",
+        "object_type": "ellipse",
+        "role": "input-A-node-1-actor-head",
+        "group": "input-A",
+        "pptx_shape_id": "19"
+      },
+      {
+        "scene_object_id": "input-A-node-1-actor-shoulders",
+        "pptx_shape_name": "input-A-node-1-actor-shoulders",
+        "artifact_object_id": "20",
+        "object_type": "polyline",
+        "role": "input-A-node-1-actor-shoulders",
+        "group": "input-A",
+        "pptx_shape_id": "20"
+      },
+      {
+        "scene_object_id": "input-A-node-2",
+        "pptx_shape_name": "input-A-node-2",
+        "artifact_object_id": "21",
+        "object_type": "ellipse",
+        "role": "input-A-node-2",
+        "group": null,
+        "pptx_shape_id": "21"
+      },
+      {
+        "scene_object_id": "input-A-node-2-actor-head",
+        "pptx_shape_name": "input-A-node-2-actor-head",
+        "artifact_object_id": "22",
+        "object_type": "ellipse",
+        "role": "input-A-node-2-actor-head",
+        "group": "input-A",
+        "pptx_shape_id": "22"
+      },
+      {
+        "scene_object_id": "input-A-node-2-actor-shoulders",
+        "pptx_shape_name": "input-A-node-2-actor-shoulders",
+        "artifact_object_id": "23",
+        "object_type": "polyline",
+        "role": "input-A-node-2-actor-shoulders",
+        "group": "input-A",
+        "pptx_shape_id": "23"
+      },
+      {
+        "scene_object_id": "input-A-node-3",
+        "pptx_shape_name": "input-A-node-3",
+        "artifact_object_id": "24",
+        "object_type": "ellipse",
+        "role": "input-A-node-3",
+        "group": null,
+        "pptx_shape_id": "24"
+      },
+      {
+        "scene_object_id": "input-A-node-3-actor-head",
+        "pptx_shape_name": "input-A-node-3-actor-head",
+        "artifact_object_id": "25",
+        "object_type": "ellipse",
+        "role": "input-A-node-3-actor-head",
+        "group": "input-A",
+        "pptx_shape_id": "25"
+      },
+      {
+        "scene_object_id": "input-A-node-3-actor-shoulders",
+        "pptx_shape_name": "input-A-node-3-actor-shoulders",
+        "artifact_object_id": "26",
+        "object_type": "polyline",
+        "role": "input-A-node-3-actor-shoulders",
+        "group": "input-A",
+        "pptx_shape_id": "26"
+      },
+      {
+        "scene_object_id": "input-A-node-4",
+        "pptx_shape_name": "input-A-node-4",
+        "artifact_object_id": "27",
+        "object_type": "ellipse",
+        "role": "input-A-node-4",
+        "group": null,
+        "pptx_shape_id": "27"
+      },
+      {
+        "scene_object_id": "input-A-node-4-actor-head",
+        "pptx_shape_name": "input-A-node-4-actor-head",
+        "artifact_object_id": "28",
+        "object_type": "ellipse",
+        "role": "input-A-node-4-actor-head",
+        "group": "input-A",
+        "pptx_shape_id": "28"
+      },
+      {
+        "scene_object_id": "input-A-node-4-actor-shoulders",
+        "pptx_shape_name": "input-A-node-4-actor-shoulders",
+        "artifact_object_id": "29",
+        "object_type": "polyline",
+        "role": "input-A-node-4-actor-shoulders",
+        "group": "input-A",
+        "pptx_shape_id": "29"
+      },
+      {
+        "scene_object_id": "input-A-node-5",
+        "pptx_shape_name": "input-A-node-5",
+        "artifact_object_id": "30",
+        "object_type": "ellipse",
+        "role": "input-A-node-5",
+        "group": null,
+        "pptx_shape_id": "30"
+      },
+      {
+        "scene_object_id": "input-A-node-5-actor-head",
+        "pptx_shape_name": "input-A-node-5-actor-head",
+        "artifact_object_id": "31",
+        "object_type": "ellipse",
+        "role": "input-A-node-5-actor-head",
+        "group": "input-A",
+        "pptx_shape_id": "31"
+      },
+      {
+        "scene_object_id": "input-A-node-5-actor-shoulders",
+        "pptx_shape_name": "input-A-node-5-actor-shoulders",
+        "artifact_object_id": "32",
+        "object_type": "polyline",
+        "role": "input-A-node-5-actor-shoulders",
+        "group": "input-A",
+        "pptx_shape_id": "32"
+      },
+      {
+        "scene_object_id": "input-B-edge-0",
+        "pptx_shape_name": "input-B-edge-0",
+        "artifact_object_id": "33",
+        "object_type": "polyline",
+        "role": "input-B-edge-0",
+        "group": null,
+        "pptx_shape_id": "33"
+      },
+      {
+        "scene_object_id": "input-B-edge-1",
+        "pptx_shape_name": "input-B-edge-1",
+        "artifact_object_id": "34",
+        "object_type": "polyline",
+        "role": "input-B-edge-1",
+        "group": null,
+        "pptx_shape_id": "34"
+      },
+      {
+        "scene_object_id": "input-B-edge-2",
+        "pptx_shape_name": "input-B-edge-2",
+        "artifact_object_id": "35",
+        "object_type": "polyline",
+        "role": "input-B-edge-2",
+        "group": null,
+        "pptx_shape_id": "35"
+      },
+      {
+        "scene_object_id": "input-B-edge-3",
+        "pptx_shape_name": "input-B-edge-3",
+        "artifact_object_id": "36",
+        "object_type": "polyline",
+        "role": "input-B-edge-3",
+        "group": null,
+        "pptx_shape_id": "36"
+      },
+      {
+        "scene_object_id": "input-B-edge-4",
+        "pptx_shape_name": "input-B-edge-4",
+        "artifact_object_id": "37",
+        "object_type": "polyline",
+        "role": "input-B-edge-4",
+        "group": null,
+        "pptx_shape_id": "37"
+      },
+      {
+        "scene_object_id": "input-B-edge-5",
+        "pptx_shape_name": "input-B-edge-5",
+        "artifact_object_id": "38",
+        "object_type": "polyline",
+        "role": "input-B-edge-5",
+        "group": null,
+        "pptx_shape_id": "38"
+      },
+      {
+        "scene_object_id": "input-B-edge-6",
+        "pptx_shape_name": "input-B-edge-6",
+        "artifact_object_id": "39",
+        "object_type": "polyline",
+        "role": "input-B-edge-6",
+        "group": null,
+        "pptx_shape_id": "39"
+      },
+      {
+        "scene_object_id": "input-B-node-0",
+        "pptx_shape_name": "input-B-node-0",
+        "artifact_object_id": "40",
+        "object_type": "ellipse",
+        "role": "input-B-node-0",
+        "group": null,
+        "pptx_shape_id": "40"
+      },
+      {
+        "scene_object_id": "input-B-node-0-actor-head",
+        "pptx_shape_name": "input-B-node-0-actor-head",
+        "artifact_object_id": "41",
+        "object_type": "ellipse",
+        "role": "input-B-node-0-actor-head",
+        "group": "input-B",
+        "pptx_shape_id": "41"
+      },
+      {
+        "scene_object_id": "input-B-node-0-actor-shoulders",
+        "pptx_shape_name": "input-B-node-0-actor-shoulders",
+        "artifact_object_id": "42",
+        "object_type": "polyline",
+        "role": "input-B-node-0-actor-shoulders",
+        "group": "input-B",
+        "pptx_shape_id": "42"
+      },
+      {
+        "scene_object_id": "input-B-node-1",
+        "pptx_shape_name": "input-B-node-1",
+        "artifact_object_id": "43",
+        "object_type": "ellipse",
+        "role": "input-B-node-1",
+        "group": null,
+        "pptx_shape_id": "43"
+      },
+      {
+        "scene_object_id": "input-B-node-1-actor-head",
+        "pptx_shape_name": "input-B-node-1-actor-head",
+        "artifact_object_id": "44",
+        "object_type": "ellipse",
+        "role": "input-B-node-1-actor-head",
+        "group": "input-B",
+        "pptx_shape_id": "44"
+      },
+      {
+        "scene_object_id": "input-B-node-1-actor-shoulders",
+        "pptx_shape_name": "input-B-node-1-actor-shoulders",
+        "artifact_object_id": "45",
+        "object_type": "polyline",
+        "role": "input-B-node-1-actor-shoulders",
+        "group": "input-B",
+        "pptx_shape_id": "45"
+      },
+      {
+        "scene_object_id": "input-B-node-2",
+        "pptx_shape_name": "input-B-node-2",
+        "artifact_object_id": "46",
+        "object_type": "ellipse",
+        "role": "input-B-node-2",
+        "group": null,
+        "pptx_shape_id": "46"
+      },
+      {
+        "scene_object_id": "input-B-node-2-actor-head",
+        "pptx_shape_name": "input-B-node-2-actor-head",
+        "artifact_object_id": "47",
+        "object_type": "ellipse",
+        "role": "input-B-node-2-actor-head",
+        "group": "input-B",
+        "pptx_shape_id": "47"
+      },
+      {
+        "scene_object_id": "input-B-node-2-actor-shoulders",
+        "pptx_shape_name": "input-B-node-2-actor-shoulders",
+        "artifact_object_id": "48",
+        "object_type": "polyline",
+        "role": "input-B-node-2-actor-shoulders",
+        "group": "input-B",
+        "pptx_shape_id": "48"
+      },
+      {
+        "scene_object_id": "input-B-node-3",
+        "pptx_shape_name": "input-B-node-3",
+        "artifact_object_id": "49",
+        "object_type": "ellipse",
+        "role": "input-B-node-3",
+        "group": null,
+        "pptx_shape_id": "49"
+      },
+      {
+        "scene_object_id": "input-B-node-3-actor-head",
+        "pptx_shape_name": "input-B-node-3-actor-head",
+        "artifact_object_id": "50",
+        "object_type": "ellipse",
+        "role": "input-B-node-3-actor-head",
+        "group": "input-B",
+        "pptx_shape_id": "50"
+      },
+      {
+        "scene_object_id": "input-B-node-3-actor-shoulders",
+        "pptx_shape_name": "input-B-node-3-actor-shoulders",
+        "artifact_object_id": "51",
+        "object_type": "polyline",
+        "role": "input-B-node-3-actor-shoulders",
+        "group": "input-B",
+        "pptx_shape_id": "51"
+      },
+      {
+        "scene_object_id": "input-B-node-4",
+        "pptx_shape_name": "input-B-node-4",
+        "artifact_object_id": "52",
+        "object_type": "ellipse",
+        "role": "input-B-node-4",
+        "group": null,
+        "pptx_shape_id": "52"
+      },
+      {
+        "scene_object_id": "input-B-node-4-actor-head",
+        "pptx_shape_name": "input-B-node-4-actor-head",
+        "artifact_object_id": "53",
+        "object_type": "ellipse",
+        "role": "input-B-node-4-actor-head",
+        "group": "input-B",
+        "pptx_shape_id": "53"
+      },
+      {
+        "scene_object_id": "input-B-node-4-actor-shoulders",
+        "pptx_shape_name": "input-B-node-4-actor-shoulders",
+        "artifact_object_id": "54",
+        "object_type": "polyline",
+        "role": "input-B-node-4-actor-shoulders",
+        "group": "input-B",
+        "pptx_shape_id": "54"
+      },
+      {
+        "scene_object_id": "input-B-node-5",
+        "pptx_shape_name": "input-B-node-5",
+        "artifact_object_id": "55",
+        "object_type": "ellipse",
+        "role": "input-B-node-5",
+        "group": null,
+        "pptx_shape_id": "55"
+      },
+      {
+        "scene_object_id": "input-B-node-5-actor-head",
+        "pptx_shape_name": "input-B-node-5-actor-head",
+        "artifact_object_id": "56",
+        "object_type": "ellipse",
+        "role": "input-B-node-5-actor-head",
+        "group": "input-B",
+        "pptx_shape_id": "56"
+      },
+      {
+        "scene_object_id": "input-B-node-5-actor-shoulders",
+        "pptx_shape_name": "input-B-node-5-actor-shoulders",
+        "artifact_object_id": "57",
+        "object_type": "polyline",
+        "role": "input-B-node-5-actor-shoulders",
+        "group": "input-B",
+        "pptx_shape_id": "57"
+      },
+      {
+        "scene_object_id": "input-layer-A",
+        "pptx_shape_name": "input-layer-A",
+        "artifact_object_id": "58",
+        "object_type": "text",
+        "role": "input-layer-A",
+        "group": null,
+        "pptx_shape_id": "58"
+      },
+      {
+        "scene_object_id": "input-layer-B",
+        "pptx_shape_name": "input-layer-B",
+        "artifact_object_id": "59",
+        "object_type": "text",
+        "role": "input-layer-B",
+        "group": null,
+        "pptx_shape_id": "59"
+      },
+      {
+        "scene_object_id": "input-budgets",
+        "pptx_shape_name": "input-budgets",
+        "artifact_object_id": "60",
+        "object_type": "text",
+        "role": "input-budgets",
+        "group": null,
+        "pptx_shape_id": "60"
+      },
+      {
+        "scene_object_id": "input-features-A",
+        "part": "arrowhead",
+        "pptx_shape_name": "input-features-A--arrow",
+        "artifact_object_id": "62",
+        "pptx_shape_id": "62"
+      },
+      {
+        "scene_object_id": "input-features-A",
+        "pptx_shape_name": "input-features-A",
+        "artifact_object_id": "61",
+        "object_type": "polyline",
+        "role": "input-features-A",
+        "group": null,
+        "pptx_shape_id": "61"
+      },
+      {
+        "scene_object_id": "input-features-B",
+        "part": "arrowhead",
+        "pptx_shape_name": "input-features-B--arrow",
+        "artifact_object_id": "64",
+        "pptx_shape_id": "64"
+      },
+      {
+        "scene_object_id": "input-features-B",
+        "pptx_shape_name": "input-features-B",
+        "artifact_object_id": "63",
+        "object_type": "polyline",
+        "role": "input-features-B",
+        "group": null,
+        "pptx_shape_id": "63"
+      },
+      {
+        "scene_object_id": "rrwp-title",
+        "pptx_shape_name": "rrwp-title",
+        "artifact_object_id": "65",
+        "object_type": "text",
+        "role": "rrwp-title",
+        "group": null,
+        "pptx_shape_id": "65"
+      },
+      {
+        "scene_object_id": "rrwp-A-0-0",
+        "pptx_shape_name": "rrwp-A-0-0",
+        "artifact_object_id": "66",
+        "object_type": "rect",
+        "role": "rrwp-A-0-0",
+        "group": null,
+        "pptx_shape_id": "66"
+      },
+      {
+        "scene_object_id": "rrwp-A-0-1",
+        "pptx_shape_name": "rrwp-A-0-1",
+        "artifact_object_id": "67",
+        "object_type": "rect",
+        "role": "rrwp-A-0-1",
+        "group": null,
+        "pptx_shape_id": "67"
+      },
+      {
+        "scene_object_id": "rrwp-A-0-2",
+        "pptx_shape_name": "rrwp-A-0-2",
+        "artifact_object_id": "68",
+        "object_type": "rect",
+        "role": "rrwp-A-0-2",
+        "group": null,
+        "pptx_shape_id": "68"
+      },
+      {
+        "scene_object_id": "rrwp-A-0-3",
+        "pptx_shape_name": "rrwp-A-0-3",
+        "artifact_object_id": "69",
+        "object_type": "rect",
+        "role": "rrwp-A-0-3",
+        "group": null,
+        "pptx_shape_id": "69"
+      },
+      {
+        "scene_object_id": "rrwp-A-1-0",
+        "pptx_shape_name": "rrwp-A-1-0",
+        "artifact_object_id": "70",
+        "object_type": "rect",
+        "role": "rrwp-A-1-0",
+        "group": null,
+        "pptx_shape_id": "70"
+      },
+      {
+        "scene_object_id": "rrwp-A-1-1",
+        "pptx_shape_name": "rrwp-A-1-1",
+        "artifact_object_id": "71",
+        "object_type": "rect",
+        "role": "rrwp-A-1-1",
+        "group": null,
+        "pptx_shape_id": "71"
+      },
+      {
+        "scene_object_id": "rrwp-A-1-2",
+        "pptx_shape_name": "rrwp-A-1-2",
+        "artifact_object_id": "72",
+        "object_type": "rect",
+        "role": "rrwp-A-1-2",
+        "group": null,
+        "pptx_shape_id": "72"
+      },
+      {
+        "scene_object_id": "rrwp-A-1-3",
+        "pptx_shape_name": "rrwp-A-1-3",
+        "artifact_object_id": "73",
+        "object_type": "rect",
+        "role": "rrwp-A-1-3",
+        "group": null,
+        "pptx_shape_id": "73"
+      },
+      {
+        "scene_object_id": "rrwp-A-2-0",
+        "pptx_shape_name": "rrwp-A-2-0",
+        "artifact_object_id": "74",
+        "object_type": "rect",
+        "role": "rrwp-A-2-0",
+        "group": null,
+        "pptx_shape_id": "74"
+      },
+      {
+        "scene_object_id": "rrwp-A-2-1",
+        "pptx_shape_name": "rrwp-A-2-1",
+        "artifact_object_id": "75",
+        "object_type": "rect",
+        "role": "rrwp-A-2-1",
+        "group": null,
+        "pptx_shape_id": "75"
+      },
+      {
+        "scene_object_id": "rrwp-A-2-2",
+        "pptx_shape_name": "rrwp-A-2-2",
+        "artifact_object_id": "76",
+        "object_type": "rect",
+        "role": "rrwp-A-2-2",
+        "group": null,
+        "pptx_shape_id": "76"
+      },
+      {
+        "scene_object_id": "rrwp-A-2-3",
+        "pptx_shape_name": "rrwp-A-2-3",
+        "artifact_object_id": "77",
+        "object_type": "rect",
+        "role": "rrwp-A-2-3",
+        "group": null,
+        "pptx_shape_id": "77"
+      },
+      {
+        "scene_object_id": "rrwp-B-0-0",
+        "pptx_shape_name": "rrwp-B-0-0",
+        "artifact_object_id": "78",
+        "object_type": "rect",
+        "role": "rrwp-B-0-0",
+        "group": null,
+        "pptx_shape_id": "78"
+      },
+      {
+        "scene_object_id": "rrwp-B-0-1",
+        "pptx_shape_name": "rrwp-B-0-1",
+        "artifact_object_id": "79",
+        "object_type": "rect",
+        "role": "rrwp-B-0-1",
+        "group": null,
+        "pptx_shape_id": "79"
+      },
+      {
+        "scene_object_id": "rrwp-B-0-2",
+        "pptx_shape_name": "rrwp-B-0-2",
+        "artifact_object_id": "80",
+        "object_type": "rect",
+        "role": "rrwp-B-0-2",
+        "group": null,
+        "pptx_shape_id": "80"
+      },
+      {
+        "scene_object_id": "rrwp-B-0-3",
+        "pptx_shape_name": "rrwp-B-0-3",
+        "artifact_object_id": "81",
+        "object_type": "rect",
+        "role": "rrwp-B-0-3",
+        "group": null,
+        "pptx_shape_id": "81"
+      },
+      {
+        "scene_object_id": "rrwp-B-1-0",
+        "pptx_shape_name": "rrwp-B-1-0",
+        "artifact_object_id": "82",
+        "object_type": "rect",
+        "role": "rrwp-B-1-0",
+        "group": null,
+        "pptx_shape_id": "82"
+      },
+      {
+        "scene_object_id": "rrwp-B-1-1",
+        "pptx_shape_name": "rrwp-B-1-1",
+        "artifact_object_id": "83",
+        "object_type": "rect",
+        "role": "rrwp-B-1-1",
+        "group": null,
+        "pptx_shape_id": "83"
+      },
+      {
+        "scene_object_id": "rrwp-B-1-2",
+        "pptx_shape_name": "rrwp-B-1-2",
+        "artifact_object_id": "84",
+        "object_type": "rect",
+        "role": "rrwp-B-1-2",
+        "group": null,
+        "pptx_shape_id": "84"
+      },
+      {
+        "scene_object_id": "rrwp-B-1-3",
+        "pptx_shape_name": "rrwp-B-1-3",
+        "artifact_object_id": "85",
+        "object_type": "rect",
+        "role": "rrwp-B-1-3",
+        "group": null,
+        "pptx_shape_id": "85"
+      },
+      {
+        "scene_object_id": "rrwp-B-2-0",
+        "pptx_shape_name": "rrwp-B-2-0",
+        "artifact_object_id": "86",
+        "object_type": "rect",
+        "role": "rrwp-B-2-0",
+        "group": null,
+        "pptx_shape_id": "86"
+      },
+      {
+        "scene_object_id": "rrwp-B-2-1",
+        "pptx_shape_name": "rrwp-B-2-1",
+        "artifact_object_id": "87",
+        "object_type": "rect",
+        "role": "rrwp-B-2-1",
+        "group": null,
+        "pptx_shape_id": "87"
+      },
+      {
+        "scene_object_id": "rrwp-B-2-2",
+        "pptx_shape_name": "rrwp-B-2-2",
+        "artifact_object_id": "88",
+        "object_type": "rect",
+        "role": "rrwp-B-2-2",
+        "group": null,
+        "pptx_shape_id": "88"
+      },
+      {
+        "scene_object_id": "rrwp-B-2-3",
+        "pptx_shape_name": "rrwp-B-2-3",
+        "artifact_object_id": "89",
+        "object_type": "rect",
+        "role": "rrwp-B-2-3",
+        "group": null,
+        "pptx_shape_id": "89"
+      },
+      {
+        "scene_object_id": "rrwp-hop-caption",
+        "pptx_shape_name": "rrwp-hop-caption",
+        "artifact_object_id": "90",
+        "object_type": "text",
+        "role": "rrwp-hop-caption",
+        "group": null,
+        "pptx_shape_id": "90"
+      },
+      {
+        "scene_object_id": "rrwp-dat-A",
+        "part": "arrowhead",
+        "pptx_shape_name": "rrwp-dat-A--arrow",
+        "artifact_object_id": "92",
+        "pptx_shape_id": "92"
+      },
+      {
+        "scene_object_id": "rrwp-dat-A",
+        "pptx_shape_name": "rrwp-dat-A",
+        "artifact_object_id": "91",
+        "object_type": "polyline",
+        "role": "rrwp-dat-A",
+        "group": null,
+        "pptx_shape_id": "91"
+      },
+      {
+        "scene_object_id": "rrwp-dat-B",
+        "part": "arrowhead",
+        "pptx_shape_name": "rrwp-dat-B--arrow",
+        "artifact_object_id": "94",
+        "pptx_shape_id": "94"
+      },
+      {
+        "scene_object_id": "rrwp-dat-B",
+        "pptx_shape_name": "rrwp-dat-B",
+        "artifact_object_id": "93",
+        "object_type": "polyline",
+        "role": "rrwp-dat-B",
+        "group": null,
+        "pptx_shape_id": "93"
+      },
+      {
+        "scene_object_id": "dat-A-pin-top-0",
+        "pptx_shape_name": "dat-A-pin-top-0",
+        "artifact_object_id": "95",
+        "object_type": "polyline",
+        "role": "dat-A-pin-top-0",
+        "group": "dat-A",
+        "pptx_shape_id": "95"
+      },
+      {
+        "scene_object_id": "dat-A-pin-bottom-0",
+        "pptx_shape_name": "dat-A-pin-bottom-0",
+        "artifact_object_id": "96",
+        "object_type": "polyline",
+        "role": "dat-A-pin-bottom-0",
+        "group": "dat-A",
+        "pptx_shape_id": "96"
+      },
+      {
+        "scene_object_id": "dat-A-pin-top-1",
+        "pptx_shape_name": "dat-A-pin-top-1",
+        "artifact_object_id": "97",
+        "object_type": "polyline",
+        "role": "dat-A-pin-top-1",
+        "group": "dat-A",
+        "pptx_shape_id": "97"
+      },
+      {
+        "scene_object_id": "dat-A-pin-bottom-1",
+        "pptx_shape_name": "dat-A-pin-bottom-1",
+        "artifact_object_id": "98",
+        "object_type": "polyline",
+        "role": "dat-A-pin-bottom-1",
+        "group": "dat-A",
+        "pptx_shape_id": "98"
+      },
+      {
+        "scene_object_id": "dat-A-pin-top-2",
+        "pptx_shape_name": "dat-A-pin-top-2",
+        "artifact_object_id": "99",
+        "object_type": "polyline",
+        "role": "dat-A-pin-top-2",
+        "group": "dat-A",
+        "pptx_shape_id": "99"
+      },
+      {
+        "scene_object_id": "dat-A-pin-bottom-2",
+        "pptx_shape_name": "dat-A-pin-bottom-2",
+        "artifact_object_id": "100",
+        "object_type": "polyline",
+        "role": "dat-A-pin-bottom-2",
+        "group": "dat-A",
+        "pptx_shape_id": "100"
+      },
+      {
+        "scene_object_id": "dat-A-pin-top-3",
+        "pptx_shape_name": "dat-A-pin-top-3",
+        "artifact_object_id": "101",
+        "object_type": "polyline",
+        "role": "dat-A-pin-top-3",
+        "group": "dat-A",
+        "pptx_shape_id": "101"
+      },
+      {
+        "scene_object_id": "dat-A-pin-bottom-3",
+        "pptx_shape_name": "dat-A-pin-bottom-3",
+        "artifact_object_id": "102",
+        "object_type": "polyline",
+        "role": "dat-A-pin-bottom-3",
+        "group": "dat-A",
+        "pptx_shape_id": "102"
+      },
+      {
+        "scene_object_id": "dat-A-pin-left-0",
+        "pptx_shape_name": "dat-A-pin-left-0",
+        "artifact_object_id": "103",
+        "object_type": "polyline",
+        "role": "dat-A-pin-left-0",
+        "group": "dat-A",
+        "pptx_shape_id": "103"
+      },
+      {
+        "scene_object_id": "dat-A-pin-right-0",
+        "pptx_shape_name": "dat-A-pin-right-0",
+        "artifact_object_id": "104",
+        "object_type": "polyline",
+        "role": "dat-A-pin-right-0",
+        "group": "dat-A",
+        "pptx_shape_id": "104"
+      },
+      {
+        "scene_object_id": "dat-A-pin-left-1",
+        "pptx_shape_name": "dat-A-pin-left-1",
+        "artifact_object_id": "105",
+        "object_type": "polyline",
+        "role": "dat-A-pin-left-1",
+        "group": "dat-A",
+        "pptx_shape_id": "105"
+      },
+      {
+        "scene_object_id": "dat-A-pin-right-1",
+        "pptx_shape_name": "dat-A-pin-right-1",
+        "artifact_object_id": "106",
+        "object_type": "polyline",
+        "role": "dat-A-pin-right-1",
+        "group": "dat-A",
+        "pptx_shape_id": "106"
+      },
+      {
+        "scene_object_id": "dat-A-pin-left-2",
+        "pptx_shape_name": "dat-A-pin-left-2",
+        "artifact_object_id": "107",
+        "object_type": "polyline",
+        "role": "dat-A-pin-left-2",
+        "group": "dat-A",
+        "pptx_shape_id": "107"
+      },
+      {
+        "scene_object_id": "dat-A-pin-right-2",
+        "pptx_shape_name": "dat-A-pin-right-2",
+        "artifact_object_id": "108",
+        "object_type": "polyline",
+        "role": "dat-A-pin-right-2",
+        "group": "dat-A",
+        "pptx_shape_id": "108"
+      },
+      {
+        "scene_object_id": "dat-A",
+        "pptx_shape_name": "dat-A",
+        "artifact_object_id": "109",
+        "object_type": "rect",
+        "role": "dat-A",
+        "group": null,
+        "pptx_shape_id": "109"
+      },
+      {
+        "scene_object_id": "dat-A-die-depth",
+        "pptx_shape_name": "dat-A-die-depth",
+        "artifact_object_id": "110",
+        "object_type": "rect",
+        "role": "surface finish, no additional method component",
+        "group": "dat-A",
+        "pptx_shape_id": "110"
+      },
+      {
+        "scene_object_id": "dat-A-die-face",
+        "pptx_shape_name": "dat-A-die-face",
+        "artifact_object_id": "111",
+        "object_type": "rect",
+        "role": "surface finish, no additional method component",
+        "group": "dat-A",
+        "pptx_shape_id": "111"
+      },
+      {
+        "scene_object_id": "dat-A-rim-light",
+        "pptx_shape_name": "dat-A-rim-light",
+        "artifact_object_id": "112",
+        "object_type": "polyline",
+        "role": "surface highlight, not a scientific connection",
+        "group": "dat-A",
+        "pptx_shape_id": "112"
+      },
+      {
+        "scene_object_id": "dat-A-rim-shade",
+        "pptx_shape_name": "dat-A-rim-shade",
+        "artifact_object_id": "113",
+        "object_type": "polyline",
+        "role": "surface highlight, not a scientific connection",
+        "group": "dat-A",
+        "pptx_shape_id": "113"
+      },
+      {
+        "scene_object_id": "dat-A-inner-die",
+        "pptx_shape_name": "dat-A-inner-die",
+        "artifact_object_id": "114",
+        "object_type": "rect",
+        "role": "dat-A-inner-die",
+        "group": "dat-A",
+        "pptx_shape_id": "114"
+      },
+      {
+        "scene_object_id": "dat-B-pin-top-0",
+        "pptx_shape_name": "dat-B-pin-top-0",
+        "artifact_object_id": "115",
+        "object_type": "polyline",
+        "role": "dat-B-pin-top-0",
+        "group": "dat-B",
+        "pptx_shape_id": "115"
+      },
+      {
+        "scene_object_id": "dat-B-pin-bottom-0",
+        "pptx_shape_name": "dat-B-pin-bottom-0",
+        "artifact_object_id": "116",
+        "object_type": "polyline",
+        "role": "dat-B-pin-bottom-0",
+        "group": "dat-B",
+        "pptx_shape_id": "116"
+      },
+      {
+        "scene_object_id": "dat-B-pin-top-1",
+        "pptx_shape_name": "dat-B-pin-top-1",
+        "artifact_object_id": "117",
+        "object_type": "polyline",
+        "role": "dat-B-pin-top-1",
+        "group": "dat-B",
+        "pptx_shape_id": "117"
+      },
+      {
+        "scene_object_id": "dat-B-pin-bottom-1",
+        "pptx_shape_name": "dat-B-pin-bottom-1",
+        "artifact_object_id": "118",
+        "object_type": "polyline",
+        "role": "dat-B-pin-bottom-1",
+        "group": "dat-B",
+        "pptx_shape_id": "118"
+      },
+      {
+        "scene_object_id": "dat-B-pin-top-2",
+        "pptx_shape_name": "dat-B-pin-top-2",
+        "artifact_object_id": "119",
+        "object_type": "polyline",
+        "role": "dat-B-pin-top-2",
+        "group": "dat-B",
+        "pptx_shape_id": "119"
+      },
+      {
+        "scene_object_id": "dat-B-pin-bottom-2",
+        "pptx_shape_name": "dat-B-pin-bottom-2",
+        "artifact_object_id": "120",
+        "object_type": "polyline",
+        "role": "dat-B-pin-bottom-2",
+        "group": "dat-B",
+        "pptx_shape_id": "120"
+      },
+      {
+        "scene_object_id": "dat-B-pin-top-3",
+        "pptx_shape_name": "dat-B-pin-top-3",
+        "artifact_object_id": "121",
+        "object_type": "polyline",
+        "role": "dat-B-pin-top-3",
+        "group": "dat-B",
+        "pptx_shape_id": "121"
+      },
+      {
+        "scene_object_id": "dat-B-pin-bottom-3",
+        "pptx_shape_name": "dat-B-pin-bottom-3",
+        "artifact_object_id": "122",
+        "object_type": "polyline",
+        "role": "dat-B-pin-bottom-3",
+        "group": "dat-B",
+        "pptx_shape_id": "122"
+      },
+      {
+        "scene_object_id": "dat-B-pin-left-0",
+        "pptx_shape_name": "dat-B-pin-left-0",
+        "artifact_object_id": "123",
+        "object_type": "polyline",
+        "role": "dat-B-pin-left-0",
+        "group": "dat-B",
+        "pptx_shape_id": "123"
+      },
+      {
+        "scene_object_id": "dat-B-pin-right-0",
+        "pptx_shape_name": "dat-B-pin-right-0",
+        "artifact_object_id": "124",
+        "object_type": "polyline",
+        "role": "dat-B-pin-right-0",
+        "group": "dat-B",
+        "pptx_shape_id": "124"
+      },
+      {
+        "scene_object_id": "dat-B-pin-left-1",
+        "pptx_shape_name": "dat-B-pin-left-1",
+        "artifact_object_id": "125",
+        "object_type": "polyline",
+        "role": "dat-B-pin-left-1",
+        "group": "dat-B",
+        "pptx_shape_id": "125"
+      },
+      {
+        "scene_object_id": "dat-B-pin-right-1",
+        "pptx_shape_name": "dat-B-pin-right-1",
+        "artifact_object_id": "126",
+        "object_type": "polyline",
+        "role": "dat-B-pin-right-1",
+        "group": "dat-B",
+        "pptx_shape_id": "126"
+      },
+      {
+        "scene_object_id": "dat-B-pin-left-2",
+        "pptx_shape_name": "dat-B-pin-left-2",
+        "artifact_object_id": "127",
+        "object_type": "polyline",
+        "role": "dat-B-pin-left-2",
+        "group": "dat-B",
+        "pptx_shape_id": "127"
+      },
+      {
+        "scene_object_id": "dat-B-pin-right-2",
+        "pptx_shape_name": "dat-B-pin-right-2",
+        "artifact_object_id": "128",
+        "object_type": "polyline",
+        "role": "dat-B-pin-right-2",
+        "group": "dat-B",
+        "pptx_shape_id": "128"
+      },
+      {
+        "scene_object_id": "dat-B",
+        "pptx_shape_name": "dat-B",
+        "artifact_object_id": "129",
+        "object_type": "rect",
+        "role": "dat-B",
+        "group": null,
+        "pptx_shape_id": "129"
+      },
+      {
+        "scene_object_id": "dat-B-die-depth",
+        "pptx_shape_name": "dat-B-die-depth",
+        "artifact_object_id": "130",
+        "object_type": "rect",
+        "role": "surface finish, no additional method component",
+        "group": "dat-B",
+        "pptx_shape_id": "130"
+      },
+      {
+        "scene_object_id": "dat-B-die-face",
+        "pptx_shape_name": "dat-B-die-face",
+        "artifact_object_id": "131",
+        "object_type": "rect",
+        "role": "surface finish, no additional method component",
+        "group": "dat-B",
+        "pptx_shape_id": "131"
+      },
+      {
+        "scene_object_id": "dat-B-rim-light",
+        "pptx_shape_name": "dat-B-rim-light",
+        "artifact_object_id": "132",
+        "object_type": "polyline",
+        "role": "surface highlight, not a scientific connection",
+        "group": "dat-B",
+        "pptx_shape_id": "132"
+      },
+      {
+        "scene_object_id": "dat-B-rim-shade",
+        "pptx_shape_name": "dat-B-rim-shade",
+        "artifact_object_id": "133",
+        "object_type": "polyline",
+        "role": "surface highlight, not a scientific connection",
+        "group": "dat-B",
+        "pptx_shape_id": "133"
+      },
+      {
+        "scene_object_id": "dat-B-inner-die",
+        "pptx_shape_name": "dat-B-inner-die",
+        "artifact_object_id": "134",
+        "object_type": "rect",
+        "role": "dat-B-inner-die",
+        "group": "dat-B",
+        "pptx_shape_id": "134"
+      },
+      {
+        "scene_object_id": "dat-A-label",
+        "pptx_shape_name": "dat-A-label",
+        "artifact_object_id": "135",
+        "object_type": "text",
+        "role": "dat-A-label",
+        "group": null,
+        "pptx_shape_id": "135"
+      },
+      {
+        "scene_object_id": "dat-A-encoder",
+        "pptx_shape_name": "dat-A-encoder",
+        "artifact_object_id": "136",
+        "object_type": "text",
+        "role": "dat-A-encoder",
+        "group": null,
+        "pptx_shape_id": "136"
+      },
+      {
+        "scene_object_id": "dat-B-label",
+        "pptx_shape_name": "dat-B-label",
+        "artifact_object_id": "137",
+        "object_type": "text",
+        "role": "dat-B-label",
+        "group": null,
+        "pptx_shape_id": "137"
+      },
+      {
+        "scene_object_id": "dat-B-encoder",
+        "pptx_shape_name": "dat-B-encoder",
+        "artifact_object_id": "138",
+        "object_type": "text",
+        "role": "dat-B-encoder",
+        "group": null,
+        "pptx_shape_id": "138"
+      },
+      {
+        "scene_object_id": "attention-alpha-A",
+        "part": "arrowhead",
+        "pptx_shape_name": "attention-alpha-A--arrow",
+        "artifact_object_id": "140",
+        "pptx_shape_id": "140"
+      },
+      {
+        "scene_object_id": "attention-alpha-A",
+        "pptx_shape_name": "attention-alpha-A",
+        "artifact_object_id": "139",
+        "object_type": "polyline",
+        "role": "attention-alpha-A",
+        "group": null,
+        "pptx_shape_id": "139"
+      },
+      {
+        "scene_object_id": "attention-alpha-B",
+        "part": "arrowhead",
+        "pptx_shape_name": "attention-alpha-B--arrow",
+        "artifact_object_id": "142",
+        "pptx_shape_id": "142"
+      },
+      {
+        "scene_object_id": "attention-alpha-B",
+        "pptx_shape_name": "attention-alpha-B",
+        "artifact_object_id": "141",
+        "object_type": "polyline",
+        "role": "attention-alpha-B",
+        "group": null,
+        "pptx_shape_id": "141"
+      },
+      {
+        "scene_object_id": "attention-label",
+        "pptx_shape_name": "attention-label",
+        "artifact_object_id": "143",
+        "object_type": "text",
+        "role": "attention-label",
+        "group": null,
+        "pptx_shape_id": "143"
+      },
+      {
+        "scene_object_id": "importance-title",
+        "pptx_shape_name": "importance-title",
+        "artifact_object_id": "144",
+        "object_type": "text",
+        "role": "importance-title",
+        "group": null,
+        "pptx_shape_id": "144"
+      },
+      {
+        "scene_object_id": "alpha-A-0",
+        "pptx_shape_name": "alpha-A-0",
+        "artifact_object_id": "145",
+        "object_type": "rect",
+        "role": "alpha-A-0",
+        "group": null,
+        "pptx_shape_id": "145"
+      },
+      {
+        "scene_object_id": "alpha-A-0-left-light",
+        "pptx_shape_name": "alpha-A-0-left-light",
+        "artifact_object_id": "146",
+        "object_type": "rect",
+        "role": "surface finish, no additional method component",
+        "group": "importance-surface-detail",
+        "pptx_shape_id": "146"
+      },
+      {
+        "scene_object_id": "alpha-A-0-right-depth",
+        "pptx_shape_name": "alpha-A-0-right-depth",
+        "artifact_object_id": "147",
+        "object_type": "rect",
+        "role": "surface finish, no additional method component",
+        "group": "importance-surface-detail",
+        "pptx_shape_id": "147"
+      },
+      {
+        "scene_object_id": "alpha-A-1",
+        "pptx_shape_name": "alpha-A-1",
+        "artifact_object_id": "148",
+        "object_type": "rect",
+        "role": "alpha-A-1",
+        "group": null,
+        "pptx_shape_id": "148"
+      },
+      {
+        "scene_object_id": "alpha-A-1-left-light",
+        "pptx_shape_name": "alpha-A-1-left-light",
+        "artifact_object_id": "149",
+        "object_type": "rect",
+        "role": "surface finish, no additional method component",
+        "group": "importance-surface-detail",
+        "pptx_shape_id": "149"
+      },
+      {
+        "scene_object_id": "alpha-A-1-right-depth",
+        "pptx_shape_name": "alpha-A-1-right-depth",
+        "artifact_object_id": "150",
+        "object_type": "rect",
+        "role": "surface finish, no additional method component",
+        "group": "importance-surface-detail",
+        "pptx_shape_id": "150"
+      },
+      {
+        "scene_object_id": "alpha-A-2",
+        "pptx_shape_name": "alpha-A-2",
+        "artifact_object_id": "151",
+        "object_type": "rect",
+        "role": "alpha-A-2",
+        "group": null,
+        "pptx_shape_id": "151"
+      },
+      {
+        "scene_object_id": "alpha-A-2-left-light",
+        "pptx_shape_name": "alpha-A-2-left-light",
+        "artifact_object_id": "152",
+        "object_type": "rect",
+        "role": "surface finish, no additional method component",
+        "group": "importance-surface-detail",
+        "pptx_shape_id": "152"
+      },
+      {
+        "scene_object_id": "alpha-A-2-right-depth",
+        "pptx_shape_name": "alpha-A-2-right-depth",
+        "artifact_object_id": "153",
+        "object_type": "rect",
+        "role": "surface finish, no additional method component",
+        "group": "importance-surface-detail",
+        "pptx_shape_id": "153"
+      },
+      {
+        "scene_object_id": "alpha-A-3",
+        "pptx_shape_name": "alpha-A-3",
+        "artifact_object_id": "154",
+        "object_type": "rect",
+        "role": "alpha-A-3",
+        "group": null,
+        "pptx_shape_id": "154"
+      },
+      {
+        "scene_object_id": "alpha-A-3-left-light",
+        "pptx_shape_name": "alpha-A-3-left-light",
+        "artifact_object_id": "155",
+        "object_type": "rect",
+        "role": "surface finish, no additional method component",
+        "group": "importance-surface-detail",
+        "pptx_shape_id": "155"
+      },
+      {
+        "scene_object_id": "alpha-A-3-right-depth",
+        "pptx_shape_name": "alpha-A-3-right-depth",
+        "artifact_object_id": "156",
+        "object_type": "rect",
+        "role": "surface finish, no additional method component",
+        "group": "importance-surface-detail",
+        "pptx_shape_id": "156"
+      },
+      {
+        "scene_object_id": "alpha-A-4",
+        "pptx_shape_name": "alpha-A-4",
+        "artifact_object_id": "157",
+        "object_type": "rect",
+        "role": "alpha-A-4",
+        "group": null,
+        "pptx_shape_id": "157"
+      },
+      {
+        "scene_object_id": "alpha-A-4-left-light",
+        "pptx_shape_name": "alpha-A-4-left-light",
+        "artifact_object_id": "158",
+        "object_type": "rect",
+        "role": "surface finish, no additional method component",
+        "group": "importance-surface-detail",
+        "pptx_shape_id": "158"
+      },
+      {
+        "scene_object_id": "alpha-A-4-right-depth",
+        "pptx_shape_name": "alpha-A-4-right-depth",
+        "artifact_object_id": "159",
+        "object_type": "rect",
+        "role": "surface finish, no additional method component",
+        "group": "importance-surface-detail",
+        "pptx_shape_id": "159"
+      },
+      {
+        "scene_object_id": "alpha-A-5",
+        "pptx_shape_name": "alpha-A-5",
+        "artifact_object_id": "160",
+        "object_type": "rect",
+        "role": "alpha-A-5",
+        "group": null,
+        "pptx_shape_id": "160"
+      },
+      {
+        "scene_object_id": "alpha-A-5-left-light",
+        "pptx_shape_name": "alpha-A-5-left-light",
+        "artifact_object_id": "161",
+        "object_type": "rect",
+        "role": "surface finish, no additional method component",
+        "group": "importance-surface-detail",
+        "pptx_shape_id": "161"
+      },
+      {
+        "scene_object_id": "alpha-A-5-right-depth",
+        "pptx_shape_name": "alpha-A-5-right-depth",
+        "artifact_object_id": "162",
+        "object_type": "rect",
+        "role": "surface finish, no additional method component",
+        "group": "importance-surface-detail",
+        "pptx_shape_id": "162"
+      },
+      {
+        "scene_object_id": "alpha-A-base",
+        "pptx_shape_name": "alpha-A-base",
+        "artifact_object_id": "163",
+        "object_type": "polyline",
+        "role": "alpha-A-base",
+        "group": null,
+        "pptx_shape_id": "163"
+      },
+      {
+        "scene_object_id": "alpha-B-0",
+        "pptx_shape_name": "alpha-B-0",
+        "artifact_object_id": "164",
+        "object_type": "rect",
+        "role": "alpha-B-0",
+        "group": null,
+        "pptx_shape_id": "164"
+      },
+      {
+        "scene_object_id": "alpha-B-0-left-light",
+        "pptx_shape_name": "alpha-B-0-left-light",
+        "artifact_object_id": "165",
+        "object_type": "rect",
+        "role": "surface finish, no additional method component",
+        "group": "importance-surface-detail",
+        "pptx_shape_id": "165"
+      },
+      {
+        "scene_object_id": "alpha-B-0-right-depth",
+        "pptx_shape_name": "alpha-B-0-right-depth",
+        "artifact_object_id": "166",
+        "object_type": "rect",
+        "role": "surface finish, no additional method component",
+        "group": "importance-surface-detail",
+        "pptx_shape_id": "166"
+      },
+      {
+        "scene_object_id": "alpha-B-1",
+        "pptx_shape_name": "alpha-B-1",
+        "artifact_object_id": "167",
+        "object_type": "rect",
+        "role": "alpha-B-1",
+        "group": null,
+        "pptx_shape_id": "167"
+      },
+      {
+        "scene_object_id": "alpha-B-1-left-light",
+        "pptx_shape_name": "alpha-B-1-left-light",
+        "artifact_object_id": "168",
+        "object_type": "rect",
+        "role": "surface finish, no additional method component",
+        "group": "importance-surface-detail",
+        "pptx_shape_id": "168"
+      },
+      {
+        "scene_object_id": "alpha-B-1-right-depth",
+        "pptx_shape_name": "alpha-B-1-right-depth",
+        "artifact_object_id": "169",
+        "object_type": "rect",
+        "role": "surface finish, no additional method component",
+        "group": "importance-surface-detail",
+        "pptx_shape_id": "169"
+      },
+      {
+        "scene_object_id": "alpha-B-2",
+        "pptx_shape_name": "alpha-B-2",
+        "artifact_object_id": "170",
+        "object_type": "rect",
+        "role": "alpha-B-2",
+        "group": null,
+        "pptx_shape_id": "170"
+      },
+      {
+        "scene_object_id": "alpha-B-2-left-light",
+        "pptx_shape_name": "alpha-B-2-left-light",
+        "artifact_object_id": "171",
+        "object_type": "rect",
+        "role": "surface finish, no additional method component",
+        "group": "importance-surface-detail",
+        "pptx_shape_id": "171"
+      },
+      {
+        "scene_object_id": "alpha-B-2-right-depth",
+        "pptx_shape_name": "alpha-B-2-right-depth",
+        "artifact_object_id": "172",
+        "object_type": "rect",
+        "role": "surface finish, no additional method component",
+        "group": "importance-surface-detail",
+        "pptx_shape_id": "172"
+      },
+      {
+        "scene_object_id": "alpha-B-3",
+        "pptx_shape_name": "alpha-B-3",
+        "artifact_object_id": "173",
+        "object_type": "rect",
+        "role": "alpha-B-3",
+        "group": null,
+        "pptx_shape_id": "173"
+      },
+      {
+        "scene_object_id": "alpha-B-3-left-light",
+        "pptx_shape_name": "alpha-B-3-left-light",
+        "artifact_object_id": "174",
+        "object_type": "rect",
+        "role": "surface finish, no additional method component",
+        "group": "importance-surface-detail",
+        "pptx_shape_id": "174"
+      },
+      {
+        "scene_object_id": "alpha-B-3-right-depth",
+        "pptx_shape_name": "alpha-B-3-right-depth",
+        "artifact_object_id": "175",
+        "object_type": "rect",
+        "role": "surface finish, no additional method component",
+        "group": "importance-surface-detail",
+        "pptx_shape_id": "175"
+      },
+      {
+        "scene_object_id": "alpha-B-4",
+        "pptx_shape_name": "alpha-B-4",
+        "artifact_object_id": "176",
+        "object_type": "rect",
+        "role": "alpha-B-4",
+        "group": null,
+        "pptx_shape_id": "176"
+      },
+      {
+        "scene_object_id": "alpha-B-4-left-light",
+        "pptx_shape_name": "alpha-B-4-left-light",
+        "artifact_object_id": "177",
+        "object_type": "rect",
+        "role": "surface finish, no additional method component",
+        "group": "importance-surface-detail",
+        "pptx_shape_id": "177"
+      },
+      {
+        "scene_object_id": "alpha-B-4-right-depth",
+        "pptx_shape_name": "alpha-B-4-right-depth",
+        "artifact_object_id": "178",
+        "object_type": "rect",
+        "role": "surface finish, no additional method component",
+        "group": "importance-surface-detail",
+        "pptx_shape_id": "178"
+      },
+      {
+        "scene_object_id": "alpha-B-5",
+        "pptx_shape_name": "alpha-B-5",
+        "artifact_object_id": "179",
+        "object_type": "rect",
+        "role": "alpha-B-5",
+        "group": null,
+        "pptx_shape_id": "179"
+      },
+      {
+        "scene_object_id": "alpha-B-5-left-light",
+        "pptx_shape_name": "alpha-B-5-left-light",
+        "artifact_object_id": "180",
+        "object_type": "rect",
+        "role": "surface finish, no additional method component",
+        "group": "importance-surface-detail",
+        "pptx_shape_id": "180"
+      },
+      {
+        "scene_object_id": "alpha-B-5-right-depth",
+        "pptx_shape_name": "alpha-B-5-right-depth",
+        "artifact_object_id": "181",
+        "object_type": "rect",
+        "role": "surface finish, no additional method component",
+        "group": "importance-surface-detail",
+        "pptx_shape_id": "181"
+      },
+      {
+        "scene_object_id": "alpha-B-base",
+        "pptx_shape_name": "alpha-B-base",
+        "artifact_object_id": "182",
+        "object_type": "polyline",
+        "role": "alpha-B-base",
+        "group": null,
+        "pptx_shape_id": "182"
+      },
+      {
+        "scene_object_id": "alpha-A-label",
+        "pptx_shape_name": "alpha-A-label",
+        "artifact_object_id": "183",
+        "object_type": "text",
+        "role": "alpha-A-label",
+        "group": null,
+        "pptx_shape_id": "183"
+      },
+      {
+        "scene_object_id": "alpha-B-label",
+        "pptx_shape_name": "alpha-B-label",
+        "artifact_object_id": "184",
+        "object_type": "text",
+        "role": "alpha-B-label",
+        "group": null,
+        "pptx_shape_id": "184"
+      },
+      {
+        "scene_object_id": "importance-purpose",
+        "pptx_shape_name": "importance-purpose",
+        "artifact_object_id": "185",
+        "object_type": "text",
+        "role": "importance-purpose",
+        "group": null,
+        "pptx_shape_id": "185"
+      },
+      {
+        "scene_object_id": "embeddings-A",
+        "part": "arrowhead",
+        "pptx_shape_name": "embeddings-A--arrow",
+        "artifact_object_id": "187",
+        "pptx_shape_id": "187"
+      },
+      {
+        "scene_object_id": "embeddings-A",
+        "pptx_shape_name": "embeddings-A",
+        "artifact_object_id": "186",
+        "object_type": "polyline",
+        "role": "embeddings-A",
+        "group": null,
+        "pptx_shape_id": "186"
+      },
+      {
+        "scene_object_id": "embeddings-B",
+        "part": "arrowhead",
+        "pptx_shape_name": "embeddings-B--arrow",
+        "artifact_object_id": "189",
+        "pptx_shape_id": "189"
+      },
+      {
+        "scene_object_id": "embeddings-B",
+        "pptx_shape_name": "embeddings-B",
+        "artifact_object_id": "188",
+        "object_type": "polyline",
+        "role": "embeddings-B",
+        "group": null,
+        "pptx_shape_id": "188"
+      },
+      {
+        "scene_object_id": "z-A",
+        "pptx_shape_name": "z-A",
+        "artifact_object_id": "190",
+        "object_type": "text",
+        "role": "z-A",
+        "group": null,
+        "pptx_shape_id": "190"
+      },
+      {
+        "scene_object_id": "z-B",
+        "pptx_shape_name": "z-B",
+        "artifact_object_id": "191",
+        "object_type": "text",
+        "role": "z-B",
+        "group": null,
+        "pptx_shape_id": "191"
+      },
+      {
+        "scene_object_id": "alignment-title",
+        "pptx_shape_name": "alignment-title",
+        "artifact_object_id": "192",
+        "object_type": "text",
+        "role": "alignment-title",
+        "group": null,
+        "pptx_shape_id": "192"
+      },
+      {
+        "scene_object_id": "alignment-back-sheet",
+        "pptx_shape_name": "alignment-back-sheet",
+        "artifact_object_id": "193",
+        "object_type": "rect",
+        "role": "alignment-back-sheet",
+        "group": "alignment-back",
+        "pptx_shape_id": "193"
+      },
+      {
+        "scene_object_id": "alignment-operator",
+        "pptx_shape_name": "alignment-operator",
+        "artifact_object_id": "194",
+        "object_type": "rect",
+        "role": "alignment-operator",
+        "group": null,
+        "pptx_shape_id": "194"
+      },
+      {
+        "scene_object_id": "alignment-operator-rim-light",
+        "pptx_shape_name": "alignment-operator-rim-light",
+        "artifact_object_id": "195",
+        "object_type": "polyline",
+        "role": "surface highlight, not a scientific connection",
+        "group": "alignment-surface-detail",
+        "pptx_shape_id": "195"
+      },
+      {
+        "scene_object_id": "alignment-recon-row",
+        "pptx_shape_name": "alignment-recon-row",
+        "artifact_object_id": "196",
+        "object_type": "rect",
+        "role": "surface finish, no additional method component",
+        "group": "alignment-surface-detail",
+        "pptx_shape_id": "196"
+      },
+      {
+        "scene_object_id": "alignment-ammd-row",
+        "pptx_shape_name": "alignment-ammd-row",
+        "artifact_object_id": "197",
+        "object_type": "rect",
+        "role": "surface finish, no additional method component",
+        "group": "alignment-surface-detail",
+        "pptx_shape_id": "197"
+      },
+      {
+        "scene_object_id": "alignment-role-row",
+        "pptx_shape_name": "alignment-role-row",
+        "artifact_object_id": "198",
+        "object_type": "rect",
+        "role": "surface finish, no additional method component",
+        "group": "alignment-surface-detail",
+        "pptx_shape_id": "198"
+      },
+      {
+        "scene_object_id": "alignment-op1",
+        "pptx_shape_name": "alignment-op1",
+        "artifact_object_id": "199",
+        "object_type": "text",
+        "role": "alignment-op1",
+        "group": null,
+        "pptx_shape_id": "199"
+      },
+      {
+        "scene_object_id": "alignment-op2",
+        "pptx_shape_name": "alignment-op2",
+        "artifact_object_id": "200",
+        "object_type": "text",
+        "role": "alignment-op2",
+        "group": null,
+        "pptx_shape_id": "200"
+      },
+      {
+        "scene_object_id": "alignment-op3",
+        "pptx_shape_name": "alignment-op3",
+        "artifact_object_id": "201",
+        "object_type": "text",
+        "role": "alignment-op3",
+        "group": null,
+        "pptx_shape_id": "201"
+      },
+      {
+        "scene_object_id": "aligned-cosine",
+        "part": "arrowhead",
+        "pptx_shape_name": "aligned-cosine--arrow",
+        "artifact_object_id": "203",
+        "pptx_shape_id": "203"
+      },
+      {
+        "scene_object_id": "aligned-cosine",
+        "pptx_shape_name": "aligned-cosine",
+        "artifact_object_id": "202",
+        "object_type": "polyline",
+        "role": "aligned-cosine",
+        "group": null,
+        "pptx_shape_id": "202"
+      },
+      {
+        "scene_object_id": "role-similarity-0-0",
+        "pptx_shape_name": "role-similarity-0-0",
+        "artifact_object_id": "204",
+        "object_type": "rect",
+        "role": "role-similarity-0-0",
+        "group": null,
+        "pptx_shape_id": "204"
+      },
+      {
+        "scene_object_id": "role-similarity-0-1",
+        "pptx_shape_name": "role-similarity-0-1",
+        "artifact_object_id": "205",
+        "object_type": "rect",
+        "role": "role-similarity-0-1",
+        "group": null,
+        "pptx_shape_id": "205"
+      },
+      {
+        "scene_object_id": "role-similarity-0-2",
+        "pptx_shape_name": "role-similarity-0-2",
+        "artifact_object_id": "206",
+        "object_type": "rect",
+        "role": "role-similarity-0-2",
+        "group": null,
+        "pptx_shape_id": "206"
+      },
+      {
+        "scene_object_id": "role-similarity-0-3",
+        "pptx_shape_name": "role-similarity-0-3",
+        "artifact_object_id": "207",
+        "object_type": "rect",
+        "role": "role-similarity-0-3",
+        "group": null,
+        "pptx_shape_id": "207"
+      },
+      {
+        "scene_object_id": "role-similarity-0-4",
+        "pptx_shape_name": "role-similarity-0-4",
+        "artifact_object_id": "208",
+        "object_type": "rect",
+        "role": "role-similarity-0-4",
+        "group": null,
+        "pptx_shape_id": "208"
+      },
+      {
+        "scene_object_id": "role-similarity-1-0",
+        "pptx_shape_name": "role-similarity-1-0",
+        "artifact_object_id": "209",
+        "object_type": "rect",
+        "role": "role-similarity-1-0",
+        "group": null,
+        "pptx_shape_id": "209"
+      },
+      {
+        "scene_object_id": "role-similarity-1-1",
+        "pptx_shape_name": "role-similarity-1-1",
+        "artifact_object_id": "210",
+        "object_type": "rect",
+        "role": "role-similarity-1-1",
+        "group": null,
+        "pptx_shape_id": "210"
+      },
+      {
+        "scene_object_id": "role-similarity-1-2",
+        "pptx_shape_name": "role-similarity-1-2",
+        "artifact_object_id": "211",
+        "object_type": "rect",
+        "role": "role-similarity-1-2",
+        "group": null,
+        "pptx_shape_id": "211"
+      },
+      {
+        "scene_object_id": "role-similarity-1-3",
+        "pptx_shape_name": "role-similarity-1-3",
+        "artifact_object_id": "212",
+        "object_type": "rect",
+        "role": "role-similarity-1-3",
+        "group": null,
+        "pptx_shape_id": "212"
+      },
+      {
+        "scene_object_id": "role-similarity-1-4",
+        "pptx_shape_name": "role-similarity-1-4",
+        "artifact_object_id": "213",
+        "object_type": "rect",
+        "role": "role-similarity-1-4",
+        "group": null,
+        "pptx_shape_id": "213"
+      },
+      {
+        "scene_object_id": "role-similarity-2-0",
+        "pptx_shape_name": "role-similarity-2-0",
+        "artifact_object_id": "214",
+        "object_type": "rect",
+        "role": "role-similarity-2-0",
+        "group": null,
+        "pptx_shape_id": "214"
+      },
+      {
+        "scene_object_id": "role-similarity-2-1",
+        "pptx_shape_name": "role-similarity-2-1",
+        "artifact_object_id": "215",
+        "object_type": "rect",
+        "role": "role-similarity-2-1",
+        "group": null,
+        "pptx_shape_id": "215"
+      },
+      {
+        "scene_object_id": "role-similarity-2-2",
+        "pptx_shape_name": "role-similarity-2-2",
+        "artifact_object_id": "216",
+        "object_type": "rect",
+        "role": "role-similarity-2-2",
+        "group": null,
+        "pptx_shape_id": "216"
+      },
+      {
+        "scene_object_id": "role-similarity-2-3",
+        "pptx_shape_name": "role-similarity-2-3",
+        "artifact_object_id": "217",
+        "object_type": "rect",
+        "role": "role-similarity-2-3",
+        "group": null,
+        "pptx_shape_id": "217"
+      },
+      {
+        "scene_object_id": "role-similarity-2-4",
+        "pptx_shape_name": "role-similarity-2-4",
+        "artifact_object_id": "218",
+        "object_type": "rect",
+        "role": "role-similarity-2-4",
+        "group": null,
+        "pptx_shape_id": "218"
+      },
+      {
+        "scene_object_id": "role-similarity-3-0",
+        "pptx_shape_name": "role-similarity-3-0",
+        "artifact_object_id": "219",
+        "object_type": "rect",
+        "role": "role-similarity-3-0",
+        "group": null,
+        "pptx_shape_id": "219"
+      },
+      {
+        "scene_object_id": "role-similarity-3-1",
+        "pptx_shape_name": "role-similarity-3-1",
+        "artifact_object_id": "220",
+        "object_type": "rect",
+        "role": "role-similarity-3-1",
+        "group": null,
+        "pptx_shape_id": "220"
+      },
+      {
+        "scene_object_id": "role-similarity-3-2",
+        "pptx_shape_name": "role-similarity-3-2",
+        "artifact_object_id": "221",
+        "object_type": "rect",
+        "role": "role-similarity-3-2",
+        "group": null,
+        "pptx_shape_id": "221"
+      },
+      {
+        "scene_object_id": "role-similarity-3-3",
+        "pptx_shape_name": "role-similarity-3-3",
+        "artifact_object_id": "222",
+        "object_type": "rect",
+        "role": "role-similarity-3-3",
+        "group": null,
+        "pptx_shape_id": "222"
+      },
+      {
+        "scene_object_id": "role-similarity-3-4",
+        "pptx_shape_name": "role-similarity-3-4",
+        "artifact_object_id": "223",
+        "object_type": "rect",
+        "role": "role-similarity-3-4",
+        "group": null,
+        "pptx_shape_id": "223"
+      },
+      {
+        "scene_object_id": "role-similarity-4-0",
+        "pptx_shape_name": "role-similarity-4-0",
+        "artifact_object_id": "224",
+        "object_type": "rect",
+        "role": "role-similarity-4-0",
+        "group": null,
+        "pptx_shape_id": "224"
+      },
+      {
+        "scene_object_id": "role-similarity-4-1",
+        "pptx_shape_name": "role-similarity-4-1",
+        "artifact_object_id": "225",
+        "object_type": "rect",
+        "role": "role-similarity-4-1",
+        "group": null,
+        "pptx_shape_id": "225"
+      },
+      {
+        "scene_object_id": "role-similarity-4-2",
+        "pptx_shape_name": "role-similarity-4-2",
+        "artifact_object_id": "226",
+        "object_type": "rect",
+        "role": "role-similarity-4-2",
+        "group": null,
+        "pptx_shape_id": "226"
+      },
+      {
+        "scene_object_id": "role-similarity-4-3",
+        "pptx_shape_name": "role-similarity-4-3",
+        "artifact_object_id": "227",
+        "object_type": "rect",
+        "role": "role-similarity-4-3",
+        "group": null,
+        "pptx_shape_id": "227"
+      },
+      {
+        "scene_object_id": "role-similarity-4-4",
+        "pptx_shape_name": "role-similarity-4-4",
+        "artifact_object_id": "228",
+        "object_type": "rect",
+        "role": "role-similarity-4-4",
+        "group": null,
+        "pptx_shape_id": "228"
+      },
+      {
+        "scene_object_id": "salign-label",
+        "pptx_shape_name": "salign-label",
+        "artifact_object_id": "229",
+        "object_type": "text",
+        "role": "salign-label",
+        "group": null,
+        "pptx_shape_id": "229"
+      },
+      {
+        "scene_object_id": "salign-subscript",
+        "pptx_shape_name": "salign-subscript",
+        "artifact_object_id": "230",
+        "object_type": "text",
+        "role": "salign-subscript",
+        "group": null,
+        "pptx_shape_id": "230"
+      },
+      {
+        "scene_object_id": "salign-cosine",
+        "pptx_shape_name": "salign-cosine",
+        "artifact_object_id": "231",
+        "object_type": "text",
+        "role": "salign-cosine",
+        "group": null,
+        "pptx_shape_id": "231"
+      },
+      {
+        "scene_object_id": "salign-row",
+        "pptx_shape_name": "salign-row",
+        "artifact_object_id": "232",
+        "object_type": "text",
+        "role": "salign-row",
+        "group": null,
+        "pptx_shape_id": "232"
+      },
+      {
+        "scene_object_id": "salign-col",
+        "pptx_shape_name": "salign-col",
+        "artifact_object_id": "233",
+        "object_type": "text",
+        "role": "salign-col",
+        "group": null,
+        "pptx_shape_id": "233"
+      },
+      {
+        "scene_object_id": "cosine-note",
+        "pptx_shape_name": "cosine-note",
+        "artifact_object_id": "234",
+        "object_type": "text",
+        "role": "cosine-note",
+        "group": null,
+        "pptx_shape_id": "234"
+      },
+      {
+        "scene_object_id": "matched-cell-outline",
+        "pptx_shape_name": "matched-cell-outline",
+        "artifact_object_id": "235",
+        "object_type": "rect",
+        "role": "matched-cell-outline",
+        "group": null,
+        "pptx_shape_id": "235"
+      },
+      {
+        "scene_object_id": "role-zoom-leader-top",
+        "pptx_shape_name": "role-zoom-leader-top",
+        "artifact_object_id": "236",
+        "object_type": "polyline",
+        "role": "role-zoom-leader-top",
+        "group": null,
+        "pptx_shape_id": "236"
+      },
+      {
+        "scene_object_id": "role-zoom-leader-bottom",
+        "pptx_shape_name": "role-zoom-leader-bottom",
+        "artifact_object_id": "237",
+        "object_type": "polyline",
+        "role": "role-zoom-leader-bottom",
+        "group": null,
+        "pptx_shape_id": "237"
+      },
+      {
+        "scene_object_id": "role-A-neighbourhood-edge-0",
+        "pptx_shape_name": "role-A-neighbourhood-edge-0",
+        "artifact_object_id": "238",
+        "object_type": "polyline",
+        "role": "role-A-neighbourhood-edge-0",
+        "group": null,
+        "pptx_shape_id": "238"
+      },
+      {
+        "scene_object_id": "role-A-neighbourhood-edge-1",
+        "pptx_shape_name": "role-A-neighbourhood-edge-1",
+        "artifact_object_id": "239",
+        "object_type": "polyline",
+        "role": "role-A-neighbourhood-edge-1",
+        "group": null,
+        "pptx_shape_id": "239"
+      },
+      {
+        "scene_object_id": "role-A-neighbourhood-edge-2",
+        "pptx_shape_name": "role-A-neighbourhood-edge-2",
+        "artifact_object_id": "240",
+        "object_type": "polyline",
+        "role": "role-A-neighbourhood-edge-2",
+        "group": null,
+        "pptx_shape_id": "240"
+      },
+      {
+        "scene_object_id": "role-A-neighbourhood-edge-3",
+        "pptx_shape_name": "role-A-neighbourhood-edge-3",
+        "artifact_object_id": "241",
+        "object_type": "polyline",
+        "role": "role-A-neighbourhood-edge-3",
+        "group": null,
+        "pptx_shape_id": "241"
+      },
+      {
+        "scene_object_id": "role-A-neighbourhood-edge-4",
+        "pptx_shape_name": "role-A-neighbourhood-edge-4",
+        "artifact_object_id": "242",
+        "object_type": "polyline",
+        "role": "role-A-neighbourhood-edge-4",
+        "group": null,
+        "pptx_shape_id": "242"
+      },
+      {
+        "scene_object_id": "role-A-neighbourhood-edge-5",
+        "pptx_shape_name": "role-A-neighbourhood-edge-5",
+        "artifact_object_id": "243",
+        "object_type": "polyline",
+        "role": "role-A-neighbourhood-edge-5",
+        "group": null,
+        "pptx_shape_id": "243"
+      },
+      {
+        "scene_object_id": "role-A-neighbourhood-edge-6",
+        "pptx_shape_name": "role-A-neighbourhood-edge-6",
+        "artifact_object_id": "244",
+        "object_type": "polyline",
+        "role": "role-A-neighbourhood-edge-6",
+        "group": null,
+        "pptx_shape_id": "244"
+      },
+      {
+        "scene_object_id": "role-A-neighbourhood-edge-7",
+        "pptx_shape_name": "role-A-neighbourhood-edge-7",
+        "artifact_object_id": "245",
+        "object_type": "polyline",
+        "role": "role-A-neighbourhood-edge-7",
+        "group": null,
+        "pptx_shape_id": "245"
+      },
+      {
+        "scene_object_id": "role-A-neighbourhood-edge-8",
+        "pptx_shape_name": "role-A-neighbourhood-edge-8",
+        "artifact_object_id": "246",
+        "object_type": "polyline",
+        "role": "role-A-neighbourhood-edge-8",
+        "group": null,
+        "pptx_shape_id": "246"
+      },
+      {
+        "scene_object_id": "role-A-neighbourhood-node-0",
+        "pptx_shape_name": "role-A-neighbourhood-node-0",
+        "artifact_object_id": "247",
+        "object_type": "ellipse",
+        "role": "role-A-neighbourhood-node-0",
+        "group": null,
+        "pptx_shape_id": "247"
+      },
+      {
+        "scene_object_id": "role-A-neighbourhood-node-1",
+        "pptx_shape_name": "role-A-neighbourhood-node-1",
+        "artifact_object_id": "248",
+        "object_type": "ellipse",
+        "role": "role-A-neighbourhood-node-1",
+        "group": null,
+        "pptx_shape_id": "248"
+      },
+      {
+        "scene_object_id": "role-A-neighbourhood-node-2",
+        "pptx_shape_name": "role-A-neighbourhood-node-2",
+        "artifact_object_id": "249",
+        "object_type": "ellipse",
+        "role": "role-A-neighbourhood-node-2",
+        "group": null,
+        "pptx_shape_id": "249"
+      },
+      {
+        "scene_object_id": "role-A-neighbourhood-node-3",
+        "pptx_shape_name": "role-A-neighbourhood-node-3",
+        "artifact_object_id": "250",
+        "object_type": "ellipse",
+        "role": "role-A-neighbourhood-node-3",
+        "group": null,
+        "pptx_shape_id": "250"
+      },
+      {
+        "scene_object_id": "role-A-neighbourhood-node-4",
+        "pptx_shape_name": "role-A-neighbourhood-node-4",
+        "artifact_object_id": "251",
+        "object_type": "ellipse",
+        "role": "role-A-neighbourhood-node-4",
+        "group": null,
+        "pptx_shape_id": "251"
+      },
+      {
+        "scene_object_id": "role-A-neighbourhood-node-5",
+        "pptx_shape_name": "role-A-neighbourhood-node-5",
+        "artifact_object_id": "252",
+        "object_type": "ellipse",
+        "role": "role-A-neighbourhood-node-5",
+        "group": null,
+        "pptx_shape_id": "252"
+      },
+      {
+        "scene_object_id": "role-B-neighbourhood-edge-0",
+        "pptx_shape_name": "role-B-neighbourhood-edge-0",
+        "artifact_object_id": "253",
+        "object_type": "polyline",
+        "role": "role-B-neighbourhood-edge-0",
+        "group": null,
+        "pptx_shape_id": "253"
+      },
+      {
+        "scene_object_id": "role-B-neighbourhood-edge-1",
+        "pptx_shape_name": "role-B-neighbourhood-edge-1",
+        "artifact_object_id": "254",
+        "object_type": "polyline",
+        "role": "role-B-neighbourhood-edge-1",
+        "group": null,
+        "pptx_shape_id": "254"
+      },
+      {
+        "scene_object_id": "role-B-neighbourhood-edge-2",
+        "pptx_shape_name": "role-B-neighbourhood-edge-2",
+        "artifact_object_id": "255",
+        "object_type": "polyline",
+        "role": "role-B-neighbourhood-edge-2",
+        "group": null,
+        "pptx_shape_id": "255"
+      },
+      {
+        "scene_object_id": "role-B-neighbourhood-edge-3",
+        "pptx_shape_name": "role-B-neighbourhood-edge-3",
+        "artifact_object_id": "256",
+        "object_type": "polyline",
+        "role": "role-B-neighbourhood-edge-3",
+        "group": null,
+        "pptx_shape_id": "256"
+      },
+      {
+        "scene_object_id": "role-B-neighbourhood-edge-4",
+        "pptx_shape_name": "role-B-neighbourhood-edge-4",
+        "artifact_object_id": "257",
+        "object_type": "polyline",
+        "role": "role-B-neighbourhood-edge-4",
+        "group": null,
+        "pptx_shape_id": "257"
+      },
+      {
+        "scene_object_id": "role-B-neighbourhood-edge-5",
+        "pptx_shape_name": "role-B-neighbourhood-edge-5",
+        "artifact_object_id": "258",
+        "object_type": "polyline",
+        "role": "role-B-neighbourhood-edge-5",
+        "group": null,
+        "pptx_shape_id": "258"
+      },
+      {
+        "scene_object_id": "role-B-neighbourhood-edge-6",
+        "pptx_shape_name": "role-B-neighbourhood-edge-6",
+        "artifact_object_id": "259",
+        "object_type": "polyline",
+        "role": "role-B-neighbourhood-edge-6",
+        "group": null,
+        "pptx_shape_id": "259"
+      },
+      {
+        "scene_object_id": "role-B-neighbourhood-node-0",
+        "pptx_shape_name": "role-B-neighbourhood-node-0",
+        "artifact_object_id": "260",
+        "object_type": "ellipse",
+        "role": "role-B-neighbourhood-node-0",
+        "group": null,
+        "pptx_shape_id": "260"
+      },
+      {
+        "scene_object_id": "role-B-neighbourhood-node-1",
+        "pptx_shape_name": "role-B-neighbourhood-node-1",
+        "artifact_object_id": "261",
+        "object_type": "ellipse",
+        "role": "role-B-neighbourhood-node-1",
+        "group": null,
+        "pptx_shape_id": "261"
+      },
+      {
+        "scene_object_id": "role-B-neighbourhood-node-2",
+        "pptx_shape_name": "role-B-neighbourhood-node-2",
+        "artifact_object_id": "262",
+        "object_type": "ellipse",
+        "role": "role-B-neighbourhood-node-2",
+        "group": null,
+        "pptx_shape_id": "262"
+      },
+      {
+        "scene_object_id": "role-B-neighbourhood-node-3",
+        "pptx_shape_name": "role-B-neighbourhood-node-3",
+        "artifact_object_id": "263",
+        "object_type": "ellipse",
+        "role": "role-B-neighbourhood-node-3",
+        "group": null,
+        "pptx_shape_id": "263"
+      },
+      {
+        "scene_object_id": "role-B-neighbourhood-node-4",
+        "pptx_shape_name": "role-B-neighbourhood-node-4",
+        "artifact_object_id": "264",
+        "object_type": "ellipse",
+        "role": "role-B-neighbourhood-node-4",
+        "group": null,
+        "pptx_shape_id": "264"
+      },
+      {
+        "scene_object_id": "role-B-neighbourhood-node-5",
+        "pptx_shape_name": "role-B-neighbourhood-node-5",
+        "artifact_object_id": "265",
+        "object_type": "ellipse",
+        "role": "role-B-neighbourhood-node-5",
+        "group": null,
+        "pptx_shape_id": "265"
+      },
+      {
+        "scene_object_id": "role-A-hub-ring",
+        "pptx_shape_name": "role-A-hub-ring",
+        "artifact_object_id": "266",
+        "object_type": "ellipse",
+        "role": "role-A-hub-ring",
+        "group": null,
+        "pptx_shape_id": "266"
+      },
+      {
+        "scene_object_id": "role-B-hub-ring",
+        "pptx_shape_name": "role-B-hub-ring",
+        "artifact_object_id": "267",
+        "object_type": "ellipse",
+        "role": "role-B-hub-ring",
+        "group": null,
+        "pptx_shape_id": "267"
+      },
+      {
+        "scene_object_id": "role-A-id",
+        "pptx_shape_name": "role-A-id",
+        "artifact_object_id": "268",
+        "object_type": "text",
+        "role": "role-A-id",
+        "group": null,
+        "pptx_shape_id": "268"
+      },
+      {
+        "scene_object_id": "role-B-id",
+        "pptx_shape_name": "role-B-id",
+        "artifact_object_id": "269",
+        "object_type": "text",
+        "role": "role-B-id",
+        "group": null,
+        "pptx_shape_id": "269"
+      },
+      {
+        "scene_object_id": "same-role-label",
+        "pptx_shape_name": "same-role-label",
+        "artifact_object_id": "270",
+        "object_type": "text",
+        "role": "same-role-label",
+        "group": null,
+        "pptx_shape_id": "270"
+      },
+      {
+        "scene_object_id": "stage-search",
+        "pptx_shape_name": "stage-search",
+        "artifact_object_id": "271",
+        "object_type": "text",
+        "role": "stage-search",
+        "group": null,
+        "pptx_shape_id": "271"
+      },
+      {
+        "scene_object_id": "population-boundary",
+        "pptx_shape_name": "population-boundary",
+        "artifact_object_id": "272",
+        "object_type": "rect",
+        "role": "population-boundary",
+        "group": null,
+        "pptx_shape_id": "272"
+      },
+      {
+        "scene_object_id": "variation-boundary",
+        "pptx_shape_name": "variation-boundary",
+        "artifact_object_id": "273",
+        "object_type": "rect",
+        "role": "variation-boundary",
+        "group": null,
+        "pptx_shape_id": "273"
+      },
+      {
+        "scene_object_id": "refinement-boundary",
+        "pptx_shape_name": "refinement-boundary",
+        "artifact_object_id": "274",
+        "object_type": "rect",
+        "role": "refinement-boundary",
+        "group": null,
+        "pptx_shape_id": "274"
+      },
+      {
+        "scene_object_id": "fitness-boundary",
+        "pptx_shape_name": "fitness-boundary",
+        "artifact_object_id": "275",
+        "object_type": "rect",
+        "role": "fitness-boundary",
+        "group": null,
+        "pptx_shape_id": "275"
+      },
+      {
+        "scene_object_id": "population-title",
+        "pptx_shape_name": "population-title",
+        "artifact_object_id": "276",
+        "object_type": "text",
+        "role": "population-title",
+        "group": null,
+        "pptx_shape_id": "276"
+      },
+      {
+        "scene_object_id": "pair-definition",
+        "pptx_shape_name": "pair-definition",
+        "artifact_object_id": "277",
+        "object_type": "text",
+        "role": "pair-definition",
+        "group": null,
+        "pptx_shape_id": "277"
+      },
+      {
+        "scene_object_id": "pair-A-subscript",
+        "pptx_shape_name": "pair-A-subscript",
+        "artifact_object_id": "278",
+        "object_type": "text",
+        "role": "pair-A-subscript",
+        "group": null,
+        "pptx_shape_id": "278"
+      },
+      {
+        "scene_object_id": "pair-comma",
+        "pptx_shape_name": "pair-comma",
+        "artifact_object_id": "279",
+        "object_type": "text",
+        "role": "pair-comma",
+        "group": null,
+        "pptx_shape_id": "279"
+      },
+      {
+        "scene_object_id": "pair-second-S",
+        "pptx_shape_name": "pair-second-S",
+        "artifact_object_id": "280",
+        "object_type": "text",
+        "role": "pair-second-S",
+        "group": null,
+        "pptx_shape_id": "280"
+      },
+      {
+        "scene_object_id": "pair-B-subscript",
+        "pptx_shape_name": "pair-B-subscript",
+        "artifact_object_id": "281",
+        "object_type": "text",
+        "role": "pair-B-subscript",
+        "group": null,
+        "pptx_shape_id": "281"
+      },
+      {
+        "scene_object_id": "pair-close",
+        "pptx_shape_name": "pair-close",
+        "artifact_object_id": "282",
+        "object_type": "text",
+        "role": "pair-close",
+        "group": null,
+        "pptx_shape_id": "282"
+      },
+      {
+        "scene_object_id": "init-0",
+        "pptx_shape_name": "init-0",
+        "artifact_object_id": "283",
+        "object_type": "text",
+        "role": "init-0",
+        "group": null,
+        "pptx_shape_id": "283"
+      },
+      {
+        "scene_object_id": "seed-tray-0",
+        "pptx_shape_name": "seed-tray-0",
+        "artifact_object_id": "284",
+        "object_type": "rect",
+        "role": "seed-tray-0",
+        "group": "seed-tray",
+        "pptx_shape_id": "284"
+      },
+      {
+        "scene_object_id": "seed-tray-0-lip",
+        "pptx_shape_name": "seed-tray-0-lip",
+        "artifact_object_id": "285",
+        "object_type": "polyline",
+        "role": "seed-tray-0-lip",
+        "group": "seed-tray",
+        "pptx_shape_id": "285"
+      },
+      {
+        "scene_object_id": "initial-pair-0-A-cell-0",
+        "pptx_shape_name": "initial-pair-0-A-cell-0",
+        "artifact_object_id": "286",
+        "object_type": "rect",
+        "role": "initial-pair-0-A-cell-0",
+        "group": null,
+        "pptx_shape_id": "286"
+      },
+      {
+        "scene_object_id": "initial-pair-0-A-id-0",
+        "pptx_shape_name": "initial-pair-0-A-id-0",
+        "artifact_object_id": "287",
+        "object_type": "text",
+        "role": "initial-pair-0-A-id-0",
+        "group": null,
+        "pptx_shape_id": "287"
+      },
+      {
+        "scene_object_id": "initial-pair-0-A-cell-1",
+        "pptx_shape_name": "initial-pair-0-A-cell-1",
+        "artifact_object_id": "288",
+        "object_type": "rect",
+        "role": "initial-pair-0-A-cell-1",
+        "group": null,
+        "pptx_shape_id": "288"
+      },
+      {
+        "scene_object_id": "initial-pair-0-A-id-1",
+        "pptx_shape_name": "initial-pair-0-A-id-1",
+        "artifact_object_id": "289",
+        "object_type": "text",
+        "role": "initial-pair-0-A-id-1",
+        "group": null,
+        "pptx_shape_id": "289"
+      },
+      {
+        "scene_object_id": "initial-pair-0-divider",
+        "pptx_shape_name": "initial-pair-0-divider",
+        "artifact_object_id": "290",
+        "object_type": "text",
+        "role": "initial-pair-0-divider",
+        "group": null,
+        "pptx_shape_id": "290"
+      },
+      {
+        "scene_object_id": "initial-pair-0-B-cell-0",
+        "pptx_shape_name": "initial-pair-0-B-cell-0",
+        "artifact_object_id": "291",
+        "object_type": "rect",
+        "role": "initial-pair-0-B-cell-0",
+        "group": null,
+        "pptx_shape_id": "291"
+      },
+      {
+        "scene_object_id": "initial-pair-0-B-id-0",
+        "pptx_shape_name": "initial-pair-0-B-id-0",
+        "artifact_object_id": "292",
+        "object_type": "text",
+        "role": "initial-pair-0-B-id-0",
+        "group": null,
+        "pptx_shape_id": "292"
+      },
+      {
+        "scene_object_id": "initial-pair-0-B-cell-1",
+        "pptx_shape_name": "initial-pair-0-B-cell-1",
+        "artifact_object_id": "293",
+        "object_type": "rect",
+        "role": "initial-pair-0-B-cell-1",
+        "group": null,
+        "pptx_shape_id": "293"
+      },
+      {
+        "scene_object_id": "initial-pair-0-B-id-1",
+        "pptx_shape_name": "initial-pair-0-B-id-1",
+        "artifact_object_id": "294",
+        "object_type": "text",
+        "role": "initial-pair-0-B-id-1",
+        "group": null,
+        "pptx_shape_id": "294"
+      },
+      {
+        "scene_object_id": "init-1",
+        "pptx_shape_name": "init-1",
+        "artifact_object_id": "295",
+        "object_type": "text",
+        "role": "init-1",
+        "group": null,
+        "pptx_shape_id": "295"
+      },
+      {
+        "scene_object_id": "seed-tray-1",
+        "pptx_shape_name": "seed-tray-1",
+        "artifact_object_id": "296",
+        "object_type": "rect",
+        "role": "seed-tray-1",
+        "group": "seed-tray",
+        "pptx_shape_id": "296"
+      },
+      {
+        "scene_object_id": "seed-tray-1-lip",
+        "pptx_shape_name": "seed-tray-1-lip",
+        "artifact_object_id": "297",
+        "object_type": "polyline",
+        "role": "seed-tray-1-lip",
+        "group": "seed-tray",
+        "pptx_shape_id": "297"
+      },
+      {
+        "scene_object_id": "initial-pair-1-A-cell-0",
+        "pptx_shape_name": "initial-pair-1-A-cell-0",
+        "artifact_object_id": "298",
+        "object_type": "rect",
+        "role": "initial-pair-1-A-cell-0",
+        "group": null,
+        "pptx_shape_id": "298"
+      },
+      {
+        "scene_object_id": "initial-pair-1-A-id-0",
+        "pptx_shape_name": "initial-pair-1-A-id-0",
+        "artifact_object_id": "299",
+        "object_type": "text",
+        "role": "initial-pair-1-A-id-0",
+        "group": null,
+        "pptx_shape_id": "299"
+      },
+      {
+        "scene_object_id": "initial-pair-1-A-cell-1",
+        "pptx_shape_name": "initial-pair-1-A-cell-1",
+        "artifact_object_id": "300",
+        "object_type": "rect",
+        "role": "initial-pair-1-A-cell-1",
+        "group": null,
+        "pptx_shape_id": "300"
+      },
+      {
+        "scene_object_id": "initial-pair-1-A-id-1",
+        "pptx_shape_name": "initial-pair-1-A-id-1",
+        "artifact_object_id": "301",
+        "object_type": "text",
+        "role": "initial-pair-1-A-id-1",
+        "group": null,
+        "pptx_shape_id": "301"
+      },
+      {
+        "scene_object_id": "initial-pair-1-divider",
+        "pptx_shape_name": "initial-pair-1-divider",
+        "artifact_object_id": "302",
+        "object_type": "text",
+        "role": "initial-pair-1-divider",
+        "group": null,
+        "pptx_shape_id": "302"
+      },
+      {
+        "scene_object_id": "initial-pair-1-B-cell-0",
+        "pptx_shape_name": "initial-pair-1-B-cell-0",
+        "artifact_object_id": "303",
+        "object_type": "rect",
+        "role": "initial-pair-1-B-cell-0",
+        "group": null,
+        "pptx_shape_id": "303"
+      },
+      {
+        "scene_object_id": "initial-pair-1-B-id-0",
+        "pptx_shape_name": "initial-pair-1-B-id-0",
+        "artifact_object_id": "304",
+        "object_type": "text",
+        "role": "initial-pair-1-B-id-0",
+        "group": null,
+        "pptx_shape_id": "304"
+      },
+      {
+        "scene_object_id": "initial-pair-1-B-cell-1",
+        "pptx_shape_name": "initial-pair-1-B-cell-1",
+        "artifact_object_id": "305",
+        "object_type": "rect",
+        "role": "initial-pair-1-B-cell-1",
+        "group": null,
+        "pptx_shape_id": "305"
+      },
+      {
+        "scene_object_id": "initial-pair-1-B-id-1",
+        "pptx_shape_name": "initial-pair-1-B-id-1",
+        "artifact_object_id": "306",
+        "object_type": "text",
+        "role": "initial-pair-1-B-id-1",
+        "group": null,
+        "pptx_shape_id": "306"
+      },
+      {
+        "scene_object_id": "init-2",
+        "pptx_shape_name": "init-2",
+        "artifact_object_id": "307",
+        "object_type": "text",
+        "role": "init-2",
+        "group": null,
+        "pptx_shape_id": "307"
+      },
+      {
+        "scene_object_id": "seed-tray-2",
+        "pptx_shape_name": "seed-tray-2",
+        "artifact_object_id": "308",
+        "object_type": "rect",
+        "role": "seed-tray-2",
+        "group": "seed-tray",
+        "pptx_shape_id": "308"
+      },
+      {
+        "scene_object_id": "seed-tray-2-lip",
+        "pptx_shape_name": "seed-tray-2-lip",
+        "artifact_object_id": "309",
+        "object_type": "polyline",
+        "role": "seed-tray-2-lip",
+        "group": "seed-tray",
+        "pptx_shape_id": "309"
+      },
+      {
+        "scene_object_id": "initial-pair-2-A-cell-0",
+        "pptx_shape_name": "initial-pair-2-A-cell-0",
+        "artifact_object_id": "310",
+        "object_type": "rect",
+        "role": "initial-pair-2-A-cell-0",
+        "group": null,
+        "pptx_shape_id": "310"
+      },
+      {
+        "scene_object_id": "initial-pair-2-A-id-0",
+        "pptx_shape_name": "initial-pair-2-A-id-0",
+        "artifact_object_id": "311",
+        "object_type": "text",
+        "role": "initial-pair-2-A-id-0",
+        "group": null,
+        "pptx_shape_id": "311"
+      },
+      {
+        "scene_object_id": "initial-pair-2-A-cell-1",
+        "pptx_shape_name": "initial-pair-2-A-cell-1",
+        "artifact_object_id": "312",
+        "object_type": "rect",
+        "role": "initial-pair-2-A-cell-1",
+        "group": null,
+        "pptx_shape_id": "312"
+      },
+      {
+        "scene_object_id": "initial-pair-2-A-id-1",
+        "pptx_shape_name": "initial-pair-2-A-id-1",
+        "artifact_object_id": "313",
+        "object_type": "text",
+        "role": "initial-pair-2-A-id-1",
+        "group": null,
+        "pptx_shape_id": "313"
+      },
+      {
+        "scene_object_id": "initial-pair-2-divider",
+        "pptx_shape_name": "initial-pair-2-divider",
+        "artifact_object_id": "314",
+        "object_type": "text",
+        "role": "initial-pair-2-divider",
+        "group": null,
+        "pptx_shape_id": "314"
+      },
+      {
+        "scene_object_id": "initial-pair-2-B-cell-0",
+        "pptx_shape_name": "initial-pair-2-B-cell-0",
+        "artifact_object_id": "315",
+        "object_type": "rect",
+        "role": "initial-pair-2-B-cell-0",
+        "group": null,
+        "pptx_shape_id": "315"
+      },
+      {
+        "scene_object_id": "initial-pair-2-B-id-0",
+        "pptx_shape_name": "initial-pair-2-B-id-0",
+        "artifact_object_id": "316",
+        "object_type": "text",
+        "role": "initial-pair-2-B-id-0",
+        "group": null,
+        "pptx_shape_id": "316"
+      },
+      {
+        "scene_object_id": "initial-pair-2-B-cell-1",
+        "pptx_shape_name": "initial-pair-2-B-cell-1",
+        "artifact_object_id": "317",
+        "object_type": "rect",
+        "role": "initial-pair-2-B-cell-1",
+        "group": null,
+        "pptx_shape_id": "317"
+      },
+      {
+        "scene_object_id": "initial-pair-2-B-id-1",
+        "pptx_shape_name": "initial-pair-2-B-id-1",
+        "artifact_object_id": "318",
+        "object_type": "text",
+        "role": "initial-pair-2-B-id-1",
+        "group": null,
+        "pptx_shape_id": "318"
+      },
+      {
+        "scene_object_id": "init-3",
+        "pptx_shape_name": "init-3",
+        "artifact_object_id": "319",
+        "object_type": "text",
+        "role": "init-3",
+        "group": null,
+        "pptx_shape_id": "319"
+      },
+      {
+        "scene_object_id": "seed-tray-3",
+        "pptx_shape_name": "seed-tray-3",
+        "artifact_object_id": "320",
+        "object_type": "rect",
+        "role": "seed-tray-3",
+        "group": "seed-tray",
+        "pptx_shape_id": "320"
+      },
+      {
+        "scene_object_id": "seed-tray-3-lip",
+        "pptx_shape_name": "seed-tray-3-lip",
+        "artifact_object_id": "321",
+        "object_type": "polyline",
+        "role": "seed-tray-3-lip",
+        "group": "seed-tray",
+        "pptx_shape_id": "321"
+      },
+      {
+        "scene_object_id": "initial-pair-3-A-cell-0",
+        "pptx_shape_name": "initial-pair-3-A-cell-0",
+        "artifact_object_id": "322",
+        "object_type": "rect",
+        "role": "initial-pair-3-A-cell-0",
+        "group": null,
+        "pptx_shape_id": "322"
+      },
+      {
+        "scene_object_id": "initial-pair-3-A-id-0",
+        "pptx_shape_name": "initial-pair-3-A-id-0",
+        "artifact_object_id": "323",
+        "object_type": "text",
+        "role": "initial-pair-3-A-id-0",
+        "group": null,
+        "pptx_shape_id": "323"
+      },
+      {
+        "scene_object_id": "initial-pair-3-A-cell-1",
+        "pptx_shape_name": "initial-pair-3-A-cell-1",
+        "artifact_object_id": "324",
+        "object_type": "rect",
+        "role": "initial-pair-3-A-cell-1",
+        "group": null,
+        "pptx_shape_id": "324"
+      },
+      {
+        "scene_object_id": "initial-pair-3-A-id-1",
+        "pptx_shape_name": "initial-pair-3-A-id-1",
+        "artifact_object_id": "325",
+        "object_type": "text",
+        "role": "initial-pair-3-A-id-1",
+        "group": null,
+        "pptx_shape_id": "325"
+      },
+      {
+        "scene_object_id": "initial-pair-3-divider",
+        "pptx_shape_name": "initial-pair-3-divider",
+        "artifact_object_id": "326",
+        "object_type": "text",
+        "role": "initial-pair-3-divider",
+        "group": null,
+        "pptx_shape_id": "326"
+      },
+      {
+        "scene_object_id": "initial-pair-3-B-cell-0",
+        "pptx_shape_name": "initial-pair-3-B-cell-0",
+        "artifact_object_id": "327",
+        "object_type": "rect",
+        "role": "initial-pair-3-B-cell-0",
+        "group": null,
+        "pptx_shape_id": "327"
+      },
+      {
+        "scene_object_id": "initial-pair-3-B-id-0",
+        "pptx_shape_name": "initial-pair-3-B-id-0",
+        "artifact_object_id": "328",
+        "object_type": "text",
+        "role": "initial-pair-3-B-id-0",
+        "group": null,
+        "pptx_shape_id": "328"
+      },
+      {
+        "scene_object_id": "initial-pair-3-B-cell-1",
+        "pptx_shape_name": "initial-pair-3-B-cell-1",
+        "artifact_object_id": "329",
+        "object_type": "rect",
+        "role": "initial-pair-3-B-cell-1",
+        "group": null,
+        "pptx_shape_id": "329"
+      },
+      {
+        "scene_object_id": "initial-pair-3-B-id-1",
+        "pptx_shape_name": "initial-pair-3-B-id-1",
+        "artifact_object_id": "330",
+        "object_type": "text",
+        "role": "initial-pair-3-B-id-1",
+        "group": null,
+        "pptx_shape_id": "330"
+      },
+      {
+        "scene_object_id": "parents-to-variation",
+        "part": "arrowhead",
+        "pptx_shape_name": "parents-to-variation--arrow",
+        "artifact_object_id": "332",
+        "pptx_shape_id": "332"
+      },
+      {
+        "scene_object_id": "parents-to-variation",
+        "pptx_shape_name": "parents-to-variation",
+        "artifact_object_id": "331",
+        "object_type": "polyline",
+        "role": "parents-to-variation",
+        "group": null,
+        "pptx_shape_id": "331"
+      },
+      {
+        "scene_object_id": "variation-title",
+        "pptx_shape_name": "variation-title",
+        "artifact_object_id": "333",
+        "object_type": "text",
+        "role": "variation-title",
+        "group": null,
+        "pptx_shape_id": "333"
+      },
+      {
+        "scene_object_id": "parent-one",
+        "pptx_shape_name": "parent-one",
+        "artifact_object_id": "334",
+        "object_type": "text",
+        "role": "parent-one",
+        "group": null,
+        "pptx_shape_id": "334"
+      },
+      {
+        "scene_object_id": "parent-two",
+        "pptx_shape_name": "parent-two",
+        "artifact_object_id": "335",
+        "object_type": "text",
+        "role": "parent-two",
+        "group": null,
+        "pptx_shape_id": "335"
+      },
+      {
+        "scene_object_id": "parent1-A-cell-0",
+        "pptx_shape_name": "parent1-A-cell-0",
+        "artifact_object_id": "336",
+        "object_type": "rect",
+        "role": "parent1-A-cell-0",
+        "group": null,
+        "pptx_shape_id": "336"
+      },
+      {
+        "scene_object_id": "parent1-A-id-0",
+        "pptx_shape_name": "parent1-A-id-0",
+        "artifact_object_id": "337",
+        "object_type": "text",
+        "role": "parent1-A-id-0",
+        "group": null,
+        "pptx_shape_id": "337"
+      },
+      {
+        "scene_object_id": "parent1-A-cell-1",
+        "pptx_shape_name": "parent1-A-cell-1",
+        "artifact_object_id": "338",
+        "object_type": "rect",
+        "role": "parent1-A-cell-1",
+        "group": null,
+        "pptx_shape_id": "338"
+      },
+      {
+        "scene_object_id": "parent1-A-id-1",
+        "pptx_shape_name": "parent1-A-id-1",
+        "artifact_object_id": "339",
+        "object_type": "text",
+        "role": "parent1-A-id-1",
+        "group": null,
+        "pptx_shape_id": "339"
+      },
+      {
+        "scene_object_id": "parent1-divider",
+        "pptx_shape_name": "parent1-divider",
+        "artifact_object_id": "340",
+        "object_type": "text",
+        "role": "parent1-divider",
+        "group": null,
+        "pptx_shape_id": "340"
+      },
+      {
+        "scene_object_id": "parent1-B-cell-0",
+        "pptx_shape_name": "parent1-B-cell-0",
+        "artifact_object_id": "341",
+        "object_type": "rect",
+        "role": "parent1-B-cell-0",
+        "group": null,
+        "pptx_shape_id": "341"
+      },
+      {
+        "scene_object_id": "parent1-B-id-0",
+        "pptx_shape_name": "parent1-B-id-0",
+        "artifact_object_id": "342",
+        "object_type": "text",
+        "role": "parent1-B-id-0",
+        "group": null,
+        "pptx_shape_id": "342"
+      },
+      {
+        "scene_object_id": "parent1-B-cell-1",
+        "pptx_shape_name": "parent1-B-cell-1",
+        "artifact_object_id": "343",
+        "object_type": "rect",
+        "role": "parent1-B-cell-1",
+        "group": null,
+        "pptx_shape_id": "343"
+      },
+      {
+        "scene_object_id": "parent1-B-id-1",
+        "pptx_shape_name": "parent1-B-id-1",
+        "artifact_object_id": "344",
+        "object_type": "text",
+        "role": "parent1-B-id-1",
+        "group": null,
+        "pptx_shape_id": "344"
+      },
+      {
+        "scene_object_id": "parent2-A-cell-0",
+        "pptx_shape_name": "parent2-A-cell-0",
+        "artifact_object_id": "345",
+        "object_type": "rect",
+        "role": "parent2-A-cell-0",
+        "group": null,
+        "pptx_shape_id": "345"
+      },
+      {
+        "scene_object_id": "parent2-A-id-0",
+        "pptx_shape_name": "parent2-A-id-0",
+        "artifact_object_id": "346",
+        "object_type": "text",
+        "role": "parent2-A-id-0",
+        "group": null,
+        "pptx_shape_id": "346"
+      },
+      {
+        "scene_object_id": "parent2-A-cell-1",
+        "pptx_shape_name": "parent2-A-cell-1",
+        "artifact_object_id": "347",
+        "object_type": "rect",
+        "role": "parent2-A-cell-1",
+        "group": null,
+        "pptx_shape_id": "347"
+      },
+      {
+        "scene_object_id": "parent2-A-id-1",
+        "pptx_shape_name": "parent2-A-id-1",
+        "artifact_object_id": "348",
+        "object_type": "text",
+        "role": "parent2-A-id-1",
+        "group": null,
+        "pptx_shape_id": "348"
+      },
+      {
+        "scene_object_id": "parent2-divider",
+        "pptx_shape_name": "parent2-divider",
+        "artifact_object_id": "349",
+        "object_type": "text",
+        "role": "parent2-divider",
+        "group": null,
+        "pptx_shape_id": "349"
+      },
+      {
+        "scene_object_id": "parent2-B-cell-0",
+        "pptx_shape_name": "parent2-B-cell-0",
+        "artifact_object_id": "350",
+        "object_type": "rect",
+        "role": "parent2-B-cell-0",
+        "group": null,
+        "pptx_shape_id": "350"
+      },
+      {
+        "scene_object_id": "parent2-B-id-0",
+        "pptx_shape_name": "parent2-B-id-0",
+        "artifact_object_id": "351",
+        "object_type": "text",
+        "role": "parent2-B-id-0",
+        "group": null,
+        "pptx_shape_id": "351"
+      },
+      {
+        "scene_object_id": "parent2-B-cell-1",
+        "pptx_shape_name": "parent2-B-cell-1",
+        "artifact_object_id": "352",
+        "object_type": "rect",
+        "role": "parent2-B-cell-1",
+        "group": null,
+        "pptx_shape_id": "352"
+      },
+      {
+        "scene_object_id": "parent2-B-id-1",
+        "pptx_shape_name": "parent2-B-id-1",
+        "artifact_object_id": "353",
+        "object_type": "text",
+        "role": "parent2-B-id-1",
+        "group": null,
+        "pptx_shape_id": "353"
+      },
+      {
+        "scene_object_id": "parent1-crossover",
+        "pptx_shape_name": "parent1-crossover",
+        "artifact_object_id": "354",
+        "object_type": "polyline",
+        "role": "parent1-crossover",
+        "group": null,
+        "pptx_shape_id": "354"
+      },
+      {
+        "scene_object_id": "parent2-crossover",
+        "pptx_shape_name": "parent2-crossover",
+        "artifact_object_id": "355",
+        "object_type": "polyline",
+        "role": "parent2-crossover",
+        "group": null,
+        "pptx_shape_id": "355"
+      },
+      {
+        "scene_object_id": "crossover-to-transfer",
+        "part": "arrowhead",
+        "pptx_shape_name": "crossover-to-transfer--arrow",
+        "artifact_object_id": "357",
+        "pptx_shape_id": "357"
+      },
+      {
+        "scene_object_id": "crossover-to-transfer",
+        "pptx_shape_name": "crossover-to-transfer",
+        "artifact_object_id": "356",
+        "object_type": "polyline",
+        "role": "crossover-to-transfer",
+        "group": null,
+        "pptx_shape_id": "356"
+      },
+      {
+        "scene_object_id": "transfer-prefix",
+        "pptx_shape_name": "transfer-prefix",
+        "artifact_object_id": "358",
+        "object_type": "text",
+        "role": "transfer-prefix",
+        "group": null,
+        "pptx_shape_id": "358"
+      },
+      {
+        "scene_object_id": "donor-gene",
+        "pptx_shape_name": "donor-gene",
+        "artifact_object_id": "359",
+        "object_type": "ellipse",
+        "role": "donor-gene",
+        "group": null,
+        "pptx_shape_id": "359"
+      },
+      {
+        "scene_object_id": "donor-gene-id",
+        "pptx_shape_name": "donor-gene-id",
+        "artifact_object_id": "360",
+        "object_type": "text",
+        "role": "donor-gene-id",
+        "group": null,
+        "pptx_shape_id": "360"
+      },
+      {
+        "scene_object_id": "role-translation",
+        "part": "arrowhead",
+        "pptx_shape_name": "role-translation--arrow",
+        "artifact_object_id": "362",
+        "pptx_shape_id": "362"
+      },
+      {
+        "scene_object_id": "role-translation",
+        "pptx_shape_name": "role-translation",
+        "artifact_object_id": "361",
+        "object_type": "polyline",
+        "role": "role-translation",
+        "group": null,
+        "pptx_shape_id": "361"
+      },
+      {
+        "scene_object_id": "role-map-label",
+        "pptx_shape_name": "role-map-label",
+        "artifact_object_id": "363",
+        "object_type": "text",
+        "role": "role-map-label",
+        "group": null,
+        "pptx_shape_id": "363"
+      },
+      {
+        "scene_object_id": "mapped-gene",
+        "pptx_shape_name": "mapped-gene",
+        "artifact_object_id": "364",
+        "object_type": "ellipse",
+        "role": "mapped-gene",
+        "group": null,
+        "pptx_shape_id": "364"
+      },
+      {
+        "scene_object_id": "mapped-gene-id",
+        "pptx_shape_name": "mapped-gene-id",
+        "artifact_object_id": "365",
+        "object_type": "text",
+        "role": "mapped-gene-id",
+        "group": null,
+        "pptx_shape_id": "365"
+      },
+      {
+        "scene_object_id": "transfer-to-repair",
+        "part": "arrowhead",
+        "pptx_shape_name": "transfer-to-repair--arrow",
+        "artifact_object_id": "367",
+        "pptx_shape_id": "367"
+      },
+      {
+        "scene_object_id": "transfer-to-repair",
+        "pptx_shape_name": "transfer-to-repair",
+        "artifact_object_id": "366",
+        "object_type": "polyline",
+        "role": "transfer-to-repair",
+        "group": null,
+        "pptx_shape_id": "366"
+      },
+      {
+        "scene_object_id": "mutation-repair",
+        "pptx_shape_name": "mutation-repair",
+        "artifact_object_id": "368",
+        "object_type": "text",
+        "role": "mutation-repair",
+        "group": null,
+        "pptx_shape_id": "368"
+      },
+      {
+        "scene_object_id": "repaired-offspring-A-cell-0",
+        "pptx_shape_name": "repaired-offspring-A-cell-0",
+        "artifact_object_id": "369",
+        "object_type": "rect",
+        "role": "repaired-offspring-A-cell-0",
+        "group": null,
+        "pptx_shape_id": "369"
+      },
+      {
+        "scene_object_id": "repaired-offspring-A-id-0",
+        "pptx_shape_name": "repaired-offspring-A-id-0",
+        "artifact_object_id": "370",
+        "object_type": "text",
+        "role": "repaired-offspring-A-id-0",
+        "group": null,
+        "pptx_shape_id": "370"
+      },
+      {
+        "scene_object_id": "repaired-offspring-A-cell-1",
+        "pptx_shape_name": "repaired-offspring-A-cell-1",
+        "artifact_object_id": "371",
+        "object_type": "rect",
+        "role": "repaired-offspring-A-cell-1",
+        "group": null,
+        "pptx_shape_id": "371"
+      },
+      {
+        "scene_object_id": "repaired-offspring-A-id-1",
+        "pptx_shape_name": "repaired-offspring-A-id-1",
+        "artifact_object_id": "372",
+        "object_type": "text",
+        "role": "repaired-offspring-A-id-1",
+        "group": null,
+        "pptx_shape_id": "372"
+      },
+      {
+        "scene_object_id": "repaired-offspring-divider",
+        "pptx_shape_name": "repaired-offspring-divider",
+        "artifact_object_id": "373",
+        "object_type": "text",
+        "role": "repaired-offspring-divider",
+        "group": null,
+        "pptx_shape_id": "373"
+      },
+      {
+        "scene_object_id": "repaired-offspring-B-cell-0",
+        "pptx_shape_name": "repaired-offspring-B-cell-0",
+        "artifact_object_id": "374",
+        "object_type": "rect",
+        "role": "repaired-offspring-B-cell-0",
+        "group": null,
+        "pptx_shape_id": "374"
+      },
+      {
+        "scene_object_id": "repaired-offspring-B-id-0",
+        "pptx_shape_name": "repaired-offspring-B-id-0",
+        "artifact_object_id": "375",
+        "object_type": "text",
+        "role": "repaired-offspring-B-id-0",
+        "group": null,
+        "pptx_shape_id": "375"
+      },
+      {
+        "scene_object_id": "repaired-offspring-B-cell-1",
+        "pptx_shape_name": "repaired-offspring-B-cell-1",
+        "artifact_object_id": "376",
+        "object_type": "rect",
+        "role": "repaired-offspring-B-cell-1",
+        "group": null,
+        "pptx_shape_id": "376"
+      },
+      {
+        "scene_object_id": "repaired-offspring-B-id-1",
+        "pptx_shape_name": "repaired-offspring-B-id-1",
+        "artifact_object_id": "377",
+        "object_type": "text",
+        "role": "repaired-offspring-B-id-1",
+        "group": null,
+        "pptx_shape_id": "377"
+      },
+      {
+        "scene_object_id": "repair-constraints",
+        "pptx_shape_name": "repair-constraints",
+        "artifact_object_id": "378",
+        "object_type": "text",
+        "role": "repair-constraints",
+        "group": null,
+        "pptx_shape_id": "378"
+      },
+      {
+        "scene_object_id": "offspring-to-elite",
+        "part": "arrowhead",
+        "pptx_shape_name": "offspring-to-elite--arrow",
+        "artifact_object_id": "380",
+        "pptx_shape_id": "380"
+      },
+      {
+        "scene_object_id": "offspring-to-elite",
+        "pptx_shape_name": "offspring-to-elite",
+        "artifact_object_id": "379",
+        "object_type": "polyline",
+        "role": "offspring-to-elite",
+        "group": null,
+        "pptx_shape_id": "379"
+      },
+      {
+        "scene_object_id": "refinement-title",
+        "pptx_shape_name": "refinement-title",
+        "artifact_object_id": "381",
+        "object_type": "text",
+        "role": "refinement-title",
+        "group": null,
+        "pptx_shape_id": "381"
+      },
+      {
+        "scene_object_id": "refinement-magnifier-handle",
+        "pptx_shape_name": "refinement-magnifier-handle",
+        "artifact_object_id": "382",
+        "object_type": "polyline",
+        "role": "refinement-magnifier-handle",
+        "group": "refinement-magnifier",
+        "pptx_shape_id": "382"
+      },
+      {
+        "scene_object_id": "refinement-magnifier-handle-inset",
+        "pptx_shape_name": "refinement-magnifier-handle-inset",
+        "artifact_object_id": "383",
+        "object_type": "polyline",
+        "role": "refinement-magnifier-handle-inset",
+        "group": "refinement-magnifier",
+        "pptx_shape_id": "383"
+      },
+      {
+        "scene_object_id": "refinement-magnifier-lens",
+        "pptx_shape_name": "refinement-magnifier-lens",
+        "artifact_object_id": "384",
+        "object_type": "ellipse",
+        "role": "refinement-magnifier-lens",
+        "group": "refinement-magnifier",
+        "pptx_shape_id": "384"
+      },
+      {
+        "scene_object_id": "elite-neighborhood-edge-0",
+        "pptx_shape_name": "elite-neighborhood-edge-0",
+        "artifact_object_id": "385",
+        "object_type": "polyline",
+        "role": "elite-neighborhood-edge-0",
+        "group": null,
+        "pptx_shape_id": "385"
+      },
+      {
+        "scene_object_id": "elite-neighborhood-edge-1",
+        "pptx_shape_name": "elite-neighborhood-edge-1",
+        "artifact_object_id": "386",
+        "object_type": "polyline",
+        "role": "elite-neighborhood-edge-1",
+        "group": null,
+        "pptx_shape_id": "386"
+      },
+      {
+        "scene_object_id": "elite-neighborhood-edge-2",
+        "pptx_shape_name": "elite-neighborhood-edge-2",
+        "artifact_object_id": "387",
+        "object_type": "polyline",
+        "role": "elite-neighborhood-edge-2",
+        "group": null,
+        "pptx_shape_id": "387"
+      },
+      {
+        "scene_object_id": "elite-neighborhood-edge-3",
+        "pptx_shape_name": "elite-neighborhood-edge-3",
+        "artifact_object_id": "388",
+        "object_type": "polyline",
+        "role": "elite-neighborhood-edge-3",
+        "group": null,
+        "pptx_shape_id": "388"
+      },
+      {
+        "scene_object_id": "elite-neighborhood-edge-4",
+        "pptx_shape_name": "elite-neighborhood-edge-4",
+        "artifact_object_id": "389",
+        "object_type": "polyline",
+        "role": "elite-neighborhood-edge-4",
+        "group": null,
+        "pptx_shape_id": "389"
+      },
+      {
+        "scene_object_id": "elite-neighborhood-edge-5",
+        "pptx_shape_name": "elite-neighborhood-edge-5",
+        "artifact_object_id": "390",
+        "object_type": "polyline",
+        "role": "elite-neighborhood-edge-5",
+        "group": null,
+        "pptx_shape_id": "390"
+      },
+      {
+        "scene_object_id": "elite-neighborhood-edge-6",
+        "pptx_shape_name": "elite-neighborhood-edge-6",
+        "artifact_object_id": "391",
+        "object_type": "polyline",
+        "role": "elite-neighborhood-edge-6",
+        "group": null,
+        "pptx_shape_id": "391"
+      },
+      {
+        "scene_object_id": "elite-neighborhood-edge-7",
+        "pptx_shape_name": "elite-neighborhood-edge-7",
+        "artifact_object_id": "392",
+        "object_type": "polyline",
+        "role": "elite-neighborhood-edge-7",
+        "group": null,
+        "pptx_shape_id": "392"
+      },
+      {
+        "scene_object_id": "elite-neighborhood-edge-8",
+        "pptx_shape_name": "elite-neighborhood-edge-8",
+        "artifact_object_id": "393",
+        "object_type": "polyline",
+        "role": "elite-neighborhood-edge-8",
+        "group": null,
+        "pptx_shape_id": "393"
+      },
+      {
+        "scene_object_id": "elite-neighborhood-node-0",
+        "pptx_shape_name": "elite-neighborhood-node-0",
+        "artifact_object_id": "394",
+        "object_type": "ellipse",
+        "role": "elite-neighborhood-node-0",
+        "group": null,
+        "pptx_shape_id": "394"
+      },
+      {
+        "scene_object_id": "elite-neighborhood-node-1",
+        "pptx_shape_name": "elite-neighborhood-node-1",
+        "artifact_object_id": "395",
+        "object_type": "ellipse",
+        "role": "elite-neighborhood-node-1",
+        "group": null,
+        "pptx_shape_id": "395"
+      },
+      {
+        "scene_object_id": "elite-neighborhood-node-2",
+        "pptx_shape_name": "elite-neighborhood-node-2",
+        "artifact_object_id": "396",
+        "object_type": "ellipse",
+        "role": "elite-neighborhood-node-2",
+        "group": null,
+        "pptx_shape_id": "396"
+      },
+      {
+        "scene_object_id": "elite-neighborhood-node-3",
+        "pptx_shape_name": "elite-neighborhood-node-3",
+        "artifact_object_id": "397",
+        "object_type": "ellipse",
+        "role": "elite-neighborhood-node-3",
+        "group": null,
+        "pptx_shape_id": "397"
+      },
+      {
+        "scene_object_id": "elite-neighborhood-node-4",
+        "pptx_shape_name": "elite-neighborhood-node-4",
+        "artifact_object_id": "398",
+        "object_type": "ellipse",
+        "role": "elite-neighborhood-node-4",
+        "group": null,
+        "pptx_shape_id": "398"
+      },
+      {
+        "scene_object_id": "elite-neighborhood-node-5",
+        "pptx_shape_name": "elite-neighborhood-node-5",
+        "artifact_object_id": "399",
+        "object_type": "ellipse",
+        "role": "elite-neighborhood-node-5",
+        "group": null,
+        "pptx_shape_id": "399"
+      },
+      {
+        "scene_object_id": "elite-selected-zone",
+        "pptx_shape_name": "elite-selected-zone",
+        "artifact_object_id": "400",
+        "object_type": "ellipse",
+        "role": "elite-selected-zone",
+        "group": null,
+        "pptx_shape_id": "400"
+      },
+      {
+        "scene_object_id": "elite-proposed",
+        "pptx_shape_name": "elite-proposed",
+        "artifact_object_id": "401",
+        "object_type": "ellipse",
+        "role": "elite-proposed",
+        "group": null,
+        "pptx_shape_id": "401"
+      },
+      {
+        "scene_object_id": "elite-current",
+        "pptx_shape_name": "elite-current",
+        "artifact_object_id": "402",
+        "object_type": "ellipse",
+        "role": "elite-current",
+        "group": null,
+        "pptx_shape_id": "402"
+      },
+      {
+        "scene_object_id": "elite-replacement",
+        "part": "arrowhead",
+        "pptx_shape_name": "elite-replacement--arrow",
+        "artifact_object_id": "404",
+        "pptx_shape_id": "404"
+      },
+      {
+        "scene_object_id": "elite-replacement",
+        "pptx_shape_name": "elite-replacement",
+        "artifact_object_id": "403",
+        "object_type": "polyline",
+        "role": "elite-replacement",
+        "group": null,
+        "pptx_shape_id": "403"
+      },
+      {
+        "scene_object_id": "elite-meaning",
+        "pptx_shape_name": "elite-meaning",
+        "artifact_object_id": "405",
+        "object_type": "text",
+        "role": "elite-meaning",
+        "group": null,
+        "pptx_shape_id": "405"
+      },
+      {
+        "scene_object_id": "elite-current-key-label",
+        "pptx_shape_name": "elite-current-key-label",
+        "artifact_object_id": "406",
+        "object_type": "text",
+        "role": "elite-current-key-label",
+        "group": null,
+        "pptx_shape_id": "406"
+      },
+      {
+        "scene_object_id": "elite-proposal-key-label",
+        "pptx_shape_name": "elite-proposal-key-label",
+        "artifact_object_id": "407",
+        "object_type": "text",
+        "role": "elite-proposal-key-label",
+        "group": null,
+        "pptx_shape_id": "407"
+      },
+      {
+        "scene_object_id": "elite-key-current",
+        "pptx_shape_name": "elite-key-current",
+        "artifact_object_id": "408",
+        "object_type": "ellipse",
+        "role": "elite-key-current",
+        "group": null,
+        "pptx_shape_id": "408"
+      },
+      {
+        "scene_object_id": "elite-key-candidate",
+        "pptx_shape_name": "elite-key-candidate",
+        "artifact_object_id": "409",
+        "object_type": "ellipse",
+        "role": "elite-key-candidate",
+        "group": null,
+        "pptx_shape_id": "409"
+      },
+      {
+        "scene_object_id": "elite-to-evaluator",
+        "part": "arrowhead",
+        "pptx_shape_name": "elite-to-evaluator--arrow",
+        "artifact_object_id": "411",
+        "pptx_shape_id": "411"
+      },
+      {
+        "scene_object_id": "elite-to-evaluator",
+        "pptx_shape_name": "elite-to-evaluator",
+        "artifact_object_id": "410",
+        "object_type": "polyline",
+        "role": "elite-to-evaluator",
+        "group": null,
+        "pptx_shape_id": "410"
+      },
+      {
+        "scene_object_id": "fitness-title",
+        "pptx_shape_name": "fitness-title",
+        "artifact_object_id": "412",
+        "object_type": "text",
+        "role": "fitness-title",
+        "group": null,
+        "pptx_shape_id": "412"
+      },
+      {
+        "scene_object_id": "damage-intact-edge-0",
+        "pptx_shape_name": "damage-intact-edge-0",
+        "artifact_object_id": "413",
+        "object_type": "polyline",
+        "role": "damage-intact-edge-0",
+        "group": null,
+        "pptx_shape_id": "413"
+      },
+      {
+        "scene_object_id": "damage-intact-edge-1",
+        "pptx_shape_name": "damage-intact-edge-1",
+        "artifact_object_id": "414",
+        "object_type": "polyline",
+        "role": "damage-intact-edge-1",
+        "group": null,
+        "pptx_shape_id": "414"
+      },
+      {
+        "scene_object_id": "damage-intact-edge-2",
+        "pptx_shape_name": "damage-intact-edge-2",
+        "artifact_object_id": "415",
+        "object_type": "polyline",
+        "role": "damage-intact-edge-2",
+        "group": null,
+        "pptx_shape_id": "415"
+      },
+      {
+        "scene_object_id": "damage-intact-edge-3",
+        "pptx_shape_name": "damage-intact-edge-3",
+        "artifact_object_id": "416",
+        "object_type": "polyline",
+        "role": "damage-intact-edge-3",
+        "group": null,
+        "pptx_shape_id": "416"
+      },
+      {
+        "scene_object_id": "damage-intact-edge-4",
+        "pptx_shape_name": "damage-intact-edge-4",
+        "artifact_object_id": "417",
+        "object_type": "polyline",
+        "role": "damage-intact-edge-4",
+        "group": null,
+        "pptx_shape_id": "417"
+      },
+      {
+        "scene_object_id": "damage-intact-edge-5",
+        "pptx_shape_name": "damage-intact-edge-5",
+        "artifact_object_id": "418",
+        "object_type": "polyline",
+        "role": "damage-intact-edge-5",
+        "group": null,
+        "pptx_shape_id": "418"
+      },
+      {
+        "scene_object_id": "damage-intact-edge-6",
+        "pptx_shape_name": "damage-intact-edge-6",
+        "artifact_object_id": "419",
+        "object_type": "polyline",
+        "role": "damage-intact-edge-6",
+        "group": null,
+        "pptx_shape_id": "419"
+      },
+      {
+        "scene_object_id": "damage-intact-edge-7",
+        "pptx_shape_name": "damage-intact-edge-7",
+        "artifact_object_id": "420",
+        "object_type": "polyline",
+        "role": "damage-intact-edge-7",
+        "group": null,
+        "pptx_shape_id": "420"
+      },
+      {
+        "scene_object_id": "damage-intact-edge-8",
+        "pptx_shape_name": "damage-intact-edge-8",
+        "artifact_object_id": "421",
+        "object_type": "polyline",
+        "role": "damage-intact-edge-8",
+        "group": null,
+        "pptx_shape_id": "421"
+      },
+      {
+        "scene_object_id": "damage-intact-node-0",
+        "pptx_shape_name": "damage-intact-node-0",
+        "artifact_object_id": "422",
+        "object_type": "ellipse",
+        "role": "damage-intact-node-0",
+        "group": null,
+        "pptx_shape_id": "422"
+      },
+      {
+        "scene_object_id": "damage-intact-node-1",
+        "pptx_shape_name": "damage-intact-node-1",
+        "artifact_object_id": "423",
+        "object_type": "ellipse",
+        "role": "damage-intact-node-1",
+        "group": null,
+        "pptx_shape_id": "423"
+      },
+      {
+        "scene_object_id": "damage-intact-node-2",
+        "pptx_shape_name": "damage-intact-node-2",
+        "artifact_object_id": "424",
+        "object_type": "ellipse",
+        "role": "damage-intact-node-2",
+        "group": null,
+        "pptx_shape_id": "424"
+      },
+      {
+        "scene_object_id": "damage-intact-node-3",
+        "pptx_shape_name": "damage-intact-node-3",
+        "artifact_object_id": "425",
+        "object_type": "ellipse",
+        "role": "damage-intact-node-3",
+        "group": null,
+        "pptx_shape_id": "425"
+      },
+      {
+        "scene_object_id": "damage-intact-node-4",
+        "pptx_shape_name": "damage-intact-node-4",
+        "artifact_object_id": "426",
+        "object_type": "ellipse",
+        "role": "damage-intact-node-4",
+        "group": null,
+        "pptx_shape_id": "426"
+      },
+      {
+        "scene_object_id": "damage-intact-node-5",
+        "pptx_shape_name": "damage-intact-node-5",
+        "artifact_object_id": "427",
+        "object_type": "ellipse",
+        "role": "damage-intact-node-5",
+        "group": null,
+        "pptx_shape_id": "427"
+      },
+      {
+        "scene_object_id": "damage-one-edge-0",
+        "pptx_shape_name": "damage-one-edge-0",
+        "artifact_object_id": "428",
+        "object_type": "polyline",
+        "role": "damage-one-edge-0",
+        "group": null,
+        "pptx_shape_id": "428"
+      },
+      {
+        "scene_object_id": "damage-one-edge-1",
+        "pptx_shape_name": "damage-one-edge-1",
+        "artifact_object_id": "429",
+        "object_type": "polyline",
+        "role": "damage-one-edge-1",
+        "group": null,
+        "pptx_shape_id": "429"
+      },
+      {
+        "scene_object_id": "damage-one-edge-2",
+        "pptx_shape_name": "damage-one-edge-2",
+        "artifact_object_id": "430",
+        "object_type": "polyline",
+        "role": "damage-one-edge-2",
+        "group": null,
+        "pptx_shape_id": "430"
+      },
+      {
+        "scene_object_id": "damage-one-edge-8",
+        "pptx_shape_name": "damage-one-edge-8",
+        "artifact_object_id": "431",
+        "object_type": "polyline",
+        "role": "damage-one-edge-8",
+        "group": null,
+        "pptx_shape_id": "431"
+      },
+      {
+        "scene_object_id": "damage-one-node-0",
+        "pptx_shape_name": "damage-one-node-0",
+        "artifact_object_id": "432",
+        "object_type": "ellipse",
+        "role": "damage-one-node-0",
+        "group": null,
+        "pptx_shape_id": "432"
+      },
+      {
+        "scene_object_id": "damage-one-node-1",
+        "pptx_shape_name": "damage-one-node-1",
+        "artifact_object_id": "433",
+        "object_type": "ellipse",
+        "role": "damage-one-node-1",
+        "group": null,
+        "pptx_shape_id": "433"
+      },
+      {
+        "scene_object_id": "damage-one-node-2",
+        "pptx_shape_name": "damage-one-node-2",
+        "artifact_object_id": "434",
+        "object_type": "ellipse",
+        "role": "damage-one-node-2",
+        "group": null,
+        "pptx_shape_id": "434"
+      },
+      {
+        "scene_object_id": "damage-one-node-3",
+        "pptx_shape_name": "damage-one-node-3",
+        "artifact_object_id": "435",
+        "object_type": "ellipse",
+        "role": "damage-one-node-3",
+        "group": null,
+        "pptx_shape_id": "435"
+      },
+      {
+        "scene_object_id": "damage-one-node-4",
+        "pptx_shape_name": "damage-one-node-4",
+        "artifact_object_id": "436",
+        "object_type": "ellipse",
+        "role": "damage-one-node-4",
+        "group": null,
+        "pptx_shape_id": "436"
+      },
+      {
+        "scene_object_id": "damage-one-del-4-a",
+        "pptx_shape_name": "damage-one-del-4-a",
+        "artifact_object_id": "437",
+        "object_type": "polyline",
+        "role": "damage-one-del-4-a",
+        "group": null,
+        "pptx_shape_id": "437"
+      },
+      {
+        "scene_object_id": "damage-one-del-4-b",
+        "pptx_shape_name": "damage-one-del-4-b",
+        "artifact_object_id": "438",
+        "object_type": "polyline",
+        "role": "damage-one-del-4-b",
+        "group": null,
+        "pptx_shape_id": "438"
+      },
+      {
+        "scene_object_id": "damage-one-node-5",
+        "pptx_shape_name": "damage-one-node-5",
+        "artifact_object_id": "439",
+        "object_type": "ellipse",
+        "role": "damage-one-node-5",
+        "group": null,
+        "pptx_shape_id": "439"
+      },
+      {
+        "scene_object_id": "damage-two-edge-2",
+        "pptx_shape_name": "damage-two-edge-2",
+        "artifact_object_id": "440",
+        "object_type": "polyline",
+        "role": "damage-two-edge-2",
+        "group": null,
+        "pptx_shape_id": "440"
+      },
+      {
+        "scene_object_id": "damage-two-edge-8",
+        "pptx_shape_name": "damage-two-edge-8",
+        "artifact_object_id": "441",
+        "object_type": "polyline",
+        "role": "damage-two-edge-8",
+        "group": null,
+        "pptx_shape_id": "441"
+      },
+      {
+        "scene_object_id": "damage-two-node-0",
+        "pptx_shape_name": "damage-two-node-0",
+        "artifact_object_id": "442",
+        "object_type": "ellipse",
+        "role": "damage-two-node-0",
+        "group": null,
+        "pptx_shape_id": "442"
+      },
+      {
+        "scene_object_id": "damage-two-node-1",
+        "pptx_shape_name": "damage-two-node-1",
+        "artifact_object_id": "443",
+        "object_type": "ellipse",
+        "role": "damage-two-node-1",
+        "group": null,
+        "pptx_shape_id": "443"
+      },
+      {
+        "scene_object_id": "damage-two-del-1-a",
+        "pptx_shape_name": "damage-two-del-1-a",
+        "artifact_object_id": "444",
+        "object_type": "polyline",
+        "role": "damage-two-del-1-a",
+        "group": null,
+        "pptx_shape_id": "444"
+      },
+      {
+        "scene_object_id": "damage-two-del-1-b",
+        "pptx_shape_name": "damage-two-del-1-b",
+        "artifact_object_id": "445",
+        "object_type": "polyline",
+        "role": "damage-two-del-1-b",
+        "group": null,
+        "pptx_shape_id": "445"
+      },
+      {
+        "scene_object_id": "damage-two-node-2",
+        "pptx_shape_name": "damage-two-node-2",
+        "artifact_object_id": "446",
+        "object_type": "ellipse",
+        "role": "damage-two-node-2",
+        "group": null,
+        "pptx_shape_id": "446"
+      },
+      {
+        "scene_object_id": "damage-two-node-3",
+        "pptx_shape_name": "damage-two-node-3",
+        "artifact_object_id": "447",
+        "object_type": "ellipse",
+        "role": "damage-two-node-3",
+        "group": null,
+        "pptx_shape_id": "447"
+      },
+      {
+        "scene_object_id": "damage-two-node-4",
+        "pptx_shape_name": "damage-two-node-4",
+        "artifact_object_id": "448",
+        "object_type": "ellipse",
+        "role": "damage-two-node-4",
+        "group": null,
+        "pptx_shape_id": "448"
+      },
+      {
+        "scene_object_id": "damage-two-del-4-a",
+        "pptx_shape_name": "damage-two-del-4-a",
+        "artifact_object_id": "449",
+        "object_type": "polyline",
+        "role": "damage-two-del-4-a",
+        "group": null,
+        "pptx_shape_id": "449"
+      },
+      {
+        "scene_object_id": "damage-two-del-4-b",
+        "pptx_shape_name": "damage-two-del-4-b",
+        "artifact_object_id": "450",
+        "object_type": "polyline",
+        "role": "damage-two-del-4-b",
+        "group": null,
+        "pptx_shape_id": "450"
+      },
+      {
+        "scene_object_id": "damage-two-node-5",
+        "pptx_shape_name": "damage-two-node-5",
+        "artifact_object_id": "451",
+        "object_type": "ellipse",
+        "role": "damage-two-node-5",
+        "group": null,
+        "pptx_shape_id": "451"
+      },
+      {
+        "scene_object_id": "deletion-step1",
+        "part": "arrowhead",
+        "pptx_shape_name": "deletion-step1--arrow",
+        "artifact_object_id": "453",
+        "pptx_shape_id": "453"
+      },
+      {
+        "scene_object_id": "deletion-step1",
+        "pptx_shape_name": "deletion-step1",
+        "artifact_object_id": "452",
+        "object_type": "polyline",
+        "role": "deletion-step1",
+        "group": null,
+        "pptx_shape_id": "452"
+      },
+      {
+        "scene_object_id": "deletion-step2",
+        "part": "arrowhead",
+        "pptx_shape_name": "deletion-step2--arrow",
+        "artifact_object_id": "455",
+        "pptx_shape_id": "455"
+      },
+      {
+        "scene_object_id": "deletion-step2",
+        "pptx_shape_name": "deletion-step2",
+        "artifact_object_id": "454",
+        "object_type": "polyline",
+        "role": "deletion-step2",
+        "group": null,
+        "pptx_shape_id": "454"
+      },
+      {
+        "scene_object_id": "damage-states",
+        "pptx_shape_name": "damage-states",
+        "artifact_object_id": "456",
+        "object_type": "text",
+        "role": "damage-states",
+        "group": null,
+        "pptx_shape_id": "456"
+      },
+      {
+        "scene_object_id": "twohop-evaluator",
+        "pptx_shape_name": "twohop-evaluator",
+        "artifact_object_id": "457",
+        "object_type": "text",
+        "role": "twohop-evaluator",
+        "group": null,
+        "pptx_shape_id": "457"
+      },
+      {
+        "scene_object_id": "task-score-0",
+        "pptx_shape_name": "task-score-0",
+        "artifact_object_id": "458",
+        "object_type": "rect",
+        "role": "task-score-0",
+        "group": null,
+        "pptx_shape_id": "458"
+      },
+      {
+        "scene_object_id": "task-score-label-0",
+        "pptx_shape_name": "task-score-label-0",
+        "artifact_object_id": "459",
+        "object_type": "text",
+        "role": "task-score-label-0",
+        "group": null,
+        "pptx_shape_id": "459"
+      },
+      {
+        "scene_object_id": "task-score-1",
+        "pptx_shape_name": "task-score-1",
+        "artifact_object_id": "460",
+        "object_type": "rect",
+        "role": "task-score-1",
+        "group": null,
+        "pptx_shape_id": "460"
+      },
+      {
+        "scene_object_id": "task-score-label-1",
+        "pptx_shape_name": "task-score-label-1",
+        "artifact_object_id": "461",
+        "object_type": "text",
+        "role": "task-score-label-1",
+        "group": null,
+        "pptx_shape_id": "461"
+      },
+      {
+        "scene_object_id": "task-score-2",
+        "pptx_shape_name": "task-score-2",
+        "artifact_object_id": "462",
+        "object_type": "rect",
+        "role": "task-score-2",
+        "group": null,
+        "pptx_shape_id": "462"
+      },
+      {
+        "scene_object_id": "task-score-label-2",
+        "pptx_shape_name": "task-score-label-2",
+        "artifact_object_id": "463",
+        "object_type": "text",
+        "role": "task-score-label-2",
+        "group": null,
+        "pptx_shape_id": "463"
+      },
+      {
+        "scene_object_id": "deletion-average",
+        "pptx_shape_name": "deletion-average",
+        "artifact_object_id": "464",
+        "object_type": "text",
+        "role": "deletion-average",
+        "group": null,
+        "pptx_shape_id": "464"
+      },
+      {
+        "scene_object_id": "collaboration-composition",
+        "pptx_shape_name": "collaboration-composition",
+        "artifact_object_id": "465",
+        "object_type": "text",
+        "role": "collaboration-composition",
+        "group": null,
+        "pptx_shape_id": "465"
+      },
+      {
+        "scene_object_id": "alpha-to-initialization",
+        "pptx_shape_name": "alpha-to-initialization",
+        "artifact_object_id": "466",
+        "object_type": "polyline",
+        "role": "alpha-to-initialization",
+        "group": null,
+        "pptx_shape_id": "466"
+      },
+      {
+        "scene_object_id": "role-prior-transfer",
+        "part": "arrowhead",
+        "pptx_shape_name": "role-prior-transfer--arrow",
+        "artifact_object_id": "468",
+        "pptx_shape_id": "468"
+      },
+      {
+        "scene_object_id": "role-prior-transfer",
+        "pptx_shape_name": "role-prior-transfer",
+        "artifact_object_id": "467",
+        "object_type": "polyline",
+        "role": "role-prior-transfer",
+        "group": null,
+        "pptx_shape_id": "467"
+      },
+      {
+        "scene_object_id": "role-prior-transfer-label",
+        "pptx_shape_name": "role-prior-transfer-label",
+        "artifact_object_id": "469",
+        "object_type": "text",
+        "role": "role-prior-transfer-label",
+        "group": null,
+        "pptx_shape_id": "469"
+      },
+      {
+        "scene_object_id": "rank-select",
+        "pptx_shape_name": "rank-select",
+        "artifact_object_id": "470",
+        "object_type": "rect",
+        "role": "rank-select",
+        "group": null,
+        "pptx_shape_id": "470"
+      },
+      {
+        "scene_object_id": "rank-select-label",
+        "pptx_shape_name": "rank-select-label",
+        "artifact_object_id": "471",
+        "object_type": "text",
+        "role": "rank-select-label",
+        "group": null,
+        "pptx_shape_id": "471"
+      },
+      {
+        "scene_object_id": "rank-select-union",
+        "pptx_shape_name": "rank-select-union",
+        "artifact_object_id": "472",
+        "object_type": "text",
+        "role": "rank-select-union",
+        "group": null,
+        "pptx_shape_id": "472"
+      },
+      {
+        "scene_object_id": "rank-select-best",
+        "pptx_shape_name": "rank-select-best",
+        "artifact_object_id": "473",
+        "object_type": "text",
+        "role": "rank-select-best",
+        "group": null,
+        "pptx_shape_id": "473"
+      },
+      {
+        "scene_object_id": "fitness-to-rank",
+        "part": "arrowhead",
+        "pptx_shape_name": "fitness-to-rank--arrow",
+        "artifact_object_id": "475",
+        "pptx_shape_id": "475"
+      },
+      {
+        "scene_object_id": "fitness-to-rank",
+        "pptx_shape_name": "fitness-to-rank",
+        "artifact_object_id": "474",
+        "object_type": "polyline",
+        "role": "fitness-to-rank",
+        "group": null,
+        "pptx_shape_id": "474"
+      },
+      {
+        "scene_object_id": "survivor-loop-label",
+        "pptx_shape_name": "survivor-loop-label",
+        "artifact_object_id": "476",
+        "object_type": "text",
+        "role": "survivor-loop-label",
+        "group": null,
+        "pptx_shape_id": "476"
+      },
+      {
+        "scene_object_id": "dynamic-prior",
+        "pptx_shape_name": "dynamic-prior",
+        "artifact_object_id": "477",
+        "object_type": "rect",
+        "role": "dynamic-prior",
+        "group": null,
+        "pptx_shape_id": "477"
+      },
+      {
+        "scene_object_id": "dynamic-prior-title",
+        "pptx_shape_name": "dynamic-prior-title",
+        "artifact_object_id": "478",
+        "object_type": "text",
+        "role": "dynamic-prior-title",
+        "group": null,
+        "pptx_shape_id": "478"
+      },
+      {
+        "scene_object_id": "selection-elite-frequency",
+        "part": "arrowhead",
+        "pptx_shape_name": "selection-elite-frequency--arrow",
+        "artifact_object_id": "480",
+        "pptx_shape_id": "480"
+      },
+      {
+        "scene_object_id": "selection-elite-frequency",
+        "pptx_shape_name": "selection-elite-frequency",
+        "artifact_object_id": "479",
+        "object_type": "polyline",
+        "role": "selection-elite-frequency",
+        "group": null,
+        "pptx_shape_id": "479"
+      },
+      {
+        "scene_object_id": "dynamic-alpha-use",
+        "part": "arrowhead",
+        "pptx_shape_name": "dynamic-alpha-use--arrow",
+        "artifact_object_id": "482",
+        "pptx_shape_id": "482"
+      },
+      {
+        "scene_object_id": "dynamic-alpha-use",
+        "pptx_shape_name": "dynamic-alpha-use",
+        "artifact_object_id": "481",
+        "object_type": "polyline",
+        "role": "dynamic-alpha-use",
+        "group": null,
+        "pptx_shape_id": "481"
+      },
+      {
+        "scene_object_id": "dynamic-alpha-to-refine",
+        "part": "arrowhead",
+        "pptx_shape_name": "dynamic-alpha-to-refine--arrow",
+        "artifact_object_id": "484",
+        "pptx_shape_id": "484"
+      },
+      {
+        "scene_object_id": "dynamic-alpha-to-refine",
+        "pptx_shape_name": "dynamic-alpha-to-refine",
+        "artifact_object_id": "483",
+        "object_type": "polyline",
+        "role": "dynamic-alpha-to-refine",
+        "group": null,
+        "pptx_shape_id": "483"
+      },
+      {
+        "scene_object_id": "rl-controller",
+        "pptx_shape_name": "rl-controller",
+        "artifact_object_id": "485",
+        "object_type": "rect",
+        "role": "rl-controller",
+        "group": null,
+        "pptx_shape_id": "485"
+      },
+      {
+        "scene_object_id": "rl-controller-label",
+        "pptx_shape_name": "rl-controller-label",
+        "artifact_object_id": "486",
+        "object_type": "text",
+        "role": "rl-controller-label",
+        "group": null,
+        "pptx_shape_id": "486"
+      },
+      {
+        "scene_object_id": "state-to-rl",
+        "part": "arrowhead",
+        "pptx_shape_name": "state-to-rl--arrow",
+        "artifact_object_id": "488",
+        "pptx_shape_id": "488"
+      },
+      {
+        "scene_object_id": "state-to-rl",
+        "pptx_shape_name": "state-to-rl",
+        "artifact_object_id": "487",
+        "object_type": "polyline",
+        "role": "state-to-rl",
+        "group": null,
+        "pptx_shape_id": "487"
+      },
+      {
+        "scene_object_id": "search-state-label",
+        "pptx_shape_name": "search-state-label",
+        "artifact_object_id": "489",
+        "object_type": "text",
+        "role": "search-state-label",
+        "group": null,
+        "pptx_shape_id": "489"
+      },
+      {
+        "scene_object_id": "rl-mode-to-refine",
+        "part": "arrowhead",
+        "pptx_shape_name": "rl-mode-to-refine--arrow",
+        "artifact_object_id": "491",
+        "pptx_shape_id": "491"
+      },
+      {
+        "scene_object_id": "rl-mode-to-refine",
+        "pptx_shape_name": "rl-mode-to-refine",
+        "artifact_object_id": "490",
+        "object_type": "polyline",
+        "role": "rl-mode-to-refine",
+        "group": null,
+        "pptx_shape_id": "490"
+      },
+      {
+        "scene_object_id": "rl-mode-label",
+        "pptx_shape_name": "rl-mode-label",
+        "artifact_object_id": "492",
+        "object_type": "text",
+        "role": "rl-mode-label",
+        "group": null,
+        "pptx_shape_id": "492"
+      },
+      {
+        "scene_object_id": "ls-reward-to-rl",
+        "part": "arrowhead",
+        "pptx_shape_name": "ls-reward-to-rl--arrow",
+        "artifact_object_id": "494",
+        "pptx_shape_id": "494"
+      },
+      {
+        "scene_object_id": "ls-reward-to-rl",
+        "pptx_shape_name": "ls-reward-to-rl",
+        "artifact_object_id": "493",
+        "object_type": "polyline",
+        "role": "ls-reward-to-rl",
+        "group": null,
+        "pptx_shape_id": "493"
+      },
+      {
+        "scene_object_id": "ls-reward-label",
+        "pptx_shape_name": "ls-reward-label",
+        "artifact_object_id": "495",
+        "object_type": "text",
+        "role": "ls-reward-label",
+        "group": null,
+        "pptx_shape_id": "495"
+      },
+      {
+        "scene_object_id": "output-boundary",
+        "pptx_shape_name": "output-boundary",
+        "artifact_object_id": "496",
+        "object_type": "rect",
+        "role": "output-boundary",
+        "group": null,
+        "pptx_shape_id": "496"
+      },
+      {
+        "scene_object_id": "output-title",
+        "pptx_shape_name": "output-title",
+        "artifact_object_id": "497",
+        "object_type": "text",
+        "role": "output-title",
+        "group": null,
+        "pptx_shape_id": "497"
+      },
+      {
+        "scene_object_id": "task-best-label-0",
+        "pptx_shape_name": "task-best-label-0",
+        "artifact_object_id": "498",
+        "object_type": "text",
+        "role": "task-best-label-0",
+        "group": null,
+        "pptx_shape_id": "498"
+      },
+      {
+        "scene_object_id": "output-tray-0",
+        "pptx_shape_name": "output-tray-0",
+        "artifact_object_id": "499",
+        "object_type": "rect",
+        "role": "output-tray-0",
+        "group": "output-tray",
+        "pptx_shape_id": "499"
+      },
+      {
+        "scene_object_id": "task-best-pair-0-A-cell-0",
+        "pptx_shape_name": "task-best-pair-0-A-cell-0",
+        "artifact_object_id": "500",
+        "object_type": "rect",
+        "role": "task-best-pair-0-A-cell-0",
+        "group": null,
+        "pptx_shape_id": "500"
+      },
+      {
+        "scene_object_id": "task-best-pair-0-A-id-0",
+        "pptx_shape_name": "task-best-pair-0-A-id-0",
+        "artifact_object_id": "501",
+        "object_type": "text",
+        "role": "task-best-pair-0-A-id-0",
+        "group": null,
+        "pptx_shape_id": "501"
+      },
+      {
+        "scene_object_id": "task-best-pair-0-A-cell-1",
+        "pptx_shape_name": "task-best-pair-0-A-cell-1",
+        "artifact_object_id": "502",
+        "object_type": "rect",
+        "role": "task-best-pair-0-A-cell-1",
+        "group": null,
+        "pptx_shape_id": "502"
+      },
+      {
+        "scene_object_id": "task-best-pair-0-A-id-1",
+        "pptx_shape_name": "task-best-pair-0-A-id-1",
+        "artifact_object_id": "503",
+        "object_type": "text",
+        "role": "task-best-pair-0-A-id-1",
+        "group": null,
+        "pptx_shape_id": "503"
+      },
+      {
+        "scene_object_id": "task-best-pair-0-divider",
+        "pptx_shape_name": "task-best-pair-0-divider",
+        "artifact_object_id": "504",
+        "object_type": "text",
+        "role": "task-best-pair-0-divider",
+        "group": null,
+        "pptx_shape_id": "504"
+      },
+      {
+        "scene_object_id": "task-best-pair-0-B-cell-0",
+        "pptx_shape_name": "task-best-pair-0-B-cell-0",
+        "artifact_object_id": "505",
+        "object_type": "rect",
+        "role": "task-best-pair-0-B-cell-0",
+        "group": null,
+        "pptx_shape_id": "505"
+      },
+      {
+        "scene_object_id": "task-best-pair-0-B-id-0",
+        "pptx_shape_name": "task-best-pair-0-B-id-0",
+        "artifact_object_id": "506",
+        "object_type": "text",
+        "role": "task-best-pair-0-B-id-0",
+        "group": null,
+        "pptx_shape_id": "506"
+      },
+      {
+        "scene_object_id": "task-best-pair-0-B-cell-1",
+        "pptx_shape_name": "task-best-pair-0-B-cell-1",
+        "artifact_object_id": "507",
+        "object_type": "rect",
+        "role": "task-best-pair-0-B-cell-1",
+        "group": null,
+        "pptx_shape_id": "507"
+      },
+      {
+        "scene_object_id": "task-best-pair-0-B-id-1",
+        "pptx_shape_name": "task-best-pair-0-B-id-1",
+        "artifact_object_id": "508",
+        "object_type": "text",
+        "role": "task-best-pair-0-B-id-1",
+        "group": null,
+        "pptx_shape_id": "508"
+      },
+      {
+        "scene_object_id": "task-best-label-1",
+        "pptx_shape_name": "task-best-label-1",
+        "artifact_object_id": "509",
+        "object_type": "text",
+        "role": "task-best-label-1",
+        "group": null,
+        "pptx_shape_id": "509"
+      },
+      {
+        "scene_object_id": "output-tray-1",
+        "pptx_shape_name": "output-tray-1",
+        "artifact_object_id": "510",
+        "object_type": "rect",
+        "role": "output-tray-1",
+        "group": "output-tray",
+        "pptx_shape_id": "510"
+      },
+      {
+        "scene_object_id": "task-best-pair-1-A-cell-0",
+        "pptx_shape_name": "task-best-pair-1-A-cell-0",
+        "artifact_object_id": "511",
+        "object_type": "rect",
+        "role": "task-best-pair-1-A-cell-0",
+        "group": null,
+        "pptx_shape_id": "511"
+      },
+      {
+        "scene_object_id": "task-best-pair-1-A-id-0",
+        "pptx_shape_name": "task-best-pair-1-A-id-0",
+        "artifact_object_id": "512",
+        "object_type": "text",
+        "role": "task-best-pair-1-A-id-0",
+        "group": null,
+        "pptx_shape_id": "512"
+      },
+      {
+        "scene_object_id": "task-best-pair-1-A-cell-1",
+        "pptx_shape_name": "task-best-pair-1-A-cell-1",
+        "artifact_object_id": "513",
+        "object_type": "rect",
+        "role": "task-best-pair-1-A-cell-1",
+        "group": null,
+        "pptx_shape_id": "513"
+      },
+      {
+        "scene_object_id": "task-best-pair-1-A-id-1",
+        "pptx_shape_name": "task-best-pair-1-A-id-1",
+        "artifact_object_id": "514",
+        "object_type": "text",
+        "role": "task-best-pair-1-A-id-1",
+        "group": null,
+        "pptx_shape_id": "514"
+      },
+      {
+        "scene_object_id": "task-best-pair-1-divider",
+        "pptx_shape_name": "task-best-pair-1-divider",
+        "artifact_object_id": "515",
+        "object_type": "text",
+        "role": "task-best-pair-1-divider",
+        "group": null,
+        "pptx_shape_id": "515"
+      },
+      {
+        "scene_object_id": "task-best-pair-1-B-cell-0",
+        "pptx_shape_name": "task-best-pair-1-B-cell-0",
+        "artifact_object_id": "516",
+        "object_type": "rect",
+        "role": "task-best-pair-1-B-cell-0",
+        "group": null,
+        "pptx_shape_id": "516"
+      },
+      {
+        "scene_object_id": "task-best-pair-1-B-id-0",
+        "pptx_shape_name": "task-best-pair-1-B-id-0",
+        "artifact_object_id": "517",
+        "object_type": "text",
+        "role": "task-best-pair-1-B-id-0",
+        "group": null,
+        "pptx_shape_id": "517"
+      },
+      {
+        "scene_object_id": "task-best-pair-1-B-cell-1",
+        "pptx_shape_name": "task-best-pair-1-B-cell-1",
+        "artifact_object_id": "518",
+        "object_type": "rect",
+        "role": "task-best-pair-1-B-cell-1",
+        "group": null,
+        "pptx_shape_id": "518"
+      },
+      {
+        "scene_object_id": "task-best-pair-1-B-id-1",
+        "pptx_shape_name": "task-best-pair-1-B-id-1",
+        "artifact_object_id": "519",
+        "object_type": "text",
+        "role": "task-best-pair-1-B-id-1",
+        "group": null,
+        "pptx_shape_id": "519"
+      },
+      {
+        "scene_object_id": "task-best-label-2",
+        "pptx_shape_name": "task-best-label-2",
+        "artifact_object_id": "520",
+        "object_type": "text",
+        "role": "task-best-label-2",
+        "group": null,
+        "pptx_shape_id": "520"
+      },
+      {
+        "scene_object_id": "output-tray-2",
+        "pptx_shape_name": "output-tray-2",
+        "artifact_object_id": "521",
+        "object_type": "rect",
+        "role": "output-tray-2",
+        "group": "output-tray",
+        "pptx_shape_id": "521"
+      },
+      {
+        "scene_object_id": "task-best-pair-2-A-cell-0",
+        "pptx_shape_name": "task-best-pair-2-A-cell-0",
+        "artifact_object_id": "522",
+        "object_type": "rect",
+        "role": "task-best-pair-2-A-cell-0",
+        "group": null,
+        "pptx_shape_id": "522"
+      },
+      {
+        "scene_object_id": "task-best-pair-2-A-id-0",
+        "pptx_shape_name": "task-best-pair-2-A-id-0",
+        "artifact_object_id": "523",
+        "object_type": "text",
+        "role": "task-best-pair-2-A-id-0",
+        "group": null,
+        "pptx_shape_id": "523"
+      },
+      {
+        "scene_object_id": "task-best-pair-2-A-cell-1",
+        "pptx_shape_name": "task-best-pair-2-A-cell-1",
+        "artifact_object_id": "524",
+        "object_type": "rect",
+        "role": "task-best-pair-2-A-cell-1",
+        "group": null,
+        "pptx_shape_id": "524"
+      },
+      {
+        "scene_object_id": "task-best-pair-2-A-id-1",
+        "pptx_shape_name": "task-best-pair-2-A-id-1",
+        "artifact_object_id": "525",
+        "object_type": "text",
+        "role": "task-best-pair-2-A-id-1",
+        "group": null,
+        "pptx_shape_id": "525"
+      },
+      {
+        "scene_object_id": "task-best-pair-2-divider",
+        "pptx_shape_name": "task-best-pair-2-divider",
+        "artifact_object_id": "526",
+        "object_type": "text",
+        "role": "task-best-pair-2-divider",
+        "group": null,
+        "pptx_shape_id": "526"
+      },
+      {
+        "scene_object_id": "task-best-pair-2-B-cell-0",
+        "pptx_shape_name": "task-best-pair-2-B-cell-0",
+        "artifact_object_id": "527",
+        "object_type": "rect",
+        "role": "task-best-pair-2-B-cell-0",
+        "group": null,
+        "pptx_shape_id": "527"
+      },
+      {
+        "scene_object_id": "task-best-pair-2-B-id-0",
+        "pptx_shape_name": "task-best-pair-2-B-id-0",
+        "artifact_object_id": "528",
+        "object_type": "text",
+        "role": "task-best-pair-2-B-id-0",
+        "group": null,
+        "pptx_shape_id": "528"
+      },
+      {
+        "scene_object_id": "task-best-pair-2-B-cell-1",
+        "pptx_shape_name": "task-best-pair-2-B-cell-1",
+        "artifact_object_id": "529",
+        "object_type": "rect",
+        "role": "task-best-pair-2-B-cell-1",
+        "group": null,
+        "pptx_shape_id": "529"
+      },
+      {
+        "scene_object_id": "task-best-pair-2-B-id-1",
+        "pptx_shape_name": "task-best-pair-2-B-id-1",
+        "artifact_object_id": "530",
+        "object_type": "text",
+        "role": "task-best-pair-2-B-id-1",
+        "group": null,
+        "pptx_shape_id": "530"
+      },
+      {
+        "scene_object_id": "selection-to-output",
+        "part": "arrowhead",
+        "pptx_shape_name": "selection-to-output--arrow",
+        "artifact_object_id": "532",
+        "pptx_shape_id": "532"
+      },
+      {
+        "scene_object_id": "selection-to-output",
+        "pptx_shape_name": "selection-to-output",
+        "artifact_object_id": "531",
+        "object_type": "polyline",
+        "role": "selection-to-output",
+        "group": null,
+        "pptx_shape_id": "531"
+      },
+      {
+        "scene_object_id": "return-crossing-clearance",
+        "pptx_shape_name": "return-crossing-clearance",
+        "artifact_object_id": "533",
+        "object_type": "polyline",
+        "role": "visual crossing clearance; not a scientific edge",
+        "group": null,
+        "pptx_shape_id": "533"
+      },
+      {
+        "scene_object_id": "survivor-loop",
+        "pptx_shape_name": "survivor-loop",
+        "artifact_object_id": "534",
+        "object_type": "polyline",
+        "role": "survivor-loop",
+        "group": null,
+        "pptx_shape_id": "534"
+      },
+      {
+        "scene_object_id": "adaptive-prior-junction",
+        "pptx_shape_name": "adaptive-prior-junction",
+        "artifact_object_id": "535",
+        "object_type": "ellipse",
+        "role": "one adaptive prior branches to variation and refinement",
+        "group": null,
+        "pptx_shape_id": "535"
+      },
+      {
+        "scene_object_id": "alpha1-initialization-branch",
+        "pptx_shape_name": "alpha1-initialization-branch",
+        "artifact_object_id": "536",
+        "object_type": "polyline",
+        "role": "prior-input",
+        "group": null,
+        "pptx_shape_id": "536"
+      },
+      {
+        "scene_object_id": "alpha2-initialization-branch",
+        "pptx_shape_name": "alpha2-initialization-branch",
+        "artifact_object_id": "537",
+        "object_type": "polyline",
+        "role": "prior-input",
+        "group": null,
+        "pptx_shape_id": "537"
+      },
+      {
+        "scene_object_id": "embedding-A-crossing-clearance",
+        "pptx_shape_name": "embedding-A-crossing-clearance",
+        "artifact_object_id": "538",
+        "object_type": "polyline",
+        "role": "nonjoining-crossing",
+        "group": "crossing-clarity",
+        "pptx_shape_id": "538"
+      },
+      {
+        "scene_object_id": "embedding-A-crossing-bridge",
+        "pptx_shape_name": "embedding-A-crossing-bridge",
+        "artifact_object_id": "539",
+        "object_type": "polyline",
+        "role": "nonjoining-crossing",
+        "group": "crossing-clarity",
+        "pptx_shape_id": "539"
+      },
+      {
+        "scene_object_id": "embedding-B-crossing-clearance",
+        "pptx_shape_name": "embedding-B-crossing-clearance",
+        "artifact_object_id": "540",
+        "object_type": "polyline",
+        "role": "nonjoining-crossing",
+        "group": "crossing-clarity",
+        "pptx_shape_id": "540"
+      },
+      {
+        "scene_object_id": "embedding-B-crossing-bridge",
+        "pptx_shape_name": "embedding-B-crossing-bridge",
+        "artifact_object_id": "541",
+        "object_type": "polyline",
+        "role": "nonjoining-crossing",
+        "group": "crossing-clarity",
+        "pptx_shape_id": "541"
+      },
+      {
+        "scene_object_id": "role-guide-crossing-clearance",
+        "pptx_shape_name": "role-guide-crossing-clearance",
+        "artifact_object_id": "542",
+        "object_type": "polyline",
+        "role": "nonjoining-crossing",
+        "group": "crossing-clarity",
+        "pptx_shape_id": "542"
+      },
+      {
+        "scene_object_id": "role-guide-crossing-bridge",
+        "pptx_shape_name": "role-guide-crossing-bridge",
+        "artifact_object_id": "543",
+        "object_type": "polyline",
+        "role": "nonjoining-crossing",
+        "group": "crossing-clarity",
+        "pptx_shape_id": "543"
+      },
+      {
+        "scene_object_id": "fixed-prior-alpha2-junction",
+        "pptx_shape_name": "fixed-prior-alpha2-junction",
+        "artifact_object_id": "544",
+        "object_type": "ellipse",
+        "role": "true-prior-merge",
+        "group": null,
+        "pptx_shape_id": "544"
+      },
+      {
+        "scene_object_id": "survivor-loop--arrow",
+        "pptx_shape_name": "survivor-loop--arrow",
+        "artifact_object_id": "545",
+        "object_type": "polyline",
+        "role": "existing-route-arrowhead",
+        "group": "outer-route",
+        "pptx_shape_id": "545"
+      },
+      {
+        "scene_object_id": "alpha-to-initialization--arrow",
+        "pptx_shape_name": "alpha-to-initialization--arrow",
+        "artifact_object_id": "546",
+        "object_type": "polyline",
+        "role": "existing-route-arrowhead",
+        "group": "outer-route",
+        "pptx_shape_id": "546"
+      },
+      {
+        "scene_object_id": "survivor-loop-direction",
+        "pptx_shape_name": "survivor-loop-direction",
+        "artifact_object_id": "547",
+        "object_type": "polyline",
+        "role": "existing-route-arrowhead",
+        "group": "outer-route",
+        "pptx_shape_id": "547"
+      },
+      {
+        "scene_object_id": "alpha-guide-direction",
+        "pptx_shape_name": "alpha-guide-direction",
+        "artifact_object_id": "548",
+        "object_type": "polyline",
+        "role": "existing-route-arrowhead",
+        "group": "outer-route",
+        "pptx_shape_id": "548"
+      },
+      {
+        "scene_object_id": "nextgen-pair-0-tray",
+        "pptx_shape_name": "nextgen-pair-0-tray",
+        "artifact_object_id": "549",
+        "object_type": "rect",
+        "role": "one complete paired-seed individual, illustrative",
+        "group": "next-generation-population",
+        "pptx_shape_id": "549"
+      },
+      {
+        "scene_object_id": "nextgen-pair-0-A-cell-0",
+        "pptx_shape_name": "nextgen-pair-0-A-cell-0",
+        "artifact_object_id": "550",
+        "object_type": "rect",
+        "role": "nextgen-pair-0-A-cell-0",
+        "group": "local-feedback-visual",
+        "pptx_shape_id": "550"
+      },
+      {
+        "scene_object_id": "nextgen-pair-0-A-id-0",
+        "pptx_shape_name": "nextgen-pair-0-A-id-0",
+        "artifact_object_id": "551",
+        "object_type": "text",
+        "role": "nextgen-pair-0-A-id-0",
+        "group": "local-feedback-visual",
+        "pptx_shape_id": "551"
+      },
+      {
+        "scene_object_id": "nextgen-pair-0-A-cell-1",
+        "pptx_shape_name": "nextgen-pair-0-A-cell-1",
+        "artifact_object_id": "552",
+        "object_type": "rect",
+        "role": "nextgen-pair-0-A-cell-1",
+        "group": "local-feedback-visual",
+        "pptx_shape_id": "552"
+      },
+      {
+        "scene_object_id": "nextgen-pair-0-A-id-1",
+        "pptx_shape_name": "nextgen-pair-0-A-id-1",
+        "artifact_object_id": "553",
+        "object_type": "text",
+        "role": "nextgen-pair-0-A-id-1",
+        "group": "local-feedback-visual",
+        "pptx_shape_id": "553"
+      },
+      {
+        "scene_object_id": "nextgen-pair-0-B-cell-0",
+        "pptx_shape_name": "nextgen-pair-0-B-cell-0",
+        "artifact_object_id": "554",
+        "object_type": "rect",
+        "role": "nextgen-pair-0-B-cell-0",
+        "group": "local-feedback-visual",
+        "pptx_shape_id": "554"
+      },
+      {
+        "scene_object_id": "nextgen-pair-0-B-id-0",
+        "pptx_shape_name": "nextgen-pair-0-B-id-0",
+        "artifact_object_id": "555",
+        "object_type": "text",
+        "role": "nextgen-pair-0-B-id-0",
+        "group": "local-feedback-visual",
+        "pptx_shape_id": "555"
+      },
+      {
+        "scene_object_id": "nextgen-pair-0-B-cell-1",
+        "pptx_shape_name": "nextgen-pair-0-B-cell-1",
+        "artifact_object_id": "556",
+        "object_type": "rect",
+        "role": "nextgen-pair-0-B-cell-1",
+        "group": "local-feedback-visual",
+        "pptx_shape_id": "556"
+      },
+      {
+        "scene_object_id": "nextgen-pair-0-B-id-1",
+        "pptx_shape_name": "nextgen-pair-0-B-id-1",
+        "artifact_object_id": "557",
+        "object_type": "text",
+        "role": "nextgen-pair-0-B-id-1",
+        "group": "local-feedback-visual",
+        "pptx_shape_id": "557"
+      },
+      {
+        "scene_object_id": "nextgen-pair-0-divider",
+        "pptx_shape_name": "nextgen-pair-0-divider",
+        "artifact_object_id": "558",
+        "object_type": "text",
+        "role": "nextgen-pair-0-divider",
+        "group": "local-feedback-visual",
+        "pptx_shape_id": "558"
+      },
+      {
+        "scene_object_id": "nextgen-pair-1-tray",
+        "pptx_shape_name": "nextgen-pair-1-tray",
+        "artifact_object_id": "559",
+        "object_type": "rect",
+        "role": "one complete paired-seed individual, illustrative",
+        "group": "next-generation-population",
+        "pptx_shape_id": "559"
+      },
+      {
+        "scene_object_id": "nextgen-pair-1-A-cell-0",
+        "pptx_shape_name": "nextgen-pair-1-A-cell-0",
+        "artifact_object_id": "560",
+        "object_type": "rect",
+        "role": "nextgen-pair-1-A-cell-0",
+        "group": "local-feedback-visual",
+        "pptx_shape_id": "560"
+      },
+      {
+        "scene_object_id": "nextgen-pair-1-A-id-0",
+        "pptx_shape_name": "nextgen-pair-1-A-id-0",
+        "artifact_object_id": "561",
+        "object_type": "text",
+        "role": "nextgen-pair-1-A-id-0",
+        "group": "local-feedback-visual",
+        "pptx_shape_id": "561"
+      },
+      {
+        "scene_object_id": "nextgen-pair-1-A-cell-1",
+        "pptx_shape_name": "nextgen-pair-1-A-cell-1",
+        "artifact_object_id": "562",
+        "object_type": "rect",
+        "role": "nextgen-pair-1-A-cell-1",
+        "group": "local-feedback-visual",
+        "pptx_shape_id": "562"
+      },
+      {
+        "scene_object_id": "nextgen-pair-1-A-id-1",
+        "pptx_shape_name": "nextgen-pair-1-A-id-1",
+        "artifact_object_id": "563",
+        "object_type": "text",
+        "role": "nextgen-pair-1-A-id-1",
+        "group": "local-feedback-visual",
+        "pptx_shape_id": "563"
+      },
+      {
+        "scene_object_id": "nextgen-pair-1-B-cell-0",
+        "pptx_shape_name": "nextgen-pair-1-B-cell-0",
+        "artifact_object_id": "564",
+        "object_type": "rect",
+        "role": "nextgen-pair-1-B-cell-0",
+        "group": "local-feedback-visual",
+        "pptx_shape_id": "564"
+      },
+      {
+        "scene_object_id": "nextgen-pair-1-B-id-0",
+        "pptx_shape_name": "nextgen-pair-1-B-id-0",
+        "artifact_object_id": "565",
+        "object_type": "text",
+        "role": "nextgen-pair-1-B-id-0",
+        "group": "local-feedback-visual",
+        "pptx_shape_id": "565"
+      },
+      {
+        "scene_object_id": "nextgen-pair-1-B-cell-1",
+        "pptx_shape_name": "nextgen-pair-1-B-cell-1",
+        "artifact_object_id": "566",
+        "object_type": "rect",
+        "role": "nextgen-pair-1-B-cell-1",
+        "group": "local-feedback-visual",
+        "pptx_shape_id": "566"
+      },
+      {
+        "scene_object_id": "nextgen-pair-1-B-id-1",
+        "pptx_shape_name": "nextgen-pair-1-B-id-1",
+        "artifact_object_id": "567",
+        "object_type": "text",
+        "role": "nextgen-pair-1-B-id-1",
+        "group": "local-feedback-visual",
+        "pptx_shape_id": "567"
+      },
+      {
+        "scene_object_id": "nextgen-pair-1-divider",
+        "pptx_shape_name": "nextgen-pair-1-divider",
+        "artifact_object_id": "568",
+        "object_type": "text",
+        "role": "nextgen-pair-1-divider",
+        "group": "local-feedback-visual",
+        "pptx_shape_id": "568"
+      },
+      {
+        "scene_object_id": "global-stage1-perimeter",
+        "pptx_shape_name": "global-stage1-perimeter",
+        "artifact_object_id": "569",
+        "object_type": "polyline",
+        "role": "global-stage-direction",
+        "group": "global-style",
+        "pptx_shape_id": "569"
+      },
+      {
+        "scene_object_id": "global-stage2-perimeter",
+        "pptx_shape_name": "global-stage2-perimeter",
+        "artifact_object_id": "570",
+        "object_type": "polyline",
+        "role": "global-stage-direction",
+        "group": "global-style",
+        "pptx_shape_id": "570"
+      },
+      {
+        "scene_object_id": "global-stage2-left-shaft",
+        "pptx_shape_name": "global-stage2-left-shaft",
+        "artifact_object_id": "571",
+        "object_type": "polyline",
+        "role": "global-stage-direction",
+        "group": "global-style",
+        "pptx_shape_id": "571"
+      },
+      {
+        "scene_object_id": "global-stage1-direction",
+        "pptx_shape_name": "global-stage1-direction",
+        "artifact_object_id": "572",
+        "object_type": "polyline",
+        "role": "global-stage-direction",
+        "group": "global-style",
+        "pptx_shape_id": "572"
+      },
+      {
+        "scene_object_id": "global-stage2-direction",
+        "pptx_shape_name": "global-stage2-direction",
+        "artifact_object_id": "573",
+        "object_type": "polyline",
+        "role": "global-stage-direction",
+        "group": "global-style",
+        "pptx_shape_id": "573"
+      },
+      {
+        "scene_object_id": "prior-large-fixed",
+        "pptx_shape_name": "prior-large-fixed",
+        "artifact_object_id": "574",
+        "object_type": "text",
+        "role": "prior-large-fixed",
+        "group": "feedback-large",
+        "pptx_shape_id": "574"
+      },
+      {
+        "scene_object_id": "prior-large-elite",
+        "pptx_shape_name": "prior-large-elite",
+        "artifact_object_id": "575",
+        "object_type": "text",
+        "role": "prior-large-elite",
+        "group": "feedback-large",
+        "pptx_shape_id": "575"
+      },
+      {
+        "scene_object_id": "prior-large-fixed-bars-0",
+        "pptx_shape_name": "prior-large-fixed-bars-0",
+        "artifact_object_id": "576",
+        "object_type": "rect",
+        "role": "prior-large-fixed-bars-0",
+        "group": "feedback-large",
+        "pptx_shape_id": "576"
+      },
+      {
+        "scene_object_id": "prior-large-fixed-bars-1",
+        "pptx_shape_name": "prior-large-fixed-bars-1",
+        "artifact_object_id": "577",
+        "object_type": "rect",
+        "role": "prior-large-fixed-bars-1",
+        "group": "feedback-large",
+        "pptx_shape_id": "577"
+      },
+      {
+        "scene_object_id": "prior-large-fixed-bars-2",
+        "pptx_shape_name": "prior-large-fixed-bars-2",
+        "artifact_object_id": "578",
+        "object_type": "rect",
+        "role": "prior-large-fixed-bars-2",
+        "group": "feedback-large",
+        "pptx_shape_id": "578"
+      },
+      {
+        "scene_object_id": "prior-large-fixed-bars-3",
+        "pptx_shape_name": "prior-large-fixed-bars-3",
+        "artifact_object_id": "579",
+        "object_type": "rect",
+        "role": "prior-large-fixed-bars-3",
+        "group": "feedback-large",
+        "pptx_shape_id": "579"
+      },
+      {
+        "scene_object_id": "prior-large-elite-bars-0",
+        "pptx_shape_name": "prior-large-elite-bars-0",
+        "artifact_object_id": "580",
+        "object_type": "rect",
+        "role": "prior-large-elite-bars-0",
+        "group": "feedback-large",
+        "pptx_shape_id": "580"
+      },
+      {
+        "scene_object_id": "prior-large-elite-bars-1",
+        "pptx_shape_name": "prior-large-elite-bars-1",
+        "artifact_object_id": "581",
+        "object_type": "rect",
+        "role": "prior-large-elite-bars-1",
+        "group": "feedback-large",
+        "pptx_shape_id": "581"
+      },
+      {
+        "scene_object_id": "prior-large-elite-bars-2",
+        "pptx_shape_name": "prior-large-elite-bars-2",
+        "artifact_object_id": "582",
+        "object_type": "rect",
+        "role": "prior-large-elite-bars-2",
+        "group": "feedback-large",
+        "pptx_shape_id": "582"
+      },
+      {
+        "scene_object_id": "prior-large-elite-bars-3",
+        "pptx_shape_name": "prior-large-elite-bars-3",
+        "artifact_object_id": "583",
+        "object_type": "rect",
+        "role": "prior-large-elite-bars-3",
+        "group": "feedback-large",
+        "pptx_shape_id": "583"
+      },
+      {
+        "scene_object_id": "prior-large-weighted-box",
+        "pptx_shape_name": "prior-large-weighted-box",
+        "artifact_object_id": "584",
+        "object_type": "rect",
+        "role": "prior-large-weighted-box",
+        "group": "feedback-large",
+        "pptx_shape_id": "584"
+      },
+      {
+        "scene_object_id": "prior-large-weighted-label",
+        "pptx_shape_name": "prior-large-weighted-label",
+        "artifact_object_id": "585",
+        "object_type": "text",
+        "role": "prior-large-weighted-label",
+        "group": "feedback-large",
+        "pptx_shape_id": "585"
+      },
+      {
+        "scene_object_id": "prior-large-fixed-in",
+        "pptx_shape_name": "prior-large-fixed-in",
+        "artifact_object_id": "586",
+        "object_type": "polyline",
+        "role": "prior-large-fixed-in",
+        "group": "feedback-large",
+        "pptx_shape_id": "586"
+      },
+      {
+        "scene_object_id": "prior-large-frequency-in",
+        "pptx_shape_name": "prior-large-frequency-in",
+        "artifact_object_id": "587",
+        "object_type": "polyline",
+        "role": "prior-large-frequency-in",
+        "group": "feedback-large",
+        "pptx_shape_id": "587"
+      },
+      {
+        "scene_object_id": "prior-large-mixed-out",
+        "part": "arrowhead",
+        "pptx_shape_name": "prior-large-mixed-out--arrow",
+        "artifact_object_id": "589",
+        "pptx_shape_id": "589"
+      },
+      {
+        "scene_object_id": "prior-large-mixed-out",
+        "pptx_shape_name": "prior-large-mixed-out",
+        "artifact_object_id": "588",
+        "object_type": "polyline",
+        "role": "prior-large-mixed-out",
+        "group": "feedback-large",
+        "pptx_shape_id": "588"
+      },
+      {
+        "scene_object_id": "prior-large-mixed-label",
+        "pptx_shape_name": "prior-large-mixed-label",
+        "artifact_object_id": "590",
+        "object_type": "text",
+        "role": "prior-large-mixed-label",
+        "group": "feedback-large",
+        "pptx_shape_id": "590"
+      },
+      {
+        "scene_object_id": "prior-large-mixed-bars-0",
+        "pptx_shape_name": "prior-large-mixed-bars-0",
+        "artifact_object_id": "591",
+        "object_type": "rect",
+        "role": "prior-large-mixed-bars-0",
+        "group": "feedback-large",
+        "pptx_shape_id": "591"
+      },
+      {
+        "scene_object_id": "prior-large-mixed-bars-1",
+        "pptx_shape_name": "prior-large-mixed-bars-1",
+        "artifact_object_id": "592",
+        "object_type": "rect",
+        "role": "prior-large-mixed-bars-1",
+        "group": "feedback-large",
+        "pptx_shape_id": "592"
+      },
+      {
+        "scene_object_id": "prior-large-mixed-bars-2",
+        "pptx_shape_name": "prior-large-mixed-bars-2",
+        "artifact_object_id": "593",
+        "object_type": "rect",
+        "role": "prior-large-mixed-bars-2",
+        "group": "feedback-large",
+        "pptx_shape_id": "593"
+      },
+      {
+        "scene_object_id": "prior-large-mixed-bars-3",
+        "pptx_shape_name": "prior-large-mixed-bars-3",
+        "artifact_object_id": "594",
+        "object_type": "rect",
+        "role": "prior-large-mixed-bars-3",
+        "group": "feedback-large",
+        "pptx_shape_id": "594"
+      },
+      {
+        "scene_object_id": "prior-large-uniform-label",
+        "pptx_shape_name": "prior-large-uniform-label",
+        "artifact_object_id": "595",
+        "object_type": "text",
+        "role": "prior-large-uniform-label",
+        "group": "feedback-large",
+        "pptx_shape_id": "595"
+      },
+      {
+        "scene_object_id": "prior-large-uniform-bars-0",
+        "pptx_shape_name": "prior-large-uniform-bars-0",
+        "artifact_object_id": "596",
+        "object_type": "rect",
+        "role": "prior-large-uniform-bars-0",
+        "group": "feedback-large",
+        "pptx_shape_id": "596"
+      },
+      {
+        "scene_object_id": "prior-large-uniform-bars-1",
+        "pptx_shape_name": "prior-large-uniform-bars-1",
+        "artifact_object_id": "597",
+        "object_type": "rect",
+        "role": "prior-large-uniform-bars-1",
+        "group": "feedback-large",
+        "pptx_shape_id": "597"
+      },
+      {
+        "scene_object_id": "prior-large-uniform-bars-2",
+        "pptx_shape_name": "prior-large-uniform-bars-2",
+        "artifact_object_id": "598",
+        "object_type": "rect",
+        "role": "prior-large-uniform-bars-2",
+        "group": "feedback-large",
+        "pptx_shape_id": "598"
+      },
+      {
+        "scene_object_id": "prior-large-uniform-bars-3",
+        "pptx_shape_name": "prior-large-uniform-bars-3",
+        "artifact_object_id": "599",
+        "object_type": "rect",
+        "role": "prior-large-uniform-bars-3",
+        "group": "feedback-large",
+        "pptx_shape_id": "599"
+      },
+      {
+        "scene_object_id": "prior-large-uniform-in",
+        "pptx_shape_name": "prior-large-uniform-in",
+        "artifact_object_id": "600",
+        "object_type": "polyline",
+        "role": "prior-large-uniform-in",
+        "group": "feedback-large",
+        "pptx_shape_id": "600"
+      },
+      {
+        "scene_object_id": "prior-large-mixed-in",
+        "pptx_shape_name": "prior-large-mixed-in",
+        "artifact_object_id": "601",
+        "object_type": "polyline",
+        "role": "prior-large-mixed-in",
+        "group": "feedback-large",
+        "pptx_shape_id": "601"
+      },
+      {
+        "scene_object_id": "prior-large-scheduled-junction",
+        "pptx_shape_name": "prior-large-scheduled-junction",
+        "artifact_object_id": "602",
+        "object_type": "ellipse",
+        "role": "prior-large-scheduled-junction",
+        "group": "feedback-large",
+        "pptx_shape_id": "602"
+      },
+      {
+        "scene_object_id": "prior-large-schedule-label",
+        "pptx_shape_name": "prior-large-schedule-label",
+        "artifact_object_id": "603",
+        "object_type": "text",
+        "role": "prior-large-schedule-label",
+        "group": "feedback-large",
+        "pptx_shape_id": "603"
+      },
+      {
+        "scene_object_id": "prior-large-final-out",
+        "part": "arrowhead",
+        "pptx_shape_name": "prior-large-final-out--arrow",
+        "artifact_object_id": "605",
+        "pptx_shape_id": "605"
+      },
+      {
+        "scene_object_id": "prior-large-final-out",
+        "pptx_shape_name": "prior-large-final-out",
+        "artifact_object_id": "604",
+        "object_type": "polyline",
+        "role": "prior-large-final-out",
+        "group": "feedback-large",
+        "pptx_shape_id": "604"
+      },
+      {
+        "scene_object_id": "prior-large-final-bars-0-uniform",
+        "pptx_shape_name": "prior-large-final-bars-0-uniform",
+        "artifact_object_id": "606",
+        "object_type": "rect",
+        "role": "prior-large-final-bars-0-uniform",
+        "group": "feedback-large",
+        "pptx_shape_id": "606"
+      },
+      {
+        "scene_object_id": "prior-large-final-bars-0-learned",
+        "pptx_shape_name": "prior-large-final-bars-0-learned",
+        "artifact_object_id": "607",
+        "object_type": "rect",
+        "role": "prior-large-final-bars-0-learned",
+        "group": "feedback-large",
+        "pptx_shape_id": "607"
+      },
+      {
+        "scene_object_id": "prior-large-final-bars-1-uniform",
+        "pptx_shape_name": "prior-large-final-bars-1-uniform",
+        "artifact_object_id": "608",
+        "object_type": "rect",
+        "role": "prior-large-final-bars-1-uniform",
+        "group": "feedback-large",
+        "pptx_shape_id": "608"
+      },
+      {
+        "scene_object_id": "prior-large-final-bars-1-learned",
+        "pptx_shape_name": "prior-large-final-bars-1-learned",
+        "artifact_object_id": "609",
+        "object_type": "rect",
+        "role": "prior-large-final-bars-1-learned",
+        "group": "feedback-large",
+        "pptx_shape_id": "609"
+      },
+      {
+        "scene_object_id": "prior-large-final-bars-2-uniform",
+        "pptx_shape_name": "prior-large-final-bars-2-uniform",
+        "artifact_object_id": "610",
+        "object_type": "rect",
+        "role": "prior-large-final-bars-2-uniform",
+        "group": "feedback-large",
+        "pptx_shape_id": "610"
+      },
+      {
+        "scene_object_id": "prior-large-final-bars-2-learned",
+        "pptx_shape_name": "prior-large-final-bars-2-learned",
+        "artifact_object_id": "611",
+        "object_type": "rect",
+        "role": "prior-large-final-bars-2-learned",
+        "group": "feedback-large",
+        "pptx_shape_id": "611"
+      },
+      {
+        "scene_object_id": "prior-large-final-bars-3-uniform",
+        "pptx_shape_name": "prior-large-final-bars-3-uniform",
+        "artifact_object_id": "612",
+        "object_type": "rect",
+        "role": "prior-large-final-bars-3-uniform",
+        "group": "feedback-large",
+        "pptx_shape_id": "612"
+      },
+      {
+        "scene_object_id": "prior-large-final-bars-3-learned",
+        "pptx_shape_name": "prior-large-final-bars-3-learned",
+        "artifact_object_id": "613",
+        "object_type": "rect",
+        "role": "prior-large-final-bars-3-learned",
+        "group": "feedback-large",
+        "pptx_shape_id": "613"
+      },
+      {
+        "scene_object_id": "prior-large-final-symbol",
+        "pptx_shape_name": "prior-large-final-symbol",
+        "artifact_object_id": "614",
+        "object_type": "text",
+        "role": "prior-large-final-symbol",
+        "group": "feedback-large",
+        "pptx_shape_id": "614"
+      },
+      {
+        "scene_object_id": "prior-large-final-symbol-sub",
+        "pptx_shape_name": "prior-large-final-symbol-sub",
+        "artifact_object_id": "615",
+        "object_type": "text",
+        "role": "prior-large-final-symbol-sub",
+        "group": "feedback-large",
+        "pptx_shape_id": "615"
+      },
+      {
+        "scene_object_id": "rl-action-skip",
+        "pptx_shape_name": "rl-action-skip",
+        "artifact_object_id": "616",
+        "object_type": "text",
+        "role": "rl-action-skip",
+        "group": "feedback-large",
+        "pptx_shape_id": "616"
+      },
+      {
+        "scene_object_id": "rl-action-exploit",
+        "pptx_shape_name": "rl-action-exploit",
+        "artifact_object_id": "617",
+        "object_type": "text",
+        "role": "rl-action-exploit",
+        "group": "feedback-large",
+        "pptx_shape_id": "617"
+      },
+      {
+        "scene_object_id": "rl-action-escape",
+        "pptx_shape_name": "rl-action-escape",
+        "artifact_object_id": "618",
+        "object_type": "text",
+        "role": "rl-action-escape",
+        "group": "feedback-large",
+        "pptx_shape_id": "618"
+      },
+      {
+        "scene_object_id": "rl-skip-icon",
+        "part": "arrowhead",
+        "pptx_shape_name": "rl-skip-icon--arrow",
+        "artifact_object_id": "620",
+        "pptx_shape_id": "620"
+      },
+      {
+        "scene_object_id": "rl-skip-icon",
+        "pptx_shape_name": "rl-skip-icon",
+        "artifact_object_id": "619",
+        "object_type": "polyline",
+        "role": "rl-skip-icon",
+        "group": "feedback-large",
+        "pptx_shape_id": "619"
+      },
+      {
+        "scene_object_id": "rl-exploit-ring",
+        "pptx_shape_name": "rl-exploit-ring",
+        "artifact_object_id": "621",
+        "object_type": "ellipse",
+        "role": "rl-exploit-ring",
+        "group": "feedback-large",
+        "pptx_shape_id": "621"
+      },
+      {
+        "scene_object_id": "rl-exploit-center",
+        "pptx_shape_name": "rl-exploit-center",
+        "artifact_object_id": "622",
+        "object_type": "ellipse",
+        "role": "rl-exploit-center",
+        "group": "feedback-large",
+        "pptx_shape_id": "622"
+      },
+      {
+        "scene_object_id": "rl-exploit-in",
+        "part": "arrowhead",
+        "pptx_shape_name": "rl-exploit-in--arrow",
+        "artifact_object_id": "624",
+        "pptx_shape_id": "624"
+      },
+      {
+        "scene_object_id": "rl-exploit-in",
+        "pptx_shape_name": "rl-exploit-in",
+        "artifact_object_id": "623",
+        "object_type": "polyline",
+        "role": "rl-exploit-in",
+        "group": "feedback-large",
+        "pptx_shape_id": "623"
+      },
+      {
+        "scene_object_id": "rl-escape-ring",
+        "pptx_shape_name": "rl-escape-ring",
+        "artifact_object_id": "625",
+        "object_type": "ellipse",
+        "role": "rl-escape-ring",
+        "group": "feedback-large",
+        "pptx_shape_id": "625"
+      },
+      {
+        "scene_object_id": "rl-escape-out",
+        "part": "arrowhead",
+        "pptx_shape_name": "rl-escape-out--arrow",
+        "artifact_object_id": "627",
+        "pptx_shape_id": "627"
+      },
+      {
+        "scene_object_id": "rl-escape-out",
+        "pptx_shape_name": "rl-escape-out",
+        "artifact_object_id": "626",
+        "object_type": "polyline",
+        "role": "rl-escape-out",
+        "group": "feedback-large",
+        "pptx_shape_id": "626"
+      },
+      {
+        "scene_object_id": "rank-best-check",
+        "pptx_shape_name": "rank-best-check",
+        "artifact_object_id": "628",
+        "object_type": "polyline",
+        "role": "rank-best-check",
+        "group": "feedback-large",
+        "pptx_shape_id": "628"
+      },
+      {
+        "scene_object_id": "rank-paired-input-0-0",
+        "pptx_shape_name": "rank-paired-input-0-0",
+        "artifact_object_id": "629",
+        "object_type": "rect",
+        "role": "abstract complete paired-seed individual",
+        "group": "feedback-large",
+        "pptx_shape_id": "629"
+      },
+      {
+        "scene_object_id": "rank-paired-input-0-1",
+        "pptx_shape_name": "rank-paired-input-0-1",
+        "artifact_object_id": "630",
+        "object_type": "rect",
+        "role": "abstract complete paired-seed individual",
+        "group": "feedback-large",
+        "pptx_shape_id": "630"
+      },
+      {
+        "scene_object_id": "rank-paired-input-0-2",
+        "pptx_shape_name": "rank-paired-input-0-2",
+        "artifact_object_id": "631",
+        "object_type": "rect",
+        "role": "abstract complete paired-seed individual",
+        "group": "feedback-large",
+        "pptx_shape_id": "631"
+      },
+      {
+        "scene_object_id": "rank-paired-input-0-3",
+        "pptx_shape_name": "rank-paired-input-0-3",
+        "artifact_object_id": "632",
+        "object_type": "rect",
+        "role": "abstract complete paired-seed individual",
+        "group": "feedback-large",
+        "pptx_shape_id": "632"
+      },
+      {
+        "scene_object_id": "rank-paired-input-1-0",
+        "pptx_shape_name": "rank-paired-input-1-0",
+        "artifact_object_id": "633",
+        "object_type": "rect",
+        "role": "abstract complete paired-seed individual",
+        "group": "feedback-large",
+        "pptx_shape_id": "633"
+      },
+      {
+        "scene_object_id": "rank-paired-input-1-1",
+        "pptx_shape_name": "rank-paired-input-1-1",
+        "artifact_object_id": "634",
+        "object_type": "rect",
+        "role": "abstract complete paired-seed individual",
+        "group": "feedback-large",
+        "pptx_shape_id": "634"
+      },
+      {
+        "scene_object_id": "rank-paired-input-1-2",
+        "pptx_shape_name": "rank-paired-input-1-2",
+        "artifact_object_id": "635",
+        "object_type": "rect",
+        "role": "abstract complete paired-seed individual",
+        "group": "feedback-large",
+        "pptx_shape_id": "635"
+      },
+      {
+        "scene_object_id": "rank-paired-input-1-3",
+        "pptx_shape_name": "rank-paired-input-1-3",
+        "artifact_object_id": "636",
+        "object_type": "rect",
+        "role": "abstract complete paired-seed individual",
+        "group": "feedback-large",
+        "pptx_shape_id": "636"
+      },
+      {
+        "scene_object_id": "prior-large-normalize-label",
+        "pptx_shape_name": "prior-large-normalize-label",
+        "artifact_object_id": "637",
+        "object_type": "text",
+        "role": "prior-large-normalize-label",
+        "group": "feedback-large",
+        "pptx_shape_id": "637"
+      },
+      {
+        "scene_object_id": "role-replacement-label",
+        "pptx_shape_name": "role-replacement-label",
+        "artifact_object_id": "638",
+        "object_type": "text",
+        "role": "replace lower-importance recipient gene, not append a seed",
+        "group": "role-transfer-detail",
+        "pptx_shape_id": "638"
+      }
+    ],
+    "source_scene_path": "examples/role-guided-search/overview.scene.json",
+    "scene_sha256": "1310df61b9c1386d33a5511b4e6f0d9e2e497b211658ae5b408d732e558560bd",
+    "slide_number": 1,
+    "pptx_sha256": "5d8f67e6ab43ef129fadfa6dd48d07b9070f24a2d11e58ea31d159ab282dbdc6"
+  }
+]
