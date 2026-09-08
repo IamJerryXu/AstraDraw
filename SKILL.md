@@ -3,7 +3,7 @@ name: astra-figure-workflow
 description: Design research method figures from an existing paper, retrieve visual priors from component or private PPTX libraries, produce editable diagrams, and revise selected objects while preserving approved regions. Use for paper architecture figures, ODE/SDE/Flow Matching schematics, reference-guided image exploration, and selected-region diagram edits. Not a general presentation-writing or experimental plotting skill.
 ---
 
-# Astra Figure Workflow
+# AstraDraw
 
 Use the paper as scientific authority and the library as a visual prior. A reference
 may inform layout, typography, palette or an explicitly matched mechanism; it never

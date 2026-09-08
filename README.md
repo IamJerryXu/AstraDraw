@@ -1,14 +1,24 @@
+<a id="top"></a>
+
 <div align="center">
 
-# Astra Sketchbook
+<p><img src="docs/media/brand/wordmark.svg" alt="AstraDraw" width="600"></p>
 
 <img src="output/kawaii/welcome-header.png" alt="戴蓝围巾的小鼠与雪花角色一起画科研图" width="720">
 
-### 从论文与灵感，到可以继续打磨的图
+<p><img src="docs/media/brand/tagline.svg" alt="Your paper. Your references. Draw it with Astra." width="510"></p>
 
-可编辑 PPT · 局部慢慢改 · Comic / Roman / 你喜欢的风格
+把论文和喜欢的参考交给 Astra，画成可以继续打磨的图。
 
-[查看 Demo](#demo) · [Kawaii 素材](#kawaii) · [空间组件](#spatial) · [快速开始](#quickstart) · [局部修改](#selected-edit)
+<sub>可编辑 PPT · 局部慢慢改 · Comic / Roman / 你喜欢的风格</sub>
+
+<p>
+<a href="#demo"><img src="docs/media/brand/nav-demo.svg" alt="查看 Demo" height="40"></a>
+<a href="#kawaii"><img src="docs/media/brand/nav-materials.svg" alt="Kawaii 素材" height="40"></a>
+<a href="#spatial"><img src="docs/media/brand/nav-spatial.svg" alt="2D / 3D 空间组件" height="40"></a>
+<a href="#quickstart"><img src="docs/media/brand/nav-start.svg" alt="快速开始" height="40"></a>
+<a href="#selected-edit"><img src="docs/media/brand/nav-edit.svg" alt="局部修改" height="40"></a>
+</p>
 
 </div>
 
@@ -18,11 +28,21 @@
 
 没有素材库也没关系，可以从这里公开的素材开始用。我们也可以一起攒：好看的布局、箭头、小图标、网格和曲面，慢慢积累起来，下一张就不用从零想了。
 
-这里放的是我们实际画出来、改过很多轮的图。不是“一次生成，直接满分”，而是有了喜欢的方向以后，能接着把细节磨下去。
+### 📎 开始前，准备一本你自己的参考 PPT
+
+看到其他论文里好看的方法图、框架图，就放进同一个 PPT。整张图可以收，喜欢的图例、箭头和局部放大设计也可以单独留一页。
+
+> **不用整理得很正式，标出你喜欢什么就够了：** 这张的布局、那张的配色、这个图例、这种字体……顺手留下论文标题和链接，之后也方便找回去。
+>
+> 论文告诉 Astra **方法是什么**，参考 PPT 帮它理解 **你想画成什么样**。素材库不只是贴图仓库，也可以在生图前提供视觉参考。
+
+把本地路径交给 Astra 就好，不需要公开上传。没有自己的库，也可以从下面的素材开始；有愿意分享的组件，欢迎一起攒～
+
+<p align="center"><img src="docs/media/brand/divider.svg" alt="" width="540"></p>
 
 <a id="demo"></a>
 
-## Demo
+## 🖼️ Demo
 
 ![Demo 1](output/paper-method/method.png)
 
@@ -34,7 +54,7 @@
 
 <a id="kawaii"></a>
 
-## Kawaii 素材
+## 🧸 Kawaii 素材
 
 科研图也可以可爱一点。小机器人、老师和学生、记忆盒子、视频传送带……一共 48 个，分成四组，挑喜欢的用～
 
@@ -52,42 +72,41 @@
 
 <a id="spatial"></a>
 
-## 2D / 3D，也攒了一些
+## 🫧 2D / 3D，也攒了一些
 
-分布、网格、曲面、路径这些，不想每次重画。下面两张可以直接拿 PPT 改，文字、点、网格和线都是分开的。
+分布、网格、曲面、路径这些，不想每次重画。清爽一点，或带一点波纹感，都收在这里了。
 
 <table>
 <tr>
-<th width="50%">二维分布输运</th>
+<th width="50%">带点波纹的平面</th>
 <th width="50%">曲面上的输运</th>
 </tr>
 <tr>
-<td><img src="output/showcase/spatial-flow-previews/planar-transport.png" alt="二维示意：桃色分布轮廓、样本点与连接两端的输运路径" width="100%"></td>
+<td><a href="output/showcase-comic/planar-approved.png"><img src="output/showcase-comic/planar-approved.png" alt="平面波纹风格原稿：浅杏色、灰绿与赭色分布，配疏朗轮廓线" width="100%"></a></td>
 <td><img src="output/showcase/spatial-flow-previews/manifold-transport.png" alt="三维示意：浅灰曲面网格、两端点簇与沿曲面的路径" width="100%"></td>
 </tr>
 <tr>
-<td>用轮廓、样本与路径表达分布变化。</td>
-<td>用固定视角的网格与曲面路径表达空间关系。</td>
+<td>浅杏色、灰绿和赭色，给平面留一点起伏。<br><a href="output/showcase-comic/planar-ripple.pptx">可编辑 PPT</a> · <a href="output/showcase-comic/planar-ripple-previews/planar-ripple.png">PPT 实际预览</a> · <a href="output/showcase-comic/planar-ripple.svg">SVG</a></td>
+<td>用固定视角的网格与曲面路径表达空间关系。<br><a href="output/showcase/spatial-flow.pptx">可编辑 PPT（第 2 页）</a> · <a href="examples/showcase/README.md">示例说明</a></td>
 </tr>
 </table>
 
-**[下载两页可编辑 PPT](output/showcase/spatial-flow.pptx)** · [二维场景](examples/showcase/planar.scene.json) · [三维场景](examples/showcase/manifold.scene.json) · [示例说明](examples/showcase/README.md)
+还收了一版清爽的平面：**[看预览](output/showcase/spatial-flow-previews/planar-transport.png)** · [下载 PPT（第 1 页）](output/showcase/spatial-flow.pptx)。文字、点、网格和线都可以分别改。
 
-它们是几何示意，不是实验结果；色块也不是测量得到的置信区间。这里的 3D 是固定视角的平面图，能编辑，但不能像三维模型一样转着看。
+<details>
+<summary>原稿、可编辑版和示意图的小区别</summary>
 
-### 平面也可以有点波纹感
+左边展示的是确认风格的生图原稿；PPT 是按这个方向重新搭出来的可编辑版本，细节不会逐像素相同。[这里能看 PPT 实际预览和说明](examples/showcase-comic/README.md)。不是把整张图片贴进 PPT，就说它可编辑了。
 
-浅杏色、灰绿和赭色，配上疏朗的轮廓线。这版是从“背景太单调”一点点改出来的，保留波纹感，也不把整张图塞满。
+这些是几何示意，不是实验结果；色块也不是测量得到的置信区间。这里的 3D 是固定视角的平面图，能编辑，但不能像三维模型一样转着看。
 
-![平面波纹风格的生图原稿](output/showcase-comic/planar-approved.png)
+</details>
 
-**[可编辑 PPT](output/showcase-comic/planar-ripple.pptx)** · [PPT 实际预览](output/showcase-comic/planar-ripple-previews/planar-ripple.png) · [SVG](output/showcase-comic/planar-ripple.svg) · [源文件与说明](examples/showcase-comic/README.md)
+<p align="center"><img src="docs/media/brand/divider.svg" alt="" width="540"></p>
 
-上面展示的是确认风格的生图原稿；下载的 PPT 是按这个方向重新搭出来的可编辑版本，细节不会逐像素相同。不是把整张图片贴进 PPT，就说它可编辑了。
+## ✏️ 我们是怎么画的？
 
-## 我们是怎么画的？
-
-![论文、素材先验、生图探索、科学复核、可编辑重建与局部修改的关系](docs/media/workflow.svg)
+![读论文 → 收集参考 → 探索画法 → 核对科学关系 → 做成可编辑图 → 局部打磨；不满意再回来改](docs/media/workflow-kawaii.png)
 
 不用一上来就写很长的绘图提示词。给 Astra 看论文，告诉它“我想画从输入到输出的方法图”，再放几张你真正喜欢的参考：这张的配色、那张的布局、另一张的图例。
 
@@ -99,7 +118,7 @@
 
 <a id="selected-edit"></a>
 
-## 不满意哪里，就告诉它哪里
+## 🔎 不满意哪里，就告诉它哪里
 
 “这里的线太挤了。”“这个图例换一下。”“把右上角的 p₁ 往下移一点，其他别动。”
 
@@ -117,12 +136,12 @@
 
 <a id="quickstart"></a>
 
-## 怎么用？把仓库和材料交给 Astra 就好
+## 🚀 怎么用？把仓库和材料交给 Astra 就好
 
 可以直接把下面这段发给它，换上你的论文和素材路径：
 
 ```text
-把 https://github.com/IamJerryXu/astra-figure-workflow git 到本地，
+把 https://github.com/IamJerryXu/AstraDraw git 到本地，
 按里面的工作流帮我画一张图。
 
 我的论文 / 方法在：……
@@ -140,7 +159,8 @@
 
 这里是供 Astra 在 Codex 里使用的工作流，不是独立绘图软件。让它检查当前环境能否生图和编辑 PPT；具体用法放在 [使用文档](docs/usage.md)，需要时交给它读就行。
 
-## 想多了解一点
+<details>
+<summary>📚 想多了解一点？文档收在这里</summary>
 
 | 想做什么 | 对应文档 |
 | --- | --- |
@@ -152,15 +172,32 @@
 | 设计网格、向量场和分布图 | [空间表达原则](references/vector-field-priors.md) |
 | 核对素材来源与公开范围 | [来源和使用限制](references/provenance.md) |
 
-## 一起攒点好看的素材？
+</details>
 
-欢迎带着你的参考、组件和新 Demo 来交流，我们可以合作～不一定是整张方法图，一个好用的箭头、一组有辨识度的图标、一个漂亮的局部布局都值得留下。
+<p align="center"><img src="docs/media/brand/divider.svg" alt="" width="540"></p>
 
-可以 [提个 Issue](https://github.com/IamJerryXu/astra-figure-workflow/issues)，说说想做什么，或者分享你用这个工作流画出来的图。分享素材前，记得确认自己有权公开，别把未公开论文或私人素材库一起传上来。
+<div align="center">
+
+<img src="docs/media/closing-kawaii.png" alt="小机器人和蓝围巾小鼠坐在铅笔上，举着一起完成的图，纸飞机飞向下一张" width="580">
+
+### 下一张，一起画？
+
+一个好用的箭头、一组小图标、一个漂亮的局部布局，都值得留下。
+
+带上你的素材或新 Demo 来，我们可以合作～
+
+**[来聊聊 / 分享你的图 ↗](https://github.com/IamJerryXu/AstraDraw/issues)** · [回到开头 ↑](#top)
+
+</div>
+
+<details>
+<summary>发布前的小提醒 · 素材、字体与使用范围</summary>
 
 最后几个小提醒：方法对不对、图好不好看，还是要一起看成品；换电脑后字体和排版可能有差异，PPT 中的连线也不保证随任意拖动自动跟随。[环境说明](docs/usage.md#环境与依赖)留给需要的人。
 
-仓库只放获准展示的案例，没有私人论文全文和原始参考库。目前尚未指定整体开源许可证，第三方素材仍按各自条款使用。
+分享素材前，记得确认自己有权公开，别把未公开论文或私人素材库一起传上来。仓库只放获准展示的案例，没有私人论文全文和原始参考库。目前尚未指定整体开源许可证，第三方素材仍按各自条款使用。[首页插画与字体说明](docs/media/brand/README.md)。
+
+</details>
 
 ---
 
