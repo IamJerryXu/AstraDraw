@@ -15,7 +15,7 @@ INK, BLUE, PALE, CREAM, CORAL = '#31566A', '#5BA6C2', '#EAF5F8', '#FFF1D7', '#E9
 
 INTRO = '把论文和喜欢的参考交给 Astra，画成可以继续打磨的图。'
 FEATURES = '可编辑 PPT · 局部慢慢改 · Comic / Roman / 你喜欢的风格'
-PAIN_LINES = ['素材有了，image2 也能画出喜欢的图。', '可要做成能编辑的 PPT，还是得自己一点点重搭。']
+PAIN_LINES = ['GPT6-Astra 已经能把图复现成可编辑的 PPT。', '但怎么让它画得好看，而且恰好是你喜欢的风格？']
 HEADINGS = [
     ('prepare', '准备一本参考 PPT', 'materials'),
     ('demo', 'Demo', 'demo'),
@@ -57,7 +57,7 @@ CJK_PATH = ROOT / 'fonts/AstraDraw-WenKai-Subset.ttf'
 QUOTE_PATH = ROOT / 'fonts/AstraDraw-KuaiLe-Subset.ttf'
 if options.cjk_source:
     make_subset(options.cjk_source, CJK_PATH,
-                INTRO + FEATURES + ''.join(x[1] for x in HEADINGS + DETAILS), 'AstraDraw WenKai Subset')
+                INTRO + FEATURES + ''.join(PAIN_LINES) + ''.join(x[1] for x in HEADINGS + DETAILS), 'AstraDraw WenKai Subset')
 if options.quote_source:
     make_subset(options.quote_source, QUOTE_PATH, ''.join(PAIN_LINES), 'AstraDraw KuaiLe Subset')
 CJK = TTFont(CJK_PATH)
@@ -185,13 +185,14 @@ for name, label, icon in DETAILS:
     body = f'<g transform="translate(0 4) scale(.76)">{badge_icon(icon)}</g>' + paths
     svg('detail-'+name+'.svg', round(end+6), 40, label, body)
 
-# A separate, expressive note carries the origin story, not the normal body font.
-note = f'<path d="M17 19Q414 5 880 19L883 145Q448 156 16 145Z" fill="#FFF8E9" stroke="#BDD5DE" stroke-width="1.7"/>'
-note += '<path d="M51 5l72 3-5 25-71-3Z" fill="#D5EAF1"/><path d="M795 7l55-3 4 24-57 5Z" fill="#D5EAF1"/>'
-note += f'<path d="M43 57q-10 0-9 12h8v10H29V66q0-15 14-15M61 57q-10 0-9 12h8v10H47V66q0-15 14-15" fill="{CORAL}"/>'
-for label, baseline, color in zip(PAIN_LINES, (65, 114), (INK, '#9B5548')):
-    _, length = mixed_lettering(label, 0, baseline, 29, chinese=QUOTE)
-    line, _ = mixed_lettering(label, (900-length)/2 + 12, baseline, 29, color, chinese=QUOTE)
+# A quiet icy-blue paper note, using the same handwriting as the page.
+note = '<path d="M24 17H847l35 30v70q0 16-17 16H26q-17 0-17-16V34q0-17 15-17Z" fill="#DFEDF3"/>'
+note += '<path d="M23 10H847l36 30v72q0 15-17 15H25q-17 0-17-15V27q0-17 15-17Z" fill="#F2F9FC" stroke="#88B2C5" stroke-width="1.5" stroke-linejoin="round"/>'
+note += '<path d="M847 10v22q0 8 9 8h27Z" fill="#D7EAF2" stroke="#88B2C5" stroke-width="1.5" stroke-linejoin="round"/>'
+note += snow(36, 35, 8, '#6A9FB5')
+note += '<circle cx="853" cy="104" r="2.5" fill="#E98B79"/>'
+for label, baseline, color in zip(PAIN_LINES, (53, 97), (INK, '#397D98')):
+    _, length = mixed_lettering(label, 0, baseline, 27)
+    line, _ = mixed_lettering(label, (900-length)/2, baseline, 27, color)
     note += line
-note += f'<path d="M714 134q59-4 109-1" fill="none" stroke="{CORAL}" stroke-width="2.8" stroke-linecap="round"/>'
-svg('origin-note.svg', 900, 164, ' '.join(PAIN_LINES), note)
+svg('origin-note.svg', 900, 144, ' '.join(PAIN_LINES), note)

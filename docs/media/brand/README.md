@@ -8,7 +8,7 @@ All visible lettering is converted to SVG paths, so the appearance does not depe
 
 - **Comic Neue Bold** supplies Latin lettering. It is by Craig Rozynski and Hrant Papazian, distributed under the SIL Open Font License 1.1. The source font and license are in `fonts/`, from [Google Fonts](https://github.com/google/fonts/tree/main/ofl/comicneue).
 - **LXGW WenKai Medium** supplies the Chinese introduction and section headings. Source: [LXGW WenKai](https://github.com/lxgw/LxgwWenKai/tree/50f4b182415a8c33d9a456df220b66a284e2509b/fonts/TTF), under SIL OFL 1.1 (`fonts/LXGW-OFL.txt`). The included derivative is reduced to the used characters and renamed **AstraDraw WenKai Subset**.
-- **ZCOOL KuaiLe** gives the origin-story note its more expressive lettering. Source: [Google Fonts](https://github.com/google/fonts/tree/main/ofl/zcoolkuaile), under SIL OFL 1.1 (`fonts/ZCOOL-OFL.txt`). The included derivative is reduced to the used characters and renamed **AstraDraw KuaiLe Subset**.
+- **ZCOOL KuaiLe** was used in the earlier cream-and-tape note; the current icy-blue note uses WenKai to match the page. The old font subset is retained for that earlier variant. Source: [Google Fonts](https://github.com/google/fonts/tree/main/ofl/zcoolkuaile), under SIL OFL 1.1 (`fonts/ZCOOL-OFL.txt`). The included derivative is reduced to the used characters and renamed **AstraDraw KuaiLe Subset**.
 
 The subsets are only for rebuilding this artwork, not general-purpose Chinese fonts. Their original copyright and license records are retained. To add new text, provide the original upstream fonts with `build_brand.py --cjk-source FONT --quote-source FONT`; this refreshes the used character sets and then rebuilds the SVGs.
 

@@ -20,9 +20,9 @@
 
 </div>
 
-<p align="center"><img src="docs/media/brand/origin-note.svg" alt="素材有了，image2 也能画出喜欢的图。可要做成能编辑的 PPT，还是得自己一点点重搭。" width="900"></p>
+<p align="center"><img src="docs/media/brand/origin-note.svg" alt="GPT6-Astra 已经能把图复现成可编辑的 PPT。但怎么让它画得好看，而且恰好是你喜欢的风格？" width="900"></p>
 
-这就是 AstraDraw 想接上的那一步：不只得到一张图，还能接着编辑、接着改。
+所以我们把论文、参考 PPT 和素材库放进同一个工作流，让 Astra 有参考地画，再通过局部修改慢慢调到满意。
 
 把它 git 到本地，连上你自己的素材库，再把论文、方法和喜欢的参考图交给 Astra。构图、配色、生图、做成可编辑 PPT，都可以让它来。你负责看效果、指出哪里不对，不满意就继续改～
 
